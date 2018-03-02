@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Language Version="3.3.0">
+    <MainMenu>
+        <Text Line="媒体库..." />
+        <Text Line="选择皮肤..." />
+        <Text Line="迷你播放器" />
+        <Text Line="添加..." />
+        <Text Line="文件..." />
+        <Text Line="文件夹..." />
+        <Text Line="广播/URL..." />
+        <Text Line="打开播放列表..." />
+        <Text Line="控制台" />
+        <Text Line="播放" />
+        <Text Line="暂停" />
+        <Text Line="停止" />
+        <Text Line="下一首" />
+        <Text Line="上一首" />
+        <Text Line="静音" />
+        <Text Line="无序播放" />
+        <Text Line="循环播放" />
+        <Text Line="均衡器..." />
+        <Text Line="设置" />
+        <Text Line="最小化到托盘" />
+        <Text Line="显示气泡消息" />
+        <Text Line="可视化效果" />
+        <Text Line="平滑滚动" />
+        <Text Line="启用 Last.FM" />
+        <Text Line="设置热键..." />
+        <Text Line="高级设置..." />
+        <Text Line="选择语言..." />
+        <Text Line="关于..." />
+        <Text Line="捐赠..." />
+    </MainMenu>
+    <ListMenu>
+        <Text Line="播放" />
+        <Text Line="单曲循环" />
+        <Text Line="全选" />
+        <Text Line="删除" />
+        <Text Line="添加到..." />
+        <Text Line="新建播放列表" />
+        <Text Line="正在播放列表" />
+        <Text Line="打开所在文件夹..." />
+        <Text Line="属性..." />
+        <Text Line="转到..." />
+        <Text Line="歌手" />
+        <Text Line="专辑" />
+        <Text Line="年份" />
+        <Text Line="流派" />
+        <Text Line="文件夹" />
+    </ListMenu>
+    <TreeMenu>
+        <Text Line="新建播放列表" />
+        <Text Line="新建智能播放列表..." />
+        <Text Line="重命名" />
+        <Text Line="删除" />
+        <Text Line="刷新" />
+        <Text Line="编辑..." />
+    </TreeMenu>
+    <TrayMenu>
+        <Text Line="播放" />
+        <Text Line="暂停" />
+        <Text Line="停止" />
+        <Text Line="下一首" />
+        <Text Line="上一首" />
+        <Text Line="退出" />
+    </TrayMenu>
+    <PopupMenu>
+        <Text Line="禁用" />
+        <Text Line="左上角" />
+        <Text Line="右上角" />
+        <Text Line="左下角" />
+        <Text Line="右下角" />
+        <Text Line="设置..." />
+    </PopupMenu>
+    <Library>
+        <!-- These lines should be as short as possible -->
+        <Text Line="未知" />
+        <Text Line="媒体库" />
+        <Text Line="正在播放" />
+        <Text Line="播放列表" />
+        <Text Line="智能列表" />
+        <Text Line="歌手" />
+        <Text Line="曲作者" />
+        <Text Line="专辑" />
+        <Text Line="流派" />
+        <Text Line="年份" />
+        <Text Line="广播" />
+        <Text Line="文件夹" />
+        <Text Line="驱动器" />
+    </Library>
+    <Playlist>
+        <Text Line="未知" />
+        <Text Line="CD" /> <!-- Disc number CD1, CD2. 4 chars max or leave it as is. -->
+        <Text Line="文件夹" />
+        <Text Line="广播" />
+        <Text Line="没有歌曲." />
+    </Playlist>
+    <SkinDialog>
+        <Text Line="皮肤" />
+        <Text Line="关闭" />
+        <Text Line="应用" />
+        <Text Line="选择皮肤：" />
+        <Text Line="预览" />
+        <Text Line="信息" />
+        <Text Line="作者：" />
+        <Text Line="版本：" />
+        <Text Line="说明：" />
+    </SkinDialog>
+    <LibraryDialog>
+        <Text Line="媒体库" />
+        <Text Line="关闭" />
+        <Text Line="更新" />
+        <Text Line="文件夹" />
+        <Text Line="选项" />
+        <Text Line="添加" />
+        <Text Line="删除" />
+        <Text Line="添加音乐文件夹到音频媒体库。" />
+        <Text Line="点击更新按钮更新音频媒体库。" />
+        <Text Line="选择音乐所在文件夹。" />
+        <Text Line="基本" />
+        <Text Line="高级" />
+        <Text Line="忽略已从媒体库中删除的文件。" />
+        <Text Line="从媒体库删除无效的文件" />
+        <Text Line="搜索已移走或重命名的文件" />
+        <Text Line="完整扫描媒体库中的所有文件" />
+    </LibraryDialog>
+    <LanguageDialog>
+        <Text Line="语言" />
+        <Text Line="取消" />
+        <Text Line="确定" />
+        <Text Line="选择语言：" />
+    </LanguageDialog>
+    <ProcessDialog>
+        <Text Line="正在更新媒体库..." />
+        <Text Line="正在添加到播放列表..." />
+        <Text Line="取消" />
+        <Text Line="最小化" />
+        <Text Line="正在处理..." />
+        <Text Line="正在处理：" />
+        <Text Line="正在取消..." />
+    </ProcessDialog>
+    <PropertiesDialog>
+        <Text Line="属性" />
+        <Text Line="关闭" />
+        <Text Line="保存" />
+        <Text Line="标签" />
+        <Text Line="封面" />
+        <Text Line="歌词" />
+        <Text Line="保存并转到上一首" />
+        <Text Line="保存并转到下一首" />
+    </PropertiesDialog>
+    <TagsPage>
+        <Text Line="标题：" />
+        <Text Line="歌手：" />
+        <Text Line="专辑歌手：" />
+        <Text Line="专辑：" />
+        <Text Line="曲作者：" />
+        <Text Line="年份：" />
+        <Text Line="音轨#：" />
+        <Text Line="光盘#：" />
+        <Text Line="of" />
+        <Text Line="流派：" />
+        <Text Line="备注：" />
+        <Text Line="文件位置：" />
+        <Text Line="编码质量：" />
+    </TagsPage>
+    <CoverPage>
+        <Text Line="更改" />
+        <Text Line="移除" />
+        <Text Line="预览" />
+        <Text Line="无封面" />
+        <Text Line="图片拖放到这里" />
+        <Text Line="封面嵌入到音频文件" />
+        <Text Line="保存封面到专辑文件夹并命名为'Front'" />
+    </CoverPage>
+    <LyricsPage>
+        <Text Line="词作者：" />
+        <Text Line="歌词嵌入到音频文件" />
+        <Text Line="保存歌词到专辑文件夹并命名为'Lyrics'" />
+    </LyricsPage>
+    <RenameDialog>
+        <Text Line="重命名" />
+        <Text Line="取消" />
+        <Text Line="确定" />
+        <Text Line="输入新名称：" />
+    </RenameDialog>
+    <AboutDialog>
+        <Text Line="关于" />
+        <Text Line="关闭" />
+        <Text Line="捐赠" />
+        <Text Line="官方网站：" />
+        <Text Line="邮　　箱：" />
+        <!-- Enter your name in the next line in format： "Translated by John Doe john@example.com" (e-mail not necessarily) -->
+        <Text Line="中文翻译：木山  shufeng1911@126.com" />
+    </AboutDialog>
+    <Messages>
+        <Text Line="错误" />
+        <Text Line="警告" />
+        <Text Line="信息" />
+        <Text Line="找不到文件或者文件格式不被支持。" />
+        <Text Line="无法连接到广播服务器。" />
+        <Text Line="这个皮肤适用于另外一个版本。" />
+        <Text Line="皮肤加载错误。已加载默认皮肤。" />
+        <Text Line="没找到 Last。FM 客户端。请安装 Last。FM 客户端来使用这个功能。" />
+        <Text Line="音频输出设备遇到一个错误。" />
+        <Text Line="未发现 ASIO 设备。" />
+    </Messages>
+    <EqualizerDialog>
+        <Text Line="均衡器" />
+        <Text Line="关闭" />
+        <Text Line="启用" />
+        <Text Line="预设：" />
+        <Text Line="默认" />
+        <Text Line="自定义" />
+    </EqualizerDialog>
+    <HotKeyDialog>
+        <Text Line="全局热键" />
+        <Text Line="取消" />
+        <Text Line="确定" />
+        <Text Line="选择一个动作并按下按键。" />
+        <Text Line="按 'Delete' 键删除热键" />
+        <Text Line="动作" />
+        <Text Line="热键" />
+        <Text Line="播放" />
+        <Text Line="暂停" />
+        <Text Line="停止" />
+        <Text Line="下一首" />
+        <Text Line="上一首" />
+        <Text Line="静音" />
+        <Text Line="增大音量" />
+        <Text Line="减小音量" />
+        <Text Line="★" />
+        <Text Line="★★" />
+        <Text Line="★★★" />
+        <Text Line="★★★★" />
+        <Text Line="★★★★★" />
+        <Text Line="显示气泡消息" />
+    </HotKeyDialog>
+    <OpenURLDialog>
+        <Text Line="添加广播/URL" />
+        <Text Line="取消" />
+        <Text Line="确定" />
+        <Text Line="我的广播" />
+        <Text Line="名称：" />
+        <Text Line="URL：" />
+    </OpenURLDialog>
+    <ToolTips>
+        <Text Line="关闭" />
+        <Text Line="最小化" />
+        <Text Line="最大化" />
+        <Text Line="显示主窗口" />
+        <Text Line="播放" />
+        <Text Line="暂停" />
+        <Text Line="停止" />
+        <Text Line="下一首" />
+        <Text Line="上一首" />
+        <Text Line="均衡器" />
+        <Text Line="更改视图" />
+        <Text Line="关闭声音" />
+        <Text Line="开启声音" />
+        <Text Line="启用重复播放" />
+        <Text Line="禁用重复播放" />
+        <Text Line="启用无序播放" />
+        <Text Line="禁用无序播放" />
+        <Text Line="主菜单" />
+        <Text Line="迷你播放器" />
+        <Text Line="还原播放器" />
+        <Text Line="更新媒体库" />
+    </ToolTips>
+    <ConfigDialog>
+        <Text Line="设置" />
+        <Text Line="取消" />
+        <Text Line="确定" />
+        <Text Line="常规" />
+        <Text Line="系统" />
+        <Text Line="弹出消息" />
+        <Text Line="迷你播放器" />
+    </ConfigDialog>
+    <SystemPage>
+        <Text Line="音频设备" />
+        <Text Line="默认音频设备" />
+        <Text Line="32 位音频处理" />
+        <Text Line="软件混音" />
+        <Text Line="代理服务器" />
+        <Text Line="启用代理" />
+        <Text Line="主机：" />
+        <Text Line="端口：" />
+        <Text Line="代理认证" />
+        <Text Line="用户：" />
+        <Text Line="密码：" />
+    </SystemPage>
+    <PopupPage>
+        <Text Line="测试" />
+        <Text Line="时间" />
+        <Text Line="停留时间：" />
+        <Text Line="显示时间：" />
+        <Text Line="隐藏时间：" />
+        <Text Line="s." />
+        <Text Line="外观" />
+        <Text Line="位置：" />
+        <Text Line="左上角" />
+        <Text Line="右上角" />
+        <Text Line="左下角" />
+        <Text Line="右下角" />
+        <Text Line="显示效果：" />
+        <Text Line="隐藏效果：" />
+        <Text Line="淡入淡出" />
+        <Text Line="垂直飞出" />
+        <Text Line="水平飞出" />
+    </PopupPage>
+    <Search>
+        <Text Line="搜索" />
+        <Text Line="搜索全部" />
+        <Text Line="搜索歌曲" />
+        <Text Line="搜索专辑" />
+        <Text Line="搜索歌手" />
+    </Search>
+    <MiniPlayerPage>
+        <Text Line="位置" />
+        <Text Line="总是置顶" />
+        <Text Line="总是显示在桌面" />
+        <Text Line="正常窗口显示" />
+        <Text Line="透明度" />
+    </MiniPlayerPage>
+    <GeneralPage>
+        <Text Line="播放器动作" />
+        <Text Line="添加播放列表中的文件到媒体库" />
+        <Text Line="播放下列选定歌曲" />
+        <Text Line="媒体库视图" />
+        <Text Line="服务" />
+        <Text Line="在 Last.FM 客户端显示当前播放歌曲" />
+        <Text Line="在 Live Messenger 显示当前播放歌曲" />
+        <Text Line="文件关联" />
+        <Text Line="使用 Winyl 播放" />
+        <Text Line="添加 '使用 Winyl 播放'到文件夹菜单" />
+        <Text Line="文件关联..." />
+        <!-- Win XP compatible Associations dialog -->
+        <Text Line="文件关联" />
+        <Text Line="取消" />
+        <Text Line="保存" />
+        <Text Line="全选" />
+        <Text Line="扩展" />
+    </GeneralPage>
+    <DefaultList>
+        <Text Line="播放列表" />
+        <Text Line="智能播放列表" />
+        <Text Line="默认" />
+        <Text Line="我的播放列表" />
+        <Text Line="随机选择 50 首" />
+        <Text Line="随机选择 5 张专辑" />
+        <Text Line="最近播放" />
+        <Text Line="最常播放的 25 首" />
+        <Text Line="评价最高的 25 首" />
+        <Text Line="90 后音乐" />
+    </DefaultList>
+    <DlgSmartlist>
+        <Text Line="智能播放列表" />
+        <Text Line="取消" />
+        <Text Line="确定" />
+        <Text Line="名称：" />
+        <Text Line="从" />
+        <Text Line="媒体库" />
+        <Text Line="歌手" />
+        <Text Line="专辑" />
+        <Text Line="流派" />
+        <Text Line="年份" />
+        <Text Line="文件夹" />
+        <Text Line="选项" />
+        <Text Line="选择：" />
+        <Text Line="音轨#：" />
+        <Text Line="随机排序" />
+        <Text Line="自动刷新" />
+        <Text Line="提示" />
+        <Text Line="按 '+' 键可以选定多个文件。比如： The Beatles + Led Zeppelin" />
+        <Text Line="按 '-' 键选定范围。比如： 2000 - 2010" />
+        <Text Line="如果以负号 '-' 开头，这些文件都将被排除。" />
+        <Text Line="高级过滤器" />
+        <Text Line="歌曲" />
+        <Text Line="专辑" />
+        <Text Line="所有" />
+        <Text Line="最常播放" />
+        <Text Line="最少播放" />
+        <Text Line="好评" />
+        <Text Line="差评" />
+        <Text Line="最近播放的" />
+        <Text Line="最近添加的" />
+    </DlgSmartlist>
+    <DlgSmartlistFilter>
+        <Text Line="高级过滤器" />
+        <Text Line="取消" />
+        <Text Line="确定" />
+        <Text Line="所有" />
+        <Text Line="任意" />
+        <Text Line="已选定规则：" />
+        <Text Line="播放计数" />
+        <Text Line="评价" />
+        <Text Line="最后播放" />
+        <Text Line="添加日期" />
+        <Text Line="专辑歌曲" />
+        <Text Line="等于" />
+        <Text Line="大于" />
+        <Text Line="小宇" />
+        <Text Line="后于" />
+        <Text Line="前于" />
+        <Text Line="次数" />
+        <Text Line="音轨#" />
+        <Text Line="未评价" />
+        <Text Line="★" />
+        <Text Line="★★" />
+        <Text Line="★★★" />
+        <Text Line="★★★★" />
+        <Text Line="★★★★★" />
+        <Text Line="1 天" />
+        <Text Line="2 天" />
+        <Text Line="3 天" />
+        <Text Line="1 周" />
+        <Text Line="2 周" />
+        <Text Line="1 个月" />
+        <Text Line="3 个月" />
+        <Text Line="6 个月" />
+        <Text Line="1 年" />
+    </DlgSmartlistFilter>
+    <StatusLine>
+        <Text Line="KB" />
+        <Text Line="MB" />
+        <Text Line="GB" />
+        <Text Line="of" />
+        <Text Line="" />
+        <Text Line="首" />
+        <Text Line="" />
+        <Text Line="已选定：" />
+    </StatusLine>
+    <Lyrics>
+        <Text Line="未播放歌曲" />
+        <Text Line="未找到歌词" />
+        <Text Line="重新检索歌词..." />
+    </Lyrics>
+    <LyricsMenu>
+        <Text Line="来源：" />
+        <Text Line="无" />
+        <Text Line="文件" />
+        <Text Line="标签" />
+        <Text Line="互联网" />
+        <Text Line="复制歌词" />
+        <Text Line="保存歌词..." />
+        <Text Line="歌词提供者" />
+        <Text Line="禁用" />
+        <Text Line="Google 搜索..." />
+        <Text Line="文本对齐" />
+        <Text Line="居左" />
+        <Text Line="居中" />
+        <Text Line="居右" />
+        <Text Line="字体大小" />
+        <Text Line="根据皮肤调整" />
+        <Text Line="小" />
+        <Text Line="中" />
+        <Text Line="大" />
+        <Text Line="巨大" />
+        <Text Line="粗体" />
+    </LyricsMenu>
+    <NewVersionDialog>
+        <Text Line="正在将媒体库转成新版支持的格式。请稍等..." />
+        <Text Line="正在将媒体库转成便携格式。请稍等..." />
+        <Text Line="Winyl 需要重新扫描所有文件以完成更新。" />
+        <Text Line="不建议取消进程。" />
+    </NewVersionDialog>
+</Language>

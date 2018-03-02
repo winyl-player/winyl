@@ -1,0 +1,7 @@
+<Splitter>
+    <Settings Horizontal="1" MaxLeft="0" MaxRight="160" />
+    <Layouts>
+        <Layout ID="100" MoveRight="1" />
+        <Layout ID="200" MoveLeft="1" />
+    </Layouts>
+</Splitter>

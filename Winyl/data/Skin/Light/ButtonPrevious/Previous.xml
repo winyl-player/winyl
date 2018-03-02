@@ -1,0 +1,5 @@
+<Button>
+    <Effect Fade="1" />
+    <Normal File="Previous1.png" />
+    <Hover File="Previous2.png" />
+</Button>

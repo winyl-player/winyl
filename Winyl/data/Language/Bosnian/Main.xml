@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Language Version="3.3.0">
+    <MainMenu>
+        <Text Line="Biblioteka..." />
+        <Text Line="Tema..." />
+        <Text Line="Mini plejer" />
+        <Text Line="Dodati na listu izvođenja" />
+        <Text Line="Datoteka..." />
+        <Text Line="Folder..." />
+        <Text Line="Radio/URL..." />
+        <Text Line="Unijeti listu izvođenja..." />
+        <Text Line="Upravljanje" />
+        <Text Line="Pokrenuti" />
+        <Text Line="Pauza" />
+        <Text Line="Zaustaviti" />
+        <Text Line="Naredna" />
+        <Text Line="Prethodna" />
+        <Text Line="Isključiti zvuk" />
+        <Text Line="Izmješati" />
+        <Text Line="Ponoviti" />
+        <Text Line="Ekvilajzer..." />
+        <Text Line="Postavke" />
+        <Text Line="Spustiti u startnu paletu" />
+        <Text Line="Popup prozor" />
+        <Text Line="Vizuelni efekti" />
+        <Text Line="Glatko pomicanje" />
+        <Text Line="Omogućiti Last.FM" />
+        <Text Line="Kratice..." />
+        <Text Line="Napredno..." />
+        <Text Line="Jezik..." />
+        <Text Line="O Nama" />
+        <Text Line="Donirati" />
+    </MainMenu>
+    <ListMenu>
+        <Text Line="Pokrenuti" />
+        <Text Line="Ponoviti pjesmu" />
+        <Text Line="Odabrati sve" />
+        <Text Line="Izbrisati" />
+        <Text Line="Dodati na listu izvođenja" />
+        <Text Line="na novu listu izvođenja" />
+        <Text Line="na trenutnu listu" />
+        <Text Line="Lokacija fajla..." />
+        <Text Line="Svojstva..." />
+        <Text Line="Ići na" />
+        <Text Line="Izvođač" />
+        <Text Line="Album" />
+        <Text Line="Godina" />
+        <Text Line="Žanr" />
+        <Text Line="Folder" />
+    </ListMenu>
+    <TreeMenu>
+        <Text Line="Nova lista izvođenja" />
+        <Text Line="Nova pametna lista..." />
+        <Text Line="Preimenovati..." />
+        <Text Line="Izbrisati" />
+        <Text Line="Osvježiti" />
+        <Text Line="Urediti..." />
+    </TreeMenu>
+    <TrayMenu>
+        <Text Line="Pokrenuti" />
+        <Text Line="Pauza" />
+        <Text Line="Zaustaviti" />
+        <Text Line="Naredna" />
+        <Text Line="Prethodna" />
+        <Text Line="Izlaz" />
+    </TrayMenu>
+    <PopupMenu>
+        <Text Line="Onesposobiti" />
+        <Text Line="Gornji lijevi" />
+        <Text Line="Gornji desni" />
+        <Text Line="Donji lijevi" />
+        <Text Line="Donji desni" />
+        <Text Line="Napredno..." />
+    </PopupMenu>
+    <Library>
+        <!-- These lines should be as short as possible -->
+        <Text Line="Nepoznato" />
+        <Text Line="Biblioteka" />
+        <Text Line="Trenutno" />
+        <Text Line="Lista izvođenja" />
+        <Text Line="Pametne liste" />
+        <Text Line="Izvođači" />
+        <Text Line="Kompozitori" />
+        <Text Line="Albumi" />
+        <Text Line="Žanrovi" />
+        <Text Line="Godina" />
+        <Text Line="Radio" />
+        <Text Line="Folderi" />
+        <Text Line="Drive" />
+    </Library>
+    <Playlist>
+        <Text Line="Nepoznato" />
+        <Text Line="CD" /> <!-- Disc number CD1, CD2. 4 chars max or leave it as is. -->
+        <Text Line="Folder" />
+        <Text Line="Radio" />
+        <Text Line="Nema pjesme za prikaz." />
+    </Playlist>
+    <SkinDialog>
+        <Text Line="Tema" />
+        <Text Line="Zatvoriti" />
+        <Text Line="Primijeniti" />
+        <Text Line="Izabrati temu:" />
+        <Text Line="Pregled" />
+        <Text Line="Informacije" />
+        <Text Line="Autor:" />
+        <Text Line="Verzija:" />
+        <Text Line="Opis:" />
+    </SkinDialog>
+    <LibraryDialog>
+        <Text Line="Biblioteka" />
+        <Text Line="Zatvoriti" />
+        <Text Line="Ažurirati" />
+        <Text Line="Folderi" />
+        <Text Line="Opcije" />
+        <Text Line="Dodati" />
+        <Text Line="Izbrisati" />
+        <Text Line="Dodati foldere sa muzikom na audio biblioteku." />
+        <Text Line="Kliknuti dugme 'Ažurirati' da biste ažurirali audio biblioteku." />
+        <Text Line="Odabrati folder sa muzikom." />
+        <Text Line="Osnovno" />
+        <Text Line="Napredno" />
+        <Text Line="Ignorisati fajlove koji su prethodno uklonjeni iz biblioteke" />
+        <Text Line="Ukloniti nedostajuće fajlove iz biblioteke" />
+        <Text Line="Pretražiti premještene ili preimenovane fajlove" />
+        <Text Line="Ponovna pretraga svih fajlova iz biblioteke" />
+    </LibraryDialog>
+    <LanguageDialog>
+        <Text Line="Jezik" />
+        <Text Line="Otkazati" />
+        <Text Line="OK" />
+        <Text Line="Izabrati jezik:" />
+    </LanguageDialog>
+    <ProcessDialog>
+        <Text Line="Ažuriranje biblioteke" />
+        <Text Line="Dodavanje na listu izvođenja" />
+        <Text Line="Otkazati" /> 
+        <Text Line="Umanjiti" />
+        <Text Line="Obrada..." />
+        <Text Line="Obrada:" />
+        <Text Line="Otkazivanje..." />
+    </ProcessDialog>
+    <PropertiesDialog>
+        <Text Line="Svojstva" />
+        <Text Line="Zatvoriti" />
+        <Text Line="Sačuvati" />
+        <Text Line="Tagovi" /> 
+        <Text Line="Omot" />
+        <Text Line="Tekst pjesme" />
+        <Text Line="Sačuvati i preći na prethodnu pjesmu" />
+        <Text Line="Sačuvati i preći na narednu pjesmu" />
+    </PropertiesDialog>
+    <TagsPage>
+        <Text Line="Naslov:" />
+        <Text Line="Izvođači:" />
+        <Text Line="Izvođači albuma:" />
+        <Text Line="Album:" />
+        <Text Line="Kompozitori:" />
+        <Text Line="Godina:" />
+        <Text Line="Pjesma:" />
+        <Text Line="Disk:" />
+        <Text Line="od" />
+        <Text Line="Žanrovi:" />
+        <Text Line="Komentar:" />
+        <Text Line="Fajl:" /> 
+        <Text Line="Kvalitet:" />
+    </TagsPage>
+    <CoverPage>
+        <Text Line="Promijeniti" />
+        <Text Line="Ukloniti" />
+        <Text Line="Pregled" />
+        <Text Line="Nema omota" />
+        <Text Line="Ovdje prevući sliku za promjenu" />
+        <Text Line="Postaviti omot za muzički fajl" />
+        <Text Line="Sačuvati omot albuma u folderu sa imenom 'Front'" />
+    </CoverPage>
+    <LyricsPage>
+        <Text Line="Autori teksta:" />
+        <Text Line="Postaviti tekst pjesme za muzički fajl" />
+        <Text Line="Sačuvati tekst pjesme u album folderu u podfolderu 'Lyrics'" />
+    </LyricsPage>
+    <RenameDialog>
+        <Text Line="Preimenovati" />
+        <Text Line="Otkazati" />
+        <Text Line="OK" />
+        <Text Line="Unijeti novo ime:" />
+    </RenameDialog>
+    <AboutDialog>
+        <Text Line="O nama" />
+        <Text Line="Zatvoriti" />
+        <Text Line="Donirati" />
+        <Text Line="Web stranica:" />
+        <Text Line="E-mail:" />
+        <!-- Enter your name in the next line in format: "Translated by John Doe john@example.com" (e-mail not necessarily) -->
+        <Text Line="Preveo Adnan Mulić" />
+    </AboutDialog>
+    <Messages>
+        <Text Line="Greška" />
+        <Text Line="Upozorenje" /> 
+        <Text Line="Informacije" />  
+        <Text Line="Fajl nije pronađen ili ne podržava format." />
+        <Text Line="Ne može se spojiti na radio stanicu" />
+        <Text Line="Ova tema je za drugu verziju plejera." />
+        <Text Line="Greška pri učitavanju teme. Standardna tema je učitana." />
+        <Text Line="Last.FM klijent nije pronađen. Postaviti Last.FM klijent da biste koristili ovu mogućnost." />
+        <Text Line="Audio izlazni uređaj je naišao na grešku." />
+        <Text Line="Nisu pronađeni ASIO uređaji." />
+    </Messages>
+    <EqualizerDialog>
+        <Text Line="Ekvilajzer" />
+        <Text Line="Zatvoriti" />
+        <Text Line="Omogućiti" />
+        <Text Line="Podesiti:" />
+        <Text Line="Standardno" />
+        <Text Line="Ručno" />
+    </EqualizerDialog>
+    <HotKeyDialog>
+        <Text Line="Kratice" />
+        <Text Line="Otkazati" />
+        <Text Line="OK" />
+        <Text Line="Odabrati radnju i pritisnuti bilo koju kombinaciju tipki." />
+        <Text Line="Pritisnuti 'Delete' da biste izbrisali kraticu." />
+        <Text Line="Radnja" />
+        <Text Line="Kratica" />
+        <Text Line="Pokrenuti" />
+        <Text Line="Pauza" />
+        <Text Line="Zaustaviti" />
+        <Text Line="Naredna pjesma" />
+        <Text Line="Prethodna pjesma" />
+        <Text Line="Isključiti zvuk" />
+        <Text Line="Pojačati" />
+        <Text Line="Smanjiti" />
+        <Text Line="Ocjena 1" /> 
+        <Text Line="Ocjena 2" /> 
+        <Text Line="Ocjena 3" /> 
+        <Text Line="Ocjena 4" /> 
+        <Text Line="Ocjena 5" /> 
+        <Text Line="Prikazati Popup" />
+    </HotKeyDialog>
+    <OpenURLDialog>
+        <Text Line="Dodati Radio/URL" />
+        <Text Line="Otkazati" />
+        <Text Line="OK" />
+        <Text Line="Moj Radio" />
+        <Text Line="Ime:" />
+        <Text Line="URL:" />
+    </OpenURLDialog>
+    <ToolTips>
+        <Text Line="Zatvoriti" />
+        <Text Line="Umanjiti" />
+        <Text Line="Povećati" />
+        <Text Line="Vratiti" /> 
+        <Text Line="Pokrenuti" />
+        <Text Line="Pauza" />
+        <Text Line="Zaustaviti" />
+        <Text Line="Naredna" />
+        <Text Line="Prethodna" />
+        <Text Line="Ekvilajzer" />
+        <Text Line="Promijeniti pregled" />
+        <Text Line="Isključiti zvuk" />
+        <Text Line="Uključiti zvuk" />
+        <Text Line="Uključiti ponavljanje" /> 
+        <Text Line="Isključiti ponavljanje" /> 
+        <Text Line="Uključiti miješanje" />
+        <Text Line="Isključiti miješanje" /> 
+        <Text Line="Glavni meni" /> 
+        <Text Line="Mini plejer" />
+        <Text Line="Vratiti plejer" />
+        <Text Line="Ažurirati biblioteku" />
+    </ToolTips>
+    <ConfigDialog>
+        <Text Line="Postavke" />
+        <Text Line="Otkazati" />
+        <Text Line="OK" />
+        <Text Line="Općenito" />
+        <Text Line="Sistem" />
+        <Text Line="Popup" />
+        <Text Line="Mini Plejer" />
+    </ConfigDialog>
+    <SystemPage>
+        <Text Line="Audio uređaj" />
+        <Text Line="Zadani audio uređaj" />
+        <Text Line="32 bit audio obrada" />
+        <Text Line="Softver audio miješanje" />
+        <Text Line="Zastupnik" />
+        <Text Line="Omogućiti" />
+        <Text Line="Host:" />
+        <Text Line="Port:" />
+        <Text Line="Autorizacija" />
+        <Text Line="Prijava:" />
+        <Text Line="Šifra:" />
+    </SystemPage>
+    <PopupPage>
+        <Text Line="Test" />
+        <Text Line="Vrijeme" />
+        <Text Line="Vrijeme zadržavanja:" />
+        <Text Line="Vrijeme prikazivanja:" />
+        <Text Line="Vrijeme skrivanja:" />
+        <Text Line="sek." />
+        <Text Line="Izgled" />
+        <Text Line="Pozicija:" />
+        <Text Line="Gornji lijevi" />
+        <Text Line="Gornji desni" />
+        <Text Line="Donji lijevi" />
+        <Text Line="Donji desni" />
+        <Text Line="Prikazati efekt:" />
+        <Text Line="Sakriti efekt:" />
+        <Text Line="Izblijediti" />
+        <Text Line="Vertikalno povlačenje" />
+        <Text Line="Horizontalno povlačenje" />
+    </PopupPage>
+    <Search>
+        <Text Line="Pretraga" />
+        <Text Line="Tražiti sve" />
+        <Text Line="Tražiti pjesmu" /> 
+        <Text Line="Tražiti album" /> 
+        <Text Line="Tražiti izvođača" />
+    </Search>
+    <MiniPlayerPage>
+        <Text Line="Pozicija" />
+        <Text Line="Uvijek na vrhu" /> 
+        <Text Line="Uvijek na desktopu" /> 
+        <Text Line="Kao normalan prozor" />
+        <Text Line="Providnost" />
+    </MiniPlayerPage>
+    <GeneralPage>
+        <Text Line="Ponašanje plejera" />
+        <Text Line="Dodati fajlove u biblioteku kada su otvoreni u listi izvođenja" />
+        <Text Line="Pokreće se odabrana pjesma" />
+        <Text Line="Izgled biblioteke" />
+        <Text Line="Servisi" />
+        <Text Line="Prikazati pjesmu u Last.FM klijentu" />
+        <Text Line="Prikazati trenutnu pjesmu u Live Messenger" />
+        <Text Line="Udruživanje" />
+        <Text Line="Pokrenuti u Winyl" />
+        <Text Line="Dodati 'Pokrenuti u Winyl' u listu foldera" />
+        <Text Line="Upravljanje Udruživanja audio fajlova..." />
+        <!-- Win XP compatible Associations dialog -->
+        <Text Line="Udruživanja fajlova" />
+        <Text Line="Otkazati" />
+        <Text Line="Snimiti" />
+        <Text Line="Odabrati sve" />
+        <Text Line="Ekstenzije" />
+    </GeneralPage>
+    <DefaultList>
+        <Text Line="Lista izvođenja" />
+        <Text Line="Pametna lista" />
+        <Text Line="Zadana" />
+        <Text Line="Моја lista izvođenja" />
+        <Text Line="50 nasumičnih" />
+        <Text Line="5 nasumičnih albuma" />
+        <Text Line="Posljednje pokrenute" />
+        <Text Line="25 često pokrenutih" />
+        <Text Line="25 najbolje rangiranih" />
+        <Text Line="Мuzika 90-ih" />
+    </DefaultList>
+    <DlgSmartlist>
+        <Text Line="Pametna lista" />
+        <Text Line="Otkazati" />
+        <Text Line="OK" />
+        <Text Line="Ime:" />
+        <Text Line="Iz" />
+        <Text Line="Biblioteka" />
+        <Text Line="Izvođači" />
+        <Text Line="Albumi" />
+        <Text Line="Žanrovi" />
+        <Text Line="Godina" />
+        <Text Line="Folderi" />
+        <Text Line="Opcije" />
+        <Text Line="Izabrati:" />
+        <Text Line="Broj:" />
+        <Text Line="Slučajnim redoslijedom" />
+        <Text Line="Automatsko osvježavanje" />
+        <Text Line="Savjeti" />
+        <Text Line="Koristiti '+' simbol da izaberete više stavki. Primjer: The Beatles + Led Zeppelin" />
+        <Text Line="Koristiti '-' simbol da izaberete daljinu. Primjer: 2000 - 2010" />
+        <Text Line="Ako počinje sa minusom, dati element će biti isključen." />
+        <Text Line="Napredni filteri" />
+        <Text Line="Pjesme" />
+        <Text Line="Albumi" />
+        <Text Line="Bilo koji" />
+        <Text Line="Često pokrenuti" />
+        <Text Line="Rijetko pokrenuti" />
+        <Text Line="Najbolje rangirani" />
+        <Text Line="Najniže rangirani" />
+        <Text Line="Nedavno pokrenuti" />
+        <Text Line="Nedavno dodani" />
+    </DlgSmartlist>
+    <DlgSmartlistFilter>
+        <Text Line="Napredni filteri" />
+        <Text Line="Otkazati" /> 
+        <Text Line="OK" />
+        <Text Line="Svi" />
+        <Text Line="Bilo koji" />
+        <Text Line="od odabranih uslova:" />
+        <Text Line="Broj pokrenutih" />
+        <Text Line="Rang" />
+        <Text Line="Zadnja pokrenuta" />
+        <Text Line="Datum dodanih" />
+        <Text Line="Pjesme u albumu" />
+        <Text Line="Jednako" />
+        <Text Line="Veće od" />
+        <Text Line="Manje od" />
+        <Text Line="Posljednja" />
+        <Text Line="Prije" />
+        <Text Line="puta" />
+        <Text Line="pjesme" />
+        <Text Line="Neprocijenjena" />
+        <Text Line="1 zvijezda" />
+        <Text Line="2 zvijezde" />
+        <Text Line="3 zvijezde" />
+        <Text Line="4 zvijezde" />
+        <Text Line="5 zvijezde" />
+        <Text Line="1 dan" />
+        <Text Line="2 dana" />
+        <Text Line="3 dana" />
+        <Text Line="1 sedmica" />
+        <Text Line="2 sedmice" />
+        <Text Line="1 mjesec" />
+        <Text Line="3 mjeseca" />
+        <Text Line="6 mjeseci" />
+        <Text Line="1 godina" />
+    </DlgSmartlistFilter>
+    <StatusLine>
+        <Text Line="KB" />
+        <Text Line="MB" />
+        <Text Line="GB" />
+        <Text Line="od" />
+        <Text Line="elemenata" />
+        <Text Line="pjesama" />
+        <Text Line="ukupno vrijeme" />
+        <Text Line="Odabrano:" />
+    </StatusLine>
+    <Lyrics>
+        <Text Line="Ništa nije pokrenuto." />
+        <Text Line="Nisu pronađeni tekstovi pjesama." />
+        <Text Line="Preuzimanje tekstova..." />
+    </Lyrics>
+    <LyricsMenu>
+        <Text Line="Izvor:" />
+        <Text Line="Ništa" />
+        <Text Line="Fajl" />
+        <Text Line="Tagovi" />
+        <Text Line="Internet" />
+        <Text Line="Kopirati tekst" />
+        <Text Line="Sačuvati tekst..." />
+        <Text Line="Provajder tekstova" />
+        <Text Line="Onesposobiti" />
+        <Text Line="Google pretraga..." />
+        <Text Line="Poravnanje teksta" />
+        <Text Line="Lijevo" />
+        <Text Line="Centar" />
+        <Text Line="Desno" />
+        <Text Line="Veličina slova" />
+        <Text Line="Iz teme" />
+        <Text Line="Mala" />
+        <Text Line="Srednja" />
+        <Text Line="Velika" />
+        <Text Line="Najveća" />
+        <Text Line="Podebljana" />
+    </LyricsMenu>
+    <NewVersionDialog>
+        <Text Line="Pretvaranje biblioteke u novu verziju. Molimo sačekajte..." />
+        <Text Line="Pretvaranje biblioteke za prenosivu verziju. Molimo sačekajte..." />
+        <Text Line="Winyl mora da skenira sve fajlove da bi završio ažuriranje." />
+        <Text Line="Nije preporučeno da prekidate ovaj proces." />
+    </NewVersionDialog>
+</Language>

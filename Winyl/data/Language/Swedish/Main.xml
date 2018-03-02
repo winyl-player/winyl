@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Language Version="3.3.0">
+    <MainMenu>
+        <Text Line="Bibliotek ..." />
+        <Text Line="Tema..." />
+        <Text Line="Minispelare" />
+        <Text Line="Lägg till i spellista" />
+        <Text Line="Fil ..." />
+        <Text Line="Mapp ..." />
+        <Text Line="Radio/URL ..." />
+        <Text Line="Importera spellista..." />
+        <Text Line="Kontroll" />
+        <Text Line="Spela upp" />
+        <Text Line="Pausa" />
+        <Text Line="Stopp" />
+        <Text Line="Nästa" />
+        <Text Line="Föregående" />
+        <Text Line="Ljud av" />
+        <Text Line="Blanda" />
+        <Text Line="Upprepa" />
+        <Text Line="Equalizer ..." />
+        <Text Line="Inställningar" />
+        <Text Line="Minimera till meddelandefältet" />
+        <Text Line="Popup-fönster" />
+        <Text Line="Visuella effekter" />
+        <Text Line="Mjuk rullning" />
+        <Text Line="Aktivera Last.FM" />
+        <Text Line="Kortkommandon..." />
+        <Text Line="Avancerat..." />
+        <Text Line="Välj språk ..." />
+        <Text Line="Om..." />
+        <Text Line="Donera" />
+    </MainMenu>
+    <ListMenu>
+        <Text Line="Spela upp" />
+        <Text Line="Upprepa spåret" />
+        <Text Line="Markera alla" />
+        <Text Line="Ta bort" />
+        <Text Line="Lägg till i spellista" />
+        <Text Line="Till ny spellista" />
+        <Text Line="Till Nu spelas" />
+        <Text Line="Plats..." />
+        <Text Line="Egenskaper..." />
+        <Text Line="Gå till" />
+        <Text Line="Artist" />
+        <Text Line="Album" />
+        <Text Line="År" />
+        <Text Line="Genre" />
+        <Text Line="Mapp" />
+    </ListMenu>
+    <TreeMenu>
+        <Text Line="Ny spellista" />
+        <Text Line="Ny smart lista..." />
+        <Text Line="Byt namn..." />
+        <Text Line="Ta bort" />
+        <Text Line="Uppdatera" />
+        <Text Line="Redigera..." />
+    </TreeMenu>
+    <TrayMenu>
+        <Text Line="Spela upp" />
+        <Text Line="Pausa" />
+        <Text Line="Stopp" />
+        <Text Line="Nästa" />
+        <Text Line="Föregående" />
+        <Text Line="Avsluta" />
+    </TrayMenu>
+    <PopupMenu>
+        <Text Line="Inaktivera" />
+        <Text Line="Uppe till vänster" />
+        <Text Line="Uppe till höger" />
+        <Text Line="Nere till vänster" />
+        <Text Line="Nere till höger" />
+        <Text Line="Avancerat..." />
+    </PopupMenu>
+    <Library>
+        <!-- These lines should be as short as possible -->
+        <Text Line="Okänd" />
+        <Text Line="Bibliotek" />
+        <Text Line="Spelas nu" />
+        <Text Line="Spellistor" />
+        <Text Line="Smarta listor" />
+        <Text Line="Artister" />
+        <Text Line="Kompositörer" />
+        <Text Line="Album" />
+        <Text Line="Genrer" />
+        <Text Line="År" />
+        <Text Line="Radio" />
+        <Text Line="Mappar" />
+        <Text Line="Enhet" />
+    </Library>
+    <Playlist>
+        <Text Line="Okänd" />
+        <Text Line="CD" /> <!-- Disc number CD1, CD2. 4 chars max or leave it as is. -->
+        <Text Line="Mapp" />
+        <Text Line="Radio" />
+        <Text Line="Inga spår att visa." />
+    </Playlist>
+    <SkinDialog>
+        <Text Line="Tema" />
+        <Text Line="Stäng" />
+        <Text Line="Verkställ" />
+        <Text Line="Välj tema:" />
+        <Text Line="Förhandsgranskning" />
+        <Text Line="Information" />
+        <Text Line="Utvecklare:" />
+        <Text Line="Version:" />
+        <Text Line="Beskrivning:" />
+    </SkinDialog>
+    <LibraryDialog>
+        <Text Line="Bibliotek" />
+        <Text Line="Stäng" />
+        <Text Line="Uppdatera" />
+        <Text Line="Mappar" />
+        <Text Line="Alternativ" />
+        <Text Line="Lägg till" />
+        <Text Line="Ta bort" />
+        <Text Line="Lägg till dina musikmappar i ljudbiblioteket." />
+        <Text Line="Klicka på 'Uppdatera' för att uppdatera ljudbiblioteket." />
+        <Text Line="Välj en mapp med musikfiler." />
+        <Text Line="Allmänt" />
+        <Text Line="Avancerat" />
+        <Text Line="Ignorera filer som tidigare tagits bort från biblioteket" />
+        <Text Line="Ta bort saknade filer från biblioteket" />
+        <Text Line="Sök efter borttagna och omdöpta filer" />
+        <Text Line="Genomsök alla filer i biblioteket, igen" />
+    </LibraryDialog>
+    <LanguageDialog>
+        <Text Line="Språk" />
+        <Text Line="Avbryt" />
+        <Text Line="OK" />
+        <Text Line="Välj språk:" />
+    </LanguageDialog>
+    <ProcessDialog>
+        <Text Line="Uppdaterar biblioteket" />
+        <Text Line="Lägger till i spellista" />
+        <Text Line="Avbryt" />
+        <Text Line="Minimera" />
+        <Text Line="Arbetar..." />
+        <Text Line="Bearbetar:" />
+        <Text Line="Avbryter..." />
+    </ProcessDialog>
+    <PropertiesDialog>
+        <Text Line="Egenskaper" />
+        <Text Line="Stäng" />
+        <Text Line="Spara" />
+        <Text Line="Taggar" />
+        <Text Line="Omslag" />
+        <Text Line="Texter" />
+        <Text Line="Spara och gå till föregående spår" />
+        <Text Line="Spara och gå till nästa spår" />
+    </PropertiesDialog>
+    <TagsPage>
+        <Text Line="Titel:" />
+        <Text Line="Artister:" />
+        <Text Line="Albumartister:" />
+        <Text Line="Album:" />
+        <Text Line="Kompositörer:" />
+        <Text Line="År:" />
+        <Text Line="Spår:" />
+        <Text Line="Disk:" />
+        <Text Line="av" />
+        <Text Line="Genrer:" />
+        <Text Line="Kommentar:" />
+        <Text Line="Fil:" />
+        <Text Line="Kvalitet:" />
+    </TagsPage>
+    <CoverPage>
+        <Text Line="Ändra" />
+        <Text Line="Ta bort" />
+        <Text Line="Förhandsgranskning" />
+        <Text Line="Inget omslag" />
+        <Text Line="Dra en bild hit för att ändra" />
+        <Text Line="Bädda in bilden i musikfilen" />
+        <Text Line="Spara omslag i albummappen med namnet 'Front'" />
+    </CoverPage>
+    <LyricsPage>
+        <Text Line="Textförfattare:" />
+        <Text Line="Bädda in texter i musikfilen" />
+        <Text Line="Spara texter i en albumundermapp med namnet 'Lyrics'" />
+    </LyricsPage>
+    <RenameDialog>
+        <Text Line="Byt namn" />
+        <Text Line="Avbryt" />
+        <Text Line="OK" />
+        <Text Line="Ange nytt namn:" />
+    </RenameDialog>
+    <AboutDialog>
+        <Text Line="Om" />
+        <Text Line="Stäng" />
+        <Text Line="Donera" />
+        <Text Line="Webbplats:" />
+        <Text Line="Support via e-post:" />
+        <!-- Enter your name in the next line in format: "Translated by John Doe john@example.com" (e-mail not necessarily) -->
+        <Text Line="Översättning: Åke Engelbrektson, https://svenskasprakfiler.se" />
+    </AboutDialog>
+    <Messages>
+        <Text Line="Fel" />
+        <Text Line="Varning" />
+        <Text Line="Information" />
+        <Text Line="Filen kan inte hittas eller filformatet stöds ej." />
+        <Text Line="Kan inte ansluta till radiostationen." />
+        <Text Line="Detta tema är till en annan version av spelaren." />
+        <Text Line="Fel vid inläsning av tema. Standardtemat aktiveras." />
+        <Text Line="Hittar ingen Last.FM-klient. Installera Last.FM-klient för att använda denna funktion." />
+        <Text Line="Ett fel uppstod i ljuduppspelningsenheten." />
+        <Text Line="Hittar inga ASIO-enheter." />
+    </Messages>
+    <EqualizerDialog>
+        <Text Line="Equalizer" />
+        <Text Line="Stäng" />
+        <Text Line="Aktivera" />
+        <Text Line="Ljudprofil:" />
+        <Text Line="Standard" />
+        <Text Line="Manuellt" />
+    </EqualizerDialog>
+    <HotKeyDialog>
+        <Text Line="Globala kortkommandon" />
+        <Text Line="Avbryt" />
+        <Text Line="OK" />
+        <Text Line="Markera en åtgärd och tryck valfri tangentkombination." />
+        <Text Line="Tryck 'Delete' för att ta bort markerat kortkommando." />
+        <Text Line="Åtgärd" />
+        <Text Line="Kortkommando" />
+        <Text Line="Spela upp" />
+        <Text Line="Pausa" />
+        <Text Line="Stoppa" />
+        <Text Line="Nästa spår" />
+        <Text Line="Föregående spår" />
+        <Text Line="Ljud av" />
+        <Text Line="Höj volymen" />
+        <Text Line="Sänk volymen" />
+        <Text Line="Betyg 1" />
+        <Text Line="Betyg 2" />
+        <Text Line="Betyg 3" />
+        <Text Line="Betyg 4" />
+        <Text Line="Betyg 5" />
+        <Text Line="Visa popup" />
+    </HotKeyDialog>
+    <OpenURLDialog>
+        <Text Line="Lägg till Radio/URL" />
+        <Text Line="Avbryt" />
+        <Text Line="OK" />
+        <Text Line="Min radio" />
+        <Text Line="Namn:" />
+        <Text Line="URL:" />
+    </OpenURLDialog>
+    <ToolTips>
+        <Text Line="Stäng" />
+        <Text Line="Minimera" />
+        <Text Line="Maximera" />
+        <Text Line="Återställ" />
+        <Text Line="Spela upp" />
+        <Text Line="Pausa" />
+        <Text Line="Stoppa" />
+        <Text Line="Nästa" />
+        <Text Line="Föregående" />
+        <Text Line="Equalizer" />
+        <Text Line="Byt vy" />
+        <Text Line="Ljud av" />
+        <Text Line="Ljud på" />
+        <Text Line="Aktivera 'Upprepa'" />
+        <Text Line="Inaktivera 'Upprepa'" />
+        <Text Line="Aktivera 'Blanda'" />
+        <Text Line="Inaktivera 'Blanda'" />
+        <Text Line="Huvudmeny" />
+        <Text Line="Minispelare" />
+        <Text Line="Återställ spelaren" />
+        <Text Line="Uppdatera biblioteket" />
+    </ToolTips>
+    <ConfigDialog>
+        <Text Line="Inställningar" />
+        <Text Line="Avbryt" />
+        <Text Line="OK" />
+        <Text Line="Allmänt" />
+        <Text Line="System" />
+        <Text Line="Popup" />
+        <Text Line="Minispelare" />
+    </ConfigDialog>
+    <SystemPage>
+        <Text Line="Ljudenhet" />
+        <Text Line="Standardljudenhet" />
+        <Text Line="32-bitars ljudbearbetning" />
+        <Text Line="Programvarumixning" />
+        <Text Line="Proxy" />
+        <Text Line="Aktivera proxy" />
+        <Text Line="Värd:" />
+        <Text Line="Port:" />
+        <Text Line="Proxyautentisering" />
+        <Text Line="Användarnamn:" />
+        <Text Line="Lösenord:" />
+    </SystemPage>
+    <PopupPage>
+        <Text Line="Test" />
+        <Text Line="Tid" />
+        <Text Line="Visningstid:" />
+        <Text Line="Tid för 'Visa':" />
+        <Text Line="Tid för 'Dölj':" />
+        <Text Line="sek." />
+        <Text Line="Utseende" />
+        <Text Line="Position:" />
+        <Text Line="Uppe till vänster" />
+        <Text Line="Uppe till höger" />
+        <Text Line="Nere till vänster" />
+        <Text Line="Nere till höger" />
+        <Text Line="Effekt vid 'Visa':" />
+        <Text Line="Effekt vid 'Dölj':" />
+        <Text Line="Tona in/ut" />
+        <Text Line="Vertikal glidning" />
+        <Text Line="Horisontell glidning" />
+    </PopupPage>
+    <Search>
+        <Text Line="Sök" />
+        <Text Line="Sök allt" />
+        <Text Line="Sök spår" />
+        <Text Line="Sök album" />
+        <Text Line="Sök artist" />
+    </Search>
+    <MiniPlayerPage>
+        <Text Line="Position" />
+        <Text Line="Alltid överst" />
+        <Text Line="Alltid på skrivbordet" />
+        <Text Line="Som standardfönster" />
+        <Text Line="Transparens" />
+    </MiniPlayerPage>
+    <GeneralPage>
+        <Text Line="Spelarbeteende" />
+        <Text Line="Lägg till filer i biblioteket när de öppnas i spellistor" />
+        <Text Line="Lägg till markerat spår i kön" />
+        <Text Line="Biblioteksvy" />
+        <Text Line="Tjänster" />
+        <Text Line="Skrobbla spåren med Last.FM-klienten" />
+        <Text Line="Visa aktuellt spår i Live Messenger" />
+        <Text Line="Associationer" />
+        <Text Line="Spela upp i Winyl" />
+        <Text Line="Lägg till 'Spela upp i Winyl' i mappmenyn" />
+        <Text Line="Hantera ljudfilsassociationer..." />
+        <!-- Win XP compatible Associations dialog -->
+        <Text Line="Filassociationer" />
+        <Text Line="Avbryt" />
+        <Text Line="Spara" />
+        <Text Line="Markera alla" />
+        <Text Line="Filtyper" />
+    </GeneralPage>
+    <DefaultList>
+        <Text Line="Spellista" />
+        <Text Line="Smart lista" />
+        <Text Line="Standard" />
+        <Text Line="Min spellista" />
+        <Text Line="50 slumpade" />
+        <Text Line="5 slumpade album" />
+        <Text Line="Nyligen spelade" />
+        <Text Line="25 mest spelade" />
+        <Text Line="25 bästa" />
+        <Text Line="90-talsmusik" />
+    </DefaultList>
+    <DlgSmartlist>
+        <Text Line="Smart lista" />
+        <Text Line="Avbryt" />
+        <Text Line="OK" />
+        <Text Line="Namn:" />
+        <Text Line="Från" />
+        <Text Line="Bibliotek" />
+        <Text Line="Artister" />
+        <Text Line="Album" />
+        <Text Line="Genrer" />
+        <Text Line="År" />
+        <Text Line="Mappar" />
+        <Text Line="Alternativ" />
+        <Text Line="Välj:" />
+        <Text Line="Antal:" />
+        <Text Line="Slumpmässig ordning" />
+        <Text Line="Uppdatera automatiskt" />
+        <Text Line="Tips" />
+        <Text Line="Använd plus (+) för att markera flera poster. Exempel: The Beatles + Led Zeppelin" />
+        <Text Line="Använd minus (-) för att markera ett intervall. Exempel: 2000 - 2010" />
+        <Text Line="Om sträng inleds med minus, så undantas dessa poster." />
+        <Text Line="Avancerat filter" />
+        <Text Line="Spår" />
+        <Text Line="Album" />
+        <Text Line="Valfritt" />
+        <Text Line="Mest spelade" />
+        <Text Line="Sällan spelade" />
+        <Text Line="Bästa" />
+        <Text Line="Sämsta" />
+        <Text Line="Nyligen spelade" />
+        <Text Line="Nyligen tillagda" />
+    </DlgSmartlist>
+    <DlgSmartlistFilter>
+        <Text Line="Avancerat filter" />
+        <Text Line="Avbryt" />
+        <Text Line="OK" />
+        <Text Line="Alla" />
+        <Text Line="Valfritt" />
+        <Text Line="markerade regler:" />
+        <Text Line="Antal uppspelningar" />
+        <Text Line="Betyg" />
+        <Text Line="Senast spelad" />
+        <Text Line="Tillagd" />
+        <Text Line="Spår i album" />
+        <Text Line="Samma som" />
+        <Text Line="Mer än" />
+        <Text Line="Mindre än" />
+        <Text Line="Bland de sista" />
+        <Text Line="Före" />
+        <Text Line="gånger" />
+        <Text Line="spår" />
+        <Text Line="Ej betygssatt" />
+        <Text Line="1 stjärna" />
+        <Text Line="2 stjärnor" />
+        <Text Line="3 stjärnor" />
+        <Text Line="4 stjärnor" />
+        <Text Line="5 stjärnor" />
+        <Text Line="1 dag" />
+        <Text Line="2 dagar" />
+        <Text Line="3 dagar" />
+        <Text Line="1 vecka" />
+        <Text Line="2 veckor" />
+        <Text Line="1 månad" />
+        <Text Line="3 månader" />
+        <Text Line="6 månader" />
+        <Text Line="1 år" />
+    </DlgSmartlistFilter>
+    <StatusLine>
+        <Text Line="KB" />
+        <Text Line="MB" />
+        <Text Line="GB" />
+        <Text Line="av" />
+        <Text Line="objekt" />
+        <Text Line="spår" />
+        <Text Line="total tid" />
+        <Text Line="Markerade:" />
+    </StatusLine>
+    <Lyrics>
+        <Text Line="Inget spelas." />
+        <Text Line="Inga texter hittas." />
+        <Text Line="Hämtar texter..." />
+    </Lyrics>
+    <LyricsMenu>
+        <Text Line="Källa:" />
+        <Text Line="Inget" />
+        <Text Line="Fil" />
+        <Text Line="Taggar" />
+        <Text Line="Internet" />
+        <Text Line="Kopiera text" />
+        <Text Line="Spara text..." />
+        <Text Line="Textleverantör" />
+        <Text Line="Inaktivera" />
+        <Text Line="Google Sök..." />
+        <Text Line="Justera text" />
+        <Text Line="Vänster" />
+        <Text Line="Centrera" />
+        <Text Line="Höger" />
+        <Text Line="Teckenstorlek" />
+        <Text Line="Från tema" />
+        <Text Line="Liten" />
+        <Text Line="Medium" />
+        <Text Line="Stor" />
+        <Text Line="Störst" />
+        <Text Line="Fet" />
+    </LyricsMenu>
+    <NewVersionDialog>
+        <Text Line="Konverterar bibliotek till ny version. Vänta..." />
+        <Text Line="Konverterar bibliotek för portabel version. Vänta..." />
+        <Text Line="Winyl måste skanna om alla taggar för att slutföra uppdateringen." />
+        <Text Line="Du rekommenderas att inte avbryta denna process." />
+    </NewVersionDialog>
+</Language>

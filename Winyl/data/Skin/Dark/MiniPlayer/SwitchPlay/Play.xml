@@ -1,0 +1,13 @@
+﻿<Switch>
+    <Effect Fade="1" />
+    <State1>
+        <Normal File="Play1.png" />
+        <Hover File="Play2.png" />
+        <Press File="Play3.png" />
+    </State1>
+    <State2>
+        <Normal File="Pause1.png" />
+        <Hover File="Pause2.png" />
+        <Press File="Pause3.png" />
+    </State2>
+</Switch>

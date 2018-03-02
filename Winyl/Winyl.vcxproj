@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{1D969917-DADC-4F89-8EE5-1E58D6ECFDC5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Winyl</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141_xp</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141_xp</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>LIBCMT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Associations.h" />
+    <ClInclude Include="src\AutoHandle.h" />
+    <ClInclude Include="src\ContextMenu.h" />
+    <ClInclude Include="src\CoverLoader.h" />
+    <ClInclude Include="src\CueFile.h" />
+    <ClInclude Include="src\DBase.h" />
+    <ClInclude Include="src\DialogEx.h" />
+    <ClInclude Include="src\DlgAbout.h" />
+    <ClInclude Include="src\DlgConfig.h" />
+    <ClInclude Include="src\DlgEqualizer.h" />
+    <ClInclude Include="src\DlgHotKeys.h" />
+    <ClInclude Include="src\DlgLanguage.h" />
+    <ClInclude Include="src\DlgLibrary.h" />
+    <ClInclude Include="src\DlgNewVersion.h" />
+    <ClInclude Include="src\DlgOpenURL.h" />
+    <ClInclude Include="src\DlgPageCover.h" />
+    <ClInclude Include="src\DlgPageGeneral.h" />
+    <ClInclude Include="src\DlgPageGeneralXP.h" />
+    <ClInclude Include="src\DlgPageLibrary.h" />
+    <ClInclude Include="src\DlgPageLibraryOpt.h" />
+    <ClInclude Include="src\DlgPageLyrics.h" />
+    <ClInclude Include="src\DlgPageMini.h" />
+    <ClInclude Include="src\DlgPagePopup.h" />
+    <ClInclude Include="src\DlgPageSystem.h" />
+    <ClInclude Include="src\DlgPageTags.h" />
+    <ClInclude Include="src\DlgProgress.h" />
+    <ClInclude Include="src\DlgProperties.h" />
+    <ClInclude Include="src\DlgRename.h" />
+    <ClInclude Include="src\DlgSkin.h" />
+    <ClInclude Include="src\DlgSmart.h" />
+    <ClInclude Include="src\DlgSmartAlbums.h" />
+    <ClInclude Include="src\DlgSmartTracks.h" />
+    <ClInclude Include="src\DragIconWnd.h" />
+    <ClInclude Include="src\DropTargetOpen.h" />
+    <ClInclude Include="src\ExImage.h" />
+    <ClInclude Include="src\FileDialogEx.h" />
+    <ClInclude Include="src\FileSystem.h" />
+    <ClInclude Include="src\FontsLoader.h" />
+    <ClInclude Include="src\FutureWin.h" />
+    <ClInclude Include="src\HotKeys.h" />
+    <ClInclude Include="src\HttpClient.h" />
+    <ClInclude Include="src\Language.h" />
+    <ClInclude Include="src\LastFM.h" />
+    <ClInclude Include="src\LibAudio.h" />
+    <ClInclude Include="src\LyricsLoader.h" />
+    <ClInclude Include="src\MessageBox.h" />
+    <ClInclude Include="src\Messengers.h" />
+    <ClInclude Include="src\MoveResize.h" />
+    <ClInclude Include="src\mtypes.h" />
+    <ClInclude Include="src\MyDataObject.h" />
+    <ClInclude Include="src\MyDropSource.h" />
+    <ClInclude Include="src\MyDropTarget.h" />
+    <ClInclude Include="src\PlsFile.h" />
+    <ClInclude Include="src\Progress.h" />
+    <ClInclude Include="src\Properties.h" />
+    <ClInclude Include="src\Radio.h" />
+    <ClInclude Include="src\RadioList.h" />
+    <ClInclude Include="src\resource.h" />
+    <ClInclude Include="src\Settings.h" />
+    <ClInclude Include="src\SkinAlpha.h" />
+    <ClInclude Include="src\SkinButton.h" />
+    <ClInclude Include="src\SkinCover.h" />
+    <ClInclude Include="src\SkinDraw.h" />
+    <ClInclude Include="src\SkinEdit.h" />
+    <ClInclude Include="src\SkinElement.h" />
+    <ClInclude Include="src\SkinLayout.h" />
+    <ClInclude Include="src\SkinLayoutBack.h" />
+    <ClInclude Include="src\SkinLayoutElement.h" />
+    <ClInclude Include="src\SkinList.h" />
+    <ClInclude Include="src\SkinListBack.h" />
+    <ClInclude Include="src\SkinListElement.h" />
+    <ClInclude Include="src\SkinListNode.h" />
+    <ClInclude Include="src\SkinListThread.h" />
+    <ClInclude Include="src\SkinLyrics.h" />
+    <ClInclude Include="src\SkinMini.h" />
+    <ClInclude Include="src\SkinPopup.h" />
+    <ClInclude Include="src\SkinPopupElement.h" />
+    <ClInclude Include="src\SkinRating.h" />
+    <ClInclude Include="src\SkinScroll.h" />
+    <ClInclude Include="src\SkinShadow.h" />
+    <ClInclude Include="src\SkinSlider.h" />
+    <ClInclude Include="src\SkinSplitter.h" />
+    <ClInclude Include="src\SkinSwitch.h" />
+    <ClInclude Include="src\SkinText.h" />
+    <ClInclude Include="src\SkinTree.h" />
+    <ClInclude Include="src\SkinTreeBack.h" />
+    <ClInclude Include="src\SkinTreeElement.h" />
+    <ClInclude Include="src\SkinTreeNode.h" />
+    <ClInclude Include="src\SkinTrigger.h" />
+    <ClInclude Include="src\SkinVis.h" />
+    <ClInclude Include="src\stdafx.h" />
+    <ClInclude Include="src\TagLibCover.h" />
+    <ClInclude Include="src\TagLibLyrics.h" />
+    <ClInclude Include="src\TagLibReader.h" />
+    <ClInclude Include="src\TagLibWriter.h" />
+    <ClInclude Include="src\targetver.h" />
+    <ClInclude Include="src\Threading.h" />
+    <ClInclude Include="src\ToolTips.h" />
+    <ClInclude Include="src\TrayIcon.h" />
+    <ClInclude Include="src\UTF.h" />
+    <ClInclude Include="src\Win7TaskBar.h" />
+    <ClInclude Include="src\WindowEx.h" />
+    <ClInclude Include="src\Winyl.h" />
+    <ClInclude Include="src\WinylApp.h" />
+    <ClInclude Include="src\WinylWnd.h" />
+    <ClInclude Include="src\XmlFile.h" />
+    <ClInclude Include="src\XmlNode.h" />
+    <ClInclude Include="src\ZipFile.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Associations.cpp" />
+    <ClCompile Include="src\ContextMenu.cpp" />
+    <ClCompile Include="src\CoverLoader.cpp" />
+    <ClCompile Include="src\CueFile.cpp" />
+    <ClCompile Include="src\DBase.cpp" />
+    <ClCompile Include="src\DialogEx.cpp" />
+    <ClCompile Include="src\DlgAbout.cpp" />
+    <ClCompile Include="src\DlgConfig.cpp" />
+    <ClCompile Include="src\DlgEqualizer.cpp" />
+    <ClCompile Include="src\DlgHotKeys.cpp" />
+    <ClCompile Include="src\DlgLanguage.cpp" />
+    <ClCompile Include="src\DlgLibrary.cpp" />
+    <ClCompile Include="src\DlgNewVersion.cpp" />
+    <ClCompile Include="src\DlgOpenURL.cpp" />
+    <ClCompile Include="src\DlgPageCover.cpp" />
+    <ClCompile Include="src\DlgPageGeneral.cpp" />
+    <ClCompile Include="src\DlgPageGeneralXP.cpp" />
+    <ClCompile Include="src\DlgPageLibrary.cpp" />
+    <ClCompile Include="src\DlgPageLibraryOpt.cpp" />
+    <ClCompile Include="src\DlgPageLyrics.cpp" />
+    <ClCompile Include="src\DlgPageMini.cpp" />
+    <ClCompile Include="src\DlgPagePopup.cpp" />
+    <ClCompile Include="src\DlgPageSystem.cpp" />
+    <ClCompile Include="src\DlgPageTags.cpp" />
+    <ClCompile Include="src\DlgProgress.cpp" />
+    <ClCompile Include="src\DlgProperties.cpp" />
+    <ClCompile Include="src\DlgRename.cpp" />
+    <ClCompile Include="src\DlgSkin.cpp" />
+    <ClCompile Include="src\DlgSmart.cpp" />
+    <ClCompile Include="src\DlgSmartAlbums.cpp" />
+    <ClCompile Include="src\DlgSmartTracks.cpp" />
+    <ClCompile Include="src\DragIconWnd.cpp" />
+    <ClCompile Include="src\DropTargetOpen.cpp" />
+    <ClCompile Include="src\ExImage.cpp" />
+    <ClCompile Include="src\FileDialogEx.cpp" />
+    <ClCompile Include="src\FileSystem.cpp" />
+    <ClCompile Include="src\FontsLoader.cpp" />
+    <ClCompile Include="src\FutureWin.cpp" />
+    <ClCompile Include="src\HotKeys.cpp" />
+    <ClCompile Include="src\HttpClient.cpp" />
+    <ClCompile Include="src\Language.cpp" />
+    <ClCompile Include="src\LastFM.cpp" />
+    <ClCompile Include="src\LibAudio.cpp" />
+    <ClCompile Include="src\LyricsLoader.cpp" />
+    <ClCompile Include="src\MessageBox.cpp" />
+    <ClCompile Include="src\Messengers.cpp" />
+    <ClCompile Include="src\MoveResize.cpp" />
+    <ClCompile Include="src\MyDataObject.cpp" />
+    <ClCompile Include="src\MyDropSource.cpp" />
+    <ClCompile Include="src\MyDropTarget.cpp" />
+    <ClCompile Include="src\PlsFile.cpp" />
+    <ClCompile Include="src\Progress.cpp" />
+    <ClCompile Include="src\Properties.cpp" />
+    <ClCompile Include="src\Radio.cpp" />
+    <ClCompile Include="src\Settings.cpp" />
+    <ClCompile Include="src\SkinAlpha.cpp" />
+    <ClCompile Include="src\SkinButton.cpp" />
+    <ClCompile Include="src\SkinCover.cpp" />
+    <ClCompile Include="src\SkinDraw.cpp" />
+    <ClCompile Include="src\SkinEdit.cpp" />
+    <ClCompile Include="src\SkinElement.cpp" />
+    <ClCompile Include="src\SkinLayout.cpp" />
+    <ClCompile Include="src\SkinLayoutBack.cpp" />
+    <ClCompile Include="src\SkinLayoutElement.cpp" />
+    <ClCompile Include="src\SkinList.cpp" />
+    <ClCompile Include="src\SkinListBack.cpp" />
+    <ClCompile Include="src\SkinListElement.cpp" />
+    <ClCompile Include="src\SkinListNode.cpp" />
+    <ClCompile Include="src\SkinListThread.cpp" />
+    <ClCompile Include="src\SkinLyrics.cpp" />
+    <ClCompile Include="src\SkinMini.cpp" />
+    <ClCompile Include="src\SkinPopup.cpp" />
+    <ClCompile Include="src\SkinPopupElement.cpp" />
+    <ClCompile Include="src\SkinRating.cpp" />
+    <ClCompile Include="src\SkinScroll.cpp" />
+    <ClCompile Include="src\SkinShadow.cpp" />
+    <ClCompile Include="src\SkinSlider.cpp" />
+    <ClCompile Include="src\SkinSplitter.cpp" />
+    <ClCompile Include="src\SkinSwitch.cpp" />
+    <ClCompile Include="src\SkinText.cpp" />
+    <ClCompile Include="src\SkinTree.cpp" />
+    <ClCompile Include="src\SkinTreeBack.cpp" />
+    <ClCompile Include="src\SkinTreeElement.cpp" />
+    <ClCompile Include="src\SkinTreeNode.cpp" />
+    <ClCompile Include="src\SkinTrigger.cpp" />
+    <ClCompile Include="src\SkinVis.cpp" />
+    <ClCompile Include="src\stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\TagLibCover.cpp" />
+    <ClCompile Include="src\TagLibLyrics.cpp" />
+    <ClCompile Include="src\TagLibReader.cpp" />
+    <ClCompile Include="src\TagLibWriter.cpp" />
+    <ClCompile Include="src\Threading.cpp" />
+    <ClCompile Include="src\ToolTips.cpp" />
+    <ClCompile Include="src\TrayIcon.cpp" />
+    <ClCompile Include="src\UTF.cpp" />
+    <ClCompile Include="src\Win7TaskBar.cpp" />
+    <ClCompile Include="src\WindowEx.cpp" />
+    <ClCompile Include="src\Winyl.cpp" />
+    <ClCompile Include="src\WinylApp.cpp" />
+    <ClCompile Include="src\WinylWnd.cpp" />
+    <ClCompile Include="src\ZipFile.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="src\Winyl.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="src\res\Drag.ico" />
+    <Image Include="src\res\Folder.ico" />
+    <Image Include="src\res\Hotkey.ico" />
+    <Image Include="src\res\Info.ico" />
+    <Image Include="src\res\Lang.ico" />
+    <Image Include="src\res\Main.ico" />
+    <Image Include="src\res\Plus.ico" />
+    <Image Include="src\res\Skin.ico" />
+    <Image Include="src\res\TagNext.ico" />
+    <Image Include="src\res\TagPrev.ico" />
+    <Image Include="src\res\ThumbNext.ico" />
+    <Image Include="src\res\ThumbPause.ico" />
+    <Image Include="src\res\ThumbPlay.ico" />
+    <Image Include="src\res\ThumbPrev.ico" />
+    <Image Include="src\res\ThumbStop.ico" />
+    <Image Include="src\res\Tick.ico" />
+    <Image Include="src\res\TrayExit.ico" />
+    <Image Include="src\res\TrayNext.ico" />
+    <Image Include="src\res\TrayPause.ico" />
+    <Image Include="src\res\TrayPlay.ico" />
+    <Image Include="src\res\TrayPrev.ico" />
+    <Image Include="src\res\TrayStop.ico" />
+    <Image Include="src\res\Winyl.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,5 @@
+<Spectrum>
+    <Background Color="FFFFFF" />
+    <Skin File="Spectrum.png" BandSize="5" />
+    <Peak File="Peak.png" PeakStep="2" />
+</Spectrum>

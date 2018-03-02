@@ -1,0 +1,4 @@
+<Button>
+    <Normal File="MiniPlayer1.png" />
+    <Press File="MiniPlayer3.png" />
+</Button>

@@ -1,0 +1,26 @@
+<Scroll>
+    <Size ArrowUp="16" ArrowDown="16" />
+    <Track File="Fill.png" />
+    <ArrowUp>
+        <Normal File="ButtonUp1.png" />
+        <Press File="ButtonUp3.png" />
+    </ArrowUp>
+    <ArrowDown>
+        <Normal File="ButtonDown1.png" />
+        <Press File="ButtonDown3.png" />
+    </ArrowDown>
+    <Thumb>
+        <Normal>
+            <Begin File="ThumbTop1.png" />
+            <Fill File="ThumbFill1.png" />
+            <End File="ThumbBottom1.png" />
+            <Middle File="ThumbMiddle1.png" />
+        </Normal>
+        <Press>
+            <Begin File="ThumbTop3.png" />
+            <Fill File="ThumbFill3.png" />
+            <End File="ThumbBottom3.png" />
+            <Middle File="ThumbMiddle3.png" />
+        </Press>
+    </Thumb>
+</Scroll>

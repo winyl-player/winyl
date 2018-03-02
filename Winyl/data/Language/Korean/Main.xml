@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Language Version="3.3.0">
+    <MainMenu>
+        <Text Line="라이브러리..." />
+        <Text Line="스킨..." />
+        <Text Line="미니 플레이어" />
+        <Text Line="재생목록에 추가하기" />
+        <Text Line="파일..." />
+        <Text Line="폴더..." />
+        <Text Line="라디오/주소..." />
+        <Text Line="재생목록 가져오기..." />
+        <Text Line="재생" />
+        <Text Line="재생" />
+        <Text Line="일시정지" />
+        <Text Line="정지" />
+        <Text Line="다음" />
+        <Text Line="이전" />
+        <Text Line="음소거" />
+        <Text Line="셔플(랜덤)재생" />
+        <Text Line="반복재생" />
+        <Text Line="이퀄라이저..." />
+        <Text Line="설정" />
+        <Text Line="트레이로 보내기" />
+        <Text Line="팝업창 띄우기" />
+        <Text Line="시각 효과" />
+        <Text Line="부드러운 스크롤" />
+        <Text Line="Last.FM 활성화" />
+        <Text Line="단축키..." />
+        <Text Line="고급..." />
+        <Text Line="언어 선택하기..." />
+        <Text Line="프로그램 정보..." />
+        <Text Line="기부" />
+    </MainMenu>
+    <ListMenu>
+        <Text Line="재생" />
+        <Text Line="한곡 반복" />
+        <Text Line="전체 선택" />
+        <Text Line="삭제" />
+        <Text Line="재생목록에 추가" />
+        <Text Line="새 재생목록에 추가" />
+        <Text Line="지금 재생목록에 추가" />
+        <Text Line="파일 위치..." />
+        <Text Line="속성..." />
+        <Text Line="이동" />
+        <Text Line="가수" />
+        <Text Line="앨범" />
+        <Text Line="년도" />
+        <Text Line="장르" />
+        <Text Line="폴더" />
+    </ListMenu>
+    <TreeMenu>
+        <Text Line="새 재생목록" />
+        <Text Line="새 재생목록..." />
+        <Text Line="이름바꾸기..." />
+        <Text Line="삭제" />
+        <Text Line="새로 고침" />
+        <Text Line="수정..." />
+    </TreeMenu>
+    <TrayMenu>
+        <Text Line="재생" />
+        <Text Line="일시정지" />
+        <Text Line="정지" />
+        <Text Line="다음" />
+        <Text Line="이전" />
+        <Text Line="종료" />
+    </TrayMenu>
+    <PopupMenu>
+        <Text Line="비활성화" />
+        <Text Line="상단 왼쪽" />
+        <Text Line="상단 오른쪽" />
+        <Text Line="하단 왼쪽" />
+        <Text Line="하단 오른쪽" />
+        <Text Line="고급..." />
+    </PopupMenu>
+    <Library>
+        <!-- These lines should be as short as possible -->
+        <Text Line="알 수 없음" />
+        <Text Line="라이브러리" />
+        <Text Line="지금 재생 중" />
+        <Text Line="재생목록" />
+        <Text Line="스마트목록" />
+        <Text Line="가수" />
+        <Text Line="작곡가" />
+        <Text Line="앨범" />
+        <Text Line="장르" />
+        <Text Line="년도" />
+        <Text Line="라디오" />
+        <Text Line="폴더" />
+        <Text Line="드라이브" />
+    </Library>
+    <Playlist>
+        <Text Line="알 수 없음" />
+        <Text Line="CD" /> <!-- Disc number CD1, CD2. 4 chars max or leave it as is. -->
+        <Text Line="폴더" />
+        <Text Line="라디오" />
+        <Text Line="표시할 곡이 없습니다." />
+    </Playlist>
+    <SkinDialog>
+        <Text Line="스킨" />
+        <Text Line="닫기" />
+        <Text Line="적용" />
+        <Text Line="스킨 선택:" />
+        <Text Line="미리보기" />
+        <Text Line="정보" />
+        <Text Line="제작자:" />
+        <Text Line="버전:" />
+        <Text Line="설명:" />
+    </SkinDialog>
+    <LibraryDialog>
+        <Text Line="라이브러리" />
+        <Text Line="닫기" />
+        <Text Line="업데이트" />
+        <Text Line="폴더" />
+        <Text Line="옵션" />
+        <Text Line="추가" />
+        <Text Line="삭제" />
+        <Text Line="라이브러리에 음악 폴더를 추가합니다." />
+        <Text Line="라이브러리를 업데이트하려면 업데이트 버튼을 클릭합니다." />
+        <Text Line="음악 파일이있는 폴더를 선택합니다." />
+        <Text Line="기본" />
+        <Text Line="고급" />
+        <Text Line="라이브러리에서 삭제 된 파일을 무시합니다." />
+        <Text Line="라이브러리에서 누락 된 파일을 삭제합니다." />
+        <Text Line="이동 및 이름 변경된 파일 검색합니다." />
+        <Text Line="라이브러리에있는 모든 파일을 검색합니다." />
+    </LibraryDialog>
+    <LanguageDialog>
+        <Text Line="언어" />
+        <Text Line="취소" />
+        <Text Line="확인" />
+        <Text Line="언어 선택:" />
+    </LanguageDialog>
+    <ProcessDialog>
+        <Text Line="라이브러리 업데이트 중..." />
+        <Text Line="재생목록에 추가 중..." />
+        <Text Line="취소" />
+        <Text Line="최소화" />
+        <Text Line="진행중..." />
+        <Text Line="진행:" />
+        <Text Line="취소중..." />
+    </ProcessDialog>
+    <PropertiesDialog>
+        <Text Line="속성" />
+        <Text Line="취소" />
+        <Text Line="저장" />
+        <Text Line="태그" />
+        <Text Line="앨범아트" />
+        <Text Line="가사" />
+        <Text Line="저장 후 이전 곡으로 이동" />
+        <Text Line="저장 후 다음 곡으로 이동" />
+    </PropertiesDialog>
+    <TagsPage>
+        <Text Line="제목 :" />
+        <Text Line="가수 :" />
+        <Text Line="앨범 가수 :" />
+        <Text Line="앨범 :" />
+        <Text Line="작곡가 :" />
+        <Text Line="년도 :" />
+        <Text Line="트랙 :" />
+        <Text Line="디스크 :" />
+        <Text Line="-" />
+        <Text Line="장르 :" />
+        <Text Line="한마디 :" />
+        <Text Line="파일위치 :" />
+        <Text Line="음질 :" />
+    </TagsPage>
+    <CoverPage>
+        <Text Line="변경" />
+        <Text Line="제거" />
+        <Text Line="미리보기" />
+        <Text Line="커버 없음" />
+        <Text Line="변경하려면 이미지를 이곳에 드래그하세요." />
+        <Text Line="파일에 앨범아트 포함." />
+        <Text Line="앨범폴더에 앨범아트를 'Front.jpg'로 저장." />
+    </CoverPage>
+    <LyricsPage>
+        <Text Line="작사가 :" />
+        <Text Line="파일에 가사를 포함." />
+        <Text Line="Lyrics폴더에 가사를 저장." />
+    </LyricsPage>
+    <RenameDialog>
+        <Text Line="이름 변경" />
+        <Text Line="취소" />
+        <Text Line="확인" />
+        <Text Line="변경할 이름:" />
+    </RenameDialog>
+    <AboutDialog>
+        <Text Line="프로그램 정보..." />
+        <Text Line="닫기" />
+        <Text Line="기부정보" />
+        <Text Line="공식 사이트 :" />
+        <Text Line="지원 이메일 :" />
+        <!-- Enter your name in the next line in format: "한국어 번역 - limeshock@naver.com" (e-mail not necessarily) -->
+        <Text Line="" />
+    </AboutDialog>
+    <Messages>
+        <Text Line="에러" />
+        <Text Line="경고" />
+        <Text Line="정보" />
+        <Text Line="파일을 찾을 수 없거나 지원되지 않는 형식의 파일입니다." />
+        <Text Line="라디오 서버에 연결할 수 없습니다." />
+        <Text Line="이 스킨은 현재 버전에서 사용할 수 없습니다." />
+        <Text Line="스킨을 불러오는 중에 오류가 발생했습니다. 기본스킨을 불러옵니다." />
+        <Text Line="Last.FM 클라이언트를 찾을 수 없습니다. 이 기능을 사용하시려면 Last.FM 클라이언트를 설치해주세요." />
+        <Text Line="오디오 출력장치에 문제가 발생했습니다." />
+        <Text Line="ASIO장치를 찾을 수 없습니다." />
+    </Messages>
+    <EqualizerDialog>
+        <Text Line="이퀄라이저" />
+        <Text Line="취소" />
+        <Text Line="활성화" />
+        <Text Line="프리셋 :" />
+        <Text Line="기본" />
+        <Text Line="메뉴얼" />
+    </EqualizerDialog>
+    <HotKeyDialog>
+        <Text Line="단축키" />
+        <Text Line="취소" />
+        <Text Line="확인" />
+        <Text Line="기능을 선택하고 사용하실 단축키를 눌러주세요." />
+        <Text Line="Delete키를 누르시면 단축키가 삭제됩니다." />
+        <Text Line="기능" />
+        <Text Line="단축키" />
+        <Text Line="재생" />
+        <Text Line="일시정지" />
+        <Text Line="정지" />
+        <Text Line="다음 곡" />
+        <Text Line="이전 곡" />
+        <Text Line="음소거" />
+        <Text Line="소리 크게" />
+        <Text Line="소리 작게" />
+        <Text Line="1등급" />
+        <Text Line="2등급" />
+        <Text Line="3등급" />
+        <Text Line="4등급" />
+        <Text Line="5등급" />
+        <Text Line="팝업(곡 정보)보기" />
+    </HotKeyDialog>
+    <OpenURLDialog>
+        <Text Line="라디오 주소 추가하기" />
+        <Text Line="취소" />
+        <Text Line="확인" />
+        <Text Line="내 라디오" />
+        <Text Line="이름 :" />
+        <Text Line="주소 :" />
+    </OpenURLDialog>
+    <ToolTips>
+        <Text Line="닫기" />
+        <Text Line="최소화" />
+        <Text Line="최대화" />
+        <Text Line="복구" />
+        <Text Line="재생" />
+        <Text Line="일시정지" />
+        <Text Line="정지" />
+        <Text Line="다음" />
+        <Text Line="이전" />
+        <Text Line="이퀄라이저" />
+        <Text Line="표시 변경" />
+        <Text Line="소리 끄기" />
+        <Text Line="소리 켜기" />
+        <Text Line="반복 재생" />
+        <Text Line="반복 재생 끔" />
+        <Text Line="셔플(랜덤) 재생" />
+        <Text Line="셔플(랜덤) 재생 끔" />
+        <Text Line="메인 메뉴" />
+        <Text Line="미니 플레이어" />
+        <Text Line="플레이어 복구" />
+        <Text Line="라이브러리 업데이트" />
+    </ToolTips>
+    <ConfigDialog>
+        <Text Line="설정" />
+        <Text Line="취소" />
+        <Text Line="확인" />
+        <Text Line="일반" />
+        <Text Line="시스템" />
+        <Text Line="팝업" />
+        <Text Line="미니 플레이어" />
+    </ConfigDialog>
+    <SystemPage>
+        <Text Line="오디오 장치" />
+        <Text Line="기본 오디오 장치" />
+        <Text Line="32비트 오디오 프로세싱" />
+        <Text Line="소프트웨어 오디오 믹싱" />
+        <Text Line="프록시" />
+        <Text Line="프록시 활성화" />
+        <Text Line="호스트 :" />
+        <Text Line="포트 :" />
+        <Text Line="프록시 인증" />
+        <Text Line="로그인 :" />
+        <Text Line="비밀번호 :" />
+    </SystemPage>
+    <PopupPage>
+        <Text Line="테스트" />
+        <Text Line="시간" />
+        <Text Line="유지 시간 :" />
+        <Text Line="표시 시간 :" />
+        <Text Line="숨김 시간 :" />
+        <Text Line="초." />
+        <Text Line="모양" />
+        <Text Line="위치 :" />
+        <Text Line="상단 왼쪽" />
+        <Text Line="상단 오른쪽" />
+        <Text Line="하단 왼쪽" />
+        <Text Line="하단 오른쪽" />
+        <Text Line="표시 효과 :" />
+        <Text Line="숨김 효과 :" />
+        <Text Line="페이드" />
+        <Text Line="세로 이동" />
+        <Text Line="가로 이동" />
+    </PopupPage>
+    <Search>
+        <Text Line="검색" />
+        <Text Line="전체 검색" />
+        <Text Line="곡 검색" />
+        <Text Line="앨범 검색" />
+        <Text Line="가수 검색" />
+    </Search>
+    <MiniPlayerPage>
+        <Text Line="위치" />
+        <Text Line="항상 위에 두기" />
+        <Text Line="항상 아래에 두기" />
+        <Text Line="일반 창처럼 두기" />
+        <Text Line="투명도" />
+    </MiniPlayerPage>
+    <GeneralPage>
+        <Text Line="플레이어 설정" />
+        <Text Line="재생목록에 파일이 열릴 경우 라이브러리에 추가합니다." />
+        <Text Line="곡을 선택할 경우 재생중인 곡 다음에 재생됩니다." />
+        <Text Line="라이브러리 보기" />
+        <Text Line="서비스" />
+        <Text Line="Scrobble 트랙과 Last.FM 클라이언트" />
+        <Text Line="라이브 메신저에 지금 재생중인 곡 표시" />
+        <Text Line="연결" />
+        <Text Line="Winyl로 재생" />
+        <Text Line="'Winyl로 재생'을 폴더메뉴에 추가" />
+        <Text Line="파일 연결 관리.." />
+        <!-- Win XP compatible Associations dialog -->
+        <Text Line="파일 연결" />
+        <Text Line="취소" />
+        <Text Line="저장" />
+        <Text Line="전체 선택" />
+        <Text Line="확장" />
+    </GeneralPage>
+    <DefaultList>
+        <Text Line="재생 목록" />
+        <Text Line="스마트 목록" />
+        <Text Line="기본" />
+        <Text Line="내 재생목록" />
+        <Text Line="50곡 무작위" />
+        <Text Line="5앨범 무작위" />
+        <Text Line="최근 재생한 곡" />
+        <Text Line="자주듣는 25곡" />
+        <Text Line="최고등급 25곡" />
+        <Text Line="90년대 음악" />
+    </DefaultList>
+    <DlgSmartlist>
+        <Text Line="스마트목록" />
+        <Text Line="취소" />
+        <Text Line="확인" />
+        <Text Line="이름 :" />
+        <Text Line="대상" />
+        <Text Line="라이브러리" />
+        <Text Line="가수" />
+        <Text Line="앨범" />
+        <Text Line="장르" />
+        <Text Line="년도" />
+        <Text Line="폴더" />
+        <Text Line="옵션" />
+        <Text Line="선택 :" />
+        <Text Line="개수 :" />
+        <Text Line="무작위 순서" />
+        <Text Line="자동 새로고침" />
+        <Text Line="도움말" />
+        <Text Line="여러 항목을 선택할때 '+'를 사용하세요. 예) The Beatles + Led Zeppelin" />
+        <Text Line="범위를 표시할때 '-'를 사용하세요. 예) 2000 - 2010" />
+        <Text Line="문자열이 '-'로 시작할때 항목은 제외됩니다.." />
+        <Text Line="고급 필터" />
+        <Text Line="곡" />
+        <Text Line="앨범" />
+        <Text Line="아무거나" />
+        <Text Line="최근 재생된 곡" />
+        <Text Line="재생되지 않는 곡" />
+        <Text Line="최고 등급" />
+        <Text Line="최저 등급" />
+        <Text Line="현재 재생중인 곡" />
+        <Text Line="최근 추가한 곡" />
+    </DlgSmartlist>
+    <DlgSmartlistFilter>
+        <Text Line="고급 필터" />
+        <Text Line="취소" />
+        <Text Line="확인" />
+        <Text Line="전부" />
+        <Text Line="아무거나" />
+        <Text Line="선택한 규칙 :" />
+        <Text Line="재생 횟수" />
+        <Text Line="등급" />
+        <Text Line="마지막으로 재생된 날짜" />
+        <Text Line="추가된 날짜" />
+        <Text Line="앨범 속 곡" />
+        <Text Line="같음" />
+        <Text Line="초과" />
+        <Text Line="미만" />
+        <Text Line="최근" />
+        <Text Line="이전" />
+        <Text Line="기간" />
+        <Text Line="곡" />
+        <Text Line="등급 없음" />
+        <Text Line="★☆☆☆☆" />
+        <Text Line="★★☆☆☆" />
+        <Text Line="★★★☆☆" />
+        <Text Line="★★★★☆" />
+        <Text Line="★★★★★" />
+        <Text Line="1일" />
+        <Text Line="2일" />
+        <Text Line="3일" />
+        <Text Line="1주" />
+        <Text Line="2주" />
+        <Text Line="1개월" />
+        <Text Line="3개월" />
+        <Text Line="6개월" />
+        <Text Line="1년" />
+    </DlgSmartlistFilter>
+    <StatusLine>
+        <Text Line="KB" />
+        <Text Line="MB" />
+        <Text Line="GB" />
+        <Text Line="곡 선택." />
+        <Text Line="개" />
+        <Text Line="곡" />
+        <Text Line="재생 시간" />
+        <Text Line="선택 :" />
+    </StatusLine>
+    <Lyrics>
+        <Text Line="재생중이지 않습니다." />
+        <Text Line="가사를 찾을 수 없습니다." />
+        <Text Line="가사를 가져오는 중..." />
+    </Lyrics>
+    <LyricsMenu>
+        <Text Line="소스 :" />
+        <Text Line="없음" />
+        <Text Line="파일" />
+        <Text Line="태그" />
+        <Text Line="인터넷" />
+        <Text Line="가사 복사" />
+        <Text Line="가사 저장..." />
+        <Text Line="가사 제공" />
+        <Text Line="비 활성화" />
+        <Text Line="구글 검색..." />
+        <Text Line="글자 정렬" />
+        <Text Line="왼쪽" />
+        <Text Line="가운데" />
+        <Text Line="오른쪽" />
+        <Text Line="글씨 크기" />
+        <Text Line="스킨 설정" />
+        <Text Line="작게" />
+        <Text Line="중간" />
+        <Text Line="크게" />
+        <Text Line="아주 크게" />
+        <Text Line="굵게" />
+    </LyricsMenu>
+    <NewVersionDialog>
+        <Text Line="새 버전으로 라이브러리를 변환중입니다. 잠시만 기다려주십시오..." />
+        <Text Line="포터블 버전으로 라이브러리를 변환중입니다. 잠시만 기다려주십시오..." />
+        <Text Line="Winyl가 업데이트되어 태그를 다시 스캔할 필요가 있습니다." />
+        <Text Line="이 프로세스를 취소하는 것은 권장하지 않습니다." />
+    </NewVersionDialog>
+</Language>

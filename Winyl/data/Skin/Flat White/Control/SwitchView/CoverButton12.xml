@@ -1,0 +1,14 @@
+<Button>
+    <Normal File="Cover1.png" />
+    <Hover File="Cover2.png" />
+    <Trigger>
+        <Layout ID="100" Hide="0" />
+        <Layout ID="200" Hide="0" />
+        <Layout ID="300" Hide="1" />
+        <Layout ID="400" Hide="1" />
+        <Layout ID="301" Hide="0" />
+        <Layout ID="302" Hide="1" />
+        <Layout ID="401" Hide="1" />
+        <Layout ID="402" Hide="1" />
+    </Trigger>
+</Button>

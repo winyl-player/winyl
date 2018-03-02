@@ -1,0 +1,9 @@
+<Button>
+    <Normal File="Info.png" />
+    <Hover File="Info2.png" />
+    <Trigger>
+        <Layout ID="100" Hide="1" />
+        <Layout ID="101" Hide="0" />
+        <Layout ID="102" Hide="1" />
+    </Trigger>
+</Button>

@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Language Version="3.3.0">
+    <MainMenu>
+        <Text Line="Kütüphane..." />
+        <Text Line="Tema..." />
+        <Text Line="Mini Oynatıcı" />
+        <Text Line="Çalma Listesine Ekle" />
+        <Text Line="Dosya..." />
+        <Text Line="Klasör..." />
+        <Text Line="Radyo/URL..." />
+        <Text Line="Çalma Listesi Ekle..." />
+        <Text Line="Kontrol" />
+        <Text Line="Oynat" />
+        <Text Line="Duraklat" />
+        <Text Line="Durdur" />
+        <Text Line="Sonraki" />
+        <Text Line="Önceki" />
+        <Text Line="Sesi Kapat" />
+        <Text Line="Karışık" />
+        <Text Line="Tekrar" />
+        <Text Line="Ekolayzır..." />
+        <Text Line="Ayarlar" />
+        <Text Line="Tray'de Sakla" />
+        <Text Line="Popup Aktif" />
+        <Text Line="Görsel Efektler" />
+        <Text Line="Yumuşak Kaydırma" />
+        <Text Line="Last.FM Aktif" />
+        <Text Line="Kısayollar..." />
+        <Text Line="Gelişmiş..." />
+        <Text Line="Dil Seçimi..." />
+        <Text Line="Hakkında" />
+        <Text Line="Bağış" />
+    </MainMenu>
+    <ListMenu>
+        <Text Line="Oynat" />
+        <Text Line="Tekrar Çal" />
+        <Text Line="Hepsini Seç" />
+        <Text Line="Sil" />
+        <Text Line="Çalma Listesine Ekle" />
+        <Text Line="Yeni Çalma Listesine Ekle" />
+        <Text Line="Şimdi Çalıyor'a Ekle" />
+        <Text Line="Dosya Konumu..." />
+        <Text Line="Özellikler..." />
+        <Text Line="Git" />
+        <Text Line="Sanatçı" />
+        <Text Line="Albüm" />
+        <Text Line="Yıl" />
+        <Text Line="Tür" />
+        <Text Line="Klasör" />
+    </ListMenu>
+    <TreeMenu>
+        <Text Line="Yeni Çalma Listesi" />
+        <Text Line="Yeni Akıllı Liste..." />
+        <Text Line="İsimlendir..." />
+        <Text Line="Sil" />
+        <Text Line="Yenile" />
+        <Text Line="Düzenle..." />
+    </TreeMenu>
+    <TrayMenu>
+        <Text Line="Oynat" />
+        <Text Line="Duraklat" />
+        <Text Line="Durdur" />
+        <Text Line="Sonraki" />
+        <Text Line="Önceki" />
+        <Text Line="Çıkış" />
+    </TrayMenu>
+    <PopupMenu>
+        <Text Line="Kapalı" />
+        <Text Line="Sol Üst" />
+        <Text Line="Sağ Üst" />
+        <Text Line="Sol Alt" />
+        <Text Line="Sağ Alt" />
+        <Text Line="Gelişmiş..." />
+    </PopupMenu>
+    <Library>
+        <!-- These lines should be as short as possible -->
+        <Text Line="Bilinmeyen" />
+        <Text Line="Kütüphane" />
+        <Text Line="Şimdi Çalıyor" />
+        <Text Line="Çalma Listesi" />
+        <Text Line="Akıllı Liste" />
+        <Text Line="Sanatçılar" />
+        <Text Line="Besteci" />
+        <Text Line="Albümler" />
+        <Text Line="Türler" />
+        <Text Line="Yıllar" />
+        <Text Line="Radyolar" />
+        <Text Line="Klasörler" />
+        <Text Line="Sürücü" />
+    </Library>
+    <Playlist>
+        <Text Line="Bilinmeyen" />
+        <Text Line="CD" /> <!-- Disc number CD1, CD2. 4 chars max or leave it as is. -->
+        <Text Line="Klasör" />
+        <Text Line="Radyo" />
+        <Text Line="Gösterecek parça yok." />
+    </Playlist>
+    <SkinDialog>
+        <Text Line="Tema" />
+        <Text Line="Kapat" />
+        <Text Line="Onayla" />
+        <Text Line="Tema Seçin:" />
+        <Text Line="Önizleme" />
+        <Text Line="Bilgi" />
+        <Text Line="Yapımcı:" />
+        <Text Line="Versiyon:" />
+        <Text Line="Açıklama:" />
+    </SkinDialog>
+    <LibraryDialog>
+        <Text Line="Kütüphane" />
+        <Text Line="Kapat" />
+        <Text Line="Yenile" />
+        <Text Line="Klasörler" />
+        <Text Line="Ayarlar" />
+        <Text Line="Ekle" />
+        <Text Line="Sil" />
+        <Text Line="Müziklerinizi kütüphaneye eklemek için müzik klasörlerini seçin." />
+        <Text Line="Müzik kütüphanenizi yenilemek için yenile tuşuna basın." />
+        <Text Line="Müzik dosyalarınızın bulunduğu klasörü seçin." />
+        <Text Line="Basit" />
+        <Text Line="Gelişmiş" />
+        <Text Line="Daha önce kütüphaneden silinen dosyaları yok say" />
+        <Text Line="Kayıp dosyaları kütüphaneden sil" />
+        <Text Line="Taşınmış ya da ismi değiştirilmiş dosyaları ara" />
+        <Text Line="Kütüphanedeki dosyaları tekrar tara" />
+    </LibraryDialog>
+    <LanguageDialog>
+        <Text Line="Dil" />
+        <Text Line="İptal" />
+        <Text Line="Tamam" />
+        <Text Line="Dil Seçimi:" />
+    </LanguageDialog>
+    <ProcessDialog>
+        <Text Line="Kütüphane Güncelleniyor" />
+        <Text Line="Çalma Listesine Ekleniyor" />
+        <Text Line="İptal" />
+        <Text Line="Küçült" />
+        <Text Line="Uygulanıyor..." />
+        <Text Line="Uygulanıyor:" />
+        <Text Line="İptal Ediliyor..." />
+    </ProcessDialog>
+    <PropertiesDialog>
+        <Text Line="Özellikler" />
+        <Text Line="Kapat" />
+        <Text Line="Kaydet" />
+        <Text Line="Etiketler" />
+        <Text Line="Albüm Kapağı" />
+        <Text Line="Şarkı Sözleri" />
+        <Text Line="Kaydet ve önceki parçaya geç" />
+        <Text Line="Kaydet ve sonraki parçaya geç" />
+    </PropertiesDialog>
+    <TagsPage>
+        <Text Line="İsim:" />
+        <Text Line="Sanatçılar:" />
+        <Text Line="Albüm Sanatçıları:" />
+        <Text Line="Albüm:" />
+        <Text Line="Besteciler:" />
+        <Text Line="Yıl:" />
+        <Text Line="Parça:" />
+        <Text Line="Disk:" />
+        <Text Line="/" />
+        <Text Line="Türler:" />
+        <Text Line="Yorum:" />
+        <Text Line="Dosya:" />
+        <Text Line="Kalite:" />
+    </TagsPage>
+    <CoverPage>
+        <Text Line="Değiştir" />
+        <Text Line="Sil" />
+        <Text Line="Önizleme" />
+        <Text Line="Kapak yok" />
+        <Text Line="Değiştirmek için resmi sürükleyin" />
+        <Text Line="Kapağı parçaya göm" />
+        <Text Line="Albüm kapağını albüm klasörüne 'Front' olarak kaydet" />
+    </CoverPage>
+    <LyricsPage>
+        <Text Line="Söz Yazarları:" />
+        <Text Line="Sözleri parçaya göm" />
+        <Text Line="Sözleri albüm klasöründe 'Lyrics' klasörüyle kaydet" />
+    </LyricsPage>
+    <RenameDialog>
+        <Text Line="İsimlendir" />
+        <Text Line="İptal" />
+        <Text Line="Tamam" />
+        <Text Line="Yeni isim girin:" />
+    </RenameDialog>
+    <AboutDialog>
+        <Text Line="Hakkında" />
+        <Text Line="Kapat" />
+        <Text Line="Bağış" />
+        <Text Line="Resmi site:" />
+        <Text Line="Destek e-postası:" />
+        <!-- Enter your name in the next line in format: "Translated by John Doe john@example.com" (e-mail not necessarily) -->
+        <Text Line="Çeviri: Alper ve Soner ERGÜL (|KRONDOR|)" />
+    </AboutDialog>
+    <Messages>
+        <Text Line="Hata" />
+        <Text Line="Dikkat" />
+        <Text Line="Bilgi" />
+        <Text Line="Dosya bulunamadı ya da desteklenmeyen dosya biçimi." />
+        <Text Line="Radyo serverına bağlanılamadı." />
+        <Text Line="Bu tema, programın farklı bir versiyonu için hazırlanmış." />
+        <Text Line="Tema yükleme hatası. Varsayılan tema yüklendi." />
+        <Text Line="Last.FM İstemcisi bulunamadı. Bu özelliği kullanabilmek için lütfen Last.FM İstemcisini yükleyin." />
+        <Text Line="Ses çıkış aygıtı bir hatayla karşılaştı." />
+        <Text Line="ASIO aygıtları bulunamadı." />
+    </Messages>
+    <EqualizerDialog>
+        <Text Line="Ekolayzır" />
+        <Text Line="Kapat" />
+        <Text Line="Aktif" />
+        <Text Line="Önayarlı:" />
+        <Text Line="Varsayılan" />
+        <Text Line="Kullanıcı Tanımlı" />
+    </EqualizerDialog>
+    <HotKeyDialog>
+        <Text Line="Genel Kısayollar" />
+        <Text Line="İptal" />
+        <Text Line="Tamam" />
+        <Text Line="Bir eylem seçin ve herhangi bir tuşa basın." />
+        <Text Line="Kısayolu silmek için 'Delete' tuşuna basın." />
+        <Text Line="Eylem" />
+        <Text Line="Kısayol" />
+        <Text Line="Oynat" />
+        <Text Line="Duraklat" />
+        <Text Line="Durdur" />
+        <Text Line="Sonraki Parça" />
+        <Text Line="Önceki Parça" />
+        <Text Line="Sesi Kapat" />
+        <Text Line="Ses Yükselt" />
+        <Text Line="Ses Alçalt" />
+        <Text Line="Değerlendirme 1" />
+        <Text Line="Değerlendirme 2" />
+        <Text Line="Değerlendirme 3" />
+        <Text Line="Değerlendirme 4" />
+        <Text Line="Değerlendirme 5" />
+        <Text Line="Popup Göster" />
+    </HotKeyDialog>
+    <OpenURLDialog>
+        <Text Line="Radyo/URL Ekle" />
+        <Text Line="İptal" />
+        <Text Line="Tamam" />
+        <Text Line="Radyom" />
+        <Text Line="İsim:" />
+        <Text Line="URL:" />
+    </OpenURLDialog>
+    <ToolTips>
+        <Text Line="Kapat" />
+        <Text Line="Küçült" />
+        <Text Line="Büyüt" />
+        <Text Line="Önceki Boyut" />
+        <Text Line="Oynat" />
+        <Text Line="Duraklat" />
+        <Text Line="Durdur" />
+        <Text Line="Sonraki" />
+        <Text Line="Önceki" />
+        <Text Line="Ekolayzır" />
+        <Text Line="Görünümü değiştir" />
+        <Text Line="Sesi kapat" />
+        <Text Line="Sesi aç" />
+        <Text Line="Tekrarı aç" />
+        <Text Line="Tekrarı kapat" />
+        <Text Line="Karma aç" />
+        <Text Line="Karma kapat" />
+        <Text Line="Ana menü" />
+        <Text Line="Mini oynatıcı" />
+        <Text Line="Oynatıcıyı büyüt" />
+        <Text Line="Kütüphaneyi güncelle" />
+    </ToolTips>
+    <ConfigDialog>
+        <Text Line="Ayarlar" />
+        <Text Line="İptal" />
+        <Text Line="Tamam" />
+        <Text Line="Genel" />
+        <Text Line="Sistem" />
+        <Text Line="Popup" />
+        <Text Line="Mini Oynatıcı" />
+    </ConfigDialog>
+    <SystemPage>
+        <Text Line="Ses aygıtı" />
+        <Text Line="Varsayılan ses aygıtı" />
+        <Text Line="32 bit ses işleme" />
+        <Text Line="Yazılımla ses işleme" />
+        <Text Line="Proxy" />
+        <Text Line="Proxy aktif" />
+        <Text Line="Host:" />
+        <Text Line="Port:" />
+        <Text Line="Proxy izni" />
+        <Text Line="Giriş:" />
+        <Text Line="Şifre:" />
+    </SystemPage>
+    <PopupPage>
+        <Text Line="Test" />
+        <Text Line="Zaman" />
+        <Text Line="Gözükme süresi:" />
+        <Text Line="Açılma süresi:" />
+        <Text Line="Kaybolma süresi:" />
+        <Text Line="sn." />
+        <Text Line="Görünüm" />
+        <Text Line="Pozisyon:" />
+        <Text Line="Sol Üst" />
+        <Text Line="Sağ Üst" />
+        <Text Line="Sol Alt" />
+        <Text Line="Sağ Alt" />
+        <Text Line="Açılma efekti:" />
+        <Text Line="Kaybolma efekti:" />
+        <Text Line="Solma" />
+        <Text Line="Dikey Kayma" />
+        <Text Line="Yatay Kayma" />
+    </PopupPage>
+    <Search>
+        <Text Line="Ara" />
+        <Text Line="Hepsinde ara" />
+        <Text Line="Parça ara" />
+        <Text Line="Albüm ara" />
+        <Text Line="Sanatçı ara" />
+    </Search>
+    <MiniPlayerPage>
+        <Text Line="Pozisyon" />
+        <Text Line="Her zaman üstte" />
+        <Text Line="Her zaman masaüstünde" />
+        <Text Line="Normal ekran olarak" />
+        <Text Line="Şeffaflık" />
+    </MiniPlayerPage>
+    <GeneralPage>
+        <Text Line="Oynatıcı Davranışı" />
+        <Text Line="Çalma Listesinde açılan dosyaları kütüphaneye ekle" />
+        <Text Line="Sıra, seçilen şarkıdan devam eder" />
+        <Text Line="Kütüphane Görünümü" />
+        <Text Line="Servisler" />
+        <Text Line="Parçları Last.Fm istemcisinde göster" />
+        <Text Line="Şu anki parçayı Live Messenger'da göster" />
+        <Text Line="İlişkilendirmeler" />
+        <Text Line="Winyl'de çal" />
+        <Text Line="'Winyl'de Çal'ı dosya menüsüne ekle" />
+        <Text Line="Dosya ilişkilendirmelerini düzenle..." />
+        <!-- Win XP compatible Associations dialog -->
+        <Text Line="Dosya İlişkilendirmeleri" />
+        <Text Line="İptal" />
+        <Text Line="Kaydet" />
+        <Text Line="Hepsini Seç" />
+        <Text Line="Uzantılar" />
+    </GeneralPage>
+    <DefaultList>
+        <Text Line="Çalma Listesi" />
+        <Text Line="Akıllı Liste" />
+        <Text Line="Varsayılan" />
+        <Text Line="Çalma Listem" />
+        <Text Line="50 Rastgele" />
+        <Text Line="5 Rastgele Albüm" />
+        <Text Line="Son Çalınanlar" />
+        <Text Line="En Çok Dinlenen 25 Parça" />
+        <Text Line="25 Yüksek Puanlı" />
+        <Text Line="90'ların Müziği" />
+    </DefaultList>
+    <DlgSmartlist>
+        <Text Line="Akıllı Liste" />
+        <Text Line="İptal" />
+        <Text Line="Tamam" />
+        <Text Line="İsim:" />
+        <Text Line="Nereden" />
+        <Text Line="Kütüphane" />
+        <Text Line="Sanatçı" />
+        <Text Line="Albüm" />
+        <Text Line="Tür" />
+        <Text Line="Yıl" />
+        <Text Line="Klasör" />
+        <Text Line="Ayarlar" />
+        <Text Line="Seçim:" />
+        <Text Line="Sayı:" />
+        <Text Line="Rastgele sırala" />
+        <Text Line="Otomatik yenile" />
+        <Text Line="İpuçları" />
+        <Text Line="Artı '+' sembolüyle farklı değerler girebilirsiniz. Örnek: The Beatles + Led Zeppelin" />
+        <Text Line="Eksi '-' sembolüyle aralık belirleyebilirsiniz. Örnek: 2000 - 2010" />
+        <Text Line="Eksi ile başlayanlar hariç tutulacaktır." />
+        <Text Line="Gelişmiş Filtre" />
+        <Text Line="Parçalar" />
+        <Text Line="Albümler" />
+        <Text Line="Herhangi" />
+        <Text Line="En Çok Çalınan" />
+        <Text Line="Nadir Çalınan" />
+        <Text Line="Yüksek Puanlı" />
+        <Text Line="Düşük Puanlı" />
+        <Text Line="Son Çalınan" />
+        <Text Line="Son Eklenen" />
+    </DlgSmartlist>
+    <DlgSmartlistFilter>
+        <Text Line="Gelişmiş Filtre" />
+        <Text Line="İptal" />
+        <Text Line="Tamam" />
+        <Text Line="Hepsi" />
+        <Text Line="Herhangi" />
+        <Text Line="seçili kuralın:" />
+        <Text Line="Çalma Sayısı" />
+        <Text Line="Puanlama" />
+        <Text Line="Son Çalınan" />
+        <Text Line="Eklenme Tarihi" />
+        <Text Line="Albümdeki Parça Sayısı" />
+        <Text Line="Eşittir" />
+        <Text Line="Büyüktür" />
+        <Text Line="Küçüktür" />
+        <Text Line="En son" />
+        <Text Line="Önce" />
+        <Text Line="kere" />
+        <Text Line="parçalar" />
+        <Text Line="Puanlanmamış" />
+        <Text Line="1 Yıldız" />
+        <Text Line="2 Yıldız" />
+        <Text Line="3 Yıldız" />
+        <Text Line="4 Yıldız" />
+        <Text Line="5 Yıldız" />
+        <Text Line="1 Gün" />
+        <Text Line="2 Gün" />
+        <Text Line="3 Gün" />
+        <Text Line="1 Hafta" />
+        <Text Line="2 Hafta" />
+        <Text Line="1 Ay" />
+        <Text Line="3 Ay" />
+        <Text Line="6 Ay" />
+        <Text Line="1 Yıl" />
+    </DlgSmartlistFilter>
+    <StatusLine>
+        <Text Line="KB" />
+        <Text Line="MB" />
+        <Text Line="GB" />
+        <Text Line="of" />
+        <Text Line="öğeler" />
+        <Text Line="parçalar" />
+        <Text Line="toplam süre" />
+        <Text Line="Seçili:" />
+    </StatusLine>
+    <Lyrics>
+        <Text Line="Çalınan bir şey yok." />
+        <Text Line="Şarkı sözü bulunamadı." />
+        <Text Line="Sözler alınıyor..." />
+    </Lyrics>
+    <LyricsMenu>
+        <Text Line="Kaynak:" />
+        <Text Line="Yok" />
+        <Text Line="Dosya" />
+        <Text Line="Etiketler" />
+        <Text Line="İnternet" />
+        <Text Line="Sözleri Kopyala" />
+        <Text Line="Sözleri Kaydet..." />
+        <Text Line="Kaynak" />
+        <Text Line="Devre dışı" />
+        <Text Line="Google'da Ara..." />
+        <Text Line="Metin Hizası" />
+        <Text Line="Sol" />
+        <Text Line="Merkez" />
+        <Text Line="Sağ" />
+        <Text Line="Font Boyutu" />
+        <Text Line="Tema Ayarı" />
+        <Text Line="Küçük" />
+        <Text Line="Orta" />
+        <Text Line="Büyük" />
+        <Text Line="En Büyük" />
+        <Text Line="Kalın" />
+    </LyricsMenu>
+    <NewVersionDialog>
+        <Text Line="Kütüphane yeni versiyona dönüştürülüyor. Lütfen Bekleyin..." />
+        <Text Line="Kütüphane taşınabilir versiyona dönüştürülüyor. Lütfen Bekleyin..." />
+        <Text Line="Güncellemenin tamamlanabilmesi için Winyl'nin dosyaları taraması gerekiyor." />
+        <Text Line="İşlem sırasıda iptal etmemeniz önerilir." />
+    </NewVersionDialog>
+</Language>

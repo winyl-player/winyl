@@ -1,0 +1,6 @@
+﻿<Button>
+    <Effect Fade="1" />
+    <Normal File="Menu1.png" />
+    <Hover File="Menu2.png" />
+    <!--<Press File="Menu3.png" />-->
+</Button>

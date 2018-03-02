@@ -1,0 +1,4 @@
+<Button>
+    <Normal File="Minimize1.png" />
+    <Hover File="Minimize2.png" />
+</Button>

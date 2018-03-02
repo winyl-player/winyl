@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Language Version="3.3.0">
+    <MainMenu>
+        <Text Line="Pustaka..." />
+        <Text Line="Skin..." />
+        <Text Line="Player Mini" />
+        <Text Line="Tambah ke Playlist" />
+        <Text Line="File..." />
+        <Text Line="Folder..." />
+        <Text Line="Radio/URL..." />
+        <Text Line="Impor Playlist..." />
+        <Text Line="Kontrol" />
+        <Text Line="Mulai" />
+        <Text Line="Jeda" />
+        <Text Line="Stop" />
+        <Text Line="Trek Selanjutnya" />
+        <Text Line="Trek Sebelumnya" />
+        <Text Line="Senyap" />
+        <Text Line="Acak" />
+        <Text Line="Ulang" />
+        <Text Line="Equalizer..." />
+        <Text Line="Opsi" />
+        <Text Line="Sembunyikan ke Tray" />
+        <Text Line="Jendela Popup" />
+        <Text Line="Visual EfeK" />
+        <Text Line="Scroll Halus" />
+        <Text Line="Aktifkan Last.FM" />
+        <Text Line="Tombol..." />
+        <Text Line="Lebih Lanjut..." />
+        <Text Line="Pilih Bahasa..." />
+        <Text Line="Tentang" />
+        <Text Line="Donasi" />
+    </MainMenu>
+    <ListMenu>
+        <Text Line="Mulai" />
+        <Text Line="Acak" />
+        <Text Line="Pilih Semua" />
+        <Text Line="Hapus" />
+        <Text Line="Tambah ke Playlist" />
+        <Text Line="ke Playlist Baru" />
+        <Text Line="ke Sedang Diputar" />
+        <Text Line="Lokasi File..." />
+        <Text Line="Properti..." />
+        <Text Line="Ke..." />
+        <Text Line="Artis" />
+        <Text Line="Album" />
+        <Text Line="Tahun" />
+        <Text Line="Aliran" />
+        <Text Line="Folder" />
+    </ListMenu>
+    <TreeMenu>
+        <Text Line="Playlist Baru" />
+        <Text Line="Smartlist Baru..." />
+        <Text Line="Ubah Nama..." />
+        <Text Line="Hapus" />
+        <Text Line="Refresh" />
+        <Text Line="Edit..." />
+    </TreeMenu>
+    <TrayMenu>
+        <Text Line="Mulai" />
+        <Text Line="Jeda" />
+        <Text Line="Stop" />
+        <Text Line="Trek Selanjutnya" />
+        <Text Line="Trek Sebelumnya" />
+        <Text Line="Keluar" />
+    </TrayMenu>
+    <PopupMenu>
+        <Text Line="Non-Aktifkan" />
+        <Text Line="Kiri Atas" />
+        <Text Line="Kanan Atas" />
+        <Text Line="Kiri Bawah" />
+        <Text Line="Kanan Bawah" />
+        <Text Line="Lebih Lanjut..." />
+    </PopupMenu>
+    <Library>
+        <!-- These lines should be as short as possible -->
+        <Text Line="Tak Diketahui" />
+        <Text Line="Pustaka" />
+        <Text Line="Sedang Diputar" />
+        <Text Line="Playlist" />
+        <Text Line="Smartlist" />
+        <Text Line="Artis" />
+        <Text Line="Komposer" />
+        <Text Line="Album" />
+        <Text Line="Aliran" />
+        <Text Line="Tahun" />
+        <Text Line="Radio" />
+        <Text Line="Folder" />
+        <Text Line="Disk" />
+    </Library>
+    <Playlist>
+        <Text Line="Tak Diketahui" />
+        <Text Line="CD" /> <!-- Disc number CD1, CD2. 4 chars max or leave it as is. -->
+        <Text Line="Folder" />
+        <Text Line="Radio" />
+        <Text Line="Tidak ada trek untuk ditampilkan." />
+    </Playlist>
+    <SkinDialog>
+        <Text Line="Skin" />
+        <Text Line="Tutup" />
+        <Text Line="Terapkan" />
+        <Text Line="Pilih Skin:" />
+        <Text Line="Contoh" />
+        <Text Line="Informasi" />
+        <Text Line="Pembuat:" />
+        <Text Line="Versi:" />
+        <Text Line="Deskripsi:" />
+    </SkinDialog>
+    <LibraryDialog>
+        <Text Line="Pustaka" />
+        <Text Line="Tutup" />
+        <Text Line="Update" />
+        <Text Line="Folder" />
+        <Text Line="Opsi" />
+        <Text Line="Tambah" />
+        <Text Line="Hapus" />
+        <Text Line="Tambah folder dengan musik ke pustaka audio." />
+        <Text Line="Klik tombol Update untuk update pustaka audio." />
+        <Text Line="Pilih folder yang berisi file musikmu." />
+        <Text Line="Dasar" />
+        <Text Line="Lebih Lanjut" />
+        <Text Line="Abaikan file sebelumnya dihapus dari pustaka" />
+        <Text Line="Hapus file yang hilang dari pustaka" />
+        <Text Line="Cari file yg dipindahkan atau diubah namanya" />
+        <Text Line="Re-scan lengkap semua file di pustaka" />
+    </LibraryDialog>
+    <LanguageDialog>
+        <Text Line="Bahasa" />
+        <Text Line="Batal" />
+        <Text Line="OK" />
+        <Text Line="Pilih Bahasa:" />
+    </LanguageDialog>
+    <ProcessDialog>
+        <Text Line="Memperbarui pustaka" />
+        <Text Line="Menambahkan ke Playlist" />
+        <Text Line="Batal" />
+        <Text Line="Kecilkan" />
+        <Text Line="Memproses..." />
+        <Text Line="Memproses:" />
+        <Text Line="Membatalkan..." />
+    </ProcessDialog>
+    <PropertiesDialog>
+        <Text Line="Properti" />
+        <Text Line="Tutup" />
+        <Text Line="Simpan" />
+        <Text Line="Tag" />
+        <Text Line="Art Cover" />
+        <Text Line="Lirik" />
+        <Text Line="Simpan dan putar trek sebelumnya" />
+        <Text Line="Simpan dan putar trek selanjutnya" />
+    </PropertiesDialog>
+    <TagsPage>
+        <Text Line="Judul:" />
+        <Text Line="Artis:" />
+        <Text Line="Album Artis:" />
+        <Text Line="Album:" />
+        <Text Line="Komposer:" />
+        <Text Line="Tahun:" />
+        <Text Line="Trek:" />
+        <Text Line="Disk:" />
+        <Text Line="dari" />
+        <Text Line="Aliran:" />
+        <Text Line="Komentar:" />
+        <Text Line="File:" />
+        <Text Line="Kualitas:" />
+    </TagsPage>
+    <CoverPage>
+        <Text Line="Ubah" />
+        <Text Line="Hapus" />
+        <Text Line="Pratinjau" />
+        <Text Line="Tidak ada cover" />
+        <Text Line="Tarik gambar ke sini untuk mengubah" />
+        <Text Line="Menambah cover art ke file musik" />
+        <Text Line="Simpan cover art album ke folder dengan nama 'Depan'" />
+    </CoverPage>
+    <LyricsPage>
+        <Text Line="Penulis lirik:" />
+        <Text Line="Menambahkan lirik ke file musik" />
+        <Text Line="Simpan lirik ke folder album di subfolder 'Lyrics'" />
+    </LyricsPage>
+    <RenameDialog>
+        <Text Line="Ubah nama" />
+        <Text Line="Batal" />
+        <Text Line="OK" />
+        <Text Line="Masukkan nama baru:" />
+    </RenameDialog>
+    <AboutDialog>
+        <Text Line="Tentang" />
+        <Text Line="Tutup" />
+        <Text Line="Donasi" />
+        <Text Line="Situs resmi:" />
+        <Text Line="E-mail dukungan:" />
+        <!-- Enter your name in the next line in format: "Diterjemahkan oleh Sonn Sonic rosadiadi60@gmail.com" (e-mail not necessarily) -->
+        <Text Line="" />
+    </AboutDialog>
+    <Messages>
+        <Text Line="Error" />
+        <Text Line="Peringatan" />
+        <Text Line="Informasi" />
+        <Text Line="File tidak ditemukan atau format file tidak didukung." />
+        <Text Line="Tidak dapat terhubung ke stasiun radio." />
+        <Text Line="Skin ini untuk versi lain dari pemutar." />
+        <Text Line="Pemuatan skin error. Skin default telah dimuat." />
+        <Text Line="Last.FM Client tidak ditemukan. Tolong instal Last.FM Client untuk menggunakan fitur ini." />
+        <Text Line="Perangkat output audio mengalami kesalahan." />
+        <Text Line="Perangkat ASIO tidak ditemukan." />
+    </Messages>
+    <EqualizerDialog>
+        <Text Line="Equalizer" />
+        <Text Line="Tutup" />
+        <Text Line="Aktifkan" />
+        <Text Line="Presets:" />
+        <Text Line="Default" />
+        <Text Line="Manual" />
+    </EqualizerDialog>
+    <HotKeyDialog>
+        <Text Line="Tombol Global" />
+        <Text Line="Tutup" />
+        <Text Line="OK" />
+        <Text Line="Pilih aksi dan tekan kombinasi tombol." />
+        <Text Line="Tekan 'Delete' untuk menghapus hotkey." />
+        <Text Line="Aksi" />
+        <Text Line="Tombol" />
+        <Text Line="Mulai" />
+        <Text Line="Jeda" />
+        <Text Line="Stop" />
+        <Text Line="Trek Selanjutnya" />
+        <Text Line="Trek Sebelumnya" />
+        <Text Line="Suara Senyap" />
+        <Text Line="Suara +" />
+        <Text Line="Suara -" />
+        <Text Line="Rating 1" />
+        <Text Line="Rating 2" />
+        <Text Line="Rating 3" />
+        <Text Line="Rating 4" />
+        <Text Line="Rating 5" />
+        <Text Line="Tampilkan Popup" />
+    </HotKeyDialog>
+    <OpenURLDialog>
+        <Text Line="Tambahkan Radio/URL" />
+        <Text Line="Batal" />
+        <Text Line="OK" />
+        <Text Line="Radio Saya" />
+        <Text Line="Nama:" />
+        <Text Line="URL:" />
+    </OpenURLDialog>
+    <ToolTips>
+        <Text Line="Tutup" />
+        <Text Line="Kecilkan" />
+        <Text Line="Maksimalkan" />
+        <Text Line="Pugar" />
+        <Text Line="Mulai" />
+        <Text Line="Jeda" />
+        <Text Line="Stop" />
+        <Text Line="Trek Selanjutnya" />
+        <Text Line="Trek Sebelumnya" />
+        <Text Line="Equalizer" />
+        <Text Line="Ganti Tampilan" />
+        <Text Line="Matikan suara" />
+        <Text Line="Nyalakan suara" />
+        <Text Line="Nyalakan pengulangan" />
+        <Text Line="Matikan pengulangan" />
+        <Text Line="Nyalakan pengacakan" />
+        <Text Line="Matikan pengacakan" />
+        <Text Line="Main menu" />
+        <Text Line="Player mini" />
+        <Text Line="Pugarkan player" />
+        <Text Line="Update pustaka" />
+    </ToolTips>
+    <ConfigDialog>
+        <Text Line="Opsi" />
+        <Text Line="Batal" />
+        <Text Line="OK" />
+        <Text Line="Umum" />
+        <Text Line="Sistem" />
+        <Text Line="Popup" />
+        <Text Line="Player Mini" />
+    </ConfigDialog>
+    <SystemPage>
+        <Text Line="Perangkat Audio" />
+        <Text Line="Perangkat Audio Default" />
+        <Text Line="32 bit pemrosesan audio" />
+        <Text Line="Software pencampur audio" />
+        <Text Line="Proxy" />
+        <Text Line="Aktifkan proxy" />
+        <Text Line="Host:" />
+        <Text Line="Port:" />
+        <Text Line="Proxy otorisasi" />
+        <Text Line="Login:" />
+        <Text Line="Password:" />
+    </SystemPage>
+    <PopupPage>
+        <Text Line="Tes" />
+        <Text Line="Waktu" />
+        <Text Line="Waktu tahan:" />
+        <Text Line="Waktu tampil:" />
+        <Text Line="Waktu hilang:" />
+        <Text Line="det." />
+        <Text Line="Penampilan" />
+        <Text Line="Posisi:" />
+        <Text Line="Kiri Atas" />
+        <Text Line="Kanan Atas" />
+        <Text Line="Kiri Bawah" />
+        <Text Line="Kanan Bawah" />
+        <Text Line="Efek tampil:" />
+        <Text Line="Efek hilang:" />
+        <Text Line="Pudar" />
+        <Text Line="Slide Vertikal" />
+        <Text Line="Slide Horizontal" />
+    </PopupPage>
+    <Search>
+        <Text Line="Cari" />
+        <Text Line="Cari semua" />
+        <Text Line="Cari trek" />
+        <Text Line="Cari album" />
+        <Text Line="Cari artis" />
+    </Search>
+    <MiniPlayerPage>
+        <Text Line="Posisi" />
+        <Text Line="Selalu di atas" />
+        <Text Line="Selalu di desktop" />
+        <Text Line="Seperti jendela normal" />
+        <Text Line="Transparansi" />
+    </MiniPlayerPage>
+    <GeneralPage>
+        <Text Line="Tindakan Player" />
+        <Text Line="Tambah file ke pustaka ketika dibuka dalam playlist" />
+        <Text Line="Pemutaran menurut track yang dipilih" />
+        <Text Line="Tampilan Pustaka" />
+        <Text Line="Layanan" />
+        <Text Line="Scrobble trek dengan Last.FM client" />
+        <Text Line="Tampilkan trek sedang diputar di Live Messenger" />
+        <Text Line="Asosiasi" />
+        <Text Line="Putar di Winyl" />
+        <Text Line="Tambahkan 'Putar di Winyl' ke menu folder" />
+        <Text Line="Mengelola asosiasi audio file..." />
+        <!-- Win XP compatible Associations dialog -->
+        <Text Line="Asosiasi File" />
+        <Text Line="Batal" />
+        <Text Line="Simpan" />
+        <Text Line="Pilih Semua" />
+        <Text Line="Ekstensi" />
+    </GeneralPage>
+    <DefaultList>
+        <Text Line="Playlist" />
+        <Text Line="Smartlist" />
+        <Text Line="Default" />
+        <Text Line="Playlist Saya" />
+        <Text Line="50 Acak" />
+        <Text Line="5 Album Acak" />
+        <Text Line="Baru-baru ini Dimainkan" />
+        <Text Line="25 Sering dimainkan" />
+        <Text Line="25 Teratas" />
+        <Text Line="Musik 90-an" />
+    </DefaultList>
+    <DlgSmartlist>
+        <Text Line="Smartlist" />
+        <Text Line="Batal" />
+        <Text Line="OK" />
+        <Text Line="Nama:" />
+        <Text Line="Dari" />
+        <Text Line="Pustaka" />
+        <Text Line="Artis" />
+        <Text Line="Album" />
+        <Text Line="Aliran" />
+        <Text Line="Tahun" />
+        <Text Line="Folder" />
+        <Text Line="Opsi" />
+        <Text Line="Pilih:" />
+        <Text Line="Nomor:" />
+        <Text Line="Urutan acak" />
+        <Text Line="Refresh otomatis" />
+        <Text Line="Tips" />
+        <Text Line="Gunakan simbol plus '+' untuk memilih beberapa item. contoh: The Beatles + Led Zeppelin" />
+        <Text Line="Gunakan simbol minus '-' untuk memilih jangkauan. contoh: 2000 - 2010" />
+        <Text Line="Jika string dimulai dengan minus, item-item tersebut akan dikecualikan." />
+        <Text Line="Filter Lebih Lanjut" />
+        <Text Line="Trek" />
+        <Text Line="Album" />
+        <Text Line="Apapun" />
+        <Text Line="Teratas" />
+        <Text Line="Jarang Dimainkan" />
+        <Text Line="Nilai Tertinggi" />
+        <Text Line="Nilai Terrendah" />
+        <Text Line="Baru-baru ini Diputar" />
+        <Text Line="Baru-baru ini Ditambahkan" />
+    </DlgSmartlist>
+    <DlgSmartlistFilter>
+        <Text Line="Filter Lebih Lanjut" />
+        <Text Line="Batal" />
+        <Text Line="OK" />
+        <Text Line="Semua" />
+        <Text Line="Apapun" />
+        <Text Line="of the selected rules:" />
+        <Text Line="Play Count" />
+        <Text Line="Rating" />
+        <Text Line="Terakhir Diputar" />
+        <Text Line="Tanggal Ditambahkan" />
+        <Text Line="Trek in Album" />
+        <Text Line="Sama dengan" />
+        <Text Line="Lebih Besar dari" />
+        <Text Line="Lebih Kecil dari" />
+        <Text Line="Terakhir" />
+        <Text Line="Sebelum" />
+        <Text Line="kali" />
+        <Text Line="trek" />
+        <Text Line="Belum Dinilai" />
+        <Text Line="1 Bintang" />
+        <Text Line="2 Bintang" />
+        <Text Line="3 Bintang" />
+        <Text Line="4 Bintang" />
+        <Text Line="5 Bintang" />
+        <Text Line="1 Hari" />
+        <Text Line="2 Hari" />
+        <Text Line="3 Hari" />
+        <Text Line="1 Minggu" />
+        <Text Line="2 Minggu" />
+        <Text Line="1 Bulan" />
+        <Text Line="3 Bulan" />
+        <Text Line="6 Bulan" />
+        <Text Line="1 Tahun" />
+    </DlgSmartlistFilter>
+    <StatusLine>
+        <Text Line="KB" />
+        <Text Line="MB" />
+        <Text Line="GB" />
+        <Text Line="of" />
+        <Text Line="item" />
+        <Text Line="trek" />
+        <Text Line="total waktu" />
+        <Text Line="Terpilih:" />
+    </StatusLine>
+    <Lyrics>
+        <Text Line="Tidak ada yang diputar." />
+        <Text Line="Lirik tak ditemukan." />
+        <Text Line="Mengambil lirik..." />
+    </Lyrics>
+    <LyricsMenu>
+        <Text Line="Sumber:" />
+        <Text Line="Kosong" />
+        <Text Line="File" />
+        <Text Line="Tag" />
+        <Text Line="Internet" />
+        <Text Line="Salin Lirik" />
+        <Text Line="Simpan Lirik..." />
+        <Text Line="Penyedia Lirik" />
+        <Text Line="Non-Aktifkan" />
+        <Text Line="Pencarian Google..." />
+        <Text Line="Perataan Teks" />
+        <Text Line="Kiri" />
+        <Text Line="Tengah" />
+        <Text Line="Kanan" />
+        <Text Line="Ukuran Font" />
+        <Text Line="Dari Skin" />
+        <Text Line="Kecil" />
+        <Text Line="Medium" />
+        <Text Line="Besar" />
+        <Text Line="Terbesar" />
+        <Text Line="Tebal" />
+    </LyricsMenu>
+    <NewVersionDialog>
+        <Text Line="Menkonversi pustaka ke versi baru. Harap Tunggu..." />
+        <Text Line="Menkonversi pustaka untuk versi portabel. Harap Tunggu..." />
+        <Text Line="Winyl perlu menelusuri ulang semua tag untuk menyelesaikan pembaruan." />
+        <Text Line="Tidak direkomendasikan untuk membatalkan proses ini." />
+    </NewVersionDialog>
+</Language>

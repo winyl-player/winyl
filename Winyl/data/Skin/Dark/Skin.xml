@@ -1,0 +1,289 @@
+﻿<Window SkinEngine="1.6">
+    <!-- For skin makers: disable Save by design time, Version MUST BE changed always when skin changed -->
+    <SkinLayouts Save="1" Version="3.0" />
+    <Size MinWidth="700" MinHeight="560" MaxWidth="10000" MaxHeight="10000" />
+    <ResizeBorder Left="10" Top="4" Right="10" Bottom="10" />
+    <MaximizeBorder Left="0" Top="0" Right="0" Bottom="0" />
+    <Shadow Native="1" />
+    <Layout Name="Header">
+        <Position Left="0" Top="0" Right="0" Height="35" />
+        <Elements>
+            <Minimize>
+                <Position Right="72" Top="1" />
+                <Skin File="ButtonMinimize\Minimize.xml" />
+            </Minimize>
+            <Maximize>
+                <Position Right="41" Top="1" />
+                <Skin File="SwitchMaximize\Maximize.xml" />
+            </Maximize>
+            <Close>
+                <Position Right="10" Top="1" />
+                <Skin File="ButtonClose\Close.xml" />
+            </Close>
+            <MainMenu>
+                <Position Left="10" Top="1" />
+                <Skin File="ButtonMenu\Menu.xml" />
+            </MainMenu>
+            <StatusLine>
+                <Position Right="10" Width="300" Bottom="2" Height="11" />
+                <Skin File="Text\StatusLine.xml" />
+            </StatusLine>
+        </Elements>
+        <Background>
+            <!-- Fill Background -->
+            <Fill>
+                <Position Left="0" Top="0" Right="0" Bottom="0" />
+                <Fill Color="333333" />
+            </Fill>
+            <!-- Window Border (Top, Left, Right) -->
+            <Fill>
+                <Position Left="0" Right="0" Top="0" Height="1" />
+                <Fill Color="222222" />
+            </Fill>
+            <Fill>
+                <Position Left="0" Width="1" Top="0" Bottom="0" />
+                <Fill Color="222222" />
+            </Fill>
+            <Fill>
+                <Position Right="0" Width="1" Top="0" Bottom="0" />
+                <Fill Color="222222" />
+            </Fill>
+            <Image>
+                <Position LeftRight="0" Top="3" />
+                <Image File="Background\Winyl.png" />
+            </Image>
+        </Background>
+    </Layout>
+    <Layout Name="Playlist" ID="70">
+        <Position Left="215" Right="0" Top="35" Bottom="74" />
+        <Elements>
+            <Playlist>
+                <Position Left="11" Right="11" Top="1" Bottom="1" />
+                <Skin File="Playlist\Playlist.xml" />
+            </Playlist>
+            <Splitter>
+                <Position Left="0" Width="10" Top="0" Bottom="0" />
+                <Skin File="Splitter\Splitter.xml" />
+            </Splitter>
+        </Elements>
+        <Background>
+            <!-- Fill Background -->
+            <Fill>
+                <Position Left="0" Right="0" Top="0" Bottom="0" />
+                <Fill Color="333333" />
+            </Fill>
+            <Fill>
+                <Position Left="10" Right="10" Top="0" Bottom="0" />
+                <Fill Color="222222" />
+            </Fill>
+            <!-- Window Border (Right) -->
+            <Fill>
+                <Position Right="0" Width="1" Top="0" Bottom="0" />
+                <Fill Color="222222" />
+            </Fill>
+        </Background>
+    </Layout>
+    <Layout Name="Library" ID="100" Hide="0">
+        <Position Left="0" Top="35" Width="215" Bottom="74" />
+        <Elements>
+            <Search>
+                <Position Left="53" Top="7" Right="27" Height="18" />
+                <Skin File="Search\Search.xml" />
+            </Search>
+            <SearchMenu>
+                <Position Left="19" Top="8" />
+                <Skin File="Search\ButtonMenu\Menu.xml" />
+            </SearchMenu>
+            <SearchClear>
+                <Position Right="8" Top="8" />
+                <Skin File="Search\ButtonClear\Clear.xml" />
+            </SearchClear>
+            <Library>
+                <Position Left="11" Right="1" Top="33" Bottom="1" />
+                <Skin File="Library\Library.xml" />
+            </Library>
+        </Elements>
+        <Background>
+            <!-- Fill Background -->
+            <Fill>
+                <Position Left="0" Right="0" Top="0" Bottom="0" />
+                <Fill Color="333333" />
+            </Fill>
+            <Fill>
+                <Position Left="10" Top="0" Right="0" Bottom="0" />
+                <Fill Color="222222" />
+            </Fill>
+            <!-- Window Border (Left) -->
+            <Fill>
+                <Position Left="0" Width="1" Top="0" Bottom="0" />
+                <Fill Color="222222" />
+            </Fill>
+            <!-- Tree Border -->
+            <Rect>
+                <Position Left="16" Top="6" Right="6" Height="20" />
+                <Rect Color="333333"></Rect>
+            </Rect>
+            <Fill>
+                <Position Left="10" Top="31" Right="0" Height="1" />
+                <Fill Color="333333" />
+            </Fill>
+        </Background>
+    </Layout>
+    <Layout Name="Cover" ID="101" Hide="1">
+        <Position Left="0" Top="35" Width="215" Bottom="74" />
+        <Elements>
+            <Cover>
+                <Position LeftRight="5" Top="15" />
+                <Skin File="Cover\Cover.xml" />
+            </Cover>
+            <Rating>
+                <Position LeftRight="5" Top="305" />
+                <Skin File="Rating\Rating.xml" />
+            </Rating>
+            <Title>
+                <Position Left="20" Right="10" Top="247" Height="18" />
+                <Skin File="Text\Title.xml" />
+            </Title>
+            <Artist>
+                <Position Left="20" Right="10" Top="265" Height="18" />
+                <Skin File="Text\Artist.xml" />
+            </Artist>
+            <Album>
+                <Position Left="20" Right="10" Top="283" Height="18" />
+                <Skin File="Text\Album.xml" />
+            </Album>
+            <Spectrum>
+                <Position Left="20" Right="10" Bottom="1" Height="60" />
+                <Skin File="Spectrum\Spectrum.xml" />
+            </Spectrum>
+        </Elements>
+        <Background>
+            <!-- Fill Background -->
+            <Fill>
+                <Position Left="0" Top="0" Right="0" Bottom="0" />
+                <Fill Color="333333" />
+            </Fill>
+            <!-- Window Border (Left) -->
+            <Fill>
+                <Position Left="0" Width="1" Top="0" Bottom="0" />
+                <Fill Color="222222" />
+            </Fill>
+            <!-- Cover Border -->
+            <Rect>
+                <Position Left="10" Right="0" Top="0" Bottom="90" />
+                <Rect Color="222222" />
+            </Rect>
+            <!-- Vis Border -->
+            <Rect>
+                <Position Left="10" Right="0" Bottom="0" Height="80" />
+                <Rect Color="222222" />
+            </Rect>
+        </Background>
+    </Layout>
+    <Layout Name="Lyrics" ID="102" Hide="1">
+        <Position Left="0" Top="35" Width="215" Bottom="74" />
+        <Elements>
+            <Lyrics>
+                <Position Left="11" Right="1" Top="1" Bottom="1" />
+                <Skin File="Lyrics\Lyrics.xml" />
+            </Lyrics>
+        </Elements>
+        <Background>
+            <!-- Fill Background -->
+            <Fill>
+                <Position Left="0" Right="0" Top="0" Bottom="0" />
+                <Fill Color="333333" />
+            </Fill>
+            <Fill>
+                <Position Left="10" Top="0" Right="0" Bottom="0" />
+                <Fill Color="222222" />
+            </Fill>
+            <!-- Window Border (Left) -->
+            <Fill>
+                <Position Left="0" Width="1" Top="0" Bottom="0" />
+                <Fill Color="222222" />
+            </Fill>
+        </Background>
+    </Layout>
+    <Layout Name="Control">
+        <Position Left="0" Bottom="0" Right="0" Height="74" />
+        <Elements>
+            <TimeElapsed>
+                <Position Top="42" Height="16" Left="24" Width="70" />
+                <Skin File="Text\Time.xml" />
+            </TimeElapsed>
+            <Stop>
+                <Position LeftRight="16" Top="34" />
+                <Skin File="ButtonStop\Stop.xml" />
+            </Stop>
+            <PlayPause>
+                <Position LeftRight="-16" Top="34" />
+                <Skin File="SwitchPlay\Play.xml" />
+            </PlayPause>
+            <Next>
+                <Position LeftRight="48" Top="34" />
+                <Skin File="ButtonNext\Next.xml" />
+            </Next>
+            <Previous>
+                <Position LeftRight="-48" Top="34" />
+                <Skin File="ButtonPrevious\Previous.xml" />
+            </Previous>
+            <Mute>
+                <Position Right="120" Top="45" />
+                <Skin File="SwitchMute\Mute.xml" />
+            </Mute>
+            <TrackBar>
+                <Position Left="10" Right="10" Top="10" />
+                <Skin File="TrackBar\TrackBar.xml" />
+            </TrackBar>
+            <VolumeBar>
+                <Position Right="20" Width="93" Top="45" />
+                <Skin File="VolumeBar\VolumeBar.xml" />
+            </VolumeBar>
+            <Shuffle>
+                <Position LeftRight="85" Top="38" />
+                <Skin File="SwitchShuffle\Shuffle.xml" />
+            </Shuffle>
+            <Repeat>
+                <Position LeftRight="117" Top="38" />
+                <Skin File="SwitchRepeat\Repeat.xml" />
+            </Repeat>
+            <Equalizer>
+                <Position LeftRight="149" Top="38" />
+                <Skin File="ButtonEq\Eq.xml" />
+            </Equalizer>
+            <Button>
+                <Position LeftRight="-85" Top="38" />
+                <Skin File="SwitchView\ButtonLyrics.xml" />
+            </Button>
+            <Button>
+                <Position LeftRight="-117" Top="38" />
+                <Skin File="SwitchView\ButtonCover.xml" />
+            </Button>
+            <Button>
+                <Position LeftRight="-149" Top="38" />
+                <Skin File="SwitchView\ButtonLibrary.xml" />
+            </Button>
+        </Elements>
+        <Background>
+            <!-- Fill Background -->
+            <Fill>
+                <Position Left="0" Top="0" Right="0" Bottom="0" />
+                <Fill Color="333333" />
+            </Fill>
+            <!-- Window Border (Bottom, Left, Right) -->
+            <Fill>
+                <Position Left="0" Right="0" Bottom="0" Height="1" />
+                <Fill Color="222222" />
+            </Fill>
+            <Fill>
+                <Position Left="0" Width="1" Top="0" Bottom="0" />
+                <Fill Color="222222" />
+            </Fill>
+            <Fill>
+                <Position Right="0" Width="1" Top="0" Bottom="0" />
+                <Fill Color="222222" />
+            </Fill>
+        </Background>
+    </Layout>
+</Window>

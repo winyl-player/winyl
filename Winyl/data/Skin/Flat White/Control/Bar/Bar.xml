@@ -1,0 +1,9 @@
+<Slider>
+    <Background>
+        <Fill File="Fill.png" File2="Fill2.png" />
+    </Background>
+    <Button>
+        <Normal File="Button1.png" />
+        <Hover File="Button2.png" />
+    </Button>
+</Slider>

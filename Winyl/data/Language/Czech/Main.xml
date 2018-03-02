@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Language Version="3.3.0">
+    <MainMenu>
+        <Text Line="Knihovna..." />
+        <Text Line="Vzhled..." />
+        <Text Line="Mini přehrávač" />
+        <Text Line="Přidat do playlistu" />
+        <Text Line="Soubor..." />
+        <Text Line="Složka..." />
+        <Text Line="Rádio/URL..." />
+        <Text Line="Importovat playlist..." />
+        <Text Line="Ovládání" />
+        <Text Line="Přehrát" />
+        <Text Line="Pauza" />
+        <Text Line="Stop" />
+        <Text Line="Další" />
+        <Text Line="Předešlé" />
+        <Text Line="Ztlumit zvuk" />
+        <Text Line="Náhodně" />
+        <Text Line="Opakovat" />
+        <Text Line="Ekvalizér..." />
+        <Text Line="Nastavení" />
+        <Text Line="Schovat do tray" />
+        <Text Line="Popup Window" />
+        <Text Line="Vizuální efekty" />
+        <Text Line="Jemné skrolování" />
+        <Text Line="Zapnout Last.FM" />
+        <Text Line="Klávesové zkratky..." />
+        <Text Line="Rozšížené..." />
+        <Text Line="Vybrat jazyk..." />
+        <Text Line="O autorovi" />
+        <Text Line="Přispět" />
+    </MainMenu>
+    <ListMenu>
+        <Text Line="Přehrát" />
+        <Text Line="Loop Track" />
+        <Text Line="Vybrat vše" />
+        <Text Line="Smazat" />
+        <Text Line="Přidat do playlistu" />
+        <Text Line="Do nového playlistu" />
+        <Text Line="Do právě přehráváného" />
+        <Text Line="Zdroj souboru..." />
+        <Text Line="Vlastnosti..." />
+        <Text Line="Skočit na" />
+        <Text Line="Umělci" />
+        <Text Line="Album" />
+        <Text Line="Rok" />
+        <Text Line="Žánr" />
+        <Text Line="Složka" />
+    </ListMenu>
+    <TreeMenu>
+        <Text Line="Nový playlist" />
+        <Text Line="Nový smartlist..." />
+        <Text Line="Přejmenovat..." />
+        <Text Line="Smazat" />
+        <Text Line="Obnovit" />
+        <Text Line="Editovat..." />
+    </TreeMenu>
+    <TrayMenu>
+        <Text Line="Přehrát" />
+        <Text Line="Pauza" />
+        <Text Line="Stop" />
+        <Text Line="Další" />
+        <Text Line="Předešlé" />
+        <Text Line="Ukončit" />
+    </TrayMenu>
+    <PopupMenu>
+        <Text Line="Vypnout" />
+        <Text Line="Horní levé" />
+        <Text Line="Horní pravé" />
+        <Text Line="Dolní levé" />
+        <Text Line="Dolní pravé" />
+        <Text Line="Rozšířené..." />
+    </PopupMenu>
+    <Library>
+        <!-- These lines should be as short as possible -->
+        <Text Line="Neznámé" />
+        <Text Line="Knihovna" />
+        <Text Line="Právě hraje" />
+        <Text Line="Playlisty" />
+        <Text Line="Smartlisty" />
+        <Text Line="Umělci" />
+        <Text Line="Skladatelé" />
+        <Text Line="Alba" />
+        <Text Line="Žánry" />
+        <Text Line="Roky" />
+        <Text Line="Rádia" />
+        <Text Line="Složky" />
+        <Text Line="Zařízení" />
+    </Library>
+    <Playlist>
+        <Text Line="Neznámé" />
+        <Text Line="CD" /> <!-- Disc number CD1, CD2. 4 chars max or leave it as is. -->
+        <Text Line="Složka" />
+        <Text Line="Radio" />
+        <Text Line="Žádné stopy k zobrazení." />
+    </Playlist>
+    <SkinDialog>
+        <Text Line="Skin" />
+        <Text Line="Zavřít" />
+        <Text Line="Potvrdit" />
+        <Text Line="Vybrat vzhled:" />
+        <Text Line="Náhled" />
+        <Text Line="Informace" />
+        <Text Line="Autor:" />
+        <Text Line="Verze:" />
+        <Text Line="Popis:" />
+    </SkinDialog>
+    <LibraryDialog>
+        <Text Line="Knihovna" />
+        <Text Line="Zavřít" />
+        <Text Line="Aktualizovat" />
+        <Text Line="Složky" />
+        <Text Line="Nastavení" />
+        <Text Line="Přidat" />
+        <Text Line="Smazat" />
+        <Text Line="Přidat složky do knihovny." />
+        <Text Line="Tlačítkem Aktualizovat zahájíte aktualizaci knihovny." />
+        <Text Line="Vyberte složku s Vaší hudbou." />
+        <Text Line="Základní" />
+        <Text Line="Rozšířené" />
+        <Text Line="Ignorovat soubory, které byly v minulosti odebrány" />
+        <Text Line="Odstranit chybějící soubory z knihovny" />
+        <Text Line="Vyhledat přesunuté či přejmenované soubory" />
+        <Text Line="Kompletní aktualizace knihovny" />
+    </LibraryDialog>
+    <LanguageDialog>
+        <Text Line="Jazyk" />
+        <Text Line="Zrušit" />
+        <Text Line="OK" />
+        <Text Line="Vyberte jazyk:" />
+    </LanguageDialog>
+    <ProcessDialog>
+        <Text Line="Aktualizuji knihovnu" />
+        <Text Line="Přidávám do playlistu" />
+        <Text Line="Zrušit" />
+        <Text Line="Minimalizovat" />
+        <Text Line="Zpracovávám..." />
+        <Text Line="Zpracovávám:" />
+        <Text Line="Ukončuji..." />
+    </ProcessDialog>
+    <PropertiesDialog>
+        <Text Line="Vlastnosti" />
+        <Text Line="Zavřít" />
+        <Text Line="Uložit" />
+        <Text Line="Tagy" />
+        <Text Line="Obrázek" />
+        <Text Line="Texty" />
+        <Text Line="Uložit a skočit na předešlé" />
+        <Text Line="Uložit a skocit na další" />
+    </PropertiesDialog>
+    <TagsPage>
+        <Text Line="Název:" />
+        <Text Line="Umělci:" />
+        <Text Line="Umělci alba:" />
+        <Text Line="Album:" />
+        <Text Line="Skladatelé:" />
+        <Text Line="Rok:" />
+        <Text Line="Stopa:" />
+        <Text Line="Disk:" />
+        <Text Line="z" />
+        <Text Line="Žánry:" />
+        <Text Line="Komentář:" />
+        <Text Line="Soubor:" />
+        <Text Line="Kvalita:" />
+    </TagsPage>
+    <CoverPage>
+        <Text Line="Změnit" />
+        <Text Line="Odstranit" />
+        <Text Line="Náhled" />
+        <Text Line="Žádný obrázek" />
+        <Text Line="Přetažením souboru změníte obrázek" />
+        <Text Line="Uložit obrázek do souboru" />
+        <Text Line="Uložit obrázek do podsložky 'Front'" />
+    </CoverPage>
+    <LyricsPage>
+        <Text Line="Textaři:" />
+        <Text Line="Uložit text do souboru" />
+        <Text Line="Uložit text do podsložky 'Lyrics'" />
+    </LyricsPage>
+    <RenameDialog>
+        <Text Line="Přejmenovat" />
+        <Text Line="Zrušit" />
+        <Text Line="OK" />
+        <Text Line="Zadejte nové jméno:" />
+    </RenameDialog>
+    <AboutDialog>
+        <Text Line="O autorovi" />
+        <Text Line="Zavřít" />
+        <Text Line="Přispět" />
+        <Text Line="Oficiální web:" />
+        <Text Line="E-mailová podpora:" />
+        <!-- Enter your name in the next line in format: "Translated by John Doe john@example.com" (e-mail not necessarily) -->
+        <Text Line="" />
+    </AboutDialog>
+    <Messages>
+        <Text Line="Chyba" />
+        <Text Line="Upozornění" />
+        <Text Line="Informace" />
+        <Text Line="Soubor nebyl nalezen nebo je formát nepodporován." />
+        <Text Line="Nelze se připojit k serveru rádia." />
+        <Text Line="Vzhled je určen pro jinou verzi přehrávače." />
+        <Text Line="Vzhled se nepodařilo načíst. Byl načten základní vzhled." />
+        <Text Line="Last.FM klient nebyl nalezen. Prosím nainstalujte Last.FM klienta pro podporu této funkcionality." />
+        <Text Line="Výstupní zvukové zařízení selhalo." />
+        <Text Line="ASIO zařízení nebylo nalezeno." />
+    </Messages>
+    <EqualizerDialog>
+        <Text Line="Ekvalizér" />
+        <Text Line="Zavřít" />
+        <Text Line="Zapnout" />
+        <Text Line="Předvolby:" />
+        <Text Line="Standartní" />
+        <Text Line="Ručně" />
+    </EqualizerDialog>
+    <HotKeyDialog>
+        <Text Line="Klávesové zkratky" />
+        <Text Line="Zrušit" />
+        <Text Line="OK" />
+        <Text Line="Vyberte akci a stiskněte kombinace kláves." />
+        <Text Line="Stiskněte klávesu 'Delete' pro odstranění klávesové kombinace." />
+        <Text Line="Akce" />
+        <Text Line="Klávesa" />
+        <Text Line="Přehrát" />
+        <Text Line="Pauza" />
+        <Text Line="Stop" />
+        <Text Line="Další stopa" />
+        <Text Line="Předešlá stopa" />
+        <Text Line="Ztlumit" />
+        <Text Line="Zvýšit hlasitost" />
+        <Text Line="Snížit hlasitost" />
+        <Text Line="Hodnocení 1" />
+        <Text Line="Hodnocení 2" />
+        <Text Line="Hodnocení 3" />
+        <Text Line="Hodnocení 4" />
+        <Text Line="Hodnocení 5" />
+        <Text Line="Zobrazit popup" />
+    </HotKeyDialog>
+    <OpenURLDialog>
+        <Text Line="Přidat rádio/URL" />
+        <Text Line="Zrušit" />
+        <Text Line="OK" />
+        <Text Line="Moje rádio" />
+        <Text Line="Název:" />
+        <Text Line="URL:" />
+    </OpenURLDialog>
+    <ToolTips>
+        <Text Line="Zavřít" />
+        <Text Line="Minimalizovat" />
+        <Text Line="Maximalizovat" />
+        <Text Line="Obnovit" />
+        <Text Line="Přehrát" />
+        <Text Line="Pauza" />
+        <Text Line="Stop" />
+        <Text Line="Další" />
+        <Text Line="Předešlé" />
+        <Text Line="Ekvalizér" />
+        <Text Line="Změnit pohled" />
+        <Text Line="Vypnout zvuk" />
+        <Text Line="Zapnout zvuk" />
+        <Text Line="Zapnout opakování" />
+        <Text Line="Vypnout opakování" />
+        <Text Line="Zapnout náhodné přehrávání" />
+        <Text Line="Vypnout náhodné přehrávání" />
+        <Text Line="Hlavní menu" />
+        <Text Line="Mini přehrávač" />
+        <Text Line="Obnovit přehrávač" />
+        <Text Line="Aktualizovat knihovnu" />
+    </ToolTips>
+    <ConfigDialog>
+        <Text Line="Nastavení" />
+        <Text Line="Zrušit" />
+        <Text Line="OK" />
+        <Text Line="Hlavní" />
+        <Text Line="Systém" />
+        <Text Line="Popup" />
+        <Text Line="Mini přehrávač" />
+    </ConfigDialog>
+    <SystemPage>
+        <Text Line="Audio zařízení" />
+        <Text Line="Preferované audio zařízení" />
+        <Text Line="32 bit zpracování audio signálu" />
+        <Text Line="Softwarové zpracování audia" />
+        <Text Line="Proxy" />
+        <Text Line="Zapnout proxy" />
+        <Text Line="Host:" />
+        <Text Line="Port:" />
+        <Text Line="Proxy autorizace" />
+        <Text Line="Přihlašovací jméno:" />
+        <Text Line="Heslo:" />
+    </SystemPage>
+    <PopupPage>
+        <Text Line="Test" />
+        <Text Line="Čas" />
+        <Text Line="Zobrazení:" />
+        <Text Line="Doba efektu zobrazení:" />
+        <Text Line="Doba efektu zmizení:" />
+        <Text Line="sek." />
+        <Text Line="Vzhled" />
+        <Text Line="Pozice:" />
+        <Text Line="Horní levé" />
+        <Text Line="Horní pravé" />
+        <Text Line="Dolní levé" />
+        <Text Line="Dolní pravé" />
+        <Text Line="Efekt zobrazení:" />
+        <Text Line="Efekt schování:" />
+        <Text Line="Fade" />
+        <Text Line="Vertikální posun" />
+        <Text Line="Horizontální posun" />
+    </PopupPage>
+    <Search>
+        <Text Line="Vyhledat" />
+        <Text Line="Vyhledat vše" />
+        <Text Line="Vyhledat stopu" />
+        <Text Line="Vyhledat album" />
+        <Text Line="Vyhledat umělce" />
+    </Search>
+    <MiniPlayerPage>
+        <Text Line="Pozice" />
+        <Text Line="Vždy na vrchu" />
+        <Text Line="Vždy na ploše" />
+        <Text Line="Běžné okno" />
+        <Text Line="Průhlednost" />
+    </MiniPlayerPage>
+    <GeneralPage>
+        <Text Line="Chování přehrávače" />
+        <Text Line="Přidat soubory do knihovny po otevření playlistu" />
+        <Text Line="Playback follows selected track" />
+        <Text Line="Zobrazení knihovny" />
+        <Text Line="Služby" />
+        <Text Line="Sdílet skladbu s klientem Last.FM" />
+        <Text Line="Zobrazit právě přehrávanou skladbu v aplikaci Live Messenger" />
+        <Text Line="Asociace" />
+        <Text Line="Přehrát v přehrávači Winyl" />
+        <Text Line="Přidat 'Play in Winyl' do kontextové nabídky" />
+        <Text Line="Nastavit asociaci souborů..." />
+        <!-- Win XP compatible Associations dialog -->
+        <Text Line="Asociace souborů" />
+        <Text Line="Zrušit" />
+        <Text Line="Uložit" />
+        <Text Line="Vybrat vše" />
+        <Text Line="Rozšíření" />
+    </GeneralPage>
+    <DefaultList>
+        <Text Line="Playlist" />
+        <Text Line="Smartlist" />
+        <Text Line="Default" />
+        <Text Line="Můj playlist" />
+        <Text Line="50 náhodných" />
+        <Text Line="5 náhodných alb" />
+        <Text Line="Právě přehráváné" />
+        <Text Line="25 nejvíce hraných" />
+        <Text Line="25 s nejvyšším hodnocením" />
+        <Text Line="90. léta" />
+    </DefaultList>
+    <DlgSmartlist>
+        <Text Line="Smartlist" />
+        <Text Line="Zrušit" />
+        <Text Line="OK" />
+        <Text Line="Název:" />
+        <Text Line="Od" />
+        <Text Line="Knihovna" />
+        <Text Line="Umělci" />
+        <Text Line="Alba" />
+        <Text Line="Žánry" />
+        <Text Line="Roky" />
+        <Text Line="Složky" />
+        <Text Line="Možnosti" />
+        <Text Line="Vybrat:" />
+        <Text Line="Počet:" />
+        <Text Line="Náhodné pořadí" />
+        <Text Line="Automatické obnovení" />
+        <Text Line="Tipy" />
+        <Text Line="Použijte klávesu plus '+' k vybrání více položek. Například: The Beatles + Led Zeppelin" />
+        <Text Line="Použijte klávesu minus '-' k vybrání rozsahu. Napřiklad: 2000 - 2010" />
+        <Text Line="Pokud text začíná mínusem, tyto položky budou vyloučeny." />
+        <Text Line="Pokročilý filtr" />
+        <Text Line="Stopy" />
+        <Text Line="Alba" />
+        <Text Line="Jakékoliv" />
+        <Text Line="Nejvíce přehrávané" />
+        <Text Line="Občas přehráváné" />
+        <Text Line="Vysoké hodnocení" />
+        <Text Line="Nízké hodnocení" />
+        <Text Line="Právě přehrávané" />
+        <Text Line="Právě přidané" />
+    </DlgSmartlist>
+    <DlgSmartlistFilter>
+        <Text Line="Rozšířený filtr" />
+        <Text Line="Zrušit" />
+        <Text Line="OK" />
+        <Text Line="Vše" />
+        <Text Line="Jakékoliv" />
+        <Text Line="z vybraných pravidel:" />
+        <Text Line="Počet přehrání" />
+        <Text Line="Hodnocení" />
+        <Text Line="Poslední přehrávané" />
+        <Text Line="Datum přidání" />
+        <Text Line="Stop v albu" />
+        <Text Line="Je rovno" />
+        <Text Line="Větší než" />
+        <Text Line="Méně než" />
+        <Text Line="V poslední" />
+        <Text Line="Před" />
+        <Text Line="x" />
+        <Text Line="stopy" />
+        <Text Line="Nehodnoceno" />
+        <Text Line="1 hvězda" />
+        <Text Line="2 hvězdy" />
+        <Text Line="3 hvězdy" />
+        <Text Line="4 hvězdy" />
+        <Text Line="5 hvězd" />
+        <Text Line="1 den" />
+        <Text Line="2 dny" />
+        <Text Line="3 dny" />
+        <Text Line="1 týden" />
+        <Text Line="2 týdny" />
+        <Text Line="1 měsíc" />
+        <Text Line="3 měsíce" />
+        <Text Line="6 měsíců" />
+        <Text Line="1 rok" />
+    </DlgSmartlistFilter>
+    <StatusLine>
+        <Text Line="KB" />
+        <Text Line="MB" />
+        <Text Line="GB" />
+        <Text Line="z" />
+        <Text Line="položky" />
+        <Text Line="stopy" />
+        <Text Line="celkový čas" />
+        <Text Line="Vybráno:" />
+    </StatusLine>
+    <Lyrics>
+        <Text Line="Nic nehraje." />
+        <Text Line="Žádný text nebyl nalezen." />
+        <Text Line="Stahuji texty..." />
+    </Lyrics>
+    <LyricsMenu>
+        <Text Line="Zdroj:" />
+        <Text Line="Nic" />
+        <Text Line="Soubor" />
+        <Text Line="Tagy" />
+        <Text Line="Internet" />
+        <Text Line="Kopírovat text" />
+        <Text Line="Uložit text..." />
+        <Text Line="Služba pro texty" />
+        <Text Line="Vypnout" />
+        <Text Line="Najít přes Google..." />
+        <Text Line="Zarovnání textu" />
+        <Text Line="Doleva" />
+        <Text Line="Doprostřed" />
+        <Text Line="Doprava" />
+        <Text Line="Velikost písma" />
+        <Text Line="Nastavení podle vzhledu" />
+        <Text Line="Malé" />
+        <Text Line="Střední" />
+        <Text Line="Větší" />
+        <Text Line="Největší" />
+        <Text Line="Tučně" />
+    </LyricsMenu>
+    <NewVersionDialog>
+        <Text Line="Probíhá konverze knihovny do nové verze..." />
+        <Text Line="Probíhá konverze knihovny pro přenositelný režim..." />
+        <Text Line="Winyl potřebuje k dokončení aktualizace proskenovat všechny soubory." />
+        <Text Line="Není doporučeno ukončit předčasně tento proces." />
+    </NewVersionDialog>
+</Language>

@@ -1,0 +1,122 @@
+<Window SkinEngine="1.6">
+    <Size MinWidth="280" MinHeight="63" MaxWidth="450" MaxHeight="63" />
+    <ResizeBorder Left="6" Right="6" Top="0" Bottom="0" />
+    <Corners All="9" />
+    <Layout Name="Main">
+        <Position Left="0" Top="0" Right="0" Bottom="0" />
+        <Elements>
+            <Previous>
+                <Position Left="26" Top="13" />
+                <Skin File="MiniPlayer\ButtonPrevious\Previous.xml" />
+            </Previous>
+            <PlayPause>
+                <Position Left="55" Top="11" />
+                <Skin File="MiniPlayer\SwitchPlay\Play.xml" />
+            </PlayPause>
+            <Next>
+                <Position Left="88" Top="13" />
+                <Skin File="MiniPlayer\ButtonNext\Next.xml" />
+            </Next>
+            <VolumeBar>
+                <Position Left="37" Top="46" />
+                <Skin File="MiniPlayer\VolumeBar\VolumeBar.xml" />
+            </VolumeBar>
+            <Close>
+                <Position Left="6" Top="9" />
+                <Skin File="MiniPlayer\ButtonClose\Close.xml" />
+            </Close>
+            <MiniPlayer>
+                <Position Left="6" Top="26" />
+                <Skin File="MiniPlayer\ButtonMaximize\Maximize.xml" />
+            </MiniPlayer>
+            <Minimize>
+                <Position Left="6" Top="43" />
+                <Skin File="MiniPlayer\ButtonMinimize\Minimize.xml" />
+            </Minimize>
+        </Elements>
+        <Background>
+            <Fill>
+                <Position Left="0" Top="0" Right="0" Bottom="0" />
+                <Fill Color="FFFFFF" />
+            </Fill>
+            <Image>
+                <Position Left="0" Top="0" />
+                <Image File="MiniPlayer\Background\TopLeft.png" />
+            </Image>
+            <Image>
+                <Position Right="0" Top="0" />
+                <Image File="MiniPlayer\Background\TopRight.png" />
+            </Image>
+            <Image>
+                <Position Left="14" Top="0" Right="14" />
+                <Image File="MiniPlayer\Background\TopFill.png" />
+            </Image>
+            <Image>
+                <Position Left="128" Top="11" />
+                <Image File="MiniPlayer\Background\TopLeft2.png" />
+            </Image>
+            <Image>
+                <Position Right="10" Top="11" />
+                <Image File="MiniPlayer\Background\TopRight2.png" />
+            </Image>
+            <Image>
+                <Position Left="150" Top="11" Right="32" />
+                <Image File="MiniPlayer\Background\TopFill2.png" />
+            </Image>
+            <Image>
+                <Position Left="25" Top="46" />
+                <Image File="MiniPlayer\Background\Sound.png" />
+            </Image>
+        </Background>
+    </Layout>
+    <Layout Name="TrackBar" ID="102" Hide="0">
+        <Position Left="128" Top="11" Right="10" Height="44" />
+        <Elements>
+            <TimeElapsed>
+                <Position Left="0" Top="28" Width="37" Height="11" />
+                <Skin File="MiniPlayer\Text\TimeLeft.xml" />
+            </TimeElapsed>
+            <TimeRemains>
+                <Position Right="0" Top="28" Width="37" Height="11" />
+                <Skin File="MiniPlayer\Text\TimeRight.xml" />
+            </TimeRemains>
+            <TrackBar>
+                <Position Left="40" Right="40" Top="30" />
+                <Skin File="MiniPlayer\TrackBar\TrackBar.xml" />
+            </TrackBar>
+            <Title>
+                <Position Left="22" Right="22" Top="4" Height="12" />
+                <Skin File="MiniPlayer\Text\Title.xml" />
+            </Title>
+            <Artist>
+                <Position Left="22" Right="22" Top="16" Height="12" />
+                <Skin File="MiniPlayer\Text\Artist.xml" />
+            </Artist>
+            <Button>
+                <Position Left="6" Top="16" />
+                <Skin File="MiniPlayer\SwitchSpectrum\SpectrumOff.xml" />
+            </Button>
+            <Stop>
+                <Position Right="6" Top="16" />
+                <Skin File="MiniPlayer\ButtonStop\Stop.xml" />
+            </Stop>
+        </Elements>
+    </Layout>
+    <Layout Name="Spectrum" ID="103" Hide="1">
+        <Position Left="128" Top="11" Right="10" Height="44" />
+        <Elements>
+            <Spectrum>
+                <Position Left="22" Top="7" Right="22" Height="31" />
+                <Skin File="MiniPlayer\Spectrum\Spectrum.xml" />
+            </Spectrum>
+            <Button>
+                <Position Left="6" Top="16" />
+                <Skin File="MiniPlayer\SwitchSpectrum\SpectrumOn.xml" />
+            </Button>
+            <Stop>
+                <Position Right="6" Top="16" />
+                <Skin File="MiniPlayer\ButtonStop\Stop.xml" />
+            </Stop>
+        </Elements>
+    </Layout>
+</Window>

@@ -1,0 +1,13 @@
+﻿<Switch>
+    <Effect Fade="1" />
+    <State1>
+        <Normal File="RepeatOff1.png" />
+        <Hover File="RepeatOff2.png" />
+        <Press File="RepeatOff3.png" />
+    </State1>
+    <State2>
+        <Normal File="RepeatOn1.png" />
+        <Hover File="RepeatOn2.png" />
+        <Press File="RepeatOn3.png" />
+    </State2>
+</Switch>

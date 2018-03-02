@@ -1,0 +1,4 @@
+﻿<ListRate>
+    <Show File="ShowStar.png"></Show>
+    <Hide File="HideStar.png" />
+</ListRate>

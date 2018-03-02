@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Language Version="3.3.0">
+    <MainMenu>
+        <Text Line="Biblioteka..." />
+        <Text Line="Skórki..." />
+        <Text Line="Mini odtwarzacz" />
+        <Text Line="Dodaj do listy odtwarzania" />
+        <Text Line="Plik(i)..." />
+        <Text Line="Folder..." />
+        <Text Line="Radio/URL..." />
+        <Text Line="Importuj listę odtwarzania..." />
+        <Text Line="Kontrola odtwarzania" />
+        <Text Line="Odtwarzaj" />
+        <Text Line="Pauza" />
+        <Text Line="Zatrzymaj" />
+        <Text Line="Następny" />
+        <Text Line="Poprzedni" />
+        <Text Line="Wycisz" />
+        <Text Line="Mieszaj" />
+        <Text Line="Powtarzaj" />
+        <Text Line="Korektor dźwięku..." />
+        <Text Line="Ustawienia" />
+        <Text Line="Minimalizuj do zasobnika systemowego" />
+        <Text Line="Okno powiadomień" />
+        <Text Line="Efekty wizualne" />
+        <Text Line="Płynne przewijanie" />
+        <Text Line="Scrobbluj do Last.FM" />
+        <Text Line="Skróty klawiaturowe..." />
+        <Text Line="Zaawansowane..." />
+        <Text Line="Wybierz język..." />
+        <Text Line="O programie" />
+        <Text Line="Wspomóż" />
+    </MainMenu>
+    <ListMenu>
+        <Text Line="Odtwarzaj" />
+        <Text Line="Powtarzaj utwór" />
+        <Text Line="Zaznacz wszystko" />
+        <Text Line="Usuń" />
+        <Text Line="Dodaj do" />
+        <Text Line="nowej listy odtwarzania" />
+        <Text Line="teraz odtwarzanych" />
+        <Text Line="Pokaż plik w folderze..." />
+        <Text Line="Właściwości..." />
+        <Text Line="Skocz do" />
+        <Text Line="Wykonawca" />
+        <Text Line="Album" />
+        <Text Line="Rok" />
+        <Text Line="Gatunek" />
+        <Text Line="Folder" />
+    </ListMenu>
+    <TreeMenu>
+        <Text Line="Nowa lista odtwarzania" />
+        <Text Line="Nowa inteligentna lista odtwarzania..." />
+        <Text Line="Zmień nazwę..." />
+        <Text Line="Usuń" />
+        <Text Line="Odśwież" />
+        <Text Line="Edytuj..." />
+    </TreeMenu>
+    <TrayMenu>
+        <Text Line="Odtwarzaj" />
+        <Text Line="Pauza" />
+        <Text Line="Zatrzymaj" />
+        <Text Line="Następny" />
+        <Text Line="Poprzedni" />
+        <Text Line="Zamknij" />
+    </TrayMenu>
+    <PopupMenu>
+        <Text Line="Wyłącz" />
+        <Text Line="Góra po lewej" />
+        <Text Line="Góra po prawej" />
+        <Text Line="Dół po lewej" />
+        <Text Line="Dół po prawej" />
+        <Text Line="Zaawansowane..." />
+    </PopupMenu>
+    <Library>
+        <!-- These lines should be as short as possible -->
+        <Text Line="Nieznane" />
+        <Text Line="Biblioteka" />
+        <Text Line="Odtwarzane" />
+        <Text Line="Lista odtwarzania" />
+        <Text Line="Inteligentna lista" />
+        <Text Line="Wykonawca" />
+        <Text Line="Kompozytor" />
+        <Text Line="Album" />
+        <Text Line="Gatunek" />
+        <Text Line="Rok" />
+        <Text Line="Radio" />
+        <Text Line="Folder" />
+        <Text Line="Dysk" />
+    </Library>
+    <Playlist>
+        <Text Line="Nieznane" />
+        <Text Line="CD" /> <!-- Disc number CD1, CD2. 4 chars max or leave it as is. -->
+        <Text Line="Folder" />
+        <Text Line="Radio" />
+        <Text Line="Brak utworów do wyświetlenia." />
+    </Playlist>
+    <SkinDialog>
+        <Text Line="Skórki" />
+        <Text Line="Zamknij" />
+        <Text Line="Akceptuj" />
+        <Text Line="Wybierz skórkę:" />
+        <Text Line="Podgląd" />
+        <Text Line="Informacje" />
+        <Text Line="Autor:" />
+        <Text Line="Wersja:" />
+        <Text Line="Opis:" />
+    </SkinDialog>
+    <LibraryDialog>
+        <Text Line="Biblioteka" />
+        <Text Line="Zamknij" />
+        <Text Line="Aktualizuj" />
+        <Text Line="Folder" />
+        <Text Line="Opcje" />
+        <Text Line="Dodaj" />
+        <Text Line="Usuń" />
+        <Text Line="Dodaj foldery z muzyką do biblioteki." />
+        <Text Line="Naciśnij 'Aktualizuj', aby zaktualizować bibliotekę." />
+        <Text Line="Wybierz foldery z muzyką." />
+        <Text Line="Podstawowe" />
+        <Text Line="Zaawansowane" />
+        <Text Line="Ignoruj pliki wcześniej usunięte z biblioteki" />
+        <Text Line="Usuń brakujące pliki z biblioteki" />
+        <Text Line="Wyszukaj przeniesione lub zmienione pliki" />
+        <Text Line="Zaktualizuj ponownie całą bibliotekę muzyki" />
+    </LibraryDialog>
+    <LanguageDialog>
+        <Text Line="Język" />
+        <Text Line="Zamknij" />
+        <Text Line="OK" />
+        <Text Line="Wybierz język:" />
+    </LanguageDialog>
+    <ProcessDialog>
+        <Text Line="Aktualizacja biblioteki" />
+        <Text Line="Dodawanie do listy odtwarzania" />
+        <Text Line="Zamknij" />
+        <Text Line="Minimalizuj" />
+        <Text Line="Przetwarzanie..." />
+        <Text Line="Przetwarzanie:" />
+        <Text Line="Przerywanie..." />
+    </ProcessDialog>
+    <PropertiesDialog>
+        <Text Line="Właściwości" />
+        <Text Line="Zamknij" />
+        <Text Line="Zapisz" />
+        <Text Line="Tagi" />
+        <Text Line="Okładka" />
+        <Text Line="Tekst utworu" />
+        <Text Line="Zapisz i przejdź do poprzedniego utworu" />
+        <Text Line="Zapisz i przejdź do kolejnego utworu." />
+    </PropertiesDialog>
+    <TagsPage>
+        <Text Line="Tytuł:" />
+        <Text Line="Wykonawcy:" />
+        <Text Line="Wykonawcy albumu:" />
+        <Text Line="Albumy:" />
+        <Text Line="Kompozytory:" />
+        <Text Line="Rok:" />
+        <Text Line="Utwór:" />
+        <Text Line="Płyta:" />
+        <Text Line="z" />
+        <Text Line="Gatunki:" />
+        <Text Line="Komentarz:" />
+        <Text Line="Ścieżka pliku:" />
+        <Text Line="Jakość:" />
+    </TagsPage>
+    <CoverPage>
+        <Text Line="Zmień" />
+        <Text Line="Usuń" />
+        <Text Line="Podgląd" />
+        <Text Line="Brak okładki albumu." />
+        <Text Line="Przeciągnij tutaj obrazek, żeby dodać okładkę." />
+        <Text Line="Osadź okładkę albumu w pliku muzycznym" />
+        <Text Line="Zapisz okładkę albumu do folderu o nazwie 'Front'" />
+    </CoverPage>
+    <LyricsPage>
+        <Text Line="Autorzy tekstu:" />
+        <Text Line="Osadź tekst utworu w pliku muzycznym" />
+        <Text Line="Zapisz tekst utworu do folderu albumu w podfolderze 'Lyrics'" />
+    </LyricsPage>
+    <RenameDialog>
+        <Text Line="Zmień nazwę" />
+        <Text Line="Zamknij" />
+        <Text Line="OK" />
+        <Text Line="Wprowadź nową nazwę:" />
+    </RenameDialog>
+    <AboutDialog>
+        <Text Line="O programie" />
+        <Text Line="Zamknij" />
+        <Text Line="Wspomóż" />
+        <Text Line="Oficjalna strona:" />
+        <Text Line="e-mail:" />
+        <!-- Enter your name in the next line in format: "Translated by John Doe john@example.com" (e-mail not necessarily) -->
+        <Text Line="Tłumaczenie: cris.friday@gmail.com" />
+    </AboutDialog>
+    <Messages>
+        <Text Line="Błąd" />
+        <Text Line="Ostrzeżenie" />
+        <Text Line="Informacja" />
+        <Text Line="Nie znaleziono pliku lub plik jest w nieobsługiwanym formacie." />
+        <Text Line="Nie można połączyć się z serwerem radia." />
+        <Text Line="Skórka ta utworzona jest do innej wersji programu." />
+        <Text Line="Błąd ładowania skórki. Domyślna skórka została załadowana." />
+        <Text Line="Nie znaleziono klienta Last.FM. Proszę zainstalować klienta Last.FM by korzystać z tej funkcji." />
+        <Text Line="Wyjściowe urządzenie audio napotkało błąd." />
+        <Text Line="Nie znaleziono urządzenia ASIO." />
+    </Messages>
+    <EqualizerDialog>
+        <Text Line="Korektor dźwięku" />
+        <Text Line="Zamknij" />
+        <Text Line="Włącz" />
+        <Text Line="Ustawienie:" />
+        <Text Line="Domyślne" />
+        <Text Line="Własne" />
+    </EqualizerDialog>
+    <HotKeyDialog>
+        <Text Line="Globalne skróty klawiaturowe" />
+        <Text Line="Zamknij" />
+        <Text Line="OK" />
+        <Text Line="Wybierz czynność i naciśnij dowolną kombinację klawiszy." />
+        <Text Line="Naciśnij klawisz 'Delete' aby usunąć skrót." />
+        <Text Line="Czynność" />
+        <Text Line="Skrót klawiaturowy" />
+        <Text Line="Odtwarzaj" />
+        <Text Line="Pauza" />
+        <Text Line="Zatrzymaj" />
+        <Text Line="Następny utwór" />
+        <Text Line="Poprzedni utwór" />
+        <Text Line="Wycisz" />
+        <Text Line="Głośność +" />
+        <Text Line="Głośność -" />
+        <Text Line="Ocena 1" />
+        <Text Line="Ocena 2" />
+        <Text Line="Ocena 3" />
+        <Text Line="Ocena 4" />
+        <Text Line="Ocena 5" />
+        <Text Line="Zobacz powiadomienia" />
+    </HotKeyDialog>
+    <OpenURLDialog>
+        <Text Line="Dodaj Radio/URL" />
+        <Text Line="Zamknij" />
+        <Text Line="OK" />
+        <Text Line="Moje Radio" />
+        <Text Line="Nazwa:" />
+        <Text Line="URL:" />
+    </OpenURLDialog>
+    <ToolTips>
+        <Text Line="Zamknij" />
+        <Text Line="Minimalizuj" />
+        <Text Line="Maksymalizuj" />
+        <Text Line="Przywróć" />
+        <Text Line="Odtwarzaj" />
+        <Text Line="Pauza" />
+        <Text Line="Zatrzymaj" />
+        <Text Line="Następny" />
+        <Text Line="Poprzedni" />
+        <Text Line="Korektor dźwięku" />
+        <Text Line="Zmień widok" />
+        <Text Line="Wycisz" />
+        <Text Line="Włącz dźwięk" />
+        <Text Line="Włącz powtarzanie" />
+        <Text Line="Wyłącz powtarzanie" />
+        <Text Line="Włącz mieszanie" />
+        <Text Line="Wyłącz mieszanie" />
+        <Text Line="Główne menu" />
+        <Text Line="Mini odtwarzacz" />
+        <Text Line="Przywróć odtwarzacz" />
+        <Text Line="Aktualizuj bibliotekę" />
+    </ToolTips>
+    <ConfigDialog>
+        <Text Line="Ustawienia" />
+        <Text Line="Zamknij" />
+        <Text Line="OK" />
+        <Text Line="Ogólne" />
+        <Text Line="System" />
+        <Text Line="Powiadomienia" />
+        <Text Line="Mini odtwarzacz" />
+    </ConfigDialog>
+    <SystemPage>
+        <Text Line="Urządzenie wyjściowe" />
+        <Text Line="Domyślne urządzenie wyjściowe" />
+        <Text Line="32-bitowe przetwarzanie audio" />
+        <Text Line="Przetwarzanie programowe" />
+        <Text Line="Proxy" />
+        <Text Line="Włącz proxy" />
+        <Text Line="Host:" />
+        <Text Line="Port:" />
+        <Text Line="Autoryzacja proxy" />
+        <Text Line="Login:" />
+        <Text Line="Hasło:" />
+    </SystemPage>
+    <PopupPage>
+        <Text Line="Testuj" />
+        <Text Line="Czas" />
+        <Text Line="Czas wyświetlania:" />
+        <Text Line="Czas pojawiania:" />
+        <Text Line="Czas zanikania:" />
+        <Text Line="sek." />
+        <Text Line="Wygląd" />
+        <Text Line="Pozycja:" />
+        <Text Line="Góra po lewej" />
+        <Text Line="Góra po prawej" />
+        <Text Line="Dół po lewej" />
+        <Text Line="Dół po prawej" />
+        <Text Line="Efekt pojawiania:" />
+        <Text Line="Efekt zanikania:" />
+        <Text Line="Zanikanie" />
+        <Text Line="Przesunięcie w pionie" />
+        <Text Line="Przesunięcie w poziomie" />
+    </PopupPage>
+    <Search>
+        <Text Line="Szukaj" />
+        <Text Line="Szukaj wszystko" />
+        <Text Line="Szukanie wg tytułu" />
+        <Text Line="Szukanie wg albumu" />
+        <Text Line="Szukanie wg wykonawcy" />
+    </Search>
+    <MiniPlayerPage>
+        <Text Line="Pozycja" />
+        <Text Line="Zawsze na wierzchu" />
+        <Text Line="Zawsze na pulpicie" />
+        <Text Line="Jak normalne okno" />
+        <Text Line="Przezroczystość" />
+    </MiniPlayerPage>
+    <GeneralPage>
+        <Text Line="Zachowanie odtwarzacza" />
+        <Text Line="Dodaj pliki do biblioteki po otwarciu w liście odtwarzania" />
+        <Text Line="Zaznaczony utwór odtwarzany jako następny" />
+        <Text Line="Widok biblioteki" />
+        <Text Line="Usługi" />
+        <Text Line="Scrobbluj utwory do Last.FM" />
+        <Text Line="Pokaż odtwarzane utwory w Live Messenger" />
+        <Text Line="Skojarzenia" />
+        <Text Line="Odtwarzaj w Winyl" />
+        <Text Line="Dodaj 'Odtwarzaj w Winyl' do menu kontekstowego folderów" />
+        <Text Line="Zarządzaj skojarzeniami plików..." />
+        <!-- Win XP compatible Associations dialog -->
+        <Text Line="Skojarzenia plików" />
+        <Text Line="Zamknij" />
+        <Text Line="Zapisz" />
+        <Text Line="Zaznacz wszystko" />
+        <Text Line="Rozszerzenie" />
+    </GeneralPage>
+    <DefaultList>
+        <Text Line="Lista odtwarzania" />
+        <Text Line="Inteligentna lista odtwarzania" />
+        <Text Line="Domyślne" />
+        <Text Line="Moja lista odtwarzania" />
+        <Text Line="50 losowych utworów" />
+        <Text Line="5 losowych albumów" />
+        <Text Line="Ostatnio odtwarzane" />
+        <Text Line="25 najczęściej odtwarzanych" />
+        <Text Line="25 najwyżej ocenianych" />
+        <Text Line="Muzyka lat 90-tych" />
+    </DefaultList>
+    <DlgSmartlist>
+        <Text Line="Inteligentna lista odtwarzania" />
+        <Text Line="Zamknij" />
+        <Text Line="OK" />
+        <Text Line="Nazwa:" />
+        <Text Line="Źródło, z którego będą wybierane utwory" />
+        <Text Line="Biblioteka" />
+        <Text Line="Wykonawca" />
+        <Text Line="Album" />
+        <Text Line="Gatunek" />
+        <Text Line="Rok" />
+        <Text Line="Folder" />
+        <Text Line="Opcje" />
+        <Text Line="Wybierz:" />
+        <Text Line="Ilość:" />
+        <Text Line="Kolejność losowa" />
+        <Text Line="Automatyczne odświeżanie" />
+        <Text Line="Porada" />
+        <Text Line="Użyj '+', aby wybrać kilka elementów. Przykład: The Beatles + Led Zeppelin" />
+        <Text Line="Użyj '-', aby wybrać zakres. Przykład: 2000 - 2010" />
+        <Text Line="Jeśli łańcuch zaczyna się od minusa, elementy te zostaną wyłączone i nie będą dodawane do listy." />
+        <Text Line="Zaawansowane filtry" />
+        <Text Line="Utwory" />
+        <Text Line="Albumy" />
+        <Text Line="Dowolny" />
+        <Text Line="Najczęściej odtwarzane" />
+        <Text Line="Rzadko odtwarzane" />
+        <Text Line="Najwyżej oceniane" />
+        <Text Line="Najniżej oceniane" />
+        <Text Line="Niedawno odtwarzane" />
+        <Text Line="Niedawno dodane" />
+    </DlgSmartlist>
+    <DlgSmartlistFilter>
+        <Text Line="Zaawansowane filtry" />
+        <Text Line="Zamknij" />
+        <Text Line="OK" />
+        <Text Line="Wszystkie" />
+        <Text Line="Dowolne" />
+        <Text Line="z zaznaczonych reguł:" />
+        <Text Line="Licznik odtwarzania" />
+        <Text Line="Ocena" />
+        <Text Line="Ostatnio odtwarzane" />
+        <Text Line="Data dodania" />
+        <Text Line="Utwory w albumie" />
+        <Text Line="Równe" />
+        <Text Line="Więcej niż" />
+        <Text Line="Mniej niż" />
+        <Text Line="W ostatnich" />
+        <Text Line="Przed" />
+        <Text Line="raz/y" />
+        <Text Line="ścieżki" />
+        <Text Line="Nieoceniany" />
+        <Text Line="1 gwiazdka" />
+        <Text Line="2 gwiazdki" />
+        <Text Line="3 gwiazdki" />
+        <Text Line="4 gwiazdki" />
+        <Text Line="5 gwiazdek" />
+        <Text Line="1 dzień" />
+        <Text Line="2 dni" />
+        <Text Line="3 dni" />
+        <Text Line="1 tydzień" />
+        <Text Line="2 tygodnie" />
+        <Text Line="1 miesiąc" />
+        <Text Line="3 miesiące" />
+        <Text Line="6 miesięcy" />
+        <Text Line="1 rok" />
+    </DlgSmartlistFilter>
+    <StatusLine>
+        <Text Line="KB" />
+        <Text Line="MB" />
+        <Text Line="GB" />
+        <Text Line="z" />
+        <Text Line="pozycji" />
+        <Text Line="utworów" />
+        <Text Line="całkowity czas" />
+        <Text Line="Zaznaczono:" />
+    </StatusLine>
+    <Lyrics>
+        <Text Line="Nic nie jest odtwarzane." />
+        <Text Line="Nie znaleziono tekstu utworu." />
+        <Text Line="Pobieranie tekstu..." />
+    </Lyrics>
+    <LyricsMenu>
+        <Text Line="Źródło:" />
+        <Text Line="Brak" />
+        <Text Line="Plik" />
+        <Text Line="Tagi" />
+        <Text Line="Internet" />
+        <Text Line="Kopiuj tekst" />
+        <Text Line="Zapisz tekst..." />
+        <Text Line="Dostawca tekstu" />
+        <Text Line="Wyłącz" />
+        <Text Line="Szukaj w Google..." />
+        <Text Line="Wyrównanie tekstu" />
+        <Text Line="Do lewej" />
+        <Text Line="Środek" />
+        <Text Line="Do prawej" />
+        <Text Line="Rozmiar czcionki" />
+        <Text Line="Ze skórki" />
+        <Text Line="Mały" />
+        <Text Line="Średni" />
+        <Text Line="Duży" />
+        <Text Line="Największy" />
+        <Text Line="Pogrubione" />
+    </LyricsMenu>
+    <NewVersionDialog>
+        <Text Line="Konwertowanie biblioteki do nowej wersji. Proszę czekać..." />
+        <Text Line="Konwertowanie biblioteki do wersji przenośnej. Proszę czekać..." />
+        <Text Line="Winyl musi przeskanować wszystkie pliki, aby przeprowadzić kompletną aktualizację." />
+        <Text Line="Nie jest zalecane, aby anulować ten proces." />
+    </NewVersionDialog>
+</Language>

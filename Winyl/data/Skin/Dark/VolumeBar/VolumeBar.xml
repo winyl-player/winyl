@@ -1,0 +1,12 @@
+﻿<Slider>
+    <Background>
+        <Begin File="LR.png" />
+        <Fill File="Fill.png" File2="Fill2.png" />
+        <End File="LR.png" />
+    </Background>
+    <Button>
+        <Normal File="Button.png" />
+        <Hover File="Button1.png" />
+        <Press File="Button1.png" />
+    </Button>
+</Slider>

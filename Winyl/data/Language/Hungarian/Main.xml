@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Language Version="3.3.0">
+    <MainMenu>
+        <Text Line="Médiatár..." />
+        <Text Line="Felszín..." />
+        <Text Line="Mini lejátszó" />
+        <Text Line="Hozzáadás a lejátszási listához" />
+        <Text Line="Fájl..." />
+        <Text Line="Mappa..." />
+        <Text Line="Rádió/URL..." />
+        <Text Line="Lejátszási lista importálása..." />
+        <Text Line="Vezérlőelemek" />
+        <Text Line="Lejátszás" />
+        <Text Line="Szünet" />
+        <Text Line="Leállítás" />
+        <Text Line="Következő" />
+        <Text Line="Előző" />
+        <Text Line="Hang némítása" />
+        <Text Line="Véletlen sorrendű lejátszás" />
+        <Text Line="Ismétlés" />
+        <Text Line="Hangszínszabályzó..." />
+        <Text Line="Beállítások" />
+        <Text Line="Rejtés a tálcára" />
+        <Text Line="Felugró ablak" />
+        <Text Line="Vizuális hatások" />
+        <Text Line="Egyenletes görgetés" />
+        <Text Line="Last.FM engedélyezése" />
+        <Text Line="Gyorsbillentyűk..." />
+        <Text Line="Speciális..." />
+        <Text Line="Nyelv kiválasztása..." />
+        <Text Line="Névjegy..." />
+        <Text Line="Adományok..." />
+    </MainMenu>
+    <ListMenu>
+        <Text Line="Lejátszás" />
+        <Text Line="Szám megismétlése" />
+        <Text Line="Összes kijelölése" />
+        <Text Line="Törlés" />
+        <Text Line="Hozzáadás a lejátszási listához" />
+        <Text Line="Hozzáadás az új lejátszási listához" />
+        <Text Line="Hozzáadás a most játszotthoz" />
+        <Text Line="Fájl elérési útvonal..." />
+        <Text Line="Tulajdonságok..." />
+        <Text Line="Ugrás" />
+        <Text Line="Előadó" />
+        <Text Line="Album" />
+        <Text Line="Év" />
+        <Text Line="Műfaj" />
+        <Text Line="Mappa" />
+    </ListMenu>
+    <TreeMenu>
+        <Text Line="Új lejátszási lista" />
+        <Text Line="Új gyorslista..." />
+        <Text Line="Átnevezés..." />
+        <Text Line="Törlés" />
+        <Text Line="Frissítés" />
+        <Text Line="Szerkesztés..." />
+    </TreeMenu>
+    <TrayMenu>
+        <Text Line="Lejátszás" />
+        <Text Line="Szünet" />
+        <Text Line="Leállítás" />
+        <Text Line="Következő" />
+        <Text Line="Előző" />
+        <Text Line="Kilépés" />
+    </TrayMenu>
+    <PopupMenu>
+        <Text Line="Letiltás" />
+        <Text Line="Balra fent" />
+        <Text Line="Jobbra fent" />
+        <Text Line="Balra lent" />
+        <Text Line="Jobbra lent" />
+        <Text Line="Speciális..." />
+    </PopupMenu>
+    <Library>
+        <!-- These lines should be as short as possible -->
+        <Text Line="Ismeretlen" />
+        <Text Line="Médiatár" />
+        <Text Line="Most játszott" />
+        <Text Line="Lejátszási listák" />
+        <Text Line="Gyorslisták" />
+        <Text Line="Előadók" />
+        <Text Line="Zeneszerzők" />
+        <Text Line="Albumok" />
+        <Text Line="Műfajok" />
+        <Text Line="Évek" />
+        <Text Line="Rádiók" />
+        <Text Line="Mappák" />
+        <Text Line="Meghajtó" />
+    </Library>
+    <Playlist>
+        <Text Line="Ismeretlen" />
+        <Text Line="CD" /> <!-- Disc number CD1, CD2. 4 chars max or leave it as is. -->
+        <Text Line="Mappa" />
+        <Text Line="Rádió" />
+        <Text Line="Nincsenek megjelenítendő számok." />
+    </Playlist>
+    <SkinDialog>
+        <Text Line="Felszín" />
+        <Text Line="Bezárás" />
+        <Text Line="Alkalmaz" />
+        <Text Line="Felszín választás:" />
+        <Text Line="Gyorsnézet" />
+        <Text Line="Információ" />
+        <Text Line="Készítő:" />
+        <Text Line="Verzió:" />
+        <Text Line="Leírás:" />
+    </SkinDialog>
+    <LibraryDialog>
+        <Text Line="Médiatár" />
+        <Text Line="Bezárás" />
+        <Text Line="Frissítés" />
+        <Text Line="Mappák" />
+        <Text Line="Opciók" />
+        <Text Line="Hozzáadás" />
+        <Text Line="Törlés" />
+        <Text Line="A zenéket tartalmazó mappák hozzáadása a médiatárhoz." />
+        <Text Line="Kattintson a frissítés gombra a médiatár frissítéséhez." />
+        <Text Line="Válassza ki a zenefájlokat tartalmazó mappát." />
+        <Text Line="Normál" />
+        <Text Line="Speciális" />
+        <Text Line="A könyvtárból korábban eltávolított fájlok figyelmen kívül hagyása" />
+        <Text Line="A médiatárból hiányzó fájlok eltávolítása" />
+        <Text Line="Áthelyezett vagy eltávolított fájlok keresése" />
+        <Text Line="Az összes fájl teljes újravizsgálata a médiatárban" />
+    </LibraryDialog>
+    <LanguageDialog>
+        <Text Line="Nyelv" />
+        <Text Line="Mégse" />
+        <Text Line="OK" />
+        <Text Line="Nyelv kiválasztása:" />
+    </LanguageDialog>
+    <ProcessDialog>
+        <Text Line="Médiatár frissítése" />
+        <Text Line="Hozzáadás a lejátszási listához" />
+        <Text Line="Mégse" />
+        <Text Line="Kis méret" />
+        <Text Line="Feldolgozás..." />
+        <Text Line="Felfolgozás:" />
+        <Text Line="Megszakítás..." />
+    </ProcessDialog>
+    <PropertiesDialog>
+        <Text Line="Tulajdonságok" />
+        <Text Line="Bezárás" />
+        <Text Line="Mentés" />
+        <Text Line="Címkék" />
+        <Text Line="Borító" />
+        <Text Line="Dalszöveg" />
+        <Text Line="Mentés és ugrás az előző számra" />
+        <Text Line="Mentés és ugrás a következő számra" />
+    </PropertiesDialog>
+    <TagsPage>
+        <Text Line="Cím:" />
+        <Text Line="Előadók:" />
+        <Text Line="Album előadók:" />
+        <Text Line="Album:" />
+        <Text Line="Zeneszerzők:" />
+        <Text Line="Év:" />
+        <Text Line="Szám:" />
+        <Text Line="Lemez:" />
+        <Text Line=" -" />
+        <Text Line="Műfajok:" />
+        <Text Line="Megjegyzés:" />
+        <Text Line="Fájl:" />
+        <Text Line="Minőség:" />
+    </TagsPage>
+    <CoverPage>
+        <Text Line="Módosítás" />
+        <Text Line="Eltávolítás" />
+        <Text Line="Előnézet" />
+        <Text Line="Nincs borító" />
+        <Text Line="Húzza ide a képet a cseréhez" />
+        <Text Line="Borító beágyazása a zenefájlba" />
+        <Text Line="Borító mentése az album mappájába 'Front' néven" />
+    </CoverPage>
+    <LyricsPage>
+        <Text Line="Szövegírók:" />
+        <Text Line="Dalszöveg beágyazása a zenefájlba" />
+        <Text Line="Dalszöveg mentése az album mappájába 'Dalszöveg' néven" />
+    </LyricsPage>
+    <RenameDialog>
+        <Text Line="Átnevezés" />
+        <Text Line="Mégse" />
+        <Text Line="OK" />
+        <Text Line="Adja meg az új nevet:" />
+    </RenameDialog>
+    <AboutDialog>
+        <Text Line="Névjegy" />
+        <Text Line="Bezárás" />
+        <Text Line="Adományok" />
+        <Text Line="Hivatalos oldal:" />
+        <Text Line="E-mail:" />
+        <!-- Enter your name in the next line in format: "Translated by John Doe john@example.com" (e-mail not necessarily) -->
+        <Text Line="Translated by Zityi zityisoft@gmail.com" />
+    </AboutDialog>
+    <Messages>
+        <Text Line="Hiba" />
+        <Text Line="Figyelem" />
+        <Text Line="Információ" />
+        <Text Line="A fájl nem található vagy formátuma nem támogatott" />
+        <Text Line="Nem sikerült a rádió szerverhez csatlakozni." />
+        <Text Line="Ez a felszín egy másik lejátszó verzióhoz való." />
+        <Text Line="Felszín betöltési hiba. Az alapértelmezett felszín lesz betöltve." />
+        <Text Line="A Last.FM kliens nem található. Kérjük, telepítse a Last.FM kliens modult a funkció használatához." />
+        <Text Line="Hangkimeneti eszköz hibát észlelt." />
+        <Text Line="Nincsenek ASIO eszközök." />
+    </Messages>
+    <EqualizerDialog>
+        <Text Line="Hangszínszabályzó" />
+        <Text Line="Bezárás" />
+        <Text Line="Engedélyezés" />
+        <Text Line="Előbeállított:" />
+        <Text Line="Alaphelyzet" />
+        <Text Line="Manuális" />
+    </EqualizerDialog>
+    <HotKeyDialog>
+        <Text Line="Globális gyorsbillentyűk" />
+        <Text Line="Mégse" />
+        <Text Line="OK" />
+        <Text Line="Válasszon egy műveletet és nyomja le a kívánt billentyűkombinációt." />
+        <Text Line="Nyomja meg a 'Törlés' gombot a gyorsbillentyű eltávolításához." />
+        <Text Line="Művelet" />
+        <Text Line="Gyorsbillentyű:" />
+        <Text Line="Lejátszás" />
+        <Text Line="Szünet" />
+        <Text Line="Leállítás" />
+        <Text Line="Következő szám" />
+        <Text Line="Előző szám" />
+        <Text Line="Hang némítása" />
+        <Text Line="Hangerő fel" />
+        <Text Line="Hangerő le" />
+        <Text Line="Értékelés 1" />
+        <Text Line="Értékelés 2" />
+        <Text Line="Értékelés 3" />
+        <Text Line="Értékelés 4" />
+        <Text Line="Értékelés 5" />
+        <Text Line="Felugró megjelenítése" />
+    </HotKeyDialog>
+    <OpenURLDialog>
+        <Text Line="Rádió/URL hozzáadása" />
+        <Text Line="Mégse" />
+        <Text Line="OK" />
+        <Text Line="Saját rádió" />
+        <Text Line="Név:" />
+        <Text Line="URL:" />
+    </OpenURLDialog>
+    <ToolTips>
+        <Text Line="Bezárás" />
+        <Text Line="Kis méret" />
+        <Text Line="Teljes méret" />
+        <Text Line="Visszaállítás" />
+        <Text Line="Lejátszás" />
+        <Text Line="Szünet" />
+        <Text Line="Leállítás" />
+        <Text Line="Következő" />
+        <Text Line="Előző" />
+        <Text Line="Hangszínszabályzó" />
+        <Text Line="Nézet váltása" />
+        <Text Line="Hang kikapcsolása" />
+        <Text Line="Hang bekapcsolása" />
+        <Text Line="Ismétlés bekapcsolása" />
+        <Text Line="Ismétlés kikapcsolása" />
+        <Text Line="Véletlen sorrendű lejátszás bekapcsolása" />
+        <Text Line="Véletlen sorrendű lejátszás kikapcsolása" />
+        <Text Line="Főmenü" />
+        <Text Line="Mini lejátszó" />
+        <Text Line="Lejátszó visszaállítása" />
+        <Text Line="Médiatár frissítése" />
+    </ToolTips>
+    <ConfigDialog>
+        <Text Line="Beállítások" />
+        <Text Line="Mégse" />
+        <Text Line="OK" />
+        <Text Line="Általános" />
+        <Text Line="Rendszer" />
+        <Text Line="Felugró" />
+        <Text Line="Mini lejátszó" />
+    </ConfigDialog>
+    <SystemPage>
+        <Text Line="Hangeszköz" />
+        <Text Line="Alapértelmezett hangeszköz" />
+        <Text Line="32 bites hangfeldolgozás" />
+        <Text Line="Szoftveres hangkeverés" />
+        <Text Line="Proxy" />
+        <Text Line="Proxy engedélyezése" />
+        <Text Line="Állomás:" />
+        <Text Line="Port:" />
+        <Text Line="Proxy hitelesítés" />
+        <Text Line="Bejelentkezés:" />
+        <Text Line="Jelszó:" />
+    </SystemPage>
+    <PopupPage>
+        <Text Line="Teszt" />
+        <Text Line="Idő" />
+        <Text Line="Megtartási idő:" />
+        <Text Line="Megjelenítési idő:" />
+        <Text Line="Rejtési idő:" />
+        <Text Line="mp" />
+        <Text Line="Megjelenés" />
+        <Text Line="Pozíció:" />
+        <Text Line="Balra fent" />
+        <Text Line="Jobbra fent" />
+        <Text Line="Balra lent" />
+        <Text Line="Jobbra lent" />
+        <Text Line="Effekt megjelenítése:" />
+        <Text Line="Effekt rejtése:" />
+        <Text Line="Halványítás" />
+        <Text Line="Függőleges csúsztatás" />
+        <Text Line="Vízszintes csúsztatás" />
+    </PopupPage>
+    <Search>
+        <Text Line="Keresés" />
+        <Text Line="Összes keresése" />
+        <Text Line="Szám keresése" />
+        <Text Line="Album keresése" />
+        <Text Line="Előadó keresése" />
+    </Search>
+    <MiniPlayerPage>
+        <Text Line="Pozíció" />
+        <Text Line="Mindig látható" />
+        <Text Line="Mindig az asztalon" />
+        <Text Line="Normál ablak-szerű" />
+        <Text Line="Átlátszóság" />
+    </MiniPlayerPage>
+    <GeneralPage>
+        <Text Line="Lejátszó viselkedés" />
+        <Text Line="Hozzáadás a médiatárhoz, ha meg vannak nyitva a listában" />
+        <Text Line="A következő kiválasztott szám lejátszása" />
+        <Text Line="Médiatár nézet" />
+        <Text Line="Szolgáltatások" />
+        <Text Line="A jelenlegi szám megjelenítése a Last.FM kliensben" />
+        <Text Line="A jelenlegi szám megjelenítése a Live Messenger-ben" />
+        <Text Line="Társítások" />
+        <Text Line="Lejátszás a Winyl-el" />
+        <Text Line="'Lejátszás a Winyl-el' bejegyzés a helyi menübe" />
+        <Text Line="Audió fájltársítások kezelése..." />
+        <!-- Win XP compatible Associations dialog -->
+        <Text Line="Fájltársítások" />
+        <Text Line="Mégse" />
+        <Text Line="Mentés" />
+        <Text Line="Összes kijelölése" />
+        <Text Line="Kiterjesztések" />
+    </GeneralPage>
+    <DefaultList>
+        <Text Line="Lejátszási lista" />
+        <Text Line="Gyorslista" />
+        <Text Line="Alaphelyzet" />
+        <Text Line="Saját lejátszólista" />
+        <Text Line="50 véletlenszerű" />
+        <Text Line="5 véletlenszerű album" />
+        <Text Line="Nemrég játszott" />
+        <Text Line="25 legtöbbet játszott" />
+        <Text Line="25 legjobbnak minősített" />
+        <Text Line="90-es évek zenéje" />
+    </DefaultList>
+    <DlgSmartlist>
+        <Text Line="Gyorslista" />
+        <Text Line="Mégse" />
+        <Text Line="OK" />
+        <Text Line="Név:" />
+        <Text Line="Forrás" />
+        <Text Line="Médiatár" />
+        <Text Line="Előadók" />
+        <Text Line="Albumok" />
+        <Text Line="Műfajok" />
+        <Text Line="Évek" />
+        <Text Line="Mappák" />
+        <Text Line="Opciók" />
+        <Text Line="Kiválasztás:" />
+        <Text Line="Szám:" />
+        <Text Line="Véletlenszerű sorrendben" />
+        <Text Line="Automatikus frissítés" />
+        <Text Line="Tippek" />
+        <Text Line="Használja a '+' szimbólumot több érték kiválasztásához. Példa: The Beatles + Led Zeppelin" />
+        <Text Line="Használja a '-' szimbólumot a tartomány kiválasztásához. Példa: 2000 - 2010" />
+        <Text Line="Ha a karakterlánc minusszal kezdődik, az elem ki lesz zárva." />
+        <Text Line="Speciális szűrő" />
+        <Text Line="Számok" />
+        <Text Line="Albumok" />
+        <Text Line="Bármelyik" />
+        <Text Line="Legtöbbet lejátszott" />
+        <Text Line="Ritkán játszott" />
+        <Text Line="Legjobbnak értékelt" />
+        <Text Line="Leggyengébbnek minősített" />
+        <Text Line="Nemrég játszott" />
+        <Text Line="Legutóbb hozzáadott" />
+    </DlgSmartlist>
+    <DlgSmartlistFilter>
+        <Text Line="Speciális szűrő" />
+        <Text Line="Mégse" />
+        <Text Line="OK" />
+        <Text Line="Összesre" />
+        <Text Line="Bármelyikre" />
+        <Text Line="a kijelölt szabályok közül:" />
+        <Text Line="Lejátszások száma" />
+        <Text Line="Értékelés" />
+        <Text Line="Utoljára játszott" />
+        <Text Line="Hozzáadás dátuma" />
+        <Text Line="Számok az albumon" />
+        <Text Line="Pontosan" />
+        <Text Line="Több mint" />
+        <Text Line="Kevesebb mint" />
+        <Text Line="Az elmúlt" />
+        <Text Line="Előtte" />
+        <Text Line="alkalom" />
+        <Text Line="szám" />
+        <Text Line="Nincs értékelve" />
+        <Text Line="1 csillagos" />
+        <Text Line="2 csillagos" />
+        <Text Line="3 csillagos" />
+        <Text Line="4 csillagos" />
+        <Text Line="5 csillagos" />
+        <Text Line="1 nap" />
+        <Text Line="2 nap" />
+        <Text Line="3 nap" />
+        <Text Line="1 hét" />
+        <Text Line="2 hét" />
+        <Text Line="1 hónap" />
+        <Text Line="3 hónap" />
+        <Text Line="6 hónap" />
+        <Text Line="1 év" />
+    </DlgSmartlistFilter>
+    <StatusLine>
+        <Text Line="KB" />
+        <Text Line="MB" />
+        <Text Line="GB" />
+        <Text Line=" -" />
+        <Text Line="elem" />
+        <Text Line="szám" />
+        <Text Line="teljes időtartam" />
+        <Text Line="Kiválasztva:" />
+    </StatusLine>
+    <Lyrics>
+        <Text Line="Nincs lejátszható." />
+        <Text Line="Nem található dalszöveg." />
+        <Text Line="Dalszöveg lekérése..." />
+    </Lyrics>
+    <LyricsMenu>
+        <Text Line="Forrás:" />
+        <Text Line="Nincs" />
+        <Text Line="Fájl" />
+        <Text Line="Címkék" />
+        <Text Line="Internet" />
+        <Text Line="Dalszöveg másolása" />
+        <Text Line="Dalszöveg mentése..." />
+        <Text Line="Dalszöveg szállító" />
+        <Text Line="Letiltás" />
+        <Text Line="Google keresés..." />
+        <Text Line="Szöveg igazítás" />
+        <Text Line="Balra" />
+        <Text Line="Középre" />
+        <Text Line="Jobbra" />
+        <Text Line="Betűméret" />
+        <Text Line="Felszínből" />
+        <Text Line="Kicsi" />
+        <Text Line="Közepes" />
+        <Text Line="Nagy" />
+        <Text Line="Nagyobb" />
+        <Text Line="Félkövér" />
+    </LyricsMenu>
+    <NewVersionDialog>
+        <Text Line="A médiatár átalakítása az új verzióra. Kis türelmet..." />
+        <Text Line="A médiatár átalakítása hordozható verzióra. Kis türelmet..." />
+        <Text Line="A frissítés befejezéséhez a Winyl-nek újra kell vizsgálnia az összes címkét." />
+        <Text Line="A jelenlegi folyamat megszakítása nem ajánlott." />
+    </NewVersionDialog>
+</Language>

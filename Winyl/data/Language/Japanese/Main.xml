@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Language Version="3.3.0">
+    <MainMenu>
+        <Text Line="ライブラリー..." />
+        <Text Line="スキン..." />
+        <Text Line="ミニプレイヤー" />
+        <Text Line="プレイリストに追加" />
+        <Text Line="ファイル..." />
+        <Text Line="フォルダー..." />
+        <Text Line="ラジオ/URL..." />
+        <Text Line="プレイリストをインポート..." />
+        <Text Line="コントロール" />
+        <Text Line="再生" />
+        <Text Line="一時停止" />
+        <Text Line="停止" />
+        <Text Line="次へ" />
+        <Text Line="前へ" />
+        <Text Line="ミュート" />
+        <Text Line="シャッフル" />
+        <Text Line="リピート" />
+        <Text Line="イコライザー..." />
+        <Text Line="設定" />
+        <Text Line="トレイに最小化" />
+        <Text Line="ポップアップウィンドウ" />
+        <Text Line="視覚効果" />
+        <Text Line="スクロールの平滑化" />
+        <Text Line="Last.FMを有効にする" />
+        <Text Line="ホットキー..." />
+        <Text Line="高度な設定..." />
+        <Text Line="表示言語の選択..." />
+        <Text Line="バージョン情報" />
+        <Text Line="作者に寄付" />
+    </MainMenu>
+    <ListMenu>
+        <Text Line="再生" />
+        <Text Line="トラック繰り返し再生" />
+        <Text Line="すべて選択" />
+        <Text Line="削除" />
+        <Text Line="プレイリストに追加" />
+        <Text Line="新規プレイリストへ" />
+        <Text Line="再生中へ" />
+        <Text Line="ファイルの場所を開く" />
+        <Text Line="プロパティ..." />
+        <Text Line="移動" />
+        <Text Line="アーティスト" />
+        <Text Line="アルバム" />
+        <Text Line="年" />
+        <Text Line="ジャンル" />
+        <Text Line="フォルダー" />
+    </ListMenu>
+    <TreeMenu>
+        <Text Line="新規プレイリスト" />
+        <Text Line="新規スマートリスト..." />
+        <Text Line="名前の変更..." />
+        <Text Line="削除" />
+        <Text Line="更新" />
+        <Text Line="編集..." />
+    </TreeMenu>
+    <TrayMenu>
+        <Text Line="再生" />
+        <Text Line="一時停止" />
+        <Text Line="停止" />
+        <Text Line="次へ" />
+        <Text Line="前へ" />
+        <Text Line="終了" />
+    </TrayMenu>
+    <PopupMenu>
+        <Text Line="無効" />
+        <Text Line="左上" />
+        <Text Line="右上" />
+        <Text Line="左下" />
+        <Text Line="右下" />
+        <Text Line="表示設定..." />
+    </PopupMenu>
+    <Library>
+        <!-- These lines should be as short as possible -->
+        <Text Line="不明" />
+        <Text Line="ライブラリー" />
+        <Text Line="再生中" />
+        <Text Line="プレイリスト" />
+        <Text Line="スマートリスト" />
+        <Text Line="アーティスト" />
+        <Text Line="作曲家" />
+        <Text Line="アルバム" />
+        <Text Line="ジャンル" />
+        <Text Line="年" />
+        <Text Line="ラジオ" />
+        <Text Line="フォルダー" />
+        <Text Line="ドライブ" />
+    </Library>
+    <Playlist>
+        <Text Line="不明" />
+        <Text Line="CD" /> <!-- Disc number CD1, CD2. 4 chars max or leave it as is. -->
+        <Text Line="フォルダー" />
+        <Text Line="ラジオ" />
+        <Text Line="表示するトラックがありません。" />
+    </Playlist>
+    <SkinDialog>
+        <Text Line="スキン" />
+        <Text Line="閉じる" />
+        <Text Line="適用" />
+        <Text Line="スキンの選択:" />
+        <Text Line="プレビュー" />
+        <Text Line="情報" />
+        <Text Line="作者:" />
+        <Text Line="バージョン:" />
+        <Text Line="説明:" />
+    </SkinDialog>
+    <LibraryDialog>
+        <Text Line="ライブラリー" />
+        <Text Line="閉じる" />
+        <Text Line="更新" />
+        <Text Line="フォルダー" />
+        <Text Line="オプション" />
+        <Text Line="追加" />
+        <Text Line="削除" />
+        <Text Line="オーディオライブラリーに追加するフォルダを追加してください。" />
+        <Text Line="更新ボタンをクリックしてライブラリーを更新してください。" />
+        <Text Line="音楽ファイルがあるフォルダーを選択してください。" />
+        <Text Line="基本" />
+        <Text Line="高度な設定" />
+        <Text Line="ライブラリから直近で削除したファイルを無視する" />
+        <Text Line="見つからないファイルをライブラリから削除する" />
+        <Text Line="移動したファイルや名前を変更したファイルを検索する" />
+        <Text Line="ライブラリを完全スキャンする" />
+    </LibraryDialog>
+    <LanguageDialog>
+        <Text Line="表示言語" />
+        <Text Line="キャンセル" />
+        <Text Line="OK" />
+        <Text Line="表示言語の選択:" />
+    </LanguageDialog>
+    <ProcessDialog>
+        <Text Line="ライブラリを更新しています" />
+        <Text Line="プライリストに追加しています" />
+        <Text Line="キャンセル" />
+        <Text Line="最小化" />
+        <Text Line="処理しています..." />
+        <Text Line="処理中:" />
+        <Text Line="キャンセルしています..." />
+    </ProcessDialog>
+    <PropertiesDialog>
+        <Text Line="プロパティ" />
+        <Text Line="閉じる" />
+        <Text Line="保存" />
+        <Text Line="タグ" />
+        <Text Line="カバー画像" />
+        <Text Line="歌詞" />
+        <Text Line="保存して前のトラックへ" />
+        <Text Line="保存して次のトラックへ" />
+    </PropertiesDialog>
+    <TagsPage>
+        <Text Line="タイトル:" />
+        <Text Line="アーティスト:" />
+        <Text Line="アルバムアーティスト:" />
+        <Text Line="アルバム:" />
+        <Text Line="作曲家:" />
+        <Text Line="年:" />
+        <Text Line="トラック:" />
+        <Text Line="ディスク:" />
+        <Text Line="/" />
+        <Text Line="ジャンル:" />
+        <Text Line="コメント:" />
+        <Text Line="ファイル:" />
+        <Text Line="品質:" />
+    </TagsPage>
+    <CoverPage>
+        <Text Line="変更" />
+        <Text Line="削除" />
+        <Text Line="プレビュー" />
+        <Text Line="カバーなし" />
+        <Text Line="ここに画像をドラッグして変更してください" />
+        <Text Line="カバー画像を音楽ファイルに埋め込む" />
+        <Text Line="カバー画像をアルバムフォルダに'Front'という名前で保存する" />
+    </CoverPage>
+    <LyricsPage>
+        <Text Line="歌詞:" />
+        <Text Line="歌詞を音楽ファイルに埋め込む" />
+        <Text Line="歌詞をアルバムフォルダのサブフォルダ'Lyrics'に保存する" />
+    </LyricsPage>
+    <RenameDialog>
+        <Text Line="名前の変更" />
+        <Text Line="キャンセル" />
+        <Text Line="OK" />
+        <Text Line="新しい名前を入力してください:" />
+    </RenameDialog>
+    <AboutDialog>
+        <Text Line="バージョン情報" />
+        <Text Line="閉じる" />
+        <Text Line="寄付" />
+        <Text Line="公式サイト:" />
+        <Text Line="開発元に連絡:" />
+        <!-- Enter your name in the next line in format: "Translated by John Doe john@example.com" (e-mail not necessarily) -->
+        <Text Line="日本語翻訳: www.nihongoka.com" />
+    </AboutDialog>
+    <Messages>
+        <Text Line="エラー" />
+        <Text Line="警告" />
+        <Text Line="情報" />
+        <Text Line="ファイルが見つからないか非対応の形式です。" />
+        <Text Line="ラジオ局に接続できません。" />
+        <Text Line="このスキンは現在のバージョンに適合しません。" />
+        <Text Line="スキンの読み込みエラーが発生しました。デフォルトスキンを適用しました。" />
+        <Text Line="Last.FM クライアントが見つかりません。この機能を利用するためには Last.FM クライアントをインストールしてください。" />
+        <Text Line="オーディオ出力デバイスでエラーが発生しました。" />
+        <Text Line="ASIOが見つかりません。" />
+    </Messages>
+    <EqualizerDialog>
+        <Text Line="イコライザー" />
+        <Text Line="閉じる" />
+        <Text Line="有効" />
+        <Text Line="プリセット:" />
+        <Text Line="デフォルト" />
+        <Text Line="手動" />
+    </EqualizerDialog>
+    <HotKeyDialog>
+        <Text Line="グローバルホットキー" />
+        <Text Line="キャンセル" />
+        <Text Line="OK" />
+        <Text Line="アクションを選択し、お好みの組み合わせのキーを押してください。" />
+        <Text Line="'Delete'キーを押すとホットキーの登録を解除します。" />
+        <Text Line="アクション" />
+        <Text Line="ホットキー" />
+        <Text Line="再生" />
+        <Text Line="一時停止" />
+        <Text Line="停止" />
+        <Text Line="次のトラックへ" />
+        <Text Line="前のトラックへ" />
+        <Text Line="音量ミュート" />
+        <Text Line="音量上げる" />
+        <Text Line="音量下げる" />
+        <Text Line="評価 1" />
+        <Text Line="評価 2" />
+        <Text Line="評価 3" />
+        <Text Line="評価 4" />
+        <Text Line="評価 5" />
+        <Text Line="ポップアップ表示" />
+    </HotKeyDialog>
+    <OpenURLDialog>
+        <Text Line="ラジオ/URLの追加" />
+        <Text Line="キャンセル" />
+        <Text Line="OK" />
+        <Text Line="マイラジオ" />
+        <Text Line="名前:" />
+        <Text Line="URL:" />
+    </OpenURLDialog>
+    <ToolTips>
+        <Text Line="閉じる" />
+        <Text Line="最小化" />
+        <Text Line="最大化" />
+        <Text Line="元に戻す" />
+        <Text Line="再生" />
+        <Text Line="一時停止" />
+        <Text Line="停止" />
+        <Text Line="次へ" />
+        <Text Line="前へ" />
+        <Text Line="イコライザー" />
+        <Text Line="表示切り替え" />
+        <Text Line="サウンド オフ" />
+        <Text Line="サウンド オン" />
+        <Text Line="リピート オン" />
+        <Text Line="リピート オフ" />
+        <Text Line="シャッフル オン" />
+        <Text Line="シャッフル オフ" />
+        <Text Line="メインメニュー" />
+        <Text Line="ミニプレイヤー" />
+        <Text Line="プレイヤーを元に戻す" />
+        <Text Line="ライブラリーの更新" />
+    </ToolTips>
+    <ConfigDialog>
+        <Text Line="設定" />
+        <Text Line="キャンセル" />
+        <Text Line="OK" />
+        <Text Line="一般" />
+        <Text Line="システム" />
+        <Text Line="ポップアップ" />
+        <Text Line="ミニプレイヤー" />
+    </ConfigDialog>
+    <SystemPage>
+        <Text Line="オーディオデバイス" />
+        <Text Line="デフォルトオーディオデバイス" />
+        <Text Line="32ビットオーディオ処理" />
+        <Text Line="ソフトウェアのオーディオミキシング" />
+        <Text Line="プロキシ" />
+        <Text Line="プロキシを有効にする" />
+        <Text Line="ホスト:" />
+        <Text Line="ポート:" />
+        <Text Line="プロキシ認証" />
+        <Text Line="ログイン:" />
+        <Text Line="パスワード:" />
+    </SystemPage>
+    <PopupPage>
+        <Text Line="テスト" />
+        <Text Line="時間" />
+        <Text Line="表示時間:" />
+        <Text Line="表示開始までの時間:" />
+        <Text Line="表示終了までの時間:" />
+        <Text Line="秒" />
+        <Text Line="表示方法" />
+        <Text Line="表示位置:" />
+        <Text Line="左上" />
+        <Text Line="右上" />
+        <Text Line="左下" />
+        <Text Line="右下" />
+        <Text Line="表示開始の効果:" />
+        <Text Line="表示終了の効果t:" />
+        <Text Line="フェード" />
+        <Text Line="上下スライド" />
+        <Text Line="左右スライド" />
+    </PopupPage>
+    <Search>
+        <Text Line="検索" />
+        <Text Line="すべて検索" />
+        <Text Line="トラック名で検索" />
+        <Text Line="アルバム名で検索" />
+        <Text Line="アーティスト名で検索" />
+    </Search>
+    <MiniPlayerPage>
+        <Text Line="位置" />
+        <Text Line="常に手前に表示する" />
+        <Text Line="常にデスクトップ上に表示する" />
+        <Text Line="通常ウィンドウ扱いで表示する" />
+        <Text Line="透過度" />
+    </MiniPlayerPage>
+    <GeneralPage>
+        <Text Line="プレイヤーの動作" />
+        <Text Line="プレイリストを開いた場合にライブラリーにファイルを追加する" />
+        <Text Line="選択されたトラックから再生する" />
+        <Text Line="ライブラリー表示" />
+        <Text Line="サービス" />
+        <Text Line="Last.FM クライアントからトラックを集める" />
+        <Text Line="Live Messenger に再生中のトラックを表示する" />
+        <Text Line="関連付け" />
+        <Text Line="Winylで再生" />
+        <Text Line="フォルダメニューに 'Winylで再生' を追加する" />
+        <Text Line="ファイル関連付けを設定..." />
+        <!-- Win XP compatible Associations dialog -->
+        <Text Line="ファイルの関連付け" />
+        <Text Line="キャンセル" />
+        <Text Line="保存" />
+        <Text Line="すべて選択" />
+        <Text Line="拡張子" />
+    </GeneralPage>
+    <DefaultList>
+        <Text Line="プレイリスト" />
+        <Text Line="スマートリスト" />
+        <Text Line="デフォルト" />
+        <Text Line="マイプレイリスト" />
+        <Text Line="ランダム50曲" />
+        <Text Line="ランダム5アルバム" />
+        <Text Line="最近再生した曲" />
+        <Text Line="再生頻度 上位25" />
+        <Text Line="評価 上位25" />
+        <Text Line="90年代音楽" />
+    </DefaultList>
+    <DlgSmartlist>
+        <Text Line="スマートリスト" />
+        <Text Line="キャンセル" />
+        <Text Line="OK" />
+        <Text Line="名前:" />
+        <Text Line="入力元" />
+        <Text Line="ライブラリー" />
+        <Text Line="アーティスト" />
+        <Text Line="アルバム" />
+        <Text Line="ジャンル" />
+        <Text Line="年" />
+        <Text Line="フォルダー" />
+        <Text Line="オプション" />
+        <Text Line="選択:" />
+        <Text Line="番号:" />
+        <Text Line="ランダム順序" />
+        <Text Line="自動更新" />
+        <Text Line="説明" />
+        <Text Line="プラス '+' 文字を使うと複数アイテムを選択できます。例: The Beatles + Led Zeppelin" />
+        <Text Line="マイナス '-' 文字を使うと範囲指定できます。例: 2000 - 2010" />
+        <Text Line="マイナスから開始する場合、そのアイテムを除外できます。" />
+        <Text Line="高度なフィルター" />
+        <Text Line="トラック" />
+        <Text Line="アルバム" />
+        <Text Line="すべて" />
+        <Text Line="頻繁に再生する曲" />
+        <Text Line="滅多に再生しない曲" />
+        <Text Line="高い評価" />
+        <Text Line="低い評価" />
+        <Text Line="最近再生した曲" />
+        <Text Line="最近追加した曲" />
+    </DlgSmartlist>
+    <DlgSmartlistFilter>
+        <Text Line="高度なフィルター" />
+        <Text Line="キャンセル" />
+        <Text Line="OK" />
+        <Text Line="すべて" />
+        <Text Line="いずれか" />
+        <Text Line="の以下のルール:" />
+        <Text Line="再生回数" />
+        <Text Line="評価" />
+        <Text Line="最近再生した" />
+        <Text Line="追加した日" />
+        <Text Line="アルバムのトラック" />
+        <Text Line="次の値と同じ" />
+        <Text Line="次の値より多い" />
+        <Text Line="次の値より少ない" />
+        <Text Line="次の期間以内" />
+        <Text Line="次の期間より前" />
+        <Text Line="回" />
+        <Text Line="トラック" />
+        <Text Line="未評価" />
+        <Text Line="星1つ" />
+        <Text Line="星2つ" />
+        <Text Line="星3つ" />
+        <Text Line="星4つ" />
+        <Text Line="星5つ" />
+        <Text Line="過去1日" />
+        <Text Line="過去2日" />
+        <Text Line="過去3日" />
+        <Text Line="過去1週" />
+        <Text Line="過去2週" />
+        <Text Line="過去1ヶ月" />
+        <Text Line="過去3ヶ月" />
+        <Text Line="過去6ヶ月" />
+        <Text Line="過去1年" />
+    </DlgSmartlistFilter>
+    <StatusLine>
+        <Text Line="KB" />
+        <Text Line="MB" />
+        <Text Line="GB" />
+        <Text Line="of" />
+        <Text Line="アイテム" />
+        <Text Line="トラック" />
+        <Text Line="合計時間" />
+        <Text Line="選択済み:" />
+    </StatusLine>
+    <Lyrics>
+        <Text Line="何も再生していません。" />
+        <Text Line="歌詞が見つかりません。" />
+        <Text Line="歌詞を検索しています..." />
+    </Lyrics>
+    <LyricsMenu>
+        <Text Line="ソース:" />
+        <Text Line="なし" />
+        <Text Line="ファイル" />
+        <Text Line="タグ" />
+        <Text Line="インターネット" />
+        <Text Line="歌詞をコピー" />
+        <Text Line="歌詞を保存..." />
+        <Text Line="歌詞の提供元" />
+        <Text Line="無効" />
+        <Text Line="Google検索..." />
+        <Text Line="テキスト位置" />
+        <Text Line="左寄せ" />
+        <Text Line="中央" />
+        <Text Line="右寄せ" />
+        <Text Line="フォントサイズ" />
+        <Text Line="スキンから" />
+        <Text Line="小" />
+        <Text Line="中" />
+        <Text Line="大" />
+        <Text Line="特大" />
+        <Text Line="太字" />
+    </LyricsMenu>
+    <NewVersionDialog>
+        <Text Line="ライブラリーを新しいバージョン向けに変換しています。しばらくお待ちください..." />
+        <Text Line="ライブラリーをポータブル版向けに変換しています。しばらくお待ちください..." />
+        <Text Line="Winylの更新を完了するには、すべてのタグをスキャンし直す必要があります。" />
+        <Text Line="この処理のキャンセルは推奨しません。" />
+    </NewVersionDialog>
+</Language>

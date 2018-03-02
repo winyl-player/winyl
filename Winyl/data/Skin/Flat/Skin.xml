@@ -1,0 +1,302 @@
+﻿<Window SkinEngine="1.6">
+    <!-- For skin makers: disable Save by design time, Version MUST BE changed always when skin changed -->
+    <SkinLayouts Save="1" Version="1.0" />
+    <Size MinWidth="720" MinHeight="500" MaxWidth="2560" MaxHeight="2048" />
+    <ResizeBorder Left="10" Top="5" Right="10" Bottom="10" />
+    <MaximizeBorder Left="0" Top="0" Right="0" Bottom="0" />
+    <Shadow Native="1" Composite="1" />
+    <Layout Name="Header">
+        <Position Left="0" Top="0" Right="0" Height="28" />
+        <Elements>
+            <MainMenu>
+                <Position Left="20" Top="0" />
+                <Skin File="Header\ButtonMenu\Menu.xml" />
+            </MainMenu>
+            <Minimize>
+                <Position Right="80" Top="0" />
+                <Skin File="Header\ButtonMinimize\Minimize.xml" />
+            </Minimize>
+            <Maximize>
+                <Position Right="53" Top="0" />
+                <Skin File="Header\SwitchMaximize\Maximize.xml" />
+            </Maximize>
+            <Close>
+                <Position Right="7" Top="0" />
+                <Skin File="Header\ButtonClose\Close.xml" />
+            </Close>
+        </Elements>
+        <Background>
+            <Fill>
+                <Position Left="0" Top="0" Right="0" Bottom="0" />
+                <Fill Color="222222" />
+            </Fill>
+            <Image>
+                <Position LeftRight="0" Top="8" />
+                <Image File="Background\Winyl.png" />
+            </Image>
+        </Background>
+    </Layout>
+    <Layout Name="Library" ID="100" Hide="0">
+        <Position Left="0" Top="28" Width="220" Bottom="67" />
+        <Elements>
+            <SearchMenu>
+                <Position Left="15" Top="1" />
+                <Skin File="Header\Search\ButtonMenu\Menu.xml" />
+            </SearchMenu>
+            <Search>
+                <Position Left="40" Right="20" Top="0" Height="18" />
+                <Skin File="Header\Search\Search.xml" />
+            </Search>
+            <SearchClear>
+                <Position Top="1" Right="2" />
+                <Skin File="Header\Search\ButtonClear\Clear.xml" />
+            </SearchClear>
+            <Library>
+                <Position Left="0" Right="0" Top="22" Bottom="0" />
+                <Skin File="Library\Library.xml" />
+            </Library>
+        </Elements>
+        <Background>
+            <Fill>
+                <Position Left="0" Top="0" Right="0" Height="22" />
+                <Fill Color="222222" />
+            </Fill>
+            <Fill>
+                <Position Left="0" Top="22" Right="0" Bottom="0" />
+                <Fill Color="F4F4F4" />
+            </Fill>
+        </Background>
+    </Layout>
+    <Layout Name="Playlist" ID="200" Hide="0">
+        <Position Left="220" Right="0" Top="28" Bottom="67" />
+        <Elements>
+            <ArtistTitle>
+                <Position Left="0" LeftRight="-50" Top="0" Height="16" />
+                <Skin File="Text\ArtistTitle.xml" />
+            </ArtistTitle>
+            <StatusLine>
+                <Position LeftRight="-50" Right="10" Top="0" Height="16" />
+                <Skin File="Text\StatusLine.xml" />
+            </StatusLine>
+            <Splitter>
+                <Position Left="0" Width="10" Top="22" Bottom="0" />
+                <Skin File="Splitter\Splitter.xml" />
+            </Splitter>
+            <Playlist>
+                <Position Left="10" Right="0" Top="22" Bottom="0" />
+                <Skin File="Playlist\Playlist.xml" />
+            </Playlist>
+        </Elements>
+        <Background>
+            <Fill>
+                <Position Left="0" Top="0" Right="0" Height="22" />
+                <Fill Color="222222" />
+            </Fill>
+            <Fill>
+                <Position Left="0" Top="22" Right="0" Bottom="0" />
+                <Fill Color="F4F4F4" />
+            </Fill>
+        </Background>
+    </Layout>
+    <Layout Name="Lyrics" ID="300" Hide="1">
+        <Position Left="0" Top="28" Right="0" Bottom="67" />
+        <Elements>
+            <Artist>
+                <Position LeftRight="-60" Left="24" Top="35" Height="25" />
+                <Skin File="Text\LyricsArtist.xml" />
+            </Artist>
+            <Album>
+                <Position LeftRight="-60" Top="65" Height="25" Left="24" />
+                <Skin File="Text\LyricsArtist.xml" />
+            </Album>
+            <Cover>
+                <Position LeftRight="0" Top="15" />
+                <Skin File="Cover\CoverSmall.xml" />
+            </Cover>
+            <Title>
+                <Position LeftRight="60" Right="24" Top="35" Height="25" />
+                <Skin File="Text\LyricsTitle.xml" />
+            </Title>
+            <Rating>
+                <Position LeftRight="102" Top="72" />
+                <Skin File="Rating\LyricsRating.xml" />
+            </Rating>
+            <Lyrics>
+                <Position LeftRight="0" Width="500" Top="130" Bottom="0" />
+                <Skin File="Lyrics\Lyrics.xml" />
+            </Lyrics>
+            <Button>
+                <Position Left="0" Bottom="0" />
+                <Skin File="Control\SwitchView\HideCover1.xml" />
+            </Button>
+        </Elements>
+        <Background>
+            <Fill>
+                <Position Left="0" Top="0" Right="0" Height="130" />
+                <Fill Color="303030" />
+            </Fill>
+            <Fill>
+                <Position Left="0" Top="130" Right="0" Bottom="0" />
+                <Fill Color="333333" />
+            </Fill>
+            <Image>
+                <Position Left="0" Right="0" Top="0" Height="180" />
+                <Image Tile="1" File="Background\TopCoverFill.png" />
+            </Image>
+            <Image>
+                <Position Left="0" Right="0" Bottom="0" Height="180" />
+                <Image Tile="1" File="Background\BottomCoverFill.png" />
+            </Image>
+            <Image>
+                <Position LeftRight="0" Top="10" />
+                <Image File="Background\BackCoverSmall.png" />
+            </Image>
+        </Background>
+    </Layout>
+    <Layout Name="Cover" ID="400" Hide="1">
+        <Position Left="0" Top="28" Right="0" Bottom="67" />
+        <Elements>
+            <Cover>
+                <Position LeftRight="-168" TopBottom="-3" />
+                <Skin File="Cover\CoverBig.xml" />
+            </Cover>
+            <Title>
+                <Position LeftRight="20" TopBottom="-95" Height="35" Right="24" />
+                <Skin File="Text\CoverTitle.xml" />
+            </Title>
+            <Rating>
+                <Position LeftRight="119" TopBottom="-45" />
+                <Skin File="Rating\Rating.xml" />
+            </Rating>
+            <Artist>
+                <Position LeftRight="20" TopBottom="5" Height="25" Right="24" />
+                <Skin File="Text\CoverArtist.xml" />
+            </Artist>
+            <Album>
+                <Position LeftRight="20" TopBottom="35" Height="25" Right="24" />
+                <Skin File="Text\CoverArtist.xml" />
+            </Album>
+            <Year>
+                <Position LeftRight="20" TopBottom="65" Height="25" Right="24" />
+                <Skin File="Text\CoverArtist.xml" />
+            </Year>
+            <Genre>
+                <Position LeftRight="20" TopBottom="103" Height="25" Right="24" />
+                <Skin File="Text\CoverArtist.xml" />
+            </Genre>
+            <Button>
+                <Position Left="0" Bottom="0" />
+                <Skin File="Control\SwitchView\HideCover2.xml" />
+            </Button>
+        </Elements>
+        <Background>
+            <Fill>
+                <Position Left="0" Top="0" Right="0" Bottom="0" />
+                <Fill Color="333333" />
+            </Fill>
+            <Image>
+                <Position Left="0" Right="0" Top="0" Height="180" />
+                <Image Tile="1" File="Background\TopCoverFill.png" />
+            </Image>
+            <Image>
+                <Position Left="0" Right="0" Bottom="0" Height="180" />
+                <Image Tile="1" File="Background\BottomCoverFill.png" />
+            </Image>
+            <Image>
+                <Position LeftRight="-168" TopBottom="-3" />
+                <Image File="Background\BackCover.png" />
+            </Image>
+        </Background>
+    </Layout>
+    <Layout Name="Control">
+        <Position Left="0" Bottom="0" Right="0" Height="67" />
+        <Elements>
+            <TrackBar>
+                <Position Left="11" Right="11" Top="7" />
+                <Skin File="Control\Bar\Bar.xml" />
+            </TrackBar>
+            <Equalizer>
+                <Position Left="36" Bottom="16" />
+                <Skin File="Control\ButtonEq\Eq.xml" />
+            </Equalizer>
+            <Shuffle>
+                <Position Left="69" Bottom="16" />
+                <Skin File="Control\SwitchShuffle\Shuffle.xml" />
+            </Shuffle>
+            <Repeat>
+                <Position Left="105" Bottom="16" />
+                <Skin File="Control\SwitchRepeat\Repeat.xml" />
+            </Repeat>
+            <TimeElapsed>
+                <Position Bottom="14" Height="18" Left="138" Width="70" />
+                <Skin File="Text\TimeElapsed.xml" />
+            </TimeElapsed>
+            <Previous>
+                <Position LeftRight="-37" Bottom="16" />
+                <Skin File="Control\ButtonPrevious\Previous.xml" />
+            </Previous>
+            <PlayPause>
+                <Position LeftRight="2" Bottom="11" />
+                <Skin File="Control\SwitchPlay\Play.xml" />
+            </PlayPause>
+            <Next>
+                <Position LeftRight="37" Bottom="16" />
+                <Skin File="Control\ButtonNext\Next.xml" />
+            </Next>
+            <Stop>
+                <Position LeftRight="74" Bottom="16" />
+                <Skin File="Control\ButtonStop\Stop.xml" />
+            </Stop>
+            <Mute>
+                <Position Right="123" Bottom="16" />
+                <Skin File="Control\SwitchMute\Mute.xml" />
+            </Mute>
+            <VolumeBar>
+                <Position Right="34" Bottom="18" Width="83" />
+                <Skin File="Control\Bar\Bar.xml" />
+            </VolumeBar>
+        </Elements>
+        <Background>
+            <Fill>
+                <Position Left="0" Top="0" Right="0" Bottom="0" />
+                <Fill Color="222222" />
+            </Fill>
+        </Background>
+    </Layout>
+    <Layout Name="ShowLyrics" ID="301" Hide="0">
+        <Position LeftRight="-73" Bottom="16" Width="18" Height="18" />
+        <Elements>
+            <Button>
+                <Position Left="0" Top="0" />
+                <Skin File="Control\SwitchView\CoverButton11.xml" />
+            </Button>
+        </Elements>
+    </Layout>
+    <Layout Name="HideLyrics" ID="302" Hide="1">
+        <Position LeftRight="-73" Bottom="16" Width="18" Height="18" />
+        <Elements>
+            <Button>
+                <Position Left="0" Top="0" />
+                <Skin File="Control\SwitchView\CoverButton12.xml" />
+            </Button>
+        </Elements>
+    </Layout>
+    <Layout Name="ShowCover" ID="401" Hide="1">
+        <Position LeftRight="-73" Bottom="16" Width="18" Height="18" />
+        <Elements>
+            <Button>
+                <Position Left="0" Top="0" />
+                <Skin File="Control\SwitchView\CoverButton21.xml" />
+            </Button>
+        </Elements>
+    </Layout>
+    <Layout Name="HideCover" ID="402" Hide="1">
+        <Position LeftRight="-73" Bottom="16" Width="18" Height="18" />
+        <Elements>
+            <Button>
+                <Position Left="0" Top="0" />
+                <Skin File="Control\SwitchView\CoverButton22.xml" />
+            </Button>
+        </Elements>
+    </Layout>
+</Window>

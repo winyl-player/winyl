@@ -1,0 +1,14 @@
+<Shadow>
+    <Top File="Background\Shadow\Top.png" />
+    <TopLeft File="Background\Shadow\TopLeft.png" />
+    <TopRight File="Background\Shadow\TopRight.png" />
+    <Bottom File="Background\Shadow\Bottom.png" />
+    <BottomLeft File="Background\Shadow\BottomLeft.png" />
+    <BottomRight File="Background\Shadow\BottomRight.png" />
+    <Left File="Background\Shadow\Left.png" />
+    <LeftTop File="Background\Shadow\LeftTop.png" />
+    <LeftBottom File="Background\Shadow\LeftBottom.png" />
+    <Right File="Background\Shadow\Right.png" />
+    <RightTop File="Background\Shadow\RightTop.png" />
+    <RightBottom File="Background\Shadow\RightBottom.png" />
+</Shadow>

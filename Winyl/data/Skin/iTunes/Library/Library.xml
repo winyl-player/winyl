@@ -1,0 +1,58 @@
+<Library>
+    <Scroll File="..\Scroll\Scroll.xml" />
+    <Background Color="D9DEE7" />
+    <Head Height="21" UpperCase="1">
+        <Elements>
+            <Expand>
+                <Position Left="5" Top="2" Right="10" />
+                <Skin File="Expand\Expand.xml" />
+            </Expand>
+            <Text>
+                <Position Left="22" Top="3" Right="10" />
+		<State Focus="1" Select="1">
+                    <Font Size="9" Color="EEEEEE" Bold="1" />
+                </State>
+		<State Normal="1">
+                    <Font Size="9" Color="627080" Bold="1" />
+                </State>
+            </Text>
+        </Elements>
+        <Background>
+            <Image>
+                <Position Left="0" Right="0" Top="0" Bottom="0" />
+                <State Focus="1" Select="1">
+                    <Image File="Background\Select.png" />
+                </State>
+            </Image>
+        </Background>
+    </Head>
+    <Node Height="21">
+        <Elements>
+            <Expand>
+                <Position Left="5" Top="2" Right="10" />
+                <Skin File="Expand\Expand.xml" />
+            </Expand>
+            <Icon>
+                <Position Left="22" Top="2" Right="10" />
+                <Skin File="Icons\Icons.xml" />
+            </Icon>
+            <Text>
+                <Position Left="42" Top="3" Right="10" />
+		<State Focus="1" Select="1">
+                    <Font Size="9" Color="FFFFFF" />
+                </State>
+		<State Normal="1">
+                    <Font Size="9" Color="000000" />
+                </State>
+            </Text>
+        </Elements>
+        <Background>
+            <Image>
+                <Position Left="0" Right="0" Top="0" Bottom="0" />
+                <State Focus="1" Select="1">
+                    <Image File="Background\Select.png" />
+                </State>
+            </Image>
+        </Background>
+    </Node>
+</Library>

@@ -1,0 +1,4 @@
+<Button>
+    <Normal File="Clear1.png" />
+    <Press File="Clear3.png" />
+</Button>

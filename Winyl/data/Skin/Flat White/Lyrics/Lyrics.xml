@@ -1,0 +1,8 @@
+<Lyrics>
+    <Scroll File="..\Scroll\ScrollLyrics.xml" />
+    <Background Color="333333" />
+    <Font Size="12" Color="222222" />
+    <FontNoLyrics Size="9" Color="444444" />
+    <Margin Left="14" Top="15" Right="14" Bottom="15" />
+    <Experimental Transparent="1" FadeTopBottom="20" />
+</Lyrics>

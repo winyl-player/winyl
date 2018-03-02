@@ -1,0 +1,45 @@
+<Library>
+    <Scroll File="..\Scroll\ScrollLibrary.xml" />
+    <Background Color="D0D0D0" />
+    <DropLine Color="FFFFFF" />
+    <Head Height="31" UpperCase="1">
+        <Elements>
+            <Expand>
+                <Position Left="8" Top="12" />
+                <Skin File="Expand\Expand.xml" />
+            </Expand>
+            <Text>
+                <Position Left="22" Top="6" Right="10" />
+                <Font Size="10" Color="111111" />
+            </Text>
+        </Elements>
+        <Background>
+            <Fill>
+                <State Focus="1" Select="1">
+                    <Position Left="0" Top="0" Right="0" Bottom="0" />
+                    <Fill Color="DDDDDD" />
+                </State>
+            </Fill>
+        </Background>
+    </Head>
+    <Node Height="21">
+        <Elements>
+            <Expand>
+                <Position Left="8" Top="7" />
+                <Skin File="Expand\Expand.xml" />
+            </Expand>
+            <Text>
+                <Position Left="22" Top="3" Right="10" />
+                <Font Size="9" Color="222222" />
+            </Text>
+        </Elements>
+        <Background>
+            <Fill>
+                <State Focus="1" Select="1">
+                    <Position Left="0" Top="0" Right="0" Bottom="0" />
+                    <Fill Color="DDDDDD" />
+                </State>
+            </Fill>
+        </Background>
+    </Node>
+</Library>

@@ -1,0 +1,23 @@
+<Popup>
+    <Size MinWidth="230" MaxWidth="350" />
+    <Corners All="9" />
+    <Background>
+        <Begin File="Popup\BackLeft.png" />
+        <Fill File="Popup\BackFill.png" />
+        <End File="Popup\BackRight.png" />
+    </Background>
+    <Elements>
+        <Cover>
+            <Position Left="4" Top="4" />
+            <Skin File="Popup\Cover\Cover.xml" />
+        </Cover>
+        <Title>
+            <Position Left="70" Top="20" Right="14" Height="12" />
+            <Skin File="Popup\Text\Title.xml" />
+        </Title>
+        <Artist>
+            <Position Left="70" Top="34" Right="14" Height="12" />
+            <Skin File="Popup\Text\Artist.xml" />
+        </Artist>
+    </Elements>
+</Popup>

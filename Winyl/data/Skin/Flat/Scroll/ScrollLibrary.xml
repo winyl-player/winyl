@@ -1,0 +1,14 @@
+<Scroll>
+    <Track Size="15" Color="282828" />
+    <ArrowUp>
+        <Normal File="ButtonUp2.png" />
+    </ArrowUp>
+    <ArrowDown>
+        <Normal File="ButtonDown2.png" />
+    </ArrowDown>
+    <Thumb>
+        <Normal>
+            <Fill File="Thumb2.png" />
+        </Normal>
+    </Thumb>
+</Scroll>

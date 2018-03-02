@@ -1,0 +1,4 @@
+<Button>
+    <Normal File="MaximizeOff1.png" />
+    <Hover File="MaximizeOff2.png" />
+</Button>

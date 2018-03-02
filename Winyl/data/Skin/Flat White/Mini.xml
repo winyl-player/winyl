@@ -1,0 +1,121 @@
+<Window SkinEngine="1.6">
+    <Size MinWidth="320" MinHeight="110" MaxWidth="520" MaxHeight="110" />
+    <ResizeBorder Left="10" Right="10" Top="0" Bottom="0" />
+    <Transparent AlphaBlend="1" />
+    <Layout Name="Shadow">
+        <Position Left="0" Right="0" Top="0" Bottom="0" />
+        <Background>
+            <!--Top Shadow-->
+            <Image>
+                <Position Left="0" Top="0" />
+                <Image File="Background\Shadow\TopLeft.png" />
+            </Image>
+            <Image>
+                <Position Left="10" Right="10" Top="0" />
+                <Image File="Background\Shadow\Top.png" />
+            </Image>
+            <Image>
+                <Position Right="0" Top="0" />
+                <Image File="Background\Shadow\TopRight.png" />
+            </Image>
+            <!--Bottom Shadow-->
+            <Image>
+                <Position Right="0" Bottom="0" />
+                <Image File="Background\Shadow\BottomRight.png" />
+            </Image>
+            <Image>
+                <Position Left="10" Right="10" Bottom="0" />
+                <Image File="Background\Shadow\Bottom.png" />
+            </Image>
+            <Image>
+                <Position Left="0" Bottom="0" />
+                <Image File="Background\Shadow\BottomLeft.png" />
+            </Image>
+            <!--Left Shadow-->
+            <Image>
+                <Position Left="0" Top="5" />
+                <Image File="Background\Shadow\LeftTop.png" />
+            </Image>
+            <Image>
+                <Position Left="0" Top="10" Bottom="10" />
+                <Image File="Background\Shadow\Left.png" />
+            </Image>
+            <Image>
+                <Position Left="0" Bottom="5" />
+                <Image File="Background\Shadow\LeftBottom.png" />
+            </Image>
+            <!--Right Shadow-->
+            <Image>
+                <Position Right="0" Top="5" />
+                <Image File="Background\Shadow\RightTop.png" />
+            </Image>
+            <Image>
+                <Position Right="0" Top="10" Bottom="10" />
+                <Image File="Background\Shadow\Right.png" />
+            </Image>
+            <Image>
+                <Position Right="0" Bottom="5" />
+                <Image File="Background\Shadow\RightBottom.png" />
+            </Image>
+        </Background>
+    </Layout>
+    <Layout Name="Main">
+        <Position Left="5" Top="5" Right="5" Bottom="5" />
+        <Elements>
+            <Minimize>
+                <Position Right="73" Top="0" />
+                <Skin File="Header\ButtonMinimize\Minimize.xml" />
+            </Minimize>
+            <MiniPlayer>
+                <Position Right="46" Top="0" />
+                <Skin File="Header\SwitchMaximize\MiniMaximize.xml" />
+            </MiniPlayer>
+            <Close>
+                <Position Right="0" Top="0" />
+                <Skin File="Header\ButtonClose\Close.xml" />
+            </Close>
+            <Cover>
+                <Position Left="10" Top="10" />
+                <Skin File="Cover\MiniCover.xml" />
+            </Cover>
+            <ArtistTitle>
+                <Position Right="10" Left="100" Top="26" Height="16" />
+                <Skin File="Text\MiniArtistTitle.xml" />
+            </ArtistTitle>
+            <TrackBar>
+                <Position Right="10" Left="100" Top="47" />
+                <Skin File="Control\Bar\Bar.xml" />
+            </TrackBar>
+            <Previous>
+                <Position Left="100" Top="68" />
+                <Skin File="Control\ButtonPrevious\Previous.xml" />
+            </Previous>
+            <PlayPause>
+                <Position Left="137" Top="68" />
+                <Skin File="Control\SwitchPlay\MiniPlay.xml" />
+            </PlayPause>
+            <Next>
+                <Position Left="168" Top="68" />
+                <Skin File="Control\ButtonNext\Next.xml" />
+            </Next>
+            <Mute>
+                <Position Right="76" Top="68" />
+                <Skin File="Control\SwitchMute\Mute.xml" />
+            </Mute>
+            <VolumeBar>
+                <Position Right="10" Width="60" Top="70" />
+                <Skin File="Control\Bar\Bar.xml" />
+            </VolumeBar>
+        </Elements>
+        <Background>
+            <Fill>
+                <Position Left="0" Top="0" Right="0" Bottom="0" />
+                <Fill Color="DDDDDD" />
+            </Fill>
+            <Image>
+                <Position LeftRight="0" Top="8" />
+                <Image File="Background\Winyl.png" />
+            </Image>
+        </Background>
+    </Layout>
+</Window>

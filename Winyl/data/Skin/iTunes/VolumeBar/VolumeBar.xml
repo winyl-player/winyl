@@ -1,0 +1,7 @@
+<Slider>
+    <Background File="Fill1.png" File2="Fill2.png" />
+    <Button>
+        <Normal File="Button1.png" />
+        <Press File="Button3.png" />
+    </Button>
+</Slider>

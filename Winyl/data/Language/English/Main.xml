@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Language Version="3.3.0">
+    <MainMenu>
+        <Text Line="Library..." />
+        <Text Line="Skin..." />
+        <Text Line="Mini Player" />
+        <Text Line="Add to Playlist" />
+        <Text Line="File..." />
+        <Text Line="Folder..." />
+        <Text Line="Radio/URL..." />
+        <Text Line="Import Playlist..." />
+        <Text Line="Control" />
+        <Text Line="Play" />
+        <Text Line="Pause" />
+        <Text Line="Stop" />
+        <Text Line="Next" />
+        <Text Line="Previous" />
+        <Text Line="Mute Sound" />
+        <Text Line="Shuffle" />
+        <Text Line="Repeat" />
+        <Text Line="Equalizer..." />
+        <Text Line="Settings" />
+        <Text Line="Hide to Tray" />
+        <Text Line="Popup Window" />
+        <Text Line="Visual Effects" />
+        <Text Line="Smooth Scrolling" />
+        <Text Line="Enable Last.FM" />
+        <Text Line="Hotkeys..." />
+        <Text Line="Advanced..." />
+        <Text Line="Select Language..." />
+        <Text Line="About" />
+        <Text Line="Donate" />
+    </MainMenu>
+    <ListMenu>
+        <Text Line="Play" />
+        <Text Line="Loop Track" />
+        <Text Line="Select All" />
+        <Text Line="Delete" />
+        <Text Line="Add to Playlist" />
+        <Text Line="To New Playlist" />
+        <Text Line="To Now Playing" />
+        <Text Line="File Location..." />
+        <Text Line="Properties..." />
+        <Text Line="Go to" />
+        <Text Line="Artist" />
+        <Text Line="Album" />
+        <Text Line="Year" />
+        <Text Line="Genre" />
+        <Text Line="Folder" />
+    </ListMenu>
+    <TreeMenu>
+        <Text Line="New Playlist" />
+        <Text Line="New Smartlist..." />
+        <Text Line="Rename..." />
+        <Text Line="Delete" />
+        <Text Line="Refresh" />
+        <Text Line="Edit..." />
+    </TreeMenu>
+    <TrayMenu>
+        <Text Line="Play" />
+        <Text Line="Pause" />
+        <Text Line="Stop" />
+        <Text Line="Next" />
+        <Text Line="Previous" />
+        <Text Line="Exit" />
+    </TrayMenu>
+    <PopupMenu>
+        <Text Line="Disable" />
+        <Text Line="Top Left" />
+        <Text Line="Top Right" />
+        <Text Line="Bottom Left" />
+        <Text Line="Bottom Right" />
+        <Text Line="Advanced..." />
+    </PopupMenu>
+    <Library>
+        <!-- These lines should be as short as possible -->
+        <Text Line="Unknown" />
+        <Text Line="Library" />
+        <Text Line="Now Playing" />
+        <Text Line="Playlists" />
+        <Text Line="Smartlists" />
+        <Text Line="Artists" />
+        <Text Line="Composers" />
+        <Text Line="Albums" />
+        <Text Line="Genres" />
+        <Text Line="Years" />
+        <Text Line="Radios" />
+        <Text Line="Folders" />
+        <Text Line="Drive" />
+    </Library>
+    <Playlist>
+        <Text Line="Unknown" />
+        <Text Line="CD" /> <!-- Disc number CD1, CD2. 4 chars max or leave it as is. -->
+        <Text Line="Folder" />
+        <Text Line="Radio" />
+        <Text Line="No tracks to display." />
+    </Playlist>
+    <SkinDialog>
+        <Text Line="Skin" />
+        <Text Line="Close" />
+        <Text Line="Apply" />
+        <Text Line="Select Skin:" />
+        <Text Line="Preview" />
+        <Text Line="Information" />
+        <Text Line="Author:" />
+        <Text Line="Version:" />
+        <Text Line="Description:" />
+    </SkinDialog>
+    <LibraryDialog>
+        <Text Line="Library" />
+        <Text Line="Close" />
+        <Text Line="Update" />
+        <Text Line="Folders" />
+        <Text Line="Options" />
+        <Text Line="Add" />
+        <Text Line="Delete" />
+        <Text Line="Add folders with your music to the audio library." />
+        <Text Line="Click Update button to update the audio library." />
+        <Text Line="Select a folder with your music files." />
+        <Text Line="Basic" />
+        <Text Line="Advanced" />
+        <Text Line="Ignore files previously removed from the library" />
+        <Text Line="Remove missing files from the library" />
+        <Text Line="Search for moved or renamed files" />
+        <Text Line="Full rescan of all files in the library" />
+    </LibraryDialog>
+    <LanguageDialog>
+        <Text Line="Language" />
+        <Text Line="Cancel" />
+        <Text Line="OK" />
+        <Text Line="Select Language:" />
+    </LanguageDialog>
+    <ProcessDialog>
+        <Text Line="Updating Library" />
+        <Text Line="Adding to Playlist" />
+        <Text Line="Cancel" />
+        <Text Line="Minimize" />
+        <Text Line="Processing..." />
+        <Text Line="Processing:" />
+        <Text Line="Canceling..." />
+    </ProcessDialog>
+    <PropertiesDialog>
+        <Text Line="Properties" />
+        <Text Line="Close" />
+        <Text Line="Save" />
+        <Text Line="Tags" />
+        <Text Line="Cover Art" />
+        <Text Line="Lyrics" />
+        <Text Line="Save and go to previous track" />
+        <Text Line="Save and go to next track" />
+    </PropertiesDialog>
+    <TagsPage>
+        <Text Line="Title:" />
+        <Text Line="Artists:" />
+        <Text Line="Album Artists:" />
+        <Text Line="Album:" />
+        <Text Line="Composers:" />
+        <Text Line="Year:" />
+        <Text Line="Track:" />
+        <Text Line="Disc:" />
+        <Text Line="of" />
+        <Text Line="Genres:" />
+        <Text Line="Comment:" />
+        <Text Line="File:" />
+        <Text Line="Quality:" />
+    </TagsPage>
+    <CoverPage>
+        <Text Line="Change" />
+        <Text Line="Remove" />
+        <Text Line="Preview" />
+        <Text Line="No cover" />
+        <Text Line="Drag picture here to change" />
+        <Text Line="Embed cover art to music file" />
+        <Text Line="Save cover art to album folder with name 'Front'" />
+    </CoverPage>
+    <LyricsPage>
+        <Text Line="Lyricists:" />
+        <Text Line="Embed lyrics to music file" />
+        <Text Line="Save lyrics to album folder to subfolder 'Lyrics'" />
+    </LyricsPage>
+    <RenameDialog>
+        <Text Line="Rename" />
+        <Text Line="Cancel" />
+        <Text Line="OK" />
+        <Text Line="Enter new name:" />
+    </RenameDialog>
+    <AboutDialog>
+        <Text Line="About" />
+        <Text Line="Close" />
+        <Text Line="Donate" />
+        <Text Line="Official website:" />
+        <Text Line="Support e-mail:" />
+        <!-- Enter your name in the next line in format: "Translated by John Doe john@example.com" (e-mail not necessarily) -->
+        <Text Line="" />
+    </AboutDialog>
+    <Messages>
+        <Text Line="Error" />
+        <Text Line="Warning" />
+        <Text Line="Information" />
+        <Text Line="File not found or unsupported file format." />
+        <Text Line="Unable to connect to the radio station." />
+        <Text Line="This skin is for another version of the player." />
+        <Text Line="Skin loading error. Default skin has been loaded." />
+        <Text Line="Last.FM Client not found. Please install Last.FM Client to use this feature." />
+        <Text Line="The audio output device encountered an error." />
+        <Text Line="Not found ASIO devices." />
+    </Messages>
+    <EqualizerDialog>
+        <Text Line="Equalizer" />
+        <Text Line="Close" />
+        <Text Line="Enable" />
+        <Text Line="Presets:" />
+        <Text Line="Default" />
+        <Text Line="Manual" />
+    </EqualizerDialog>
+    <HotKeyDialog>
+        <Text Line="Global Hotkeys" />
+        <Text Line="Cancel" />
+        <Text Line="OK" />
+        <Text Line="Select an action and press any keys combination." />
+        <Text Line="Press 'Delete' to delete a hotkey." />
+        <Text Line="Action" />
+        <Text Line="Hotkey" />
+        <Text Line="Play" />
+        <Text Line="Pause" />
+        <Text Line="Stop" />
+        <Text Line="Next Track" />
+        <Text Line="Previous Track" />
+        <Text Line="Volume Mute" />
+        <Text Line="Volume Up" />
+        <Text Line="Volume Down" />
+        <Text Line="Rating 1" />
+        <Text Line="Rating 2" />
+        <Text Line="Rating 3" />
+        <Text Line="Rating 4" />
+        <Text Line="Rating 5" />
+        <Text Line="Show Popup" />
+    </HotKeyDialog>
+    <OpenURLDialog>
+        <Text Line="Add Radio/URL" />
+        <Text Line="Cancel" />
+        <Text Line="OK" />
+        <Text Line="My Radio" />
+        <Text Line="Name:" />
+        <Text Line="URL:" />
+    </OpenURLDialog>
+    <ToolTips>
+        <Text Line="Close" />
+        <Text Line="Minimize" />
+        <Text Line="Maximize" />
+        <Text Line="Restore" />
+        <Text Line="Play" />
+        <Text Line="Pause" />
+        <Text Line="Stop" />
+        <Text Line="Next" />
+        <Text Line="Previous" />
+        <Text Line="Equalizer" />
+        <Text Line="Change view" />
+        <Text Line="Turn off sound" />
+        <Text Line="Turn on sound" />
+        <Text Line="Turn on repeat" />
+        <Text Line="Turn off repeat" />
+        <Text Line="Turn on shuffle" />
+        <Text Line="Turn off shuffle" />
+        <Text Line="Main menu" />
+        <Text Line="Mini player" />
+        <Text Line="Restore player" />
+        <Text Line="Update library" />
+    </ToolTips>
+    <ConfigDialog>
+        <Text Line="Settings" />
+        <Text Line="Cancel" />
+        <Text Line="OK" />
+        <Text Line="General" />
+        <Text Line="System" />
+        <Text Line="Popup" />
+        <Text Line="Mini Player" />
+    </ConfigDialog>
+    <SystemPage>
+        <Text Line="Audio device" />
+        <Text Line="Default Audio Device" />
+        <Text Line="32 bit audio processing" />
+        <Text Line="Software audio mixing" />
+        <Text Line="Proxy" />
+        <Text Line="Enable proxy" />
+        <Text Line="Host:" />
+        <Text Line="Port:" />
+        <Text Line="Proxy authorization" />
+        <Text Line="Login:" />
+        <Text Line="Password:" />
+    </SystemPage>
+    <PopupPage>
+        <Text Line="Test" />
+        <Text Line="Time" />
+        <Text Line="Hold time:" />
+        <Text Line="Show time:" />
+        <Text Line="Hide time:" />
+        <Text Line="sec." />
+        <Text Line="Appearance" />
+        <Text Line="Position:" />
+        <Text Line="Top Left" />
+        <Text Line="Top Right" />
+        <Text Line="Bottom Left" />
+        <Text Line="Bottom Right" />
+        <Text Line="Show effect:" />
+        <Text Line="Hide effect:" />
+        <Text Line="Fade" />
+        <Text Line="Slide Vertical" />
+        <Text Line="Slide Horizontal" />
+    </PopupPage>
+    <Search>
+        <Text Line="Search" />
+        <Text Line="Search all" />
+        <Text Line="Search track" />
+        <Text Line="Search album" />
+        <Text Line="Search artist" />
+    </Search>
+    <MiniPlayerPage>
+        <Text Line="Position" />
+        <Text Line="Always on top" />
+        <Text Line="Always on desktop" />
+        <Text Line="Like a normal window" />
+        <Text Line="Transparency" />
+    </MiniPlayerPage>
+    <GeneralPage>
+        <Text Line="Player Behavior" />
+        <Text Line="Add files to library when opened in playlists" />
+        <Text Line="Playback follows selected track" />
+        <Text Line="Library View" />
+        <Text Line="Services" />
+        <Text Line="Scrobble tracks with Last.FM client" />
+        <Text Line="Show now playing track in Live Messenger" />
+        <Text Line="Associations" />
+        <Text Line="Play in Winyl" />
+        <Text Line="Add 'Play in Winyl' to folders menu" />
+        <Text Line="Manage audio file associations..." />
+        <!-- Win XP compatible Associations dialog -->
+        <Text Line="File Associations" />
+        <Text Line="Cancel" />
+        <Text Line="Save" />
+        <Text Line="Select All" />
+        <Text Line="Extensions" />
+    </GeneralPage>
+    <DefaultList>
+        <Text Line="Playlist" />
+        <Text Line="Smartlist" />
+        <Text Line="Default" />
+        <Text Line="My Playlist" />
+        <Text Line="50 Random" />
+        <Text Line="5 Random Albums" />
+        <Text Line="Recently Played" />
+        <Text Line="25 Most Played" />
+        <Text Line="25 Top Rated" />
+        <Text Line="90's Music" />
+    </DefaultList>
+    <DlgSmartlist>
+        <Text Line="Smartlist" />
+        <Text Line="Cancel" />
+        <Text Line="OK" />
+        <Text Line="Name:" />
+        <Text Line="From" />
+        <Text Line="Library" />
+        <Text Line="Artists" />
+        <Text Line="Albums" />
+        <Text Line="Genres" />
+        <Text Line="Years" />
+        <Text Line="Folders" />
+        <Text Line="Options" />
+        <Text Line="Select:" />
+        <Text Line="Number:" />
+        <Text Line="Random order" />
+        <Text Line="Automatic refresh" />
+        <Text Line="Tips" />
+        <Text Line="Use plus '+' symbol to select multiple items. Example: The Beatles + Led Zeppelin" />
+        <Text Line="Use minus '-' symbol to select range. Example: 2000 - 2010" />
+        <Text Line="If the string starts with minus, these items will be excluded." />
+        <Text Line="Advanced Filter" />
+        <Text Line="Tracks" />
+        <Text Line="Albums" />
+        <Text Line="Any" />
+        <Text Line="Most Played" />
+        <Text Line="Rarely Played" />
+        <Text Line="Top Rated" />
+        <Text Line="Lowest Rated" />
+        <Text Line="Recently Played" />
+        <Text Line="Recently Added" />
+    </DlgSmartlist>
+    <DlgSmartlistFilter>
+        <Text Line="Advanced Filter" />
+        <Text Line="Cancel" />
+        <Text Line="OK" />
+        <Text Line="All" />
+        <Text Line="Any" />
+        <Text Line="of the selected rules:" />
+        <Text Line="Play Count" />
+        <Text Line="Rating" />
+        <Text Line="Last Played" />
+        <Text Line="Date Added" />
+        <Text Line="Tracks in Album" />
+        <Text Line="Equal to" />
+        <Text Line="Greater than" />
+        <Text Line="Less than" />
+        <Text Line="In the last" />
+        <Text Line="Before" />
+        <Text Line="times" />
+        <Text Line="tracks" />
+        <Text Line="Unrated" />
+        <Text Line="1 Star" />
+        <Text Line="2 Stars" />
+        <Text Line="3 Stars" />
+        <Text Line="4 Stars" />
+        <Text Line="5 Stars" />
+        <Text Line="1 Day" />
+        <Text Line="2 Days" />
+        <Text Line="3 Days" />
+        <Text Line="1 Week" />
+        <Text Line="2 Weeks" />
+        <Text Line="1 Month" />
+        <Text Line="3 Months" />
+        <Text Line="6 Months" />
+        <Text Line="1 Year" />
+    </DlgSmartlistFilter>
+    <StatusLine>
+        <Text Line="KB" />
+        <Text Line="MB" />
+        <Text Line="GB" />
+        <Text Line="of" />
+        <Text Line="items" />
+        <Text Line="tracks" />
+        <Text Line="total time" />
+        <Text Line="Selected:" />
+    </StatusLine>
+    <Lyrics>
+        <Text Line="Nothing is playing." />
+        <Text Line="No Lyrics found." />
+        <Text Line="Retrieving lyrics..." />
+    </Lyrics>
+    <LyricsMenu>
+        <Text Line="Source:" />
+        <Text Line="Nothing" />
+        <Text Line="File" />
+        <Text Line="Tags" />
+        <Text Line="Internet" />
+        <Text Line="Copy Lyrics" />
+        <Text Line="Save Lyrics..." />
+        <Text Line="Lyrics Provider" />
+        <Text Line="Disable" />
+        <Text Line="Google Search..." />
+        <Text Line="Text Align" />
+        <Text Line="Left" />
+        <Text Line="Center" />
+        <Text Line="Right" />
+        <Text Line="Font Size" />
+        <Text Line="From Skin" />
+        <Text Line="Small" />
+        <Text Line="Medium" />
+        <Text Line="Large" />
+        <Text Line="Largest" />
+        <Text Line="Bold" />
+    </LyricsMenu>
+    <NewVersionDialog>
+        <Text Line="Converting library to new version. Please Wait..." />
+        <Text Line="Converting library for portable version. Please Wait..." />
+        <Text Line="Winyl needs to rescan all tags to complete the update." />
+        <Text Line="Do not recommend to cancel this process." />
+    </NewVersionDialog>
+</Language>

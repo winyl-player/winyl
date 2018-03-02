@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Language Version="3.3.0">
+    <MainMenu>
+        <Text Line="Bibliotēka..." />
+        <Text Line="Izskats..." />
+        <Text Line="Mini atskaņotājs" />
+        <Text Line="Pievienot atsk.sarakstam" />
+        <Text Line="Fails..." />
+        <Text Line="Mape..." />
+        <Text Line="Radio/URL..." />
+        <Text Line="Importēt atsk.sarakstu..." />
+        <Text Line="Vadība" />
+        <Text Line="Atskaņot" />
+        <Text Line="Pauze" />
+        <Text Line="Stop" />
+        <Text Line="Nākošais" />
+        <Text Line="Iepriekšējais" />
+        <Text Line="Apklusināt skaņu" />
+        <Text Line="Shuffle" />
+        <Text Line="Jaukti" />
+        <Text Line="Ekvalaizers..." />
+        <Text Line="Uzstādījumi" />
+        <Text Line="Paslēpt teknē" />
+        <Text Line="Uznirstošais logs" />
+        <Text Line="Vizuālie efekti" />
+        <Text Line="Plūdena ritināšana" />
+        <Text Line="Iespējot Last.FM" />
+        <Text Line="Ātrie taustiņi..." />
+        <Text Line="Vairāk..." />
+        <Text Line="Valodas izvēle..." />
+        <Text Line="Par programmu" />
+        <Text Line="Ziedot" />
+    </MainMenu>
+    <ListMenu>
+        <Text Line="Atskaņot" />
+        <Text Line="Atkārtot dziesmu" />
+        <Text Line="Atzīmēt visu" />
+        <Text Line="Dzēst" />
+        <Text Line="Pievienot atsk.sarakstam" />
+        <Text Line="Uz jaunu atsk.sarakstu" />
+        <Text Line="Pievienot pašlaik atsk." />
+        <Text Line="Faila novietojums..." />
+        <Text Line="Rekvizīti..." />
+        <Text Line="Iet uz" />
+        <Text Line="Izpildītājs" />
+        <Text Line="Albūms" />
+        <Text Line="Gads" />
+        <Text Line="Žanrs" />
+        <Text Line="Mape" />
+    </ListMenu>
+    <TreeMenu>
+        <Text Line="Jauns atsk.saraksts" />
+        <Text Line="Jauna gudrā liste..." />
+        <Text Line="Pārsaukt..." />
+        <Text Line="Dzēst" />
+        <Text Line="Atsvaidzināt" />
+        <Text Line="Rediģēt..." />
+    </TreeMenu>
+    <TrayMenu>
+        <Text Line="Atskaņot" />
+        <Text Line="Pauze" />
+        <Text Line="Stop" />
+        <Text Line="Nākošais" />
+        <Text Line="Iepriekšējais" />
+        <Text Line="Beigt" />
+    </TrayMenu>
+    <PopupMenu>
+        <Text Line="Atspējot" />
+        <Text Line="Augšā pa kreisi" />
+        <Text Line="Augšā pa labi" />
+        <Text Line="Lejā pa kreisi" />
+        <Text Line="Lejā pa labi" />
+        <Text Line="Vairāk..." />
+    </PopupMenu>
+    <Library>
+        <!-- These lines should be as short as possible -->
+        <Text Line="Nezināms" />
+        <Text Line="Bibliotēka" />
+        <Text Line="Pašlaik atskaņo" />
+        <Text Line="Atsk.saraksti" />
+        <Text Line="Gudrās listes" />
+        <Text Line="Izpildītāji" />
+        <Text Line="Komponisti" />
+        <Text Line="Albūmi" />
+        <Text Line="Žanri" />
+        <Text Line="Gadi" />
+        <Text Line="Radio" />
+        <Text Line="Mapes" />
+        <Text Line="Disks" />
+    </Library>
+    <Playlist>
+        <Text Line="Nezināms" />
+        <Text Line="CD" /> <!-- Disc number CD1, CD2. 4 chars max or leave it as is. -->
+        <Text Line="Mape" />
+        <Text Line="Radio" />
+        <Text Line="Nav dziesmu, ko rādīt" />
+    </Playlist>
+    <SkinDialog>
+        <Text Line="Izskats" />
+        <Text Line="Aizvērt" />
+        <Text Line="Pielietot" />
+        <Text Line="Izskata izvēle:" />
+        <Text Line="Priekšskatījums" />
+        <Text Line="Informācija" />
+        <Text Line="Autors:" />
+        <Text Line="Versija:" />
+        <Text Line="Apraksts:" />
+    </SkinDialog>
+    <LibraryDialog>
+        <Text Line="Bibliotēka" />
+        <Text Line="Aizvērt" />
+        <Text Line="Atsvaidzināt" />
+        <Text Line="Mapes" />
+        <Text Line="Opcijas" />
+        <Text Line="Pievienot" />
+        <Text Line="Dzēst" />
+        <Text Line="Pievienojiet bibliotēkai mapes ar savu mūziku." />
+        <Text Line="Nospiediet atsvaidzināšanas pogu bibliotēkas atjaunināšanai." />
+        <Text Line="Atzīmējiet mapi ar saviem mūzikas failiem." />
+        <Text Line="Vispārīgi" />
+        <Text Line="Vairāk" />
+        <Text Line="Ignorēt failus, kas ir iepriekš dzēsti no bibliotēkas" />
+        <Text Line="Izvākt trūkstošos failus no bibliotēkas" />
+        <Text Line="Meklēt pārvietotos vai pārsauktos failus" />
+        <Text Line="Pilnīga visu bibliotēkas failu pārskanēšana" />
+    </LibraryDialog>
+    <LanguageDialog>
+        <Text Line="Valoda" />
+        <Text Line="Atcelt" />
+        <Text Line="Labi" />
+        <Text Line="Valoda::" />
+    </LanguageDialog>
+    <ProcessDialog>
+        <Text Line="Atsvaidzina bibliotēku" />
+        <Text Line="Pievieno atsk.sarakstam" />
+        <Text Line="Atcelt" />
+        <Text Line="Minimizēt" />
+        <Text Line="Apstrāde..." />
+        <Text Line="Apstrādā:" />
+        <Text Line="Atceļ..." />
+    </ProcessDialog>
+    <PropertiesDialog>
+        <Text Line="Rekvizīti" />
+        <Text Line="Aizvērt" />
+        <Text Line="Saglabāt" />
+        <Text Line="Birkas" />
+        <Text Line="Albūma attēls" />
+        <Text Line="Lirika" />
+        <Text Line="Saglabāt un iet uz iepriekš.dziesmu" />
+        <Text Line="Saglabāt un iet uz nākošo dziesmu" />
+    </PropertiesDialog>
+    <TagsPage>
+        <Text Line="Nosaukums:" />
+        <Text Line="Izpildītāji:" />
+        <Text Line="Albūma izpildītāji:" />
+        <Text Line="Albūms:" />
+        <Text Line="Komponisti:" />
+        <Text Line="Gads:" />
+        <Text Line="Dziesma:" />
+        <Text Line="Disks:" />
+        <Text Line="no" />
+        <Text Line="Žanri:" />
+        <Text Line="Komentāri:" />
+        <Text Line="Fails:" />
+        <Text Line="Kvalitāte:" />
+    </TagsPage>
+    <CoverPage>
+        <Text Line="Izmainīt" />
+        <Text Line="Dzēst" />
+        <Text Line="Priekšskats" />
+        <Text Line="Nav alb.attēla" />
+        <Text Line="Ievietot šeit attēlu, lai nomainītu" />
+        <Text Line="Iekļaut  albūma attēlu dziesmas failā" />
+        <Text Line="Saglabāt albūma attēlu albūma mapē ar nosaukumu 'Front'" />
+    </CoverPage>
+    <LyricsPage>
+        <Text Line="Lirika:" />
+        <Text Line="Iekļaut liriku dziesmas failā" />
+        <Text Line="Saglabāt liriku albūma mapes apakšmapē 'Lyrics'" />
+    </LyricsPage>
+    <RenameDialog>
+        <Text Line="Pārsaukt" />
+        <Text Line="Atcelt" />
+        <Text Line="Labi" />
+        <Text Line="Ierakstiet jaunu nosaukumu:" />
+    </RenameDialog>
+    <AboutDialog>
+        <Text Line="Par" />
+        <Text Line="Aizvērt" />
+        <Text Line="Ziedot" />
+        <Text Line="Oficiālā vietne:" />
+        <Text Line="Atbalsta e-pasts:" />
+        <!-- Enter your name in the next line in format: "Translated by John Doe john@example.com" (e-mail not necessarily) -->
+        <Text Line="Tulkotājs - Aivars Zvadskis" />
+    </AboutDialog>.
+    <Messages>
+        <Text Line="Kļūda" />
+        <Text Line="Brīdinājums" />
+        <Text Line="Informācija" />
+        <Text Line="Fails nav atrodams vai arī nenolasāms faila formāts." />
+        <Text Line="Nevar savienoties ar radio serveri." />
+        <Text Line="Šis izskata šablons ir citai versijai." />
+        <Text Line="Izskata šablona lasīšanas kļūda. Tiek ielādēts iepriekšnoteiktais šablons." />
+        <Text Line="Last.FM Client nav atrasts. Lūdzu ieinstalējiet Last.FM Client lai lietotu šo iespēju." />
+        <Text Line="Audio izvades ierīcei ir kļūda." />
+        <Text Line="Nav atrodamas ASIO ierīces." />
+    </Messages>
+    <EqualizerDialog>
+        <Text Line="Ekvalaizers" />
+        <Text Line="Aizvērt" />
+        <Text Line="Iespējot" />
+        <Text Line="Uzstādījumi:" />
+        <Text Line="Iepriekšnoteikts" />
+        <Text Line="Lietotāja noteiktais" />
+    </EqualizerDialog>
+    <HotKeyDialog>
+        <Text Line="Vispārējie ātrie taustiņi" />
+        <Text Line="Atcelt" />
+        <Text Line="Labi" />
+        <Text Line="Izvēlaties darbību un nospiediet jebkuru taustiņu kombināciju." />
+        <Text Line="Nospiediet 'Dzēst' lai izdzēstu taustiņu kombināciju." />
+        <Text Line="Darbība" />
+        <Text Line="Ātrais taustiņš" />
+        <Text Line="Atskaņot" />
+        <Text Line="Pauze" />
+        <Text Line="Stop" />
+        <Text Line="Nākošā dziesma" />
+        <Text Line="Iepriekšējā dziesma" />
+        <Text Line="Klusums" />
+        <Text Line="Skaļāk" />
+        <Text Line="Klusāk" />
+        <Text Line="Novērtējums 1" />
+        <Text Line="Novērtējums 2" />
+        <Text Line="Novērtējums 3" />
+        <Text Line="Novērtējums 4" />
+        <Text Line="Novērtējums 5" />
+        <Text Line="Rādīt uznirstošo logu" />
+    </HotKeyDialog>
+    <OpenURLDialog>
+        <Text Line="Pievienot Radio/URL" />
+        <Text Line="Atcelt" />
+        <Text Line="Labi" />
+        <Text Line="Mans Radio" />
+        <Text Line="Nosaukums:" />
+        <Text Line="URL:" />
+    </OpenURLDialog>
+    <ToolTips>
+        <Text Line="Aizvērt" />
+        <Text Line="Minimizēt" />
+        <Text Line="Maksimizēt" />
+        <Text Line="Atjaunot" />
+        <Text Line="Atskaņot" />
+        <Text Line="Pauze" />
+        <Text Line="Stop" />
+        <Text Line="Nākošais" />
+        <Text Line="Iepriekšējais" />
+        <Text Line="Ekvalaizers" />
+        <Text Line="Skata maiņa" />
+        <Text Line="Izslēgt skaņu" />
+        <Text Line="Ieslēgt skaņu" />
+        <Text Line="Ieslēgt atkārtošanu" />
+        <Text Line="Izslēgt atkārtošanu" />
+        <Text Line="Ieslēgt jauktu secību" />
+        <Text Line="Izslēgt jauktu secību" />
+        <Text Line="Galvenā izvēlne" />
+        <Text Line="Mini atskaņotājs" />
+        <Text Line="Atpakaļ pilnā skatā" />
+        <Text Line="Atsvaidzināt bibliotēku" />
+    </ToolTips>
+    <ConfigDialog>
+        <Text Line="Uzstādījumi" />
+        <Text Line="Atcelt" />
+        <Text Line="Labi" />
+        <Text Line="Vispārēji" />
+        <Text Line="Sistēma" />
+        <Text Line="Uznirstošie logi" />
+        <Text Line="Mini atskaņotājs" />
+    </ConfigDialog>
+    <SystemPage>
+        <Text Line="Audio ierīce" />
+        <Text Line="Noklusētā Audio ierīce" />
+        <Text Line="32 bitu audio process" />
+        <Text Line="Programmatūras audio apstrāde" />
+        <Text Line="Proxy" />
+        <Text Line="Iespējot proxy" />
+        <Text Line="Host:" />
+        <Text Line="Port:" />
+        <Text Line="Proxy autorizācija" />
+        <Text Line="Lietotājvārds:" />
+        <Text Line="Parole:" />
+    </SystemPage>
+    <PopupPage>
+        <Text Line="Izmēģināt" />
+        <Text Line="Laiks" />
+        <Text Line="Aiztures laiks:" />
+        <Text Line="Rādīšanas laiks:" />
+        <Text Line="Izslēgšanas laiks:" />
+        <Text Line="sek." />
+        <Text Line="Izskats" />
+        <Text Line="Novietojums:" />
+        <Text Line="Augšā pa kreisi" />
+        <Text Line="Augšā pa labi" />
+        <Text Line="Apakšā pa kreisi" />
+        <Text Line="Apakšā pa labi" />
+        <Text Line="Rādīt efektu:" />
+        <Text Line="Slēpt efektu:" />
+        <Text Line="Izdzist" />
+        <Text Line="Slidināt vertikāli" />
+        <Text Line="Slidināt horizontāli" />
+    </PopupPage>
+    <Search>
+        <Text Line="Meklēt" />
+        <Text Line="Meklēt visu" />
+        <Text Line="Meklēt dziesmu" />
+        <Text Line="Meklēt albūmu" />
+        <Text Line="Meklēt izpildītāju" />
+    </Search>
+    <MiniPlayerPage>
+        <Text Line="Novietojums" />
+        <Text Line="Vienmēr virspusē" />
+        <Text Line="Vienmēr uz darbvirsmas" />
+        <Text Line="Kā normāls logs" />
+        <Text Line="Caurspīdīgums" />
+    </MiniPlayerPage>
+    <GeneralPage>
+        <Text Line="Atskaņotāja darbība" />
+        <Text Line="Pievienot bibliotēkai failus, kuri ir atvērti atsk.sarakstos" />
+        <Text Line="Atskaņošana seko atzīmētajai dziesmai" />
+        <Text Line="Bibliotēkas skats" />
+        <Text Line="Servisi" />
+        <Text Line="Scrobble spraudnis dziesmām priekš Last.FM klienta" />
+        <Text Line="Rādīt atskaņojamo dziesmu iekš Live Messenger" />
+        <Text Line="Piesaiste" />
+        <Text Line="Atskaņot ar Winyl" />
+        <Text Line="Pievienot 'Atskaņot ar Winyl' pie mapju izvēlnes" />
+        <Text Line="Mainīt audio failu piesaistes..." />
+        <!-- Win XP compatible Associations dialog -->
+        <Text Line="Filu piesaistes" />
+        <Text Line="Atcelt" />
+        <Text Line="Saglabāt" />
+        <Text Line="Atzīmēt visu" />
+        <Text Line="Paplašinājumi" />
+    </GeneralPage>
+    <DefaultList>
+        <Text Line="Atsk.saraksts" />
+        <Text Line="Gudrā liste" />
+        <Text Line="Standarta" />
+        <Text Line="Mans atsk.saraksts" />
+        <Text Line="50 nejaušas dziesmas" />
+        <Text Line="5 nejauši albūmi" />
+        <Text Line="Nesen atskaņots" />
+        <Text Line="25 biežāk atskaņotie" />
+        <Text Line="25 visvairāk novērtētie" />
+        <Text Line="90'tie gadi" />
+    </DefaultList>
+    <DlgSmartlist>
+        <Text Line="Gudrais atsk.saraksts" />
+        <Text Line="Atcelt" />
+        <Text Line="Labi" />
+        <Text Line="Nosaukums:" />
+        <Text Line="No" />
+        <Text Line="Bibliotēka" />
+        <Text Line="Izpildītāji" />
+        <Text Line="Albūmi" />
+        <Text Line="Žanri" />
+        <Text Line="Gadi" />
+        <Text Line="Mapes" />
+        <Text Line="Uzstādījumi" />
+        <Text Line="Atzīmēt:" />
+        <Text Line="Skaits:" />
+        <Text Line="Nejauša secība" />
+        <Text Line="Automātiska atsvaidzināšana" />
+        <Text Line="Ieteikumi" />
+        <Text Line="Lietojiet plus '+' simbolu dažādu nosaukumu atzīmēšanai. Piemērs: The Beatles + Led Zeppelin" />
+        <Text Line="Lietojiet mīnus '-' simbolu lai atzīmētu apgabalu. Piemērs: 2000 - 2010" />
+        <Text Line="Ja rinda sāksies ar mīnus simbolu, attiecīgie elementi netiks iekļauti." />
+        <Text Line="Papildus filtrs" />
+        <Text Line="Dziesmas" />
+        <Text Line="Albūmi" />
+        <Text Line="Jebkuri" />
+        <Text Line="Biežāk atskaņotie" />
+        <Text Line="Reti atskaņotie" />
+        <Text Line="Visaugstāk novērtētie" />
+        <Text Line="Viszemāk novērtētie" />
+        <Text Line="Nesen atskaņotie" />
+        <Text Line="Nesen pievienotie" />
+    </DlgSmartlist>
+    <DlgSmartlistFilter>
+        <Text Line="Papildus filtrs" />
+        <Text Line="Atcelt" />
+        <Text Line="Labi" />
+        <Text Line="Viss" />
+        <Text Line="Jebkurš" />
+        <Text Line="pēc atzīmētajiem nosacījumiem:" />
+        <Text Line="Atskaņojumu skaits" />
+        <Text Line="Novērtējums" />
+        <Text Line="Pēdējoreiz atskaņots" />
+        <Text Line="Pievienošanas datums" />
+        <Text Line="Dziesmu skaits albūmā" />
+        <Text Line="Vienāds ar" />
+        <Text Line="Lielāks par" />
+        <Text Line="Mazāks par" />
+        <Text Line="Iepriekš" />
+        <Text Line="Pirms" />
+        <Text Line="reizes" />
+        <Text Line="dziesmas" />
+        <Text Line="Nenovērtēts" />
+        <Text Line="1 zvaigzne" />
+        <Text Line="2 zvaigznes" />
+        <Text Line="3 zvaigznes" />
+        <Text Line="4 zvaigznes" />
+        <Text Line="5 zvaigznes" />
+        <Text Line="1 diena" />
+        <Text Line="2 dienas" />
+        <Text Line="3 dienas" />
+        <Text Line="1 nedēļa" />
+        <Text Line="2 nedēļas" />
+        <Text Line="1 mēnesis" />
+        <Text Line="3 mēneši" />
+        <Text Line="6 mēneši" />
+        <Text Line="1 gads" />
+    </DlgSmartlistFilter>
+    <StatusLine>
+        <Text Line="KB" />
+        <Text Line="MB" />
+        <Text Line="GB" />
+        <Text Line="no" />
+        <Text Line="vienumi" />
+        <Text Line="dziesmas" />
+        <Text Line="kopējais laiks" />
+        <Text Line="Atzīmēts:" />
+    </StatusLine>
+    <Lyrics>
+        <Text Line="Neko neatskaņo." />
+        <Text Line="Lirika nav atrasta." />
+        <Text Line="Saņem liriku..." />
+    </Lyrics>
+    <LyricsMenu>
+        <Text Line="Avots:" />
+        <Text Line="Tukšs" />
+        <Text Line="Fails" />
+        <Text Line="Birkas (Tags)" />
+        <Text Line="Internets" />
+        <Text Line="Kopēt liriku" />
+        <Text Line="Saglabā liriku..." />
+        <Text Line="Lirikas nodrošinātājs" />
+        <Text Line="Atspējot" />
+        <Text Line="Google meklēšana..." />
+        <Text Line="Teksta novietojums" />
+        <Text Line="Pa kreisi" />
+        <Text Line="Centrā" />
+        <Text Line="Pa labi" />
+        <Text Line="Fonta lielums" />
+        <Text Line="No izskata šablona" />
+        <Text Line="Mazs" />
+        <Text Line="Vidējs" />
+        <Text Line="Liels" />
+        <Text Line="Milzīgs" />
+        <Text Line="Treknraksts" />
+    </LyricsMenu>
+    <NewVersionDialog>
+        <Text Line="Konvertē bibliotēku uz jauno versiju. Lūdzu gaidiet..." />
+        <Text Line="Konvertē bibliotēku uz pārvietojamo versiju. Lūdzu gaidiet..." />
+        <Text Line="Winyl nepieciešams pārskanēt visas birkas (Tags), lai pabeigtu atsvaidzināšanu." />
+        <Text Line="Nav ieteicams atcelt šo procesu." />
+    </NewVersionDialog>
+</Language>

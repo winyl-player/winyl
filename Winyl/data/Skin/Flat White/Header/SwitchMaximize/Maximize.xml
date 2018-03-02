@@ -1,0 +1,10 @@
+<Switch>
+    <State1>
+        <Normal File="MaximizeOff1.png" />
+        <Hover File="MaximizeOff2.png" />
+    </State1>
+    <State2>
+        <Normal File="MaximizeOn1.png" />
+        <Hover File="MaximizeOn2.png" />
+    </State2>
+</Switch>

@@ -1,0 +1,80 @@
+﻿<Window SkinEngine="1.6">
+    <Size MinWidth="300" MinHeight="100" MaxWidth="500" MaxHeight="100" />
+    <ResizeBorder Left="10" Right="10" Top="0" Bottom="0" />
+    <Layout Name="Main">
+        <Position Left="0" Top="0" Right="0" Bottom="0" />
+        <Elements>
+            <Cover>
+                <Position Left="5" Top="5" />
+                <Skin File="MiniPlayer\Cover\Cover.xml" />
+            </Cover>
+            <Previous>
+                <Position Left="104" Bottom="5" />
+                <Skin File="MiniPlayer\ButtonPrevious\Previous.xml" />
+            </Previous>
+            <PlayPause>
+                <Position Left="135" Bottom="5" />
+                <Skin File="MiniPlayer\SwitchPlay\Play.xml" />
+            </PlayPause>
+            <Next>
+                <Position Left="166" Bottom="5" />
+                <Skin File="MiniPlayer\ButtonNext\Next.xml" />
+            </Next>
+            <Title>
+                <Position Left="104" Top="18" Right="10" Height="16" />
+                <Skin File="MiniPlayer\Text\Title.xml" />
+            </Title>
+            <Artist>
+                <Position Left="104" Top="34" Right="10" Height="16" />
+                <Skin File="MiniPlayer\Text\Artist.xml" />
+            </Artist>
+            <Mute>
+                <Position Right="74" Bottom="8" />
+                <Skin File="MiniPlayer\SwitchMute\Mute.xml" />
+            </Mute>
+            <TrackBar>
+                <Position Left="104" Right="10" Bottom="30" />
+                <Skin File="MiniPlayer\TrackBar\TrackBar.xml" />
+            </TrackBar>
+            <VolumeBar>
+                <Position Right="10" Width="60" Bottom="8" />
+                <Skin File="MiniPlayer\VolumeBar\VolumeBar.xml" />
+            </VolumeBar>
+            <Minimize>
+                <Position Right="72" Top="1" />
+                <Skin File="MiniPlayer\ButtonMinimize\Minimize.xml" />
+            </Minimize>
+            <MiniPlayer>
+                <Position Right="41" Top="1" />
+                <Skin File="MiniPlayer\ButtonMaximize\Maximize.xml" />
+            </MiniPlayer>
+            <Close>
+                <Position Right="10" Top="1" />
+                <Skin File="MiniPlayer\ButtonClose\Close.xml" />
+            </Close>
+        </Elements>
+        <Background>
+            <Fill>
+                <Position Left="0" Top="0" Right="0" Bottom="0" />
+                <Fill Color="333333" />
+            </Fill>
+            <!-- Window Border (Top, Left, Right, Bottom) -->
+            <Fill>
+                <Position Left="0" Right="0" Top="0" Height="1" />
+                <Fill Color="222222" />
+            </Fill>
+            <Fill>
+                <Position Left="0" Width="1" Top="0" Bottom="0" />
+                <Fill Color="222222" />
+            </Fill>
+            <Fill>
+                <Position Right="0" Width="1" Top="0" Bottom="0" />
+                <Fill Color="222222" />
+            </Fill>
+            <Fill>
+                <Position Left="0" Right="0" Bottom="0" Height="1" />
+                <Fill Color="222222" />
+            </Fill>
+        </Background>
+    </Layout>
+</Window>

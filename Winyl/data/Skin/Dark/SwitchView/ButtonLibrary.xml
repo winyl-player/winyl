@@ -1,0 +1,11 @@
+﻿<Button>
+    <Effect Fade="1" />
+    <Normal File="Library1.png" />
+    <Hover File="Library2.png" />
+    <Press File="Library3.png" />
+    <Trigger>
+        <Layout ID="100" Hide="0" />
+        <Layout ID="101" Hide="1" />
+        <Layout ID="102" Hide="1" />
+    </Trigger>
+</Button>

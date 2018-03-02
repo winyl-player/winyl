@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Language Version="3.3.0">
+    <MainMenu>
+        <Text Line="Thư viện..." />
+        <Text Line="Giao diện..." />
+        <Text Line="Mini Player" />
+        <Text Line="Thêm vào Playlist" />
+        <Text Line="Tập tin..." />
+        <Text Line="Thư mục..." />
+        <Text Line="Radio/URL..." />
+        <Text Line="Mở Playlist.." />
+        <Text Line="Điều khiển" />
+        <Text Line="Nghe" />
+        <Text Line="Tạm dừng" />
+        <Text Line="Dừng" />
+        <Text Line="Tới" />
+        <Text Line="Lui" />
+        <Text Line="Tắt âm thanh" />
+        <Text Line="Ngẫu nhiên" />
+        <Text Line="Lặp lại" />
+        <Text Line="Bộ cân bằng..." />
+        <Text Line="Cài đặt" />
+        <Text Line="Ẩn xuống Khay" />
+        <Text Line="Hiện Popup" />
+        <Text Line="Hiệu ứng" />
+        <Text Line="Cuộn mượt" />
+        <Text Line="Mở Last.FM" />
+        <Text Line="Phím tắt..." />
+        <Text Line="Nâng cao..." />
+        <Text Line="Ngôn ngữ..." />
+        <Text Line="Thông tin" />
+        <Text Line="Quyên góp" />
+    </MainMenu>
+    <ListMenu>
+        <Text Line="Nghe" />
+        <Text Line="Lặp lại bài này"/>
+        <Text Line="Chọn hết" />
+        <Text Line="Xóa" />
+        <Text Line="Thêm vào Playlist" />
+        <Text Line="Playlist mới" />
+        <Text Line="Đang phát" />
+        <Text Line="Vị trí tập tin..." />
+        <Text Line="Thuộc tính..." />
+        <Text Line="Nhảy tới" />
+        <Text Line="Ca sĩ" />
+        <Text Line="Album" />
+        <Text Line="Năm" />
+        <Text Line="Thể loại" />
+        <Text Line="Thư mục" />
+    </ListMenu>
+    <TreeMenu>
+        <Text Line="Playlist mới" />
+        <Text Line="Smartlist mới..." />
+        <Text Line="Đổi tên..." />
+        <Text Line="Xóa" />
+        <Text Line="Làm tươi" />
+        <Text Line="Sửa đổi..." />
+    </TreeMenu>
+    <TrayMenu>
+        <Text Line="Nghe" />
+        <Text Line="Tạm dừng" />
+        <Text Line="Dừng" />
+        <Text Line="Tới" />
+        <Text Line="Lui" />
+        <Text Line="Thoát" />
+    </TrayMenu>
+    <PopupMenu>
+        <Text Line="Tắt" />
+        <Text Line="Đỉnh trái" />
+        <Text Line="Đỉnh phải" />
+        <Text Line="Đáy trái" />
+        <Text Line="Đáy phải" />
+        <Text Line="Nâng cao.." />
+    </PopupMenu>
+    <Library>
+        <!-- These lines should be as short as possible -->
+        <Text Line="Không biết" />
+        <Text Line="Thư viện" />
+        <Text Line="Đang phát" />
+        <Text Line="Playlist" />
+        <Text Line="Smartlist" /> 
+        <Text Line="Ca sĩ" />
+        <Text Line="Nhạc sĩ" />
+        <Text Line="Album" />
+        <Text Line="Thể loại" />
+        <Text Line="Năm" />
+        <Text Line="Radio" />
+        <Text Line="Thư mục" />
+        <Text Line="Ổ đĩa" />
+    </Library>
+    <Playlist>
+        <Text Line="Không biết" />
+        <Text Line="CD" /> <!-- Disc number CD1, CD2. 4 chars max or leave it as is. -->
+        <Text Line="Thư mục" />
+        <Text Line="Radio" />
+        <Text Line="Chưa có bài hát nào." />
+    </Playlist>
+    <SkinDialog>
+        <Text Line="Giao diện" />
+        <Text Line="Đóng" />
+        <Text Line="Áp dụng" />
+        <Text Line="Chọn giao diện:" />
+        <Text Line="Xem trước" />
+        <Text Line="Thông tin" />
+        <Text Line="Tác giả" />
+        <Text Line="Phiên bản:" />
+        <Text Line="Mô tả:" />
+    </SkinDialog>
+    <LibraryDialog>
+        <Text Line="Thư viện" />
+        <Text Line="Đóng" />
+        <Text Line="Cập nhật" />
+        <Text Line="Thư mục" />
+        <Text Line="Tùy chỉnh" />
+        <Text Line="Thêm" />
+        <Text Line="Xóa" />
+        <Text Line="Thêm thư mục chứa nhạc vào thư viện nhạc." />
+        <Text Line="Ấn nút Cập nhật để cập nhật thư viện nhạc." />
+        <Text Line="Chọn thư mục chứa tập tin nhạc." />
+        <Text Line="Cơ bản" />
+        <Text Line="Nâng cao" />
+        <Text Line="Bỏ qua các tập tin đã bị xóa trước đây khỏi thư viện" />
+        <Text Line="Xóa các tập tin lỗi khỏi thư viện" />
+        <Text Line="Tìm cả các tập tin đã di chuyển hoặc đổi tên" />
+        <Text Line="Quét lại đầy đủ các tập tin trong thư viện" />
+    </LibraryDialog>
+    <LanguageDialog>
+        <Text Line="Ngôn ngữ" />
+        <Text Line="Hủy bỏ" />
+        <Text Line="OK" />
+        <Text Line="Chọn ngôn ngữ:" />
+    </LanguageDialog>
+    <ProcessDialog>
+        <Text Line="Đang cập nhật thư viện" />
+        <Text Line="Đang thêm vào Playlist" />
+        <Text Line="Hủy bỏ" />
+        <Text Line="Thu nhỏ" />
+        <Text Line="Đang xử lý..." />
+        <Text Line="Đang xử lý:" />
+        <Text Line="Đang hủy bỏ..." />
+    </ProcessDialog>
+    <PropertiesDialog>
+        <Text Line="Thuộc tính" />
+        <Text Line="Đóng" />
+        <Text Line="Lưu" />
+        <Text Line="Tags" />        
+        <Text Line="Ảnh bìa" />
+        <Text Line="Lời bài hát" />
+        <Text Line="Lưu và quay lại bài trước" />
+        <Text Line="Lưu và đi tới bài tiếp theo" />
+    </PropertiesDialog>
+    <TagsPage> 
+        <Text Line="Tên bài:" />
+        <Text Line="Ca sĩ:" />
+        <Text Line="Ca sĩ của Album:" />
+        <Text Line="Album:" />
+        <Text Line="Nhạc sĩ:" />        
+        <Text Line="Năm:" />
+        <Text Line="Bài:" />
+        <Text Line="Đĩa:" />
+        <Text Line="của" />        
+        <Text Line="Thể loại:" />
+        <Text Line="Bình luận:" />
+        <Text Line="Tập tin:" />
+        <Text Line="Chất lượng:" />
+    </TagsPage>
+    <CoverPage>
+        <Text Line="Thay đổi" />
+        <Text Line="Xóa" />
+        <Text Line="Xem trước" />
+        <Text Line="Chưa có ảnh bìa" />
+        <Text Line="Kéo và thả ảnh vào đây" />
+        <Text Line="Nhúng ảnh bìa vào tập tin nhạc" />
+        <Text Line="Lưu ảnh bìa vào thư mục 'Front' nằm trong thư mục album nhạc" />
+    </CoverPage>
+    <LyricsPage>
+        <Text Line="Người viết lời:" />
+        <Text Line="Nhúng lời bài hát vào tập tin nhạc" />
+        <Text Line="Lưu lời bài hát vào thư mục 'Lyrics' nằm trong thư mục album nhạc" />
+    </LyricsPage>    
+    <RenameDialog>
+        <Text Line="Đổi tên" />
+        <Text Line="Hủy bỏ" />
+        <Text Line="OK" />
+        <Text Line="Nhập tên mới:" />
+    </RenameDialog>
+    <AboutDialog>
+        <Text Line="Thông tin" />
+        <Text Line="Đóng" />
+        <Text Line="Quyên góp" />
+        <Text Line="Trang chủ:" />
+        <Text Line="Hỗ trợ qua e-mail:" />
+        <!-- Enter your name in the next line in format: "Translated by John Doe john@example.com" (e-mail not necessarily) -->
+        <Text Line="Translated by TRI ÂN: ng.trian12@gmail.com" />
+    </AboutDialog>
+    <Messages>
+        <Text Line="Lỗi" />
+        <Text Line="Cảnh báo" />
+        <Text Line="Thông tin" />
+        <Text Line="Tập tin không tìm thấy hoặc định dạng không được hỗ trợ." />
+        <Text Line="Không thể nối tới máy chủ radio." />
+        <Text Line="Giao diện này dành cho phiên bản khác của Winyl." />
+        <Text Line="Lỗi nạp giao diện. Giao diện mặc định được thiết lập." />
+        <Text Line="Không tìm thấy Last.FM Client. Hãy cài đặt Last.FM Client để sử dụng tính năng này." />
+        <Text Line="Thiết bị âm thanh đầu ra gặp phải lỗi." />
+        <Text Line="Không tìm thấy thiết bị ASIO." />
+    </Messages>
+    <EqualizerDialog>
+        <Text Line="Bộ cân bằng" />
+        <Text Line="Đóng" />
+        <Text Line="Mở" />
+        <Text Line="Cấu hình:" />
+        <Text Line="Mặc định" />
+        <Text Line="Chỉnh tay" />
+    </EqualizerDialog>
+    <HotKeyDialog>
+        <Text Line="Phím tắt chung" />
+        <Text Line="Hủy bỏ" />
+        <Text Line="OK" />
+        <Text Line="Chọn một hành động và ấn tổ hợp phím bất kỳ." />
+        <Text Line="Ấn 'Xóa' để xóa phím tắt." />
+        <Text Line="Hành động" />
+        <Text Line="Phím tắt" />
+        <Text Line="Nghe" />
+        <Text Line="Tạm dừng" />
+        <Text Line="Dừng" />
+        <Text Line="Bài hát tiếp theo" />
+        <Text Line="Bài hát trước" />
+        <Text Line="Tắt âm thanh" />
+        <Text Line="Tăng âm lượng" />
+        <Text Line="Giảm âm lượng" />
+        <Text Line="1 sao" />
+        <Text Line="2 sao" />
+        <Text Line="3 sao" />
+        <Text Line="4 sao" />
+        <Text Line="5 sao" />
+        <Text Line="Hiện Popup" />
+    </HotKeyDialog>
+    <OpenURLDialog>
+        <Text Line="Thêm Radio/URL" />
+        <Text Line="Hủy bỏ" />
+        <Text Line="OK" />
+        <Text Line="Radio" />
+        <Text Line="Tên:" />
+        <Text Line="URL:" />
+    </OpenURLDialog>
+    <ToolTips>
+        <Text Line="Đóng" />
+        <Text Line="Thu nhỏ" />
+        <Text Line="Cực đại" />
+        <Text Line="Phục hồi" />
+        <Text Line="Nghe" />
+        <Text Line="Tạm dừng" />
+        <Text Line="Dừng" />
+        <Text Line="Tới" />
+        <Text Line="Lui" />
+        <Text Line="Bộ cân bằng" />
+        <Text Line="Đổi cách hiển thị" />
+        <Text Line="Tắt âm thanh" />
+        <Text Line="Bật âm thanh" />
+        <Text Line="Bật nghe lặp lại" />
+        <Text Line="Tắt nghe lặp lại" />
+        <Text Line="Bật nghe ngẫu nhiên" />
+        <Text Line="Tắt nghe ngẫu nhiên" />
+        <Text Line="Giao diện chính" />
+        <Text Line="Mini player" />
+        <Text Line="Restore player" />
+        <Text Line="Cập nhật thư viện" />
+    </ToolTips>
+    <ConfigDialog>
+        <Text Line="Cài đặt" />
+        <Text Line="Hủy bỏ" />
+        <Text Line="OK" />
+        <Text Line="Tổng quan" />
+        <Text Line="Hệ thống" />
+        <Text Line="Popup" />
+        <Text Line="Mini Player" />
+    </ConfigDialog>
+    <SystemPage>
+        <Text Line="Thiết bị âm thanh" />
+        <Text Line="Thiết bị âm thanh mặc định" />
+        <Text Line="Trình xử lý âm thanh 32 bit" />
+        <Text Line="Phần mềm trộn âm thanh" />
+        <Text Line="Proxy" />
+        <Text Line="Mở proxy" />
+        <Text Line="Host:" />
+        <Text Line="Cổng:" />
+        <Text Line="Sử dụng Proxy" />
+        <Text Line="Tên đăng nhập:" />
+        <Text Line="Mật khẩu:" />
+    </SystemPage>
+    <PopupPage>
+        <Text Line="Kiểm tra" />
+        <Text Line="Thời gian" />
+        <Text Line="Kéo dài:" />
+        <Text Line="Xuất hiện:" />
+        <Text Line="Biến mất:" />
+        <Text Line="giây" />
+        <Text Line="Diện mạo" />
+        <Text Line="Vị trí:" />
+        <Text Line="Đỉnh trái" />
+        <Text Line="Đỉnh phải" />
+        <Text Line="Đáy trái" />
+        <Text Line="Đáy phải" />
+        <Text Line="Hiệu ứng hiện:" />
+        <Text Line="Hiệu ứng ẩn:" />
+        <Text Line="Mờ dần" />
+        <Text Line="Trượt dọc" />
+        <Text Line="Trượt ngang" />
+    </PopupPage>
+    <Search>
+        <Text Line="Tìm kiếm" />
+        <Text Line="Tìm tất cả" />
+        <Text Line="Tìm bài hát" />
+        <Text Line="Tìm album" />
+        <Text Line="Tìm ca sĩ" />
+    </Search>
+    <MiniPlayerPage>
+        <Text Line="Vị trí" />
+        <Text Line="Luôn hiện trên cùng" />
+        <Text Line="Hiện trên Desktop" />
+        <Text Line="Như cửa sổ bình thường" />
+        <Text Line="Độ trong suốt" />
+    </MiniPlayerPage>
+    <GeneralPage>
+        <Text Line="Chế độ nghe" />
+        <Text Line="Thêm tập tin vào thư viện khi mở trong playlist" />
+        <Text Line="Nghe bài tiếp theo đang chọn" />
+        <Text Line="Hiển thị thư viện" />
+        <Text Line="Dịch vụ" />
+        <Text Line="Hiện bài hát hiện tại trong Last.FM client" />
+        <Text Line="Hiện bài hát hiện tại trong Live Messenger" />
+        <Text Line="Liên kết" />
+        <Text Line="Nghe với Winyl" />
+        <Text Line="Thêm 'Nghe với Winyl' vào trình đơn thư mục" />
+        <Text Line="Quản lý các liên kết tập tin nhạc..." />
+        <!-- Win XP compatible Associations dialog -->
+        <Text Line="Các tập tin liên kết" />
+        <Text Line="Hủy bỏ" />
+        <Text Line="Lưu" />
+        <Text Line="Chọn hết" />
+        <Text Line="Tên mở rộng" />
+    </GeneralPage>
+    <DefaultList>
+        <Text Line="Playlist" />
+        <Text Line="Smartlist" />
+        <Text Line="Mặc định" />
+        <Text Line="My Playlist" />
+        <Text Line="50 bài ngẫu nhiên" />
+        <Text Line="5 Album ngẫu nhiên" />
+        <Text Line="Bài mới nghe" />
+        <Text Line="25 bài nghe nhiều nhất" />
+        <Text Line="25 bài xếp hạng cao" />
+        <Text Line="Nhạc thập niên 90" />
+    </DefaultList>
+    <DlgSmartlist>
+        <Text Line="Smartlist" />
+        <Text Line="Hủy bỏ" />
+        <Text Line="OK" />
+        <Text Line="Đổi tên:" />
+        <Text Line="Dựa theo" />
+        <Text Line="Thư viện" />
+        <Text Line="Ca sĩ" />
+        <Text Line="Albums" />
+        <Text Line="Thể loại" />
+        <Text Line="Năm" />
+        <Text Line="Thư mục" />
+        <Text Line="Tùy chọn" />
+        <Text Line="Chọn:" />
+        <Text Line="Số bài:" />
+        <Text Line="Ngẫu nhiên theo thứ tự" />
+        <Text Line="Tự động làm tươi" />
+        <Text Line="Gợi ý" />
+        <Text Line="Dùng dấu cộng '+' để chọn nhiều giá trị. Ví dụ: The Beatles + Led Zeppelin" />
+        <Text Line="Dùng dấu trừ '-' để chọn phạm vi. Ví dụ: 2000 - 2010" />
+        <Text Line="Nếu bắt đầu bằng dấu trừ '-', mục đó sẽ được loại trừ." />
+        <Text Line="Bộ lọc nâng cao" />
+        <Text Line="Bài hát" />
+        <Text Line="Album" />
+        <Text Line="Bất kỳ" />
+        <Text Line="Nghe nhiều nhất" />
+        <Text Line="Hiếm khi nghe" />
+        <Text Line="Xếp hạng cao nhất" />
+        <Text Line="Xếp hạng thấp nhất" />
+        <Text Line="Mới nghe" />
+        <Text Line="Mới thêm vào" />
+    </DlgSmartlist>
+    <DlgSmartlistFilter>
+        <Text Line="Bộ lọc nâng cao" />
+        <Text Line="Hủy bỏ" />
+        <Text Line="OK" />
+        <Text Line="Tất cả" />
+        <Text Line="Bất kỳ" />
+        <Text Line="quy tắc được chọn:" />
+        <Text Line="Số lần nghe" />
+        <Text Line="Xếp hạng" />
+        <Text Line="Nghe lần cuối" />
+        <Text Line="Ngày thêm vào" />
+        <Text Line="Bài trong Album" />
+        <Text Line="Bằng" />
+        <Text Line="Lớn hơn" />
+        <Text Line="Ít hơn" />
+        <Text Line="Lúc cuối cùng" />
+        <Text Line="Trước" />
+        <Text Line="Lần" />
+        <Text Line="Bài hát" />
+        <Text Line="Chưa xếp" />
+        <Text Line="1 sao" />
+        <Text Line="2 sao" />
+        <Text Line="3 sao" />
+        <Text Line="4 sao" />
+        <Text Line="5 sao" />
+        <Text Line="1 ngày" />
+        <Text Line="2 ngày" />
+        <Text Line="3 ngày" />
+        <Text Line="1 tuần" />
+        <Text Line="2 tuần" />
+        <Text Line="1 tháng" />
+        <Text Line="3 tháng" />
+        <Text Line="6 tháng" />
+        <Text Line="1 năm" />
+    </DlgSmartlistFilter>
+    <StatusLine>
+        <Text Line="KB" />
+        <Text Line="MB" />
+        <Text Line="GB" />
+        <Text Line="trong" />
+        <Text Line="items" />
+        <Text Line="bài hát" />
+        <Text Line="thời lượng" />
+        <Text Line="Đã chọn:" />
+    </StatusLine>
+    <Lyrics>
+        <Text Line="Chưa phát bài nào." />
+        <Text Line="Không tìm thấy lời bài hát." />
+        <Text Line="Đang lấy lời bài hát..." />
+    </Lyrics>
+    <LyricsMenu>
+        <Text Line="Nguồn:" />
+        <Text Line="Nothing" />
+        <Text Line="Tập tin" />
+        <Text Line="Tags" />
+        <Text Line="Internet" />
+        <Text Line="Sao chép lời" />
+        <Text Line="Lưu lại lời..." />
+        <Text Line="Nhà cung cấp lời" />
+        <Text Line="Tắt" />
+        <Text Line="Tìm Google..." />
+        <Text Line="Canh lề" />
+        <Text Line="Trái" />
+        <Text Line="Giữa" />
+        <Text Line="Phải" />
+        <Text Line="Cỡ chữ" />
+        <Text Line="Theo giao diện" />
+        <Text Line="Nhỏ" />
+        <Text Line="Trung bình" />
+        <Text Line="Lớn" />
+        <Text Line="Cực lớn" />
+        <Text Line="Tô đậm" />
+    </LyricsMenu>
+    <NewVersionDialog>
+        <Text Line="Đang chuyển thư viện sang phiên bản mới. Hãy đợi chút..." />
+        <Text Line="Đang chuyển thư viện sang phiên bản di động. Hãy đợi chút..." />
+        <Text Line="Winyl cần quét lại tất cả các tập tin để hoàn tất cập nhật." />
+        <Text Line="Đừng hủy bỏ tiến trình này." />
+    </NewVersionDialog>    
+</Language>

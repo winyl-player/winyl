@@ -1,0 +1,6 @@
+<Cover>
+    <Effect Fade="1" />
+    <Cover File="Cover.png" />
+    <Overlay File="Overlay.png" />
+    <Mirror File="Mirror.png" />
+</Cover>

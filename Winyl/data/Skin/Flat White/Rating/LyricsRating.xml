@@ -1,0 +1,6 @@
+<Rating>
+    <Show File="LyricsShowStar.png" />
+    <Hide File="LyricsHideStar.png" />
+    <ShowHover File="LyricsHoverStar.png" />
+    <HideHover File="LyricsHideStar.png" />
+</Rating>

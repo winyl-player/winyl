@@ -1,0 +1,4 @@
+<Button>
+    <Normal File="Clear1.png" />
+    <Hover File="Clear2.png" />
+</Button>

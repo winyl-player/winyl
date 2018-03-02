@@ -1,0 +1,6 @@
+﻿<Button>
+    <Effect Fade="1" />
+    <Normal File="Clear.png" />
+    <Hover File="Clear1.png" />
+    <Press File="Clear.png" />
+</Button>

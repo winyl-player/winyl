@@ -1,0 +1,10 @@
+<Button>
+    <Normal File="CoverOff1.png" />
+    <Press File="CoverOff3.png" />
+    <Trigger>
+        <Layout ID="400" Hide="0" />
+        <Layout ID="401" Hide="1" />
+        <Layout ID="300" Hide="0" />
+        <Layout ID="70" RightFromLeftID="300" />
+    </Trigger>
+</Button>

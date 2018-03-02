@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Language Version="3.3.0">
+    <MainMenu>
+        <Text Line="Bibliotheek..." />
+        <Text Line="Uiterlijk..." />
+        <Text Line="Mini speler" />
+        <Text Line="Voeg toe aan afspeellijst" />
+        <Text Line="Bestand..." />
+        <Text Line="Map..." />
+        <Text Line="Radio/URL..." />
+        <Text Line="Importeer afspeellijst..." />
+        <Text Line="Controle" />
+        <Text Line="Afspelen" />
+        <Text Line="Pauze" />
+        <Text Line="Stop" />
+        <Text Line="Volgende" />
+        <Text Line="Vorige" />
+        <Text Line="Zet geluid uit" />
+        <Text Line="Mixen" />
+        <Text Line="Herhaal" />
+        <Text Line="Mengpaneel..." />
+        <Text Line="Instellingen" />
+        <Text Line="Verberg naar systeemvak" />
+        <Text Line="Popup venster" />
+        <Text Line="Visuele effecten" />
+        <Text Line="Vloeiend schuiven" />
+        <Text Line="Zet Last.FM aan" />
+        <Text Line="Sneltoetsen..." />
+        <Text Line="Uitgebreid..." />
+        <Text Line="Selecteer taal..." />
+        <Text Line="Over" />
+        <Text Line="Donatie" />
+    </MainMenu>
+    <ListMenu>
+        <Text Line="Afspelen" />
+        <Text Line="Herhaal lied" />
+        <Text Line="Selecteer alles" />
+        <Text Line="Verwijderen" />
+        <Text Line="Voeg toe aan afspeellijst" />
+        <Text Line="Naar nieuwe afspeellijst" />
+        <Text Line="Naar nu afspelen" />
+        <Text Line="Bestandslocatie..." />
+        <Text Line="Instellingen..." />
+        <Text Line="Spring naar" />
+        <Text Line="Artiest" />
+        <Text Line="Album" />
+        <Text Line="Jaar" />
+        <Text Line="Genre" />
+        <Text Line="Map" />
+    </ListMenu>
+    <TreeMenu>
+        <Text Line="Nieuwe afspeellijst" />
+        <Text Line="Nieuwe smartlijst..." />
+        <Text Line="Hernoemen..." />
+        <Text Line="Verwijderen" />
+        <Text Line="Vernieuwen" />
+        <Text Line="Toevoegen..." />
+    </TreeMenu>
+    <TrayMenu>
+        <Text Line="Afspelen" />
+        <Text Line="Pauze" />
+        <Text Line="Stop" />
+        <Text Line="Volgende" />
+        <Text Line="Vorige" />
+        <Text Line="Afsluiten" />
+    </TrayMenu>
+    <PopupMenu>
+        <Text Line="Uitschakelen" />
+        <Text Line="Boven links" />
+        <Text Line="Boven rechts" />
+        <Text Line="Onder links" />
+        <Text Line="Onder rechts" />
+        <Text Line="Uitgebreid..." />
+    </PopupMenu>
+    <Library>
+        <!-- These lines should be as short as possible -->
+        <Text Line="Onbekend" />
+        <Text Line="Bibliotheek" />
+        <Text Line="Wordt nu afgespeeld" />
+        <Text Line="Afspeellijsten" />
+        <Text Line="Smartlijsten" />
+        <Text Line="Artiesten" />
+        <Text Line="Componisten" />
+        <Text Line="Albums" />
+        <Text Line="Genres" />
+        <Text Line="Jaren" />
+        <Text Line="Radio's" />
+        <Text Line="Mappen" />
+        <Text Line="Schijf" />
+    </Library>
+    <Playlist>
+        <Text Line="Onbekend" />
+        <Text Line="CD" /> <!-- Disc number CD1, CD2. 4 chars max or leave it as is. -->
+        <Text Line="Map" />
+        <Text Line="Radio" />
+        <Text Line="Er zijn geen tracks om af te spelen." />
+    </Playlist>
+    <SkinDialog>
+        <Text Line="Uiterlijk" />
+        <Text Line="Sluiten" />
+        <Text Line="Bevestigen" />
+        <Text Line="Selecteer uiterlijk:" />
+        <Text Line="Bekijken" />
+        <Text Line="Informatie" />
+        <Text Line="Auteur:" />
+        <Text Line="Versie:" />
+        <Text Line="Beschrijving:" />
+    </SkinDialog>
+    <LibraryDialog>
+        <Text Line="Bibliotheek" />
+        <Text Line="Sluiten" />
+        <Text Line="Bijwerken" />
+        <Text Line="Mappen" />
+        <Text Line="Opties" />
+        <Text Line="Toevoegen" />
+        <Text Line="Verwijderen" />
+        <Text Line="Voeg mappen met jouw muziek toe aan de audio bibliotheek." />
+        <Text Line="Klik op de knop 'Bijwerken' om de audio biblioteek bij te werken." />
+        <Text Line="Selecteer de map met jouw muziek bestanden." />
+        <Text Line="Basis" />
+        <Text Line="Geavanceerd" />
+        <Text Line="Negeer bestanden welke daarvoor verwijderd zijn uit de bibliotheek" />
+        <Text Line="Verwijder ontbrekende bestanden uit de bibliotheek" />
+        <Text Line="Zoek naar verplaatste of hernoemde bestanden" />
+        <Text Line="Volledige herscan van alle bestanden in de bibliotheek" />
+    </LibraryDialog>
+    <LanguageDialog>
+        <Text Line="Taal" />
+        <Text Line="Annuleren" />
+        <Text Line="OK" />
+        <Text Line="Selecteer taal:" />
+    </LanguageDialog>
+    <ProcessDialog>
+        <Text Line="Werk bibliotheek bij" />
+        <Text Line="Toevoegen aan afspeellijst" />
+        <Text Line="Annuleren" />
+        <Text Line="Minimaliseren" />
+        <Text Line="Verwerking..." />
+        <Text Line="Verwerking:" />
+        <Text Line="Annulering..." />
+    </ProcessDialog>
+    <PropertiesDialog>
+        <Text Line="Instellingen" />
+        <Text Line="Sluiten" />
+        <Text Line="Bewaren" />
+        <Text Line="Tags" />
+        <Text Line="Hoes" />
+        <Text Line="Songteksten" />
+        <Text Line="Bewaar en ga naar het vorige liedje" />
+        <Text Line="Bewaar en ga naar het volgende liedje" />
+    </PropertiesDialog>
+    <TagsPage>
+        <Text Line="Titel:" />
+        <Text Line="Artiesten:" />
+        <Text Line="Album Artiest:" />
+        <Text Line="Album:" />
+        <Text Line="Componisten:" />
+        <Text Line="Jaar:" />
+        <Text Line="Liedje:" />
+        <Text Line="Disc:" />
+        <Text Line="of" />
+        <Text Line="Genres:" />
+        <Text Line="Commentaar:" />
+        <Text Line="Bestand:" />
+        <Text Line="Kwaliteit:" />
+    </TagsPage>
+    <CoverPage>
+        <Text Line="Wijzig" />
+        <Text Line="Verwijder" />
+        <Text Line="Bekijk" />
+        <Text Line="Geen hoesfoto" />
+        <Text Line="Sleep foto hier naar toe om te wijzigen" />
+        <Text Line="Sluit hoesfoto in muziek bestand in" />
+        <Text Line="Bewaar hoesfoto in de album map met de naam 'Voorkant'" />
+    </CoverPage>
+    <LyricsPage>
+        <Text Line="Tekstschrijvers:" />
+        <Text Line="Sluit de songtekst in het muziekbestand in" />
+        <Text Line="Bewaar de songtekst in de albummap in de submap 'Songteksten'" />
+    </LyricsPage>
+    <RenameDialog>
+        <Text Line="Hernoemen" />
+        <Text Line="Annuleren" />
+        <Text Line="OK" />
+        <Text Line="Geef een nieuwe naam in:" />
+    </RenameDialog>
+    <AboutDialog>
+        <Text Line="Over" />
+        <Text Line="Sluiten" />
+        <Text Line="Donatie" />
+        <Text Line="Officiële website:" />
+        <Text Line="Support e-mail:" />
+        <!-- Enter your name in the next line in format: "Vertaald door Fred van Waard uit Hilversum vanwaard@gmail.com" (e-mail not necessarily) -->
+        <Text Line="Vertaald door Fred van Waard, vanwaard@gmail.com" />
+    </AboutDialog>
+    <Messages>
+        <Text Line="Fout" />
+        <Text Line="Waarschuwing" />
+        <Text Line="Informatie" />
+        <Text Line="Bestand niet gevonden of een niet ondersteunde bestands formaat." />
+        <Text Line="Niet mogelijk om verbinding te leggen met de radio server." />
+        <Text Line="Dit uiterlijk is voor een andere versie van de speler." />
+        <Text Line="Fout bij het laden van het uiterlijk. Standaard uiterlijk is geladen." />
+        <Text Line="Last.FM Cliënt niet gevonden. Installeer de Last.FM Cliënt om deze functie te kunnen gebruiken." />
+        <Text Line="De audio uitvoerapparaat bevat een fout." />
+        <Text Line="Geen ASIO apparaat gevonden." />
+    </Messages>
+    <EqualizerDialog>
+        <Text Line="Mengpaneel" />
+        <Text Line="Sluiten" />
+        <Text Line="Inschakelen" />
+        <Text Line="Instelling:" />
+        <Text Line="Standaard" />
+        <Text Line="Gebruikersdef." />
+    </EqualizerDialog>
+    <HotKeyDialog>
+        <Text Line="Algemene sneltoetsen" />
+        <Text Line="Annuleren" />
+        <Text Line="OK" />
+        <Text Line="Selecteer een actie en druk op een toetsen combinatie." />
+        <Text Line="Druk op 'Verwijderen' om de sneltoest te verwijderen." />
+        <Text Line="Actie" />
+        <Text Line="Sneltoets" />
+        <Text Line="Afspelen" />
+        <Text Line="Pauze" />
+        <Text Line="Stop" />
+        <Text Line="Volgende liedje" />
+        <Text Line="Vorige liedje" />
+        <Text Line="Volume uitzetten" />
+        <Text Line="Volume hoger" />
+        <Text Line="Volume lager" />
+        <Text Line="Rangschikking 1" />
+        <Text Line="Rangschikking 2" />
+        <Text Line="Rangschikking 3" />
+        <Text Line="Rangschikking 4" />
+        <Text Line="Rangschikking 5" />
+        <Text Line="Laat Popup zien" />
+    </HotKeyDialog>
+    <OpenURLDialog>
+        <Text Line="Voeg Radio/URL toe" />
+        <Text Line="Annuleren" />
+        <Text Line="OK" />
+        <Text Line="Mijn Radio" />
+        <Text Line="Naam:" />
+        <Text Line="URL:" />
+    </OpenURLDialog>
+    <ToolTips>
+        <Text Line="Sluiten" />
+        <Text Line="Minimaliseren" />
+        <Text Line="Maximaliseren" />
+        <Text Line="Terugzetten" />
+        <Text Line="Afspelen" />
+        <Text Line="Pauze" />
+        <Text Line="Stop" />
+        <Text Line="Volgende" />
+        <Text Line="Vorige" />
+        <Text Line="Mengpaneel" />
+        <Text Line="Verander gezicht" />
+        <Text Line="Zet geluid af" />
+        <Text Line="Zet geluid aan " />
+        <Text Line="Zet herhalen aan" />
+        <Text Line="Zet herhalen af" />
+        <Text Line="Zet mixen aan" />
+        <Text Line="Zet mixen af" />
+        <Text Line="Hoofd menu" />
+        <Text Line="Mini speler" />
+        <Text Line="Zet speler terug" />
+        <Text Line="Bibliotheek bijwerken" />
+    </ToolTips>
+    <ConfigDialog>
+        <Text Line="Instellingen" />
+        <Text Line="Annuleren" />
+        <Text Line="OK" />
+        <Text Line="Algemeen" />
+        <Text Line="Systeem" />
+        <Text Line="Popup" />
+        <Text Line="Mini speler" />
+    </ConfigDialog>
+    <SystemPage>
+        <Text Line="Audio apparaat" />
+        <Text Line="Standaard Audio apparaat" />
+        <Text Line="32 bit audio proces" />
+        <Text Line="Software audio mixen" />
+        <Text Line="Proxy" />
+        <Text Line="Zet proxy aan" />
+        <Text Line="Provider:" />
+        <Text Line="Poort:" />
+        <Text Line="Proxy authorisatie" />
+        <Text Line="Inloggen:" />
+        <Text Line="Wachtwoord:" />
+    </SystemPage>
+    <PopupPage>
+        <Text Line="Test" />
+        <Text Line="Tijd" />
+        <Text Line="Houd tijd vast:" />
+        <Text Line="Laat tijd zien:" />
+        <Text Line="Verberg de tijd:" />
+        <Text Line="Sec." />
+        <Text Line="Vorm" />
+        <Text Line="Positie:" />
+        <Text Line="Boven links" />
+        <Text Line="Boven rechts" />
+        <Text Line="Onder links" />
+        <Text Line="Onder rechts" />
+        <Text Line="Laat effect zien:" />
+        <Text Line="Verberg effect:" />
+        <Text Line="Vervagen" />
+        <Text Line="Schuif verticaal" />
+        <Text Line="Schuif horizontaal" />
+    </PopupPage>
+    <Search>
+        <Text Line="Zoek" />
+        <Text Line="Zoek alles" />
+        <Text Line="Zoek liedje" />
+        <Text Line="Zoek album" />
+        <Text Line="Zoek artiest" />
+    </Search>
+    <MiniPlayerPage>
+        <Text Line="Positie" />
+        <Text Line="Altijd op de voorgrond" />
+        <Text Line="Altijd op het bureaublad" />
+        <Text Line="Als een normaal venster" />
+        <Text Line="Transparantie" />
+    </MiniPlayerPage>
+    <GeneralPage>
+        <Text Line="Gedrag van de speler" />
+        <Text Line="Voeg toe aan bibliotheek als geopend in afspeellijst" />
+        <Text Line="Weergave volgt het geselecteerde liedje" />
+        <Text Line="Bibliotheek overzicht" />
+        <Text Line="Services" />
+        <Text Line="Laat het nu afgespeelde liedje in Last.FM cliënt zien" />
+        <Text Line="Laat het nu afgespeelde liedje in Live Messenger zien" />
+        <Text Line="Koppeling" />
+        <Text Line="Speel af in Winyl" />
+        <Text Line="Voeg 'Speel af in Winyl' toe in mappen menu" />
+        <Text Line="Beheer audio bestands koppelingen..." />
+        <!-- Win XP compatible Associations dialog -->
+        <Text Line="Bestands koppeling" />
+        <Text Line="Annuleren" />
+        <Text Line="Bewaren" />
+        <Text Line="Selecteer alles" />
+        <Text Line="Extenties" />
+    </GeneralPage>
+    <DefaultList>
+        <Text Line="Afspeellijst" />
+        <Text Line="Smartlijst" />
+        <Text Line="Standaard" />
+        <Text Line="Mijn afspeellijst" />
+        <Text Line="50 willekeurige liedjes" />
+        <Text Line="5 willekeurige albums" />
+        <Text Line="Recentelijk afgespeeld" />
+        <Text Line="25 meest afgespeelde" />
+        <Text Line="25 Top beoordeeld" />
+        <Text Line="Jaren 90 muziek" />
+    </DefaultList>
+    <DlgSmartlist>
+        <Text Line="Smartlijst" />
+        <Text Line="Annuleren" />
+        <Text Line="OK" />
+        <Text Line="Naam:" />
+        <Text Line="Van" />
+        <Text Line="Bibliotheek" />
+        <Text Line="Artiest" />
+        <Text Line="Albums" />
+        <Text Line="Genres" />
+        <Text Line="Jaren" />
+        <Text Line="Mappen" />
+        <Text Line="Opties" />
+        <Text Line="Selecteren:" />
+        <Text Line="Nummer:" />
+        <Text Line="Willekeurig gerangschikt" />
+        <Text Line="Automatisch verversen" />
+        <Text Line="Tips" />
+        <Text Line="Gebruik plus '+' symbool om meer liedjes te selecteren. Bijvoorbeeld: The Beatles + Led Zeppelin" />
+        <Text Line="Gebruik het min '-' symbool om een groep te selecteren. Bijvoorbeeld: 2000 - 2010" />
+        <Text Line="Als de tekenreeks met een min '-' begint zijn de items uitgesloten." />
+        <Text Line="Uitgebreide filter" />
+        <Text Line="Liedjes" />
+        <Text Line="Albums" />
+        <Text Line="Ieder" />
+        <Text Line="Meest afgespeeld" />
+        <Text Line="Zelden afgespeeld" />
+        <Text Line="Top beoordeeld" />
+        <Text Line="Laagste beoordeeld" />
+        <Text Line="Recentelijk afgespeeld" />
+        <Text Line="Recentelijk toegevoegd" />
+    </DlgSmartlist>
+    <DlgSmartlistFilter>
+        <Text Line="Geavanceerde Filter" />
+        <Text Line="Annuleren" />
+        <Text Line="OK" />
+        <Text Line="Alles" />
+        <Text Line="Elke" />
+        <Text Line="van de geselecteerde regels:" />
+        <Text Line="Tellen van het afspelen" />
+        <Text Line="Rangschikking" />
+        <Text Line="Het laatst gespeeld" />
+        <Text Line="Datum toegevoegd" />
+        <Text Line="Liedjes in het album" />
+        <Text Line="Gelijk aan" />
+        <Text Line="Groter dan" />
+        <Text Line="Kleiner dan" />
+        <Text Line="In de laatste" />
+        <Text Line="Voor" />
+        <Text Line="Tijden" />
+        <Text Line="Liedjes" />
+        <Text Line="Niet gerangschikt" />
+        <Text Line="1 Ster" />
+        <Text Line="2 Sterren" />
+        <Text Line="3 Sterren" />
+        <Text Line="4 Sterren" />
+        <Text Line="5 Sterren" />
+        <Text Line="1 Dag" />
+        <Text Line="2 Dagen" />
+        <Text Line="3 Dagen" />
+        <Text Line="1 Week" />
+        <Text Line="2 Weken" />
+        <Text Line="1 Maand" />
+        <Text Line="3 Maanden" />
+        <Text Line="6 Maanden" />
+        <Text Line="1 Jaar" />
+    </DlgSmartlistFilter>
+    <StatusLine>
+        <Text Line="KB" />
+        <Text Line="MB" />
+        <Text Line="GB" />
+        <Text Line="van" />
+        <Text Line="items" />
+        <Text Line="liedjes" />
+        <Text Line="totale tijd" />
+        <Text Line="Geselecteerd:" />
+    </StatusLine>
+    <Lyrics>
+        <Text Line="Er wordt niets afgespeeld." />
+        <Text Line="Er zijn geen songteksten gevonden." />
+        <Text Line="Ophalen van songteksten..." />
+    </Lyrics>
+    <LyricsMenu>
+        <Text Line="Bron:" />
+        <Text Line="Niets" />
+        <Text Line="Bestand" />
+        <Text Line="Tags" />
+        <Text Line="Internet" />
+        <Text Line="Kopieer songteksten" />
+        <Text Line="Bewaar songteksten..." />
+        <Text Line="Aanbieder songteksten" />
+        <Text Line="Uitschakelen" />
+        <Text Line="Google Zoek..." />
+        <Text Line="Tekst uitlijnen" />
+        <Text Line="Links" />
+        <Text Line="Centreer" />
+        <Text Line="Rechts" />
+        <Text Line="Lettergrootte" />
+        <Text Line="Van uiterlijk" />
+        <Text Line="Smal" />
+        <Text Line="Middel" />
+        <Text Line="Groot" />
+        <Text Line="Grootste" />
+        <Text Line="Vet" />
+    </LyricsMenu>
+    <NewVersionDialog>
+        <Text Line="Converteren bibliotheek naar nieuwe versie. Even geduld a.u.b..." />
+        <Text Line="Converteren bibliotheek voor draagbare versie. Even geduld a.u.b..." />
+        <Text Line="Winyl dient alle bestand te herscannen om de update compleet te maken." />
+        <Text Line="Het is niet aanbevolen om dit proces te annuleren." />
+    </NewVersionDialog>
+</Language>

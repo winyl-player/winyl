@@ -1,0 +1,13 @@
+﻿<Switch>
+    <Effect Fade="1" />
+    <State1>
+        <Normal File="MuteOff1.png" />
+        <Hover File="MuteOff2.png" />
+        <Press File="MuteOff2.png" />
+    </State1>
+    <State2>
+        <Normal File="MuteOn1.png" />
+        <Hover File="MuteOn2.png" />
+        <Press File="MuteOn2.png" />
+    </State2>
+</Switch>

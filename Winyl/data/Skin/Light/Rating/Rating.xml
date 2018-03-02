@@ -1,0 +1,6 @@
+<Rating>
+     <Show File="ShowStar.png" />
+     <Hide File="HideStar.png" />
+     <ShowHover File="HoverStar.png" />
+     <HideHover File="HideStar.png" />
+</Rating>

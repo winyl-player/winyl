@@ -1,0 +1,81 @@
+﻿<Library>
+    <DropLine Color="AAAAAA" />
+    <Scroll File="..\Scroll\Scroll.xml" />
+    <Background Color="222222" />
+    <Head Height="24">
+        <Elements>
+            <Expand>
+                <Position Left="5" Top="4" Right="10" />
+                <Skin File="Expand\Expand.xml" />
+            </Expand>
+            <Icon>
+                <Position Left="22" Top="3" Right="10" />
+                <Skin File="Icons\Icons.xml" />
+            </Icon>
+            <Text>
+                <Position Left="46" Top="5" Right="10" />
+                <State Focus="1">
+                    <Font Size="9" Color="FFFFFF" Bold="1"></Font>
+                </State>
+                <State Normal="1">
+                    <Font Size="9" Color="999999" Bold="1"></Font>
+                </State>
+            </Text>
+        </Elements>
+        <Background>
+            <Fill>
+                <Position Left="5" Right="5" Top="0" Bottom="0" />
+                <State Line1="1" Normal="1">
+                    <Fill Color="222222" />
+                </State>
+                <State Line2="1" Normal="1">
+                    <Fill Color="222222" />
+                </State>
+            </Fill>
+            <Fill>
+                <Position Left="5" Right="5" Top="0" Bottom="0" />
+                <State Focus="1" Select="1">
+                    <Fill Color="0047ab" />
+                </State>
+            </Fill>
+        </Background>
+    </Head>
+    <Node Height="22">
+        <Elements>
+            <Expand>
+                <Position Left="5" Top="3" Right="10" />
+                <Skin File="Expand\Expand.xml" />
+            </Expand>
+            <Icon>
+                <Position Left="22" Top="2" Right="10" />
+                <Skin File="Icons\Icons.xml" />
+            </Icon>
+            <Text>
+                <Position Left="46" Top="4" Right="10" />
+                <State Focus="1">
+                    <Font Size="9" Color="FFFFFF"></Font>
+                </State>
+                <State Normal="1">
+                    <Font Size="9" Color="999999"></Font>
+                </State>
+            </Text>
+        </Elements>
+        <Background>
+            <Fill>
+                <Position Left="5" Right="5" Top="0" Bottom="0" />
+                <State Line1="1" Normal="1">
+                    <Fill Color="222222" />
+                </State>
+                <State Line2="1" Normal="1">
+                    <Fill Color="222222" />
+                </State>
+            </Fill>
+            <Fill>
+                <Position Left="5" Right="5" Top="0" Bottom="0" />
+                <State Focus="1" Select="1">
+                    <Fill Color="0047ab" />
+                </State>
+            </Fill>
+        </Background>
+    </Node>
+</Library>

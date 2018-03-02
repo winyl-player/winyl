@@ -1,0 +1,10 @@
+<Switch>
+    <State1>
+        <Normal File="MiniPlay1.png" />
+        <Hover File="MiniPlay2.png" />
+    </State1>
+    <State2>
+        <Normal File="MiniPause1.png" />
+        <Hover File="MiniPause2.png" />
+    </State2>
+</Switch>

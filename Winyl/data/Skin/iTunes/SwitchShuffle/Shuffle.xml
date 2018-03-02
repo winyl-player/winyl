@@ -1,0 +1,10 @@
+<Switch>
+    <State1>
+        <Normal File="ShuffleOff1.png" />
+        <Press File="ShuffleOff3.png" />
+    </State1>
+    <State2>
+        <Normal File="ShuffleOn1.png" />
+        <Press File="ShuffleOn3.png" />
+    </State2>
+</Switch>

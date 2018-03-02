@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Language Version="3.3.0">
+    <MainMenu>
+        <Text Line="Βιβλιοθήκη..." />
+        <Text Line="Εμφάνιση..." />
+        <Text Line="Παράθυρο βασικής λειτουργίας" />
+        <Text Line="Προσθήκη στη λίστα αναπαραγωγής" />
+        <Text Line="Αρχείο..." />
+        <Text Line="Φάκελος..." />
+        <Text Line="Ραδιόφωνο/URL..." />
+        <Text Line="Εισαγωγή λίστας αναπαραγωγής..." />
+        <Text Line="Έλεγχος" />
+        <Text Line="Αναπαραγωγή" />
+        <Text Line="Παύση" />
+        <Text Line="Διακοπή" />
+        <Text Line="Επόμενο" />
+        <Text Line="Προηγούμενο" />
+        <Text Line="Σίγαση" />
+        <Text Line="Τυχαία σειρά" />
+        <Text Line="Επανάληψη" />
+        <Text Line="Ισοσταθμιστής..." />
+        <Text Line="Ρυθμίσεις" />
+        <Text Line="Απόκρυση στην Περιοχή ειδοποιήσεων" />
+        <Text Line="Αναδυόμενο παράθυρο" />
+        <Text Line="Οπτικά εφέ" />
+        <Text Line="Ομαλή κύλιση" />
+        <Text Line="Ενεργοποίηση Last.FM" />
+        <Text Line="Πλήκτρα συντόμευσης..." />
+        <Text Line="Προηγμένες..." />
+        <Text Line="Γλώσσα / Language..." />
+        <Text Line="Περί..." />
+        <Text Line="Δωρεά" />
+    </MainMenu>
+    <ListMenu>
+        <Text Line="Αναπαραγωγή" />
+        <Text Line="Επανάληψη κομματιού" />
+        <Text Line="Επιλογή όλων" />
+        <Text Line="Διαγραφή" />
+        <Text Line="Προσθήκη σε λίστα αναπαραγωγής" />
+        <Text Line="Σε νέα λίστα αναπαραγωγής" />
+        <Text Line="Στην τρέχουσα λίστα αναπαραγωγής" />
+        <Text Line="Θέση αρχείου..." />
+        <Text Line="Ιδιότητες..." />
+        <Text Line="Μετάβαση σε" />
+        <Text Line="Καλλιτέχνη" />
+        <Text Line="Άλμπουμ" />
+        <Text Line="Έτος" />
+        <Text Line="Είδος" />
+        <Text Line="Φάκελος" />
+    </ListMenu>
+    <TreeMenu>
+        <Text Line="Νέα λίστα αναπαραγωγής" />
+        <Text Line="Νέα έξυπνη λίστα..." />
+        <Text Line="Μετονομασία..." />
+        <Text Line="Διαγραφή" />
+        <Text Line="Ανανέωση" />
+        <Text Line="Επεξεργασία..." />
+    </TreeMenu>
+    <TrayMenu>
+        <Text Line="Αναπαραγωγή" />
+        <Text Line="Παύση" />
+        <Text Line="Διακοπή" />
+        <Text Line="Επόμενο" />
+        <Text Line="Προηγούμενο" />
+        <Text Line="Έξοδος" />
+    </TrayMenu>
+    <PopupMenu>
+        <Text Line="Απενεργοποίηση" />
+        <Text Line="Πάνω αριστερά" />
+        <Text Line="Πάνω δεξιά" />
+        <Text Line="Κάτω αριστερά" />
+        <Text Line="Κάτω δεξιά" />
+        <Text Line="Προηγμένες ρυθμίσεις..." />
+    </PopupMenu>
+    <Library>
+        <!-- These lines should be as short as possible -->
+        <Text Line="Άγνωστο" />
+        <Text Line="Βιβλιοθήκη" />
+        <Text Line="ΑΝΑΠΑΡΑΓΩΓΗ ΤΩΡΑ" />
+        <Text Line="ΛΙΣΤΑ ΑΝΑΠΑΡΑΓΩΓΗΣ" />
+        <Text Line="ΕΞΥΠΝΕΣ ΛΙΣΤΕΣ" />
+        <Text Line="ΚΑΛΛΙΤΕΧΝΕΣ" />
+        <Text Line="ΣΥΝΘΕΤΕΣ" />
+        <Text Line="ΑΛΜΠΟΥΜ" />
+        <Text Line="ΕΙΔΗ" />
+        <Text Line="ΕΤΗ" />
+        <Text Line="ΡΑΔΙΟΦΩΝΑ" />
+        <Text Line="ΦΑΚΕΛΟΙ" />
+        <Text Line="Δίσκος" />
+    </Library>
+    <Playlist>
+        <Text Line="Άγνωστο" />
+        <Text Line="CD" /> <!-- Disc number CD1, CD2. 4 chars max or leave it as is. -->
+        <Text Line="Φάκελος" />
+        <Text Line="Ραδιόφωνο" />
+        <Text Line="Δεν υπάρχουν κομμάτια για προβολή." />
+    </Playlist>
+    <SkinDialog>
+        <Text Line="Εμφάνιση" />
+        <Text Line="Κλείσιμο" />
+        <Text Line="Εφαρμογή" />
+        <Text Line="Επιλέξτε εμφάνιση:" />
+        <Text Line="Προεπισκόπηση" />
+        <Text Line="Πληροφορίες" />
+        <Text Line="Δημιουργός:" />
+        <Text Line="Έκδοση:" />
+        <Text Line="Περιγραφή:" />
+    </SkinDialog>
+    <LibraryDialog>
+        <Text Line="Βιβλιοθήκη" />
+        <Text Line="Κλείσιμο" />
+        <Text Line="Ενημέρωση" />
+        <Text Line="Φάκελοι" />
+        <Text Line="Επιλογές" />
+        <Text Line="Προσθήκη" />
+        <Text Line="Διαγραφή" />
+        <Text Line="Προσθέσετε τους φακέλλους με τη μουσική σας στη βιβλιοθήκη ήχου." />
+        <Text Line="Κάντε κλικ στο κουμπί «Ενημέρωση» για να ενημερώσετε τη βιβλιοθήκη ήχου." />
+        <Text Line="Επιλέξτε ένα φάκελο με τα αρχεία της μουσικής σας." />
+        <Text Line="Βασικές" />
+        <Text Line="Προηγμένες" />
+        <Text Line="Παράβλεψη των αρχείων που αφαιρέθηκαν νωρίτερα από τη βιβλιοθήκη" />
+        <Text Line="Κατάργηση των αρχείων που λείπουν από τη βιβλιοθήκη" />
+        <Text Line="Αναζήτηση για αρχεία που μετακινήθηκαν ή μετονομάστηκαν" />
+        <Text Line="Πλήρης σάρωση ξανά όλων των αρχείων στη βιβλιοθήκη" />
+    </LibraryDialog>
+    <LanguageDialog>
+        <Text Line="Γλώσσα" />
+        <Text Line="Άκυρο" />
+        <Text Line="Εντάξει" />
+        <Text Line="Επιλέξτε μια γλώσσα:" />
+    </LanguageDialog>
+    <ProcessDialog>
+        <Text Line="Ενημέρωση βιβλιοθήκης" />
+        <Text Line="Προσθήκη στη λίστα αναπαραγωγής" />
+        <Text Line="Άκυρο" />
+        <Text Line="Ελαχιστοποίηση" />
+        <Text Line="Επεξεργασία..." />
+        <Text Line="Επεξεργασία:" />
+        <Text Line="Ακύρωση..." />
+    </ProcessDialog>
+    <PropertiesDialog>
+        <Text Line="Ιδιότητες" />
+        <Text Line="Κλείσιμο" />
+        <Text Line="Αποθήκευση" />
+        <Text Line="Ετικέτες" />
+        <Text Line="Εξώφυλλο" />
+        <Text Line="Στίχοι" />
+        <Text Line="Αποθήκευση και μετάβαση στο προηγούμενο κομμάτι" />
+        <Text Line="Αποθήκευση και μετάβαση στο επόμενο κομμάτι" />
+    </PropertiesDialog>
+    <TagsPage>
+        <Text Line="Τίτλος:" />
+        <Text Line="Καλλιτέχνες:" />
+        <Text Line="Καλ/χνες άλμπουμ:" />
+        <Text Line="Άλμπουμ:" />
+        <Text Line="Συνθέτες:" />
+        <Text Line="Έτος:" />
+        <Text Line="Κομμάτι:" />
+        <Text Line="Δίσκος:" />
+        <Text Line="από" />
+        <Text Line="Είδη:" />
+        <Text Line="Σχόλιο:" />
+        <Text Line="Αρχείο:" />
+        <Text Line="Ποιότητα:" />
+    </TagsPage>
+    <CoverPage>
+        <Text Line="Αλλαγή" />
+        <Text Line="Κατάργηση" />
+        <Text Line="Προεπισκόπηση" />
+        <Text Line="Δεν υπάρχει εξώφυλλο" />
+        <Text Line="Σύρετε την εικόνα εδώ για να αλλάξει" />
+        <Text Line="Ενσωμάτωση εξώφυλλου στο αρχείο μουσικής" />
+        <Text Line="Αποθήκευση εξώφυλλου στο φάκελο του άλμπουμ με όνομα «Front»" />
+    </CoverPage>
+    <LyricsPage>
+        <Text Line="Στιχουργοί:" />
+        <Text Line="Ενσωμάτωση των στίχων στο αρχείο μουσικής" />
+        <Text Line="Αποθ. των στίχων στο φάκελο του άλμπουμ στον υποφάκελο «Lyrics»" />
+    </LyricsPage>
+    <RenameDialog>
+        <Text Line="Μετονομασία" />
+        <Text Line="Άκυρο" />
+        <Text Line="Εντάξει" />
+        <Text Line="Εισαγωγή νέου ονόματος:" />
+    </RenameDialog>
+    <AboutDialog>
+        <Text Line="Περί" />
+        <Text Line="Κλείσιμο" />
+        <Text Line="Δωρεά" />
+        <Text Line="Επίσημος ιστότοπος:" />
+        <Text Line="Ε-mail υποστήριξης:" />
+        <!-- Enter your name in the next line in format: "Translated by John Doe john@example.com" (e-mail not necessarily) -->
+        <Text Line="Μεταφράστηκε από geogeo.gr (www.geogeo.gr)" />
+    </AboutDialog>
+    <Messages>
+        <Text Line="Σφάλμα" />
+        <Text Line="Προειδοποίηση" />
+        <Text Line="Πληροφορία" />
+        <Text Line="Δεν βρέθηκε το αρχείο ή δεν υποστηρίζεται η μορφή του." />
+        <Text Line="Δεν είναι δυνατή η σύνδεση με το ραδιοφωνικό σταθμό." />
+        <Text Line="Αυτή η εμφάνιση είναι για άλλη έκδοση του προγράμματος." />
+        <Text Line="Σφάλμα φόρτωσης εμφάνισης. Έχει φορτωθεί η προεπιλεγμένη εμφάνιση." />
+        <Text Line="Το Last.FM Client δεν βρέθηκε. Παρακαλούμε εγκαταστήστε το Last.FM Client για χρήση αυτού του χαρακτηριστικού." />
+        <Text Line="Η συσκευή εξόδου ήχου αντιμετώπισε σφάλμα." />
+        <Text Line="Δεν βρέθηκαν συσκευές ASIO." />
+    </Messages>
+    <EqualizerDialog>
+        <Text Line="Ισοσταθμιστής" />
+        <Text Line="Κλείσιμο" />
+        <Text Line="Ενεργοποίηση" />
+        <Text Line="Προρυθμίσεις:" />
+        <Text Line="Προεπιλογή" />
+        <Text Line="Χειροκίνητα" />
+    </EqualizerDialog>
+    <HotKeyDialog>
+        <Text Line="Καθολικά πλήκτρα συντόμευσης" />
+        <Text Line="Άκυρο" />
+        <Text Line="Εντάξει" />
+        <Text Line="Επιλέξτε μια δράση και πατήστε κάποιο συνδυασμό πλήκτρων." />
+        <Text Line="Πατήστε «Διαγραφή» για διαγραφή ενός πλήκτρου συντόμ/σης." />
+        <Text Line="Δράση" />
+        <Text Line="Πλήκτρο συντόμευσης" />
+        <Text Line="Αναπαραγωγή" />
+        <Text Line="Παύση" />
+        <Text Line="Διακοπή" />
+        <Text Line="Επόμενο κομμάτι" />
+        <Text Line="Προηγούμενο κομμάτι" />
+        <Text Line="Σίγαση" />
+        <Text Line="Αυξηση έντασης" />
+        <Text Line="Μείωση έντασης" />
+        <Text Line="Αξιολόγηση 1" />
+        <Text Line="Αξιολόγηση 2" />
+        <Text Line="Αξιολόγηση 3" />
+        <Text Line="Αξιολόγηση 4" />
+        <Text Line="Αξιολόγηση 5" />
+        <Text Line="Εμφάνιση αναδυόμενου" />
+    </HotKeyDialog>
+    <OpenURLDialog>
+        <Text Line="Προσθήκη ραδιοφώνου/URL" />
+        <Text Line="Άκυρο" />
+        <Text Line="Εντάξει" />
+        <Text Line="Το ραδιόφωνό μου" />
+        <Text Line="Όνομα:" />
+        <Text Line="Διεύθ. URL:" />
+    </OpenURLDialog>
+    <ToolTips>
+        <Text Line="Κλείσιμο" />
+        <Text Line="Ελαχιστοποίηση" />
+        <Text Line="Μεγιστοποίηση" />
+        <Text Line="Επαναφορά" />
+        <Text Line="Αναπαραγωγή" />
+        <Text Line="Παύση" />
+        <Text Line="Διακοπή" />
+        <Text Line="Επόμενο" />
+        <Text Line="Προηγούμενο" />
+        <Text Line="Ισοσταθμιστής" />
+        <Text Line="Αλλαγή προβολής" />
+        <Text Line="Σίγαση" />
+        <Text Line="Επαναφορά ήχου" />
+        <Text Line="Ενεργοποίηση επανάληψης" />
+        <Text Line="Απενεργοποίηση επανάληψης" />
+        <Text Line="Ενεργοποίηση τυχαίας σειράς" />
+        <Text Line="Απενεργοποίηση τυχαίας σειράς" />
+        <Text Line="Κεντρικό μενού" />
+        <Text Line="Παράθυρο βασικής λειτουργίας" />
+        <Text Line="Επαναφορά παραθύρου εφαρμογής" />
+        <Text Line="Ενημέρωση βιβλιοθήκης" />
+    </ToolTips>
+    <ConfigDialog>
+        <Text Line="Ρυθμίσεις" />
+        <Text Line="Άκυρο" />
+        <Text Line="Εντάξει" />
+        <Text Line="Γενικά" />
+        <Text Line="Σύστημα" />
+        <Text Line="Αναδυόμενο" />
+        <Text Line="Παράθυρο βασικής λειτουργίας" />
+    </ConfigDialog>
+    <SystemPage>
+        <Text Line="Συσκευή ήχου" />
+        <Text Line="Προεπιλεγμένη συσκευή ήχου" />
+        <Text Line="Επεξεργασία ήχου 32 bit" />
+        <Text Line="Λογισμικό μείξης ήχου" />
+        <Text Line="Διακομιστής μεσολάβησης" />
+        <Text Line="Ενεργοποίηση διακομιστή μεσολάβησης" />
+        <Text Line="Host:" />
+        <Text Line="Θύρα:" />
+        <Text Line="Εξουσιοδότηση διακομιστή μεσολάβησης" />
+        <Text Line="Όνομα χρήστη:" />
+        <Text Line="Κωδικός:" />
+    </SystemPage>
+    <PopupPage>
+        <Text Line="Δοκιμή" />
+        <Text Line="Χρόνος" />
+        <Text Line="Χρόνος αναμονής:" />
+        <Text Line="Χρόνος προβολής:" />
+        <Text Line="Χρόνος απόκρυψης:" />
+        <Text Line="δευτ." />
+        <Text Line="Εμφάνιση" />
+        <Text Line="Θέση:" />
+        <Text Line="Πάνω αριστερά" />
+        <Text Line="Πάνω δεξιά" />
+        <Text Line="Κάτω αριστερά" />
+        <Text Line="Κάτω δεξιά" />
+        <Text Line="Εφέ προβολής:" />
+        <Text Line="Εφέ απόκρυψης:" />
+        <Text Line="Σταδιακή εξαφάνιση" />
+        <Text Line="Κάθετη ολίσθηση" />
+        <Text Line="Οριζόντια ολίσθηση" />
+    </PopupPage>
+    <Search>
+        <Text Line="Αναζήτηση" />
+        <Text Line="Αναζήτηση όλων" />
+        <Text Line="Αναζήτηση κομματιού" />
+        <Text Line="Αναζήτηση άλμπουμ" />
+        <Text Line="Αναζήτηση καλλιτέχνη" />
+    </Search>
+    <MiniPlayerPage>
+        <Text Line="Θέση" />
+        <Text Line="Πάντα στην κορυφή" />
+        <Text Line="Πάντα στην επιφάνεια εργασίας" />
+        <Text Line="Σαν κανονικό παράθυρο" />
+        <Text Line="Διαφάνεια" />
+    </MiniPlayerPage>
+    <GeneralPage>
+        <Text Line="Συμπεριφορά προγράμματος αναπαραγωγής" />
+        <Text Line="Προσθ. αρχείων στη βιβλιοθήκη, όταν ανοίγουν σε λίστες αναπ." />
+        <Text Line="Η αναπαραγωγή ακολουθεί το επιλεγμένο κομμάτι" />
+        <Text Line="Προβολή βιβλιοθήκης" />
+        <Text Line="Υπηρεσίες" />
+        <Text Line="Αποστολή στοιχείων κομματιών με το Last.FM Client" />
+        <Text Line="Εμφάνιση τρέχοντος κομματιού στο Live Messenger" />
+        <Text Line="Συσχετίσεις" />
+        <Text Line="Αναπαραγωγή στο Winyl" />
+        <Text Line="Προσθ. «Αναπαραγωγή στο Winyl» στο μενού περιβάλλοντος" />
+        <Text Line="Διαχείριση συσχετίσεων αρχείων ήχου..." />
+        <!-- Win XP compatible Associations dialog -->
+        <Text Line="Συσχετίσεις αρχείων" />
+        <Text Line="Άκυρο" />
+        <Text Line="Αποθήκευση" />
+        <Text Line="Επιλογή όλων" />
+        <Text Line="Επεκτάσεις" />
+    </GeneralPage>
+    <DefaultList>
+        <Text Line="Λίστα αναπαραγωγής" />
+        <Text Line="Έξυπνη λίστα" />
+        <Text Line="Προεπιλογή" />
+        <Text Line="Η λίστα αναπαραγωγής μου" />
+        <Text Line="50 τυχαία" />
+        <Text Line="5 τυχαία άλμουμ" />
+        <Text Line="Πρόσφατα παιγμένα" />
+        <Text Line="Τα 25 πιο παιγμένα" />
+        <Text Line="Τα 25 κορυφαία" />
+        <Text Line="Μουσική του '90" />
+    </DefaultList>
+    <DlgSmartlist>
+        <Text Line="Έξυπνη λίστα" />
+        <Text Line="Άκυρο" />
+        <Text Line="Εντάξει" />
+        <Text Line="Όνομα:" />
+        <Text Line="Από" />
+        <Text Line="Βιβλιοθήκη" />
+        <Text Line="Καλλιτέχνες" />
+        <Text Line="Άλμπουμ" />
+        <Text Line="Είδη" />
+        <Text Line="Έτη" />
+        <Text Line="Φάκελοι" />
+        <Text Line="Επιλογές" />
+        <Text Line="Επιλογή:" />
+        <Text Line="Αριθμός:" />
+        <Text Line="Τυχαία σειρά" />
+        <Text Line="Αυτόματη ανανέωση" />
+        <Text Line="Συμβουλές" />
+        <Text Line="Χρησιμοποιήστε το σύμβολο «+» για την επιλογή πολλαπλών αντικειμένων. Παράδειγμα: The Beatles + Led Zeppelin" />
+        <Text Line="Χρησιμοποιήστε το σύμβολο «-» για επιλογή εύρους. Παράδειγμα: 2000 - 2010" />
+        <Text Line="Εάν η συμβολοσειρά ξεκινάει με μείον, αυτά τα στοιχεία θα αποκλειστούν." />
+        <Text Line="Προηγμένα φίλτρα" />
+        <Text Line="Κομμάτια" />
+        <Text Line="Άλμπουμ" />
+        <Text Line="Όλα" />
+        <Text Line="Περισσότερο παιγμένα" />
+        <Text Line="Σπάνια παιγμένα" />
+        <Text Line="Κορυφαία" />
+        <Text Line="Χειρότερα" />
+        <Text Line="Πρόσφατα παιγμένα" />
+        <Text Line="Πρόσφατα προστεθημένα" />
+    </DlgSmartlist>
+    <DlgSmartlistFilter>
+        <Text Line="Προηγμένα φίλτρα" />
+        <Text Line="Άκυρο" />
+        <Text Line="Εντάξει" />
+        <Text Line="Όλοι" />
+        <Text Line="Κάποιος" />
+        <Text Line="από τους επιλεγμένους κανόνες:" />
+        <Text Line="Αριθμός επαναλήψεων" />
+        <Text Line="Βαθμολογία" />
+        <Text Line="Τελευταία αναπ/γωγή" />
+        <Text Line="Ημερομηνία προσθήκης" />
+        <Text Line="Κομμάτια στο άλμπουμ" />
+        <Text Line="Ίσος με" />
+        <Text Line="Μεγαλύτερος από" />
+        <Text Line="Μικρότερος από" />
+        <Text Line="Τελευταίες (ους)" />
+        <Text Line="Πριν" />
+        <Text Line="φορές" />
+        <Text Line="κομμάτια" />
+        <Text Line="Χωρίς αξιολόγηση" />
+        <Text Line="1 Αστέρι" />
+        <Text Line="2 Αστέρια" />
+        <Text Line="3 Αστέρια" />
+        <Text Line="4 Αστέρια" />
+        <Text Line="5 Αστέρια" />
+        <Text Line="1 Ημέρα" />
+        <Text Line="2 Ημέρες" />
+        <Text Line="3 Ημέρες" />
+        <Text Line="1 Εβδομάδα" />
+        <Text Line="2 Εβδομάδες" />
+        <Text Line="1 Μήνα" />
+        <Text Line="3 Μήνες" />
+        <Text Line="6 Μήνες" />
+        <Text Line="1 Χρόνο" />
+    </DlgSmartlistFilter>
+    <StatusLine>
+        <Text Line="KB" />
+        <Text Line="MB" />
+        <Text Line="GB" />
+        <Text Line="από" />
+        <Text Line="στοιχεία" />
+        <Text Line="κομμάτια" />
+        <Text Line="συν. χρόνος" />
+        <Text Line="Επιλεγμένα:" />
+    </StatusLine>
+    <Lyrics>
+        <Text Line="Δεν αναπαράγεται τίποτα." />
+        <Text Line="Δεν βρέθηκαν στίχοι." />
+        <Text Line="Ανάκτηση στίχων..." />
+    </Lyrics>
+    <LyricsMenu>
+        <Text Line="Πηγή:" />
+        <Text Line="Τίποτα" />
+        <Text Line="Αρχείο" />
+        <Text Line="Ετικέτες" />
+        <Text Line="Διαδίκτυο" />
+        <Text Line="Αντιγραφή στίχων" />
+        <Text Line="Αποθήκευση στίχων..." />
+        <Text Line="Πάροχος στίχων" />
+        <Text Line="Απενεργοποίηση" />
+        <Text Line="Αναζήτηση Google..." />
+        <Text Line="Στοίχιση κειμένου" />
+        <Text Line="Αριστερά" />
+        <Text Line="Κέντρο" />
+        <Text Line="Δεξιά" />
+        <Text Line="Μέγεθος γραμματοσειράς" />
+        <Text Line="Από εμφάνιση" />
+        <Text Line="Μικρά" />
+        <Text Line="Μεσαία" />
+        <Text Line="Μεγάλα" />
+        <Text Line="Πολύ μεγάλα" />
+        <Text Line="Έντονα" />
+    </LyricsMenu>
+    <NewVersionDialog>
+        <Text Line="Μετατροπή της βιβλιοθήκης σε νέα έκδοση. Παρακαλώ περιμένετε..." />
+        <Text Line="Μετατροπή της βιβλιοθήκης για φορητή έκδοση. Παρακαλώ περιμένετε..." />
+        <Text Line="Το Winyl χρειάζεται να ξανασαρώσει όλες τις ετικέτες για να ολοκληρώσει την ενημέρωση." />
+        <Text Line="Δεν συνιστούμε να ακυρώσετε αυτή τη διαδικασία." />
+    </NewVersionDialog>
+</Language>

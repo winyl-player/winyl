@@ -1,0 +1,109 @@
+<Playlist>
+    <Scroll File="..\Scroll\Scroll.xml" />
+    <Background Color="FFFFFF" />
+    <DropLine Color="000000" />
+    <FontNoItems Size="9" Color="646464" />
+    <Head Height="30">
+        <Elements>
+            <ArtistAlbum>
+                <Position Left="6" Top="7" Right="50" />
+                <Font Name="Arial" Size="11" Color="969696" Color2="376B9B" Bold="1" />
+            </ArtistAlbum>
+            <Year>
+                <Position Right="6" Top="7" />
+                <Font Name="Arial" Size="11" Color="969696" Bold="1" />
+            </Year>
+        </Elements>
+        <Background>
+            <Fill>
+                <Position Left="6" Right="6" Bottom="4" Height="1" />
+                <Fill Color="D2D2D2" />
+            </Fill>
+        </Background>
+    </Head>
+    <Song Height="21">
+        <Elements>
+            <Number>
+                <Position Left="6" Width="14" Top="3" />
+                <State Stop="1" Library="1">
+                    <Font Size="9" Color="7D7D7D" Align="2" />
+                </State>
+            </Number>
+            <Title>
+                <Position Left="25" Top="3" Right="130" />
+                <State Library="1">
+                    <Font Size="9" Color="000000" />
+                </State>
+            </Title>
+            <Index>
+                <Position Left="5" Width="20" Top="3" />
+                <State Stop="1" Playlist="1">
+                    <Font Size="9" Color="7D7D7D" Align="2" />
+                </State>
+            </Index>
+            <ArtistTitle>
+                <Position Left="30" Top="3" Right="130" />
+                <State Playlist="1">
+                    <Font Size="9" Color="376B9B" Color2="000000" />
+                </State>
+            </ArtistTitle>
+            <Rating>
+                <Position Right="50" Top="2" />
+                <Skin File="Rating\Rating.xml" />
+            </Rating>
+            <Time>
+                <Position Right="10" Top="3" />
+                <Font Size="9" Color="7D7D7D" />
+            </Time>
+        </Elements>
+        <Background>
+            <Fill>
+                <Position Left="0" Right="0" Top="0" Bottom="0" />
+                <State Line1="1" Normal="1">
+                    <Fill Color="F3F7FB" />
+                </State>
+            </Fill>
+            <Fill>
+                <Position Left="0" Right="0" Top="0" Bottom="0" />
+                <State Select="1">
+                    <Fill Color="DCECF8" />
+                </State>
+                <State Focus="1">
+                    <Fill Color="CDE4F5" />
+                </State>
+            </Fill>
+            <Image>
+                <Position Left="8" Top="4" />
+                <State Play="1" Library="1">
+                    <Image File="Background\Play.png" />
+                </State>
+                <State Pause="1" Library="1">
+                    <Image File="Background\Pause.png" />
+                </State>
+            </Image>
+            <Image>
+                <Position Left="10" Top="4" />
+                <State Play="1" Playlist="1">
+                    <Image File="Background\Play.png" />
+                </State>
+                <State Pause="1" Playlist="1">
+                    <Image File="Background\Pause.png" />
+                </State>
+            </Image>
+        </Background>
+    </Song>
+    <Left Width="126" Height="126">
+        <Elements>
+            <Cover>
+                <Position Left="8" Top="3" />
+                <Skin File="Cover\Cover.xml" />
+            </Cover>
+        </Elements>
+        <Background>
+            <Image>
+                <Position Left="-2" Top="-7" />
+                <Image File="Cover\CaseBG.png" />
+            </Image>
+        </Background>
+    </Left>
+</Playlist>

@@ -1,0 +1,27 @@
+<Popup>
+    <Size MinWidth="200" MaxWidth="400" />
+    <Transparent AlphaBlend="1" />
+    <Elements>
+        <Cover>
+            <Position Right="5" Top="5" />
+            <Skin File="Cover\PopupCover.xml" />
+        </Cover>
+        <Title>
+            <Position Left="14" Right="83" Top="16" Height="16" />
+            <Skin File="Text\PopupTitle.xml" />
+        </Title>
+        <Artist>
+            <Position Left="14" Right="83" Top="35" Height="16" />
+            <Skin File="Text\PopupArtist.xml" />
+        </Artist>
+        <Album>
+            <Position Left="14" Right="83" Top="49" Height="16" />
+            <Skin File="Text\PopupArtist.xml" />
+        </Album>
+    </Elements>
+    <Background>
+        <Begin File="Popup\Left.png" />
+        <Fill File="Popup\Center.png" />
+        <End File="Popup\Right.png" />
+    </Background>
+</Popup>

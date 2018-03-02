@@ -1,0 +1,13 @@
+﻿<Switch>
+    <Effect Fade="1" />
+    <State1>
+        <Normal File="MaximizeOff1.png" />
+        <Hover File="MaximizeOff2.png" />
+        <Press File="MaximizeOff3.png" />
+    </State1>
+    <State2>
+        <Normal File="MaximizeOn1.png" />
+        <Hover File="MaximizeOn2.png" />
+        <Press File="MaximizeOn3.png" />
+    </State2>
+</Switch>

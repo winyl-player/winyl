@@ -1,0 +1,10 @@
+<Slider>
+    <Background>
+        <Begin File="Left.png" />
+        <Fill File="Fill.png" File2="Fill2.png" />
+        <End File="Right.png" />
+    </Background>
+    <Button>
+        <Normal File="Button1.png" />
+    </Button>
+</Slider>

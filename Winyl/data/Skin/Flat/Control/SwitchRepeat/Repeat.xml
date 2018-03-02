@@ -1,0 +1,10 @@
+<Switch>
+    <State1>
+        <Normal File="RepeatOff1.png" />
+        <Hover File="RepeatOff2.png" />
+    </State1>
+    <State2>
+        <Normal File="RepeatOn1.png" />
+        <Hover File="RepeatOn2.png" />
+    </State2>
+</Switch>

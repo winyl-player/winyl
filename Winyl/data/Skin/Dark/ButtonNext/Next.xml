@@ -1,0 +1,6 @@
+﻿<Button>
+    <Effect Fade="1" />
+    <Normal File="Next1.png" />
+    <Hover File="Next2.png" />
+    <Press File="Next3.png" />
+</Button>

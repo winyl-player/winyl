@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Language Version="3.3.0">
+    <MainMenu>
+        <Text Line="Mediatecă..." />
+        <Text Line="Costum..." />
+        <Text Line="Redor Miniaturizat [Mini-Player]" />
+        <Text Line="Adaugă la Lista de Redare Curentă" />
+        <Text Line="Fila..." />
+        <Text Line="Dosarul..." />
+        <Text Line="Radioul/Adresa..." />
+        <Text Line="Deschide o Listă de Redare..." />
+        <Text Line="Controlează Redarea" />
+        <Text Line="Pornește" />
+        <Text Line="Pauzează" />
+        <Text Line="Oprește" />
+        <Text Line="Clipul/Radioul Următor" />
+        <Text Line="Clipul/Radioul Precedent" />
+        <Text Line="Muțește Sonorul" />
+        <Text Line="Redă Lista în Ordine Întîmplătoare" />
+        <Text Line="Repetă Lista de Redare" />
+        <Text Line="Egalizator..." />
+        <Text Line="Setări" />
+        <Text Line="Minimizează în Sertar [System Tray]" />
+        <Text Line="Arată Artistul/Titlul la Schimbarea Clipului" />
+        <Text Line="Efecte Vizuale" />
+        <Text Line="Derulare Lină" />
+        <Text Line="Activează Serviciul Last.fm" />
+        <Text Line="Taste Iuți..." />
+        <Text Line="Opțiuni Avansate..." />
+        <Text Line="Alege Limba..." />
+        <Text Line="Despre Soft" />
+        <Text Line="Donează" />
+    </MainMenu>
+    <ListMenu>
+        <Text Line="Redă" />
+        <Text Line="Redă în Buclă Clipul Selectat" />
+        <Text Line="Selectează Tot" />
+        <Text Line="Șterge" />
+        <Text Line="Adaugă la o Listă" />
+        <Text Line="Listă de Redare Nouă" />
+        <Text Line="Lista de Redare Curentă" />
+        <Text Line="Explorează Locul Filei..." />
+        <Text Line="Proprietăți..." />
+        <Text Line="Sari la" />
+        <Text Line="Artist" />
+        <Text Line="Album" />
+        <Text Line="An" />
+        <Text Line="Gen" />
+        <Text Line="Dosar" />
+    </ListMenu>
+    <TreeMenu>
+        <Text Line="Listă de Redare Nouă" />
+        <Text Line="Listă Deșteaptă Nouă..." />
+        <Text Line="Renumește..." />
+        <Text Line="Șterge" />
+        <Text Line="Împrospătează" />
+        <Text Line="Editează..." />
+    </TreeMenu>
+    <TrayMenu>
+        <Text Line="Redă" />
+        <Text Line="Pauzează" />
+        <Text Line="Oprește" />
+        <Text Line="Redă Următorul" />
+        <Text Line="Redă Precedentul" />
+        <Text Line="Ieși" />
+    </TrayMenu>
+    <PopupMenu>
+        <Text Line="Dezactivează" />
+        <Text Line="Stînga-Sus" />
+        <Text Line="Dreapta-Sus" />
+        <Text Line="Stînga-Jos" />
+        <Text Line="Dreapta-Jos" />
+        <Text Line="Avansate..." />
+    </PopupMenu>
+    <Library>
+        <!-- These lines should be as short as possible -->
+        <Text Line="Necunoscut" />
+        <Text Line="Mediatecă" />
+        <Text Line="Lista Curentă" />
+        <Text Line="Liste de Redare" />
+        <Text Line="Liste Deștepte" />
+        <Text Line="Artiști" />
+        <Text Line="Compozitori" />
+        <Text Line="Albume" />
+        <Text Line="Genuri" />
+        <Text Line="Ani" />
+        <Text Line="Radiouri" />
+        <Text Line="Dosare" />
+        <Text Line="Dispozitivul" />
+    </Library>
+    <Playlist>
+        <Text Line="Necunoscut" />
+        <Text Line="CD" /> <!-- Disc number CD1, CD2. 4 chars max or leave it as is. -->
+        <Text Line="Dosar" />
+        <Text Line="Radio" />
+        <Text Line="Nu există clipuri în lista de redare." />
+    </Playlist>
+    <SkinDialog>
+        <Text Line="Costum [Skin]" />
+        <Text Line="Închide" />
+        <Text Line="Aplică" />
+        <Text Line="Selectează Costumul:" />
+        <Text Line="Previzionare" />
+        <Text Line="Informații" />
+        <Text Line="Autor:" />
+        <Text Line="Versiune:" />
+        <Text Line="Descriere:" />
+    </SkinDialog>
+    <LibraryDialog>
+        <Text Line="Mediatecă (Bibliotecă Media)" />
+        <Text Line="Închide" />
+        <Text Line="Actualizează" />
+        <Text Line="Dosare" />
+        <Text Line="Opțiuni" />
+        <Text Line="Adaugă" />
+        <Text Line="Înlătură" />
+        <Text Line="Adaugă sau înlătură dosare cu file audio în mediatecă." />
+        <Text Line="Clichează pe butonul 'Actualizează' pentru a aduce la zi mediateca." />
+        <Text Line="Selectează un dosar care conține file audio." />
+        <Text Line="Bazale" />
+        <Text Line="Avansate" />
+        <Text Line="Ignoră filele înlăturate anterior din mediatecă" />
+        <Text Line="Înlătură din mediatecă filele dispărute" />
+        <Text Line="Caută după filele renumite sau mutate" />
+        <Text Line="Rescanează complet filele din mediatecă" />
+    </LibraryDialog>
+    <LanguageDialog>
+        <Text Line="Limbă" />
+        <Text Line="Anulează" />
+        <Text Line="OK" />
+        <Text Line="Selectează Limba:" />
+    </LanguageDialog>
+    <ProcessDialog>
+        <Text Line="Actualizez Mediateca" />
+        <Text Line="Adaug la Lista de Redare" />
+        <Text Line="Anulează" />
+        <Text Line="Minimizează" />
+        <Text Line="Procesez..." />
+        <Text Line="Procesare:" />
+        <Text Line="Anulez..." />
+    </ProcessDialog>
+    <PropertiesDialog>
+        <Text Line="Proprietăți" />
+        <Text Line="Închide" />
+        <Text Line="Salvează" />
+        <Text Line="Taguri" />
+        <Text Line="Coperți" />
+        <Text Line="Versuri" />
+        <Text Line="Salvează și mergi la clipul precedent" />
+        <Text Line="Salvează și mergi la clipul următor" />
+    </PropertiesDialog>
+    <TagsPage>
+        <Text Line="Titlu:" />
+        <Text Line="Artiști:" />
+        <Text Line="Artiști pe Album:" />
+        <Text Line="Album:" />
+        <Text Line="Compozitori:" />
+        <Text Line="An:" />
+        <Text Line="Clip:" />
+        <Text Line="Disc:" />
+        <Text Line="din:" />
+        <Text Line="Genuri:" />
+        <Text Line="Comentarii:" />
+        <Text Line="Filă:" />
+        <Text Line="Calitate:" />
+    </TagsPage>
+    <CoverPage>
+        <Text Line="Schimbă" />
+        <Text Line="Înlătură" />
+        <Text Line="Previzionează" />
+        <Text Line="Fără copertă" />
+        <Text Line="Trage imaginea aici pentru a schimba" />
+        <Text Line="Înglobează coperta în fila audio" />
+        <Text Line="Salvează coperta (cu numele 'Front') în dosarul albumului" />
+    </CoverPage>
+    <LyricsPage>
+        <Text Line="Textieri:" />
+        <Text Line="Înglobează versurile în fila audio" />
+        <Text Line="Salvează versurile în subdosarul 'Lyrics' din dosarul albumului" />
+    </LyricsPage>
+    <RenameDialog>
+        <Text Line="Renumește" />
+        <Text Line="Anulează" />
+        <Text Line="OK" />
+        <Text Line="Introdu numele nou:" />
+    </RenameDialog>
+    <AboutDialog>
+        <Text Line="Despre Soft" />
+        <Text Line="Închide" />
+        <Text Line="Donează" />
+        <Text Line="Sit oficial:" />
+        <Text Line="E-mail:" />
+        <!-- Enter your name in the next line in format: "Translated by John Doe john@example.com" (e-mail not necessarily) -->
+        <Text Line="Traducere: Alexandru Bogdan Munteanu" />
+    </AboutDialog>
+    <Messages>
+        <Text Line="Eroare" />
+        <Text Line="Avertisment" />
+        <Text Line="Informații" />
+        <Text Line="Fila n-a fost găsită sau e disponibilă într-un format nesuportat." />
+        <Text Line="Postul de radio nu poate fi prins momentan." />
+        <Text Line="Acest costum este pentru o versiune diferită a softului." />
+        <Text Line="Eroare de încărcare a costumului. A fost încărcat costumul implicit." />
+        <Text Line="Softul client pentru Last.fm nu a fost găsit. Instalează softul respectiv pentru a utiliza această facilitate." />
+        <Text Line="Dispozitivul de ieșire audio a întîlnit o eroare." />
+        <Text Line="Nu am găsit dispozitive ASIO." />
+    </Messages>
+    <EqualizerDialog>
+        <Text Line="Egalizator" />
+        <Text Line="Închide" />
+        <Text Line="Activează" />
+        <Text Line="Cfg:" />
+        <Text Line="Implicită" />
+        <Text Line="Manuală" />
+    </EqualizerDialog>
+    <HotKeyDialog>
+        <Text Line="Taste Iuți Globale" />
+        <Text Line="Anulează" />
+        <Text Line="OK" />
+        <Text Line="Selectează o acțiune și apasă combinația de taste dorită." />
+        <Text Line="Apasă tasta 'Delete' pentru a șterge o tastă iute [hotkey]." />
+        <Text Line="Acțiune" />
+        <Text Line="Tastă Iute" />
+        <Text Line="Redă" />
+        <Text Line="Pauzează" />
+        <Text Line="Oprește" />
+        <Text Line="Redă Următorul" />
+        <Text Line="Redă Precedentul" />
+        <Text Line="Muțirea Volumului" />
+        <Text Line="Creșterea Volumului" />
+        <Text Line="Scăderea Volumului" />
+        <Text Line="Notare cu 1 Steluță" />
+        <Text Line="Notare cu 2 Steluțe" />
+        <Text Line="Notare cu 3 Steluțe" />
+        <Text Line="Notare cu 4 Steluțe" />
+        <Text Line="Notare cu 5 Steluțe" />
+        <Text Line="Minifereastră cu Info" />
+    </HotKeyDialog>
+    <OpenURLDialog>
+        <Text Line="Adaugă Radio/URL" />
+        <Text Line="Anulează" />
+        <Text Line="OK" />
+        <Text Line="Radioul Meu" />
+        <Text Line="Nume:" />
+        <Text Line="URL:" />
+    </OpenURLDialog>
+    <ToolTips>
+        <Text Line="Închide" />
+        <Text Line="Minimizează" />
+        <Text Line="Maximizează" />
+        <Text Line="Restaurează" />
+        <Text Line="Redă" />
+        <Text Line="Pauzează" />
+        <Text Line="Oprește" />
+        <Text Line="Redă Următorul" />
+        <Text Line="Redă Precedentul" />
+        <Text Line="Egalizator" />
+        <Text Line="Schimbă Afișarea" />
+        <Text Line="Muțește" />
+        <Text Line="Sonorizează" />
+        <Text Line="Activează Repetarea" />
+        <Text Line="Dezactivează Repetarea" />
+        <Text Line="Activează Randomizarea" />
+        <Text Line="Dezactivează Randomizarea" />
+        <Text Line="Meniu Principal" />
+        <Text Line="Redor Miniaturizat" />
+        <Text Line="Restaurează Redorul" />
+        <Text Line="Actualizează Mediateca" />
+    </ToolTips>
+    <ConfigDialog>
+        <Text Line="Setări" />
+        <Text Line="Anulează" />
+        <Text Line="OK" />
+        <Text Line="Sistem" />
+        <Text Line="Generale" />
+        <Text Line="Minifereastră" />
+        <Text Line="Redor Miniaturizat" />
+    </ConfigDialog>
+    <SystemPage>
+        <Text Line="Dispozitiv Audio" />
+        <Text Line="Dispozitiv Audio Implicit" />
+        <Text Line="Procesare audio pe 32-biți" />
+        <Text Line="Mixare audio în software" />
+        <Text Line="Proxy" />
+        <Text Line="Activează" />
+        <Text Line="Adresă:" />
+        <Text Line="Port:" />
+        <Text Line="Autentifică" />
+        <Text Line="Utilizator:" />
+        <Text Line="Parolă:" />
+    </SystemPage>
+    <PopupPage>
+        <Text Line="Testează" />
+        <Text Line="Durata de afișare a ferestruicii cu artistul/titlul clipului" />
+        <Text Line="Persistență:" />
+        <Text Line="Apariție:" />
+        <Text Line="Dispariție:" />
+        <Text Line="sec." />
+        <Text Line="Locul ferestruicii cu artistul/titlul și tipul efectelor vizuale" />
+        <Text Line="Poziție:" />
+        <Text Line="Stînga-Sus" />
+        <Text Line="Dreapta-Sus" />
+        <Text Line="Stînga-Jos" />
+        <Text Line="Dreapta-Jos" />
+        <Text Line="Efect la Arătare:" />
+        <Text Line="Efect la Ascundere:" />
+        <Text Line="Estompare" />
+        <Text Line="Glisare Verticală" />
+        <Text Line="Glisare Orizontală" />
+    </PopupPage>
+    <Search>
+        <Text Line="Caută" />
+        <Text Line="Caută în Toate" />
+        <Text Line="Caută în Clipuri" />
+        <Text Line="Caută în Albume" />
+        <Text Line="Caută în Artiști" />
+    </Search>
+    <MiniPlayerPage>
+        <Text Line="Poziția Fereastrei Miniredorului" />
+        <Text Line="Stă deasupra celorlalte ferestre" />
+        <Text Line="Stă pe birou [desktop]" />
+        <Text Line="Se comportă ca o fereastră normală" />
+        <Text Line="Transparență" />
+    </MiniPlayerPage>
+    <GeneralPage>
+        <Text Line="Comportamentul Redorului" />
+        <Text Line="Adaugă filele la mediatecă cînd sînt deschise în liste" />
+        <Text Line="După clipul curent continuă redarea cu cel selectat" />
+        <Text Line="Afișare în Mediatecă" />
+        <Text Line="Integrare cu Alte Softuri" />
+        <Text Line="Monitorizează clipurile redate folosind softul client Last.FM" />
+        <Text Line="Arată clipul redat curent în Live Messenger" />
+        <Text Line="Asocieri în Windows (WinExp = Windows Explorer)" />
+        <Text Line="Redă cu Winyl Audio Player" />
+        <Text Line="Adaugă 'Redă cu Winyl' la meniul dosarelor din WinExp" />
+        <Text Line="Setează tipurile de file audio asociate cu Winyl..." />
+        <!-- Win XP compatible Associations dialog -->
+        <Text Line="Asocierea Filelor" />
+        <Text Line="Anulează" />
+        <Text Line="Salvează" />
+        <Text Line="Selectează Tot" />
+        <Text Line="Extensii" />
+    </GeneralPage>
+    <DefaultList>
+        <Text Line="Redlistă" />
+        <Text Line="Listă Deșteaptă" />
+        <Text Line="Implicită" />
+        <Text Line="Lista Mea" />
+        <Text Line="50 Clipuri la Întîmplare" />
+        <Text Line="5 Albume la Întîmplare" />
+        <Text Line="Redate Recent" />
+        <Text Line="25 Cele Mai Redate" />
+        <Text Line="25 Cele Mai Bine Notate" />
+        <Text Line="Muzica Anilor 90" />
+    </DefaultList>
+    <DlgSmartlist>
+        <Text Line="Listă Deșteaptă" />
+        <Text Line="Anulează" />
+        <Text Line="OK" />
+        <Text Line="Nume:" />
+        <Text Line="Din" />
+        <Text Line="Mediatecă" />
+        <Text Line="Artiști" />
+        <Text Line="Albume" />
+        <Text Line="Genuri" />
+        <Text Line="Ani" />
+        <Text Line="Dosare" />
+        <Text Line="Opțiuni" />
+        <Text Line="Selectează:" />
+        <Text Line="Număr:" />
+        <Text Line="Ordine întîmplătoare" />
+        <Text Line="Împrospătare automată" />
+        <Text Line="Pont" />
+        <Text Line="Folosește simbolul plus '+' pentru a selecta elemente multiple. Exemplu: Phoenix + Sfinx" />
+        <Text Line="Folosește simbolul minus '-' pentru a selecta intervalul de timp. Exemplu: 1970 - 1980" />
+        <Text Line="Dacă șirul începe cu semnul minus, acele elemente vor fi excluse." />
+        <Text Line="Filtru Avansat" />
+        <Text Line="Clipuri" />
+        <Text Line="Albume" />
+        <Text Line="Oricare" />
+        <Text Line="Redate Frecvent" />
+        <Text Line="Redate Rar" />
+        <Text Line="Cele Mai Bine Notate" />
+        <Text Line="Cele Mai Slab Notate" />
+        <Text Line="Redate Recent" />
+        <Text Line="Adăugate Recent" />
+    </DlgSmartlist>
+    <DlgSmartlistFilter>
+        <Text Line="Filtru Avansat" />
+        <Text Line="Anulează" />
+        <Text Line="OK" />
+        <Text Line="Toate" />
+        <Text Line="Oricare" />
+        <Text Line="(din) regulile selectate:" />
+        <Text Line="Număr de Redări" />
+        <Text Line="Notă" />
+        <Text Line="Ultima Redare" />
+        <Text Line="Data Adăugării" />
+        <Text Line="Clipuri pe Album" />
+        <Text Line="Egal cu" />
+        <Text Line="Mai mare ca" />
+        <Text Line="Mai mic ca" />
+        <Text Line="În ultimele" />
+        <Text Line="Mai veche de" />
+        <Text Line="ori" />
+        <Text Line="clipuri" />
+        <Text Line="Nenotată" />
+        <Text Line="1 Stea" />
+        <Text Line="2 Stele" />
+        <Text Line="3 Stele" />
+        <Text Line="4 Stele" />
+        <Text Line="5 Stele" />
+        <Text Line="1 Zi" />
+        <Text Line="2 Zile" />
+        <Text Line="3 Zile" />
+        <Text Line="1 Săpt." />
+        <Text Line="2 Săpt." />
+        <Text Line="1 Lună" />
+        <Text Line="3 Luni" />
+        <Text Line="6 Luni" />
+        <Text Line="1 An" />
+    </DlgSmartlistFilter>
+    <StatusLine>
+        <Text Line="KB" />
+        <Text Line="MB" />
+        <Text Line="GB" />
+        <Text Line="de" />
+        <Text Line="itemuri" />
+        <Text Line="clipuri" />
+        <Text Line="timp total" />
+        <Text Line="Selectate:" />
+    </StatusLine>
+    <Lyrics>
+        <Text Line="Nu e redat nimic." />
+        <Text Line="N-au fost găsite versuri." />
+        <Text Line="Preiau versurile..." />
+    </Lyrics>
+    <LyricsMenu>
+        <Text Line="Sursă:" />
+        <Text Line="Nimic" />
+        <Text Line="Filă" />
+        <Text Line="Taguri" />
+        <Text Line="Internet" />
+        <Text Line="Copiază Versurile" />
+        <Text Line="Salvează Versurile..." />
+        <Text Line="Furnizorul Versurilor" />
+        <Text Line="Dezactivează" />
+        <Text Line="Caută cu Google..." />
+        <Text Line="Aliniază Textul" />
+        <Text Line="Stînga" />
+        <Text Line="Centru" />
+        <Text Line="Dreapta" />
+        <Text Line="Mărimea Fontului" />
+        <Text Line="Din Costum" />
+        <Text Line="Mic" />
+        <Text Line="Mediu" />
+        <Text Line="Mare" />
+        <Text Line="Enorm" />
+        <Text Line="Gros" />
+    </LyricsMenu>
+    <NewVersionDialog>
+        <Text Line="Convertesc mediateca la versiunea nouă. Așteaptă..." />
+        <Text Line="Convertesc mediateca la versiunea portabilă. Așteaptă..." />
+        <Text Line="Winyl trebuie să rescaneze toate filele audio din mediatecă pentru a termina actualizarea." />
+        <Text Line="Nu e recomandat să anulezi procesul." />
+    </NewVersionDialog>
+</Language>
