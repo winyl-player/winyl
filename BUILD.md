@@ -6,6 +6,10 @@ x64 build is broken. I'll fix it later.
 
 First you need to compile all 3rd-party libraries.
 
+Precompiled libraries and everything else that are needed to build the program also avaliable here:  
+https://drive.google.com/file/d/1_LJhmeySUFwvI7CXPuFgB84bDYPr5tiR/view?usp=sharing  
+You don't need to follow the instructions below if you use it, but you must use the same compiler (VC++ 2017 for now).
+
 ----------
 Build SQLite:
 
