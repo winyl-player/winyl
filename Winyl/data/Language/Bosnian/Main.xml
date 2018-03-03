@@ -188,8 +188,8 @@
         <Text Line="O nama" />
         <Text Line="Zatvoriti" />
         <Text Line="Donirati" />
-        <Text Line="Web stranica:" />
-        <Text Line="E-mail:" />
+        <Text Line="Official website:" />
+        <Text Line="Contact e-mail:" />
         <!-- Enter your name in the next line in format: "Translated by John Doe john@example.com" (e-mail not necessarily) -->
         <Text Line="Preveo Adnan Mulić" />
     </AboutDialog>

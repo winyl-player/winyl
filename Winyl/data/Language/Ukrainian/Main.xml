@@ -188,8 +188,8 @@
         <Text Line="Про програму" />
         <Text Line="Закрити" />
         <Text Line="Підтримати" />
-        <Text Line="Офіційний сайт:" />
-        <Text Line="E-mail підтримки:" />
+        <Text Line="Official website:" />
+        <Text Line="Contact e-mail:" />
         <!-- Enter your name in the next line in format: "Translated by John Doe john@example.com" (e-mail not necessarily) -->
         <Text Line="Translated by Vitos Reiser vitaliatier@ukr.net" />
     </AboutDialog>

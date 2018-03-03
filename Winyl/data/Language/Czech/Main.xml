@@ -188,8 +188,8 @@
         <Text Line="O autorovi" />
         <Text Line="Zavřít" />
         <Text Line="Přispět" />
-        <Text Line="Oficiální web:" />
-        <Text Line="E-mailová podpora:" />
+        <Text Line="Official website:" />
+        <Text Line="Contact e-mail:" />
         <!-- Enter your name in the next line in format: "Translated by John Doe john@example.com" (e-mail not necessarily) -->
         <Text Line="" />
     </AboutDialog>

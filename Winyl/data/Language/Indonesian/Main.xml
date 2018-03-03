@@ -188,8 +188,8 @@
         <Text Line="Tentang" />
         <Text Line="Tutup" />
         <Text Line="Donasi" />
-        <Text Line="Situs resmi:" />
-        <Text Line="E-mail dukungan:" />
+        <Text Line="Official website:" />
+        <Text Line="Contact e-mail:" />
         <!-- Enter your name in the next line in format: "Diterjemahkan oleh Sonn Sonic rosadiadi60@gmail.com" (e-mail not necessarily) -->
         <Text Line="" />
     </AboutDialog>

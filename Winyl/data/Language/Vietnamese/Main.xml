@@ -188,8 +188,8 @@
         <Text Line="Thông tin" />
         <Text Line="Đóng" />
         <Text Line="Quyên góp" />
-        <Text Line="Trang chủ:" />
-        <Text Line="Hỗ trợ qua e-mail:" />
+        <Text Line="Official website:" />
+        <Text Line="Contact e-mail:" />
         <!-- Enter your name in the next line in format: "Translated by John Doe john@example.com" (e-mail not necessarily) -->
         <Text Line="Translated by TRI ÂN: ng.trian12@gmail.com" />
     </AboutDialog>

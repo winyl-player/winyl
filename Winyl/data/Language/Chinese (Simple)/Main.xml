@@ -188,8 +188,8 @@
         <Text Line="关于" />
         <Text Line="关闭" />
         <Text Line="捐赠" />
-        <Text Line="官方网站：" />
-        <Text Line="邮　　箱：" />
+        <Text Line="Official website:" />
+        <Text Line="Contact e-mail:" />
         <!-- Enter your name in the next line in format： "Translated by John Doe john@example.com" (e-mail not necessarily) -->
         <Text Line="中文翻译：木山  shufeng1911@126.com" />
     </AboutDialog>

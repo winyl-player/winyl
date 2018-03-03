@@ -189,7 +189,7 @@
         <Text Line="Close" />
         <Text Line="Donate" />
         <Text Line="Official website:" />
-        <Text Line="Support e-mail:" />
+        <Text Line="Contact e-mail:" />
         <!-- Enter your name in the next line in format: "Translated by John Doe john@example.com" (e-mail not necessarily) -->
         <Text Line="" />
     </AboutDialog>
