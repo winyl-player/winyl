@@ -84,11 +84,6 @@ void DlgAbout::OnInitDialog()
 
 	std::wstring siteLink = lang->GetLineS(Lang::AboutDialog, 3) + L" <A HREF=\"https://winyl-player.github.io\">winyl-player.github.io</A>";
 	std::wstring mailLink = lang->GetLineS(Lang::AboutDialog, 4) + L" <A HREF=\"mailto:winyl.player@gmail.com\">winyl.player@gmail.com</A>";
-	// TODO: replace in lang files, remove
-	site = L"Official website: winyl-player.github.io";
-	mail = L"Contact e-mail: winyl.player@gmail.com";
-	siteLink = L"Official website: <A HREF=\"https://winyl-player.github.io\">winyl-player.github.io</A>";
-	mailLink = L"Contact e-mail: <A HREF=\"mailto:winyl.player@gmail.com\">winyl.player@gmail.com</A>";
 
 	wndSite = CreateLink(IDC_STATIC_SITE, site, siteLink);
 	wndMail = CreateLink(IDC_STATIC_MAIL, mail, mailLink);
