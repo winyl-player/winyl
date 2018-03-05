@@ -298,7 +298,7 @@ FILE "Test.mp3" WAVE
 	return false;
 }
 
-int CueFile::ParseString(const char* p, std::string& out)
+size_t CueFile::ParseString(const char* p, std::string& out)
 {
 	const char* pnew = p;
 	const char* pend = p;
@@ -314,7 +314,7 @@ int CueFile::ParseString(const char* p, std::string& out)
 	while (*pend && *pend != '\r' && *pend != '\n')
 		++pend;
 
-	int result = pend - p;
+	size_t result = pend - p;
 
 	// If ends with " or space then remove it
 	while (pend > pnew && (*(pend - 1) == '\"' || *(pend - 1) == ' '))
@@ -325,7 +325,7 @@ int CueFile::ParseString(const char* p, std::string& out)
 	return result;
 }
 
-int CueFile::ParseFile(const char* p, std::string& out)
+size_t CueFile::ParseFile(const char* p, std::string& out)
 {
 	const char* pnew = p;
 	const char* pend = p;
@@ -360,7 +360,7 @@ int CueFile::ParseFile(const char* p, std::string& out)
 	return pend - p;
 }
 
-int CueFile::ParseTime(const char* p, int* out)
+size_t CueFile::ParseTime(const char* p, int* out)
 {
 	const char* pend = p;
 
@@ -392,7 +392,7 @@ int CueFile::ParseTime(const char* p, int* out)
 	return pend - p;
 }
 
-int CueFile::ParseNewLine(const char* p)
+size_t CueFile::ParseNewLine(const char* p)
 {
 	const char* pend = p;
 

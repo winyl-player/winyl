@@ -57,10 +57,10 @@ public:
 private:
 	bool ParseBytes(const char* p, size_t size);
 	bool ParseCue(const char* p);
-	int ParseString(const char* p, std::string& out);
-	int ParseFile(const char* p, std::string& out);
-	int ParseTime(const char* p, int* out);
-	int ParseNewLine(const char* p);
+	size_t ParseString(const char* p, std::string& out);
+	size_t ParseFile(const char* p, std::string& out);
+	size_t ParseTime(const char* p, int* out);
+	size_t ParseNewLine(const char* p);
 
 	CueHeader cueHeader;
 	bool multipleFiles = false; // Multiple files in CUE
