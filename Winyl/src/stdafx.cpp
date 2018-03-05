@@ -38,9 +38,6 @@
 // C/C++->Precompiled Headers->Precompiled Header File->stdafx.h
 // And for stdafx.cpp file properties set C/C++->Precompiled Header->Create (/Yc)
 
-// Release: SAFESEH (need to enable later)
-// Linker->Advanced->Image Has Safe Exteption Handlers->Yes (/SAFESEH) (Latest Line)
-
 // Just link all libs here, I hate to edit project settings in VS
 
 #pragma comment(lib, "Comctl32.lib")
