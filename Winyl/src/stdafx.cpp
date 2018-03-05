@@ -41,20 +41,15 @@
 // Just link all libs here, I hate to edit project settings in VS
 
 #pragma comment(lib, "Comctl32.lib")
-//#pragma comment(lib, "Msimg32.lib")
 #pragma comment(lib, "uxtheme.lib")
-//#pragma comment(lib, "Shlwapi.lib")
 #pragma comment(lib, "Ws2_32.lib")
 #pragma comment(lib, "Winhttp.lib")
 
 #pragma comment(lib, "src/bass/bass.lib")
-//#pragma comment(lib, "src/bass/tags.lib")
 #pragma comment(lib, "src/bass/bass_fx.lib")
 #pragma comment(lib, "src/bass/bassmix.lib")
 #pragma comment(lib, "src/bass/basswasapi.lib")
 #pragma comment(lib, "src/bass/bassasio.lib")
-
-//#pragma comment(lib, "src/zlib/zlibstat.lib")
 
 #ifdef _DEBUG
 #pragma comment(lib, "src/sqlite3/Debug/sqlite3.lib")
