@@ -2,8 +2,6 @@
 
 You need Visual Studio C++ 2017 (with Windows XP support for C++).
 
-x64 build is broken. I'll fix it later.
-
 First you need to compile all 3rd-party libraries.
 
 Precompiled libraries and everything else that are needed to build the program also avaliable here:  
