@@ -288,7 +288,7 @@ void Properties::RunThread()
 		//else
 		//	break;
 
-		funcProgress(i + 1);
+		funcProgress((int)i + 1);
 	}
 	dBase->UpdateTagsCommit();
 

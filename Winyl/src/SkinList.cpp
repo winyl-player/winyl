@@ -2483,7 +2483,7 @@ bool SkinList::SelectShiftR(ListNodeUnsafe recursiveNode, ListNodeUnsafe startNo
 
 void SkinList::CalculateSelectedNodes(int& outCount, int& outTotal, int& outTotalTime, long long& outTotalSize)
 {
-	outCount = selectedNodes.size();
+	outCount = (int)selectedNodes.size();
 	outTotal = countNodes;
 
 	if (outCount <= 1)

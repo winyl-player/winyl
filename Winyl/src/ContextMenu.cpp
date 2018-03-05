@@ -304,7 +304,7 @@ void ContextMenu::ShowListMenu(HWND wnd, CPoint& pt, const std::vector<std::wstr
 		::EnableMenuItem(listMenu, ID_MENU_DELETE, MF_BYCOMMAND|MF_DISABLED|MF_GRAYED);
 		::EnableMenuItem(listMenu, ID_MENU_LIST_REPEAT, MF_BYCOMMAND|MF_DISABLED|MF_GRAYED);
 		::EnableMenuItem(listMenu, ID_MENU_FILELOCATION, MF_BYCOMMAND|MF_DISABLED|MF_GRAYED);
-		::EnableMenuItem(listMenu, (UINT_PTR)listMenuJump, MF_BYCOMMAND|MF_DISABLED|MF_GRAYED);
+		::EnableMenuItem(listMenu, (UINT)(UINT_PTR)listMenuJump, MF_BYCOMMAND|MF_DISABLED|MF_GRAYED);
 	}
 
 	::AppendMenu(listMenuPlay, MF_STRING, 10000, lang->GetLine(Lang::ListMenu, 5));
@@ -331,7 +331,7 @@ void ContextMenu::ShowListMenu(HWND wnd, CPoint& pt, const std::vector<std::wstr
 		::EnableMenuItem(listMenu, ID_MENU_DELETE, MF_BYCOMMAND|MF_ENABLED);
 		::EnableMenuItem(listMenu, ID_MENU_LIST_REPEAT, MF_BYCOMMAND|MF_ENABLED);
 		::EnableMenuItem(listMenu, ID_MENU_FILELOCATION, MF_BYCOMMAND|MF_ENABLED);
-		::EnableMenuItem(listMenu, (UINT_PTR)listMenuJump, MF_BYCOMMAND|MF_ENABLED);
+		::EnableMenuItem(listMenu, (UINT)(UINT_PTR)listMenuJump, MF_BYCOMMAND|MF_ENABLED);
 	}
 
 	// Remove all items from "Add to Playlist" menu

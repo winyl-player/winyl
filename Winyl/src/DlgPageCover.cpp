@@ -155,7 +155,7 @@ void DlgPageCover::LoadNewCover(const std::wstring& file)
 	if (!properties->get()->GetNewCover().empty())
 	{
 		ExImage::Source source;
-		source.LoadBuffer(properties->get()->GetNewCover().data(), properties->get()->GetNewCover().size());
+		source.LoadBuffer(properties->get()->GetNewCover().data(), (int)properties->get()->GetNewCover().size());
 		if (source.IsValid())
 			image.ThumbnailFromSource(source, rc.Width(), rc.Height());
 	}

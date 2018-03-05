@@ -303,7 +303,7 @@ public:
 		len = std::min(len, str1.size());
 		len = std::min(len, str2.size());
 
-		return ::CompareStringW(LOCALE_USER_DEFAULT, NORM_IGNORECASE, str1.c_str(), len, str2.c_str(), len) == CSTR_EQUAL;
+		return ::CompareStringW(LOCALE_USER_DEFAULT, NORM_IGNORECASE, str1.c_str(), (int)len, str2.c_str(), (int)len) == CSTR_EQUAL;
 	}
 
 	// http://stackoverflow.com/questions/1068134/comparing-wstring-with-ignoring-the-case
@@ -448,8 +448,9 @@ public:
 		if (sDecimal[0])
 			decimalPoint = sDecimal[0];
 
-		int foundDot = 0;
+		std::size_t foundDot = 0;
 		bool removeDot = true;
+
 		for (std::size_t i = 0, size = str.size(); i < size; ++i)
 		{
 			if (foundDot)

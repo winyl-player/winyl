@@ -368,7 +368,7 @@ void SkinLyrics::DrawTextLines(HDC dc, int x, int y, int right, int height, int 
 				int width = 0;
 				int line = 0;
 
-				for (std::size_t find = 0, start = 0; ; ++find)
+				for (int find = 0, start = 0; ; ++find)
 				{
 					if (lines[i][find] == ' ')
 					{
@@ -484,7 +484,7 @@ int SkinLyrics::GetHeightLines(int cx, int cy)
 			int count = 1;
 			int width = 0;
 
-			for (std::size_t find = 0, start = 0; ; ++find)
+			for (int find = 0, start = 0; ; ++find)
 			{
 				if (lines[i][find] == ' ')
 				{

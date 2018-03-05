@@ -469,7 +469,7 @@ void TagLibCover::SaveCoverToID3v2Tags(TagLib::ID3v2::Tag* tag)
 	else
 		return;
 
-	TagLib::ByteVector picture(newCover->data(), newCover->size());
+	TagLib::ByteVector picture(newCover->data(), (unsigned int)newCover->size());
 
 	// Add new Front Cover frame
 	TagLib::ID3v2::AttachedPictureFrame* frame = new TagLib::ID3v2::AttachedPictureFrame();
@@ -501,7 +501,7 @@ void TagLibCover::SaveCoverToAPETags(TagLib::APE::Tag* tag)
 	TagLib::ByteVector picture;
 	picture.append(description);
 	picture.append('\0');
-	picture.append(TagLib::ByteVector(newCover->data(), newCover->size()));
+	picture.append(TagLib::ByteVector(newCover->data(), (unsigned int)newCover->size()));
 
 	// Add new "COVER ART (FRONT)" item
 	TagLib::APE::Item item;
@@ -526,7 +526,7 @@ void TagLibCover::SaveCoverToFLAC(TagLib::FLAC::File* file)
 	else
 		return;
 
-	TagLib::ByteVector picture(newCover->data(), newCover->size());
+	TagLib::ByteVector picture(newCover->data(), (unsigned int)newCover->size());
 
 	// Add new Front Cover picture
 	TagLib::FLAC::Picture* pic = new TagLib::FLAC::Picture();
@@ -556,7 +556,7 @@ void TagLibCover::SaveCoverToOGGTags(TagLib::Ogg::XiphComment* tag)
 	else
 		return;
 
-	TagLib::ByteVector picture(newCover->data(), newCover->size());
+	TagLib::ByteVector picture(newCover->data(), (unsigned int)newCover->size());
 
 	// Add new Front Cover picture
 	TagLib::FLAC::Picture* pic = new TagLib::FLAC::Picture();
@@ -586,7 +586,7 @@ void TagLibCover::SaveCoverToASFTags(TagLib::ASF::Tag* tag)
 	else
 		return;
 
-	TagLib::ByteVector picture(newCover->data(), newCover->size());
+	TagLib::ByteVector picture(newCover->data(), (unsigned int)newCover->size());
 
 	// Add new Front Cover attribute
 	TagLib::ASF::Picture pic;
@@ -612,7 +612,7 @@ void TagLibCover::SaveCoverToMP4Tags(TagLib::MP4::Tag* tag)
 	else
 		return;
 
-	TagLib::ByteVector picture(newCover->data(), newCover->size());
+	TagLib::ByteVector picture(newCover->data(), (unsigned int)newCover->size());
 
 	// Add new "covr" item
 	TagLib::MP4::CoverArtList coverArtList;

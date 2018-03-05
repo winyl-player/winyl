@@ -1172,7 +1172,7 @@ void DBase::InsertMultipleValues(long long id, SQLRequest& sqlInsert, DATABASE_S
 
 	for (std::size_t i = 0, size = tags->artists.size(); i < size; ++i)
 	{
-		sqlInsert.BindInt(2, i + 1);
+		sqlInsert.BindInt(2, (int)i + 1);
 		sqlInsert.BindInt(3, 1);
 		if (!tags->artists[i].empty())
 			sqlInsert.BindText8(4, tags->artists[i]);
@@ -1182,7 +1182,7 @@ void DBase::InsertMultipleValues(long long id, SQLRequest& sqlInsert, DATABASE_S
 	}
 	for (std::size_t i = 0, size = tags->albumArtists.size(); i < size; ++i)
 	{
-		sqlInsert.BindInt(2, i + 1);
+		sqlInsert.BindInt(2, (int)i + 1);
 		sqlInsert.BindInt(3, 2);
 		if (!tags->albumArtists[i].empty())
 			sqlInsert.BindText8(4, tags->albumArtists[i]);
@@ -1192,7 +1192,7 @@ void DBase::InsertMultipleValues(long long id, SQLRequest& sqlInsert, DATABASE_S
 	}
 	for (std::size_t i = 0, size = tags->composers.size(); i < size; ++i)
 	{
-		sqlInsert.BindInt(2, i + 1);
+		sqlInsert.BindInt(2, (int)i + 1);
 		sqlInsert.BindInt(3, 3);
 		if (!tags->composers[i].empty())
 			sqlInsert.BindText8(4, tags->composers[i]);
@@ -1202,7 +1202,7 @@ void DBase::InsertMultipleValues(long long id, SQLRequest& sqlInsert, DATABASE_S
 	}
 	for (std::size_t i = 0, size = tags->genres.size(); i < size; ++i)
 	{
-		sqlInsert.BindInt(2, i + 1);
+		sqlInsert.BindInt(2, (int)i + 1);
 		sqlInsert.BindInt(3, 4);
 		if (!tags->genres[i].empty())
 			sqlInsert.BindText8(4, tags->genres[i]);
@@ -1212,7 +1212,7 @@ void DBase::InsertMultipleValues(long long id, SQLRequest& sqlInsert, DATABASE_S
 	}
 	for (std::size_t i = 0, size = tags->conductors.size(); i < size; ++i)
 	{
-		sqlInsert.BindInt(2, i + 1);
+		sqlInsert.BindInt(2, (int)i + 1);
 		sqlInsert.BindInt(3, 5);
 		if (!tags->conductors[i].empty())
 			sqlInsert.BindText8(4, tags->conductors[i]);
@@ -1222,7 +1222,7 @@ void DBase::InsertMultipleValues(long long id, SQLRequest& sqlInsert, DATABASE_S
 	}
 	for (std::size_t i = 0, size = tags->lyricists.size(); i < size; ++i)
 	{
-		sqlInsert.BindInt(2, i + 1);
+		sqlInsert.BindInt(2, (int)i + 1);
 		sqlInsert.BindInt(3, 6);
 		if (!tags->lyricists[i].empty())
 			sqlInsert.BindText8(4, tags->lyricists[i]);

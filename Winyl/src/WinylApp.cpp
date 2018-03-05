@@ -251,7 +251,7 @@ bool WinylApp::SendOpenFiles(HWND hWnd, const std::wstring& openFiles, bool isEm
 			cd.dwData = 2;
 		else
 			cd.dwData = 1;
-		cd.cbData = file.size() * sizeof(wchar_t) + sizeof(wchar_t);
+		cd.cbData = (DWORD)file.size() * sizeof(wchar_t) + sizeof(wchar_t);
 		cd.lpData = (PVOID)file.c_str();
 		::SendMessage(hWnd, WM_COPYDATA, (WPARAM)hWnd, (LPARAM)&cd);
 
