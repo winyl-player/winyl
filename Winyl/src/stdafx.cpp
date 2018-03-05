@@ -19,10 +19,6 @@
 // Winyl.pch will be the pre-compiled header
 // stdafx.obj will contain the pre-compiled type information
 
-#ifdef _WIN64
-#error x64 BUILD IS BROKEN
-#endif
-
 #include "stdafx.h"
 
 // Winyl project settings. Changes from Win32 (not empty) project default settings:
@@ -45,23 +41,48 @@
 #pragma comment(lib, "Ws2_32.lib")
 #pragma comment(lib, "Winhttp.lib")
 
-#pragma comment(lib, "src/bass/bass.lib")
-#pragma comment(lib, "src/bass/bass_fx.lib")
-#pragma comment(lib, "src/bass/bassmix.lib")
-#pragma comment(lib, "src/bass/basswasapi.lib")
-#pragma comment(lib, "src/bass/bassasio.lib")
-
-#ifdef _DEBUG
-#pragma comment(lib, "src/sqlite3/Debug/sqlite3.lib")
-#else
-#pragma comment(lib, "src/sqlite3/Release/sqlite3.lib")
+#ifndef _WIN64
+#	pragma comment(lib, "src/bass/bass.lib")
+#	pragma comment(lib, "src/bass/bass_fx.lib")
+#	pragma comment(lib, "src/bass/bassmix.lib")
+#	pragma comment(lib, "src/bass/basswasapi.lib")
+#	pragma comment(lib, "src/bass/bassasio.lib")
+#else // _WIN64
+#	pragma comment(lib, "src/bass/x64/bass.lib")
+#	pragma comment(lib, "src/bass/x64/bass_fx.lib")
+#	pragma comment(lib, "src/bass/x64/bassmix.lib")
+#	pragma comment(lib, "src/bass/x64/basswasapi.lib")
+#	pragma comment(lib, "src/bass/x64/bassasio.lib")
 #endif
 
-#ifdef _DEBUG
-#pragma comment(lib, "src/taglib/Debug/tag.lib")
-#else
-#pragma comment(lib, "src/taglib/Release/tag.lib")
+#ifndef _WIN64
+#	ifndef NDEBUG
+#		pragma comment(lib, "src/sqlite3/Debug/sqlite3.lib")
+#	else
+#		pragma comment(lib, "src/sqlite3/Release/sqlite3.lib")
+#	endif
+#else // _WIN64
+#	ifndef NDEBUG
+#		pragma comment(lib, "src/sqlite3/x64/Debug/sqlite3.lib")
+#	else
+#		pragma comment(lib, "src/sqlite3/x64/Release/sqlite3.lib")
+#	endif
 #endif
+
+#ifndef _WIN64
+#	ifndef NDEBUG
+#		pragma comment(lib, "src/taglib/Debug/tag.lib")
+#	else
+#		pragma comment(lib, "src/taglib/Release/tag.lib")
+#	endif
+#else // _WIN64
+#	ifndef NDEBUG
+#		pragma comment(lib, "src/taglib/x64/Debug/tag.lib")
+#	else
+#		pragma comment(lib, "src/taglib/x64/Release/tag.lib")
+#	endif
+#endif
+
 
 
 
