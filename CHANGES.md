@@ -1,3 +1,7 @@
+Future release
+
+- Added x64 version.
+
 v3.3 [02.03.2018]
 
 - Winyl is open-source now. The source code is available on GitHub.
