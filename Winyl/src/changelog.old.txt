@@ -1,0 +1,282 @@
+-------------
+OLD CHANGELOG
+-------------
+
+
+Winyl 3.3 [2 March 2018]
+
+- Winyl is open-source now. The source code is available on GitHub: https://github.com/winyl-player/winyl
+- License changed to GPLv3.
+- Fixed WASAPI Exclusive audio output.
+
+
+Winyl 3.2.2 [17 January 2018]
+
+- Updated radio stations.
+- Updated lyrics providers.
+- Updated all 3rd party libraries to the latest version.
+- Ability to use Winyl.ico from program folder as program icon.
+- Fixed reading/writing OGG album art.
+- Other minor changes and fixes.
+
+Check NERA skin by pepo if you prefer a larger font.
+
+
+Winyl 3.2.1 [17 February 2016]
+
+- Fixed crash when reordering playlists if smartlists are disabled.
+- Updated radio stations and lyrics providers.
+
+
+Winyl 3.2 [25 January 2016]
+
+- Added CUE files support.
+- Added auto reconnect to radio if connection is lost.
+- Other minor changes and fixes.
+
+
+Winyl 3.1 [7 November 2015]
+
+- Updated radio stations.
+- Updated lyrics providers.
+- Better compatibility with Windows 10.
+- Minor changes.
+- Fixed all known bugs.
+- Added Latvian and Ukrainian languages.
+
+
+Winyl 3.0.3 [19 September 2014]
+
+- Updated lyrics providers.
+- Updated radio stations.
+- Fixed bugs.
+
+
+Winyl 3.0.1 [17 May 2014]
+
+- Fixed crash when reading MP3 files with corrupted tags.
+
+
+Winyl 3.0 [14 May 2014]
+
+- Added song lyrics.
+- Added portable version.
+- Added Flat and Flat White skins* (new default skin)
+- Added radio stations.
+- Added new more accurate component for reading/writing tags.
+- Added support of cover art and lyrics in tag editor.
+- Added support for aiff, opus and speex file formats.
+- Added support for reading/writing tags for all formats, including wav.
+- Added support for multiple values in tags, multiple genres, artists etc.
+- Added Composer item to the library view (disabled by default).
+- Improved performance.
+- Fixed bugs.
+
+*If you prefer a skin with large fonts, try NERA skin by pepo.
+
+Info for users of previous versions
+Old skins: Luna Black, Luna Black Aqua, Windows Media XP, Windows Media Seven are not supported anymore.
+But the installer does not delete these skins if you still want to use them.
+
+Portable and standard version differences:
+Winyl portable uses relative paths when files added from the same drive where Winyl is located.
+Portable Version does not need administrative rights for installing, just unzip the arhive.
+Library and settings files are located in the same folder where Winyl (Profile subfolder).
+File associations are not available in the portable version.
+
+
+Winyl 2.9.4 [13 February 2013]
+
+- Fixed: embedded album art doesn't load if image format is jpeg.
+
+
+Winyl 2.9.3 [11 February 2013]
+
+- Fixed updating status line when search.
+- Optimization for search and folders, up to 30% faster.
+- Skin engine changes.
+- Added Dark skin.
+
+
+Winyl 2.9.1 [28 January 2013]
+
+- Fixed crash when expanding folders in some cases.
+- Minor changes in skin engine.
+- Other minor bug fixes.
+
+
+Winyl 2.9 [22 December 2012]
+
+- Added 'Jump to' feature to quick jump from track to artist, album etc.
+- Added status line with info of number/duration/size of tracks.
+- Changed equalizer frequencies and presets.
+- Skins are packed in one file now, this speeds up program launch.
+- Improvements in smartlists.
+- Improvements in skin engine.
+- The core of the program has been partially rewritten, more stable and faster now.
+- Fixed sound stuttering on some sound cards when a song changes (WASAPI, ASIO).
+
+
+Winyl 2.8.6 (Bugfix release) [30 January 2012]
+
+- Fixed critical bug: on some PCs the program hangs sometimes when changing tracks.
+- Also two small bugs with ASIO and receiving tags from radio have been fixed.
+- Added Dutch translation by Fred van Waard.
+
+
+Winyl 2.8.5 [23 January 2012]
+
+- Added gapless playback.
+- Improvements for WASAPI/ASIO.
+- Improvements for drag-and-drop.
+- All known bugs fixed.
+
+
+Winyl 2.8 [3 October 2011]
+
+- Added ASIO and WASAPI (Exclusive mode) audio output, both provides bit-perfect playback.
+- Added support embedded cover art for all file formats (previously only for MP3 files).
+- Added support for True Audio file format (.TTA)
+- Changed the implementation of writing tags, it much faster now.
+- All known bugs fixed.
+
+
+Winyl 2.7 [27 June 2011]
+
+- Added editing tags for all supported formats.
+- All known bugs fixed.
+
+
+Winyl 2.6.1 (Bugfix release) [24 May 2011]
+
+- Fixed critical bug with crash on start.
+- Fixed critical bug with 'Now Playing' list.
+- Fixed about 20 other non-critical bugs.
+- Other minor changes.
+- Added Spanish and German translation.
+
+
+Winyl 2.6 [3 May 2011]
+
+- Added "Now Playing" item to library.
+- Added smooth scrolling.
+- Changed behavior when adding files to playlist.
+- All known bugs fixed.
+
+Important: Now all files which opened in playlists are automatically added to the library by default, you can change this behavior in the player settings.
+
+
+Winyl 2.5 [30 March 2011]
+
+- Added smart playlists.
+- Added file associations.
+- Added now playing for Windows Live Messenger (MSN).
+- Added support for Musepack file format.
+- Improved works with playlists and library.
+- Added resizing popup window if text too long.
+- Other minor changes and bug fixes.
+
+
+Winyl 2.3 [13 February 2011]
+
+- Added popular radio stations.
+- Added grouping by folder structure.
+- Added ability to resize library/playlist.
+- Fixed all known bugs and program optimization.
+- Windows 7: Fixed error initializing audio engine on some systems.
+- Windows 7: Added taskbar thumbnail cover preview.
+
+
+Winyl 2.2.1 [26 January 2011]
+
+- Fixed radio.
+
+
+Winyl 2.2 [21 September 2010]
+
+- Transparent skins now work correctly on all systems.
+- Scanning the library is a background process now.
+- Support covers embedded to MP3 files.
+- Added song time state to all skins.
+- Added skinned scrollbars to Light and iTunes skins.
+- Speed up the work with the library.
+- Added default hotkeys and fixed some problems with global hotkeys.
+- Improved work with multimonitors configuration.
+- Segoe UI now default font in Windows Vista/Seven.
+- Many minor and internal changes.
+- All known bugs fixed.
+
+
+Winyl 2.1 [18 May 2010]
+
+- Added mini player mode
+- Added ability to maximize the player window
+- Added advanced audio settings
+- All skins has been remaked
+- Added iTunes skin
+- Compilations of songs now grouped correctly
+- Fixed shuffle mode (previously it has works like random)
+- Fixed Last.fm scrobbling
+- Fixed the program crash while reading some tracks with corrupted tags
+- Other minor changes and bug fixes
+
+
+Winyl 2.0 [2 February 2010]
+
+- Search (by song name, album and artist)
+- Native support Aero Glass in Windows Vista and Seven (see Aero Media skin)
+- Skin "Windows Media Vista" has been replaced by "Windows Media Seven"
+- Optimization the skin engine
+- Many internal changes and fixes
+
+
+Winyl 1.7 [3 November 2009]
+
+- Proxy support.
+- 32 bit sound processing (improves the quality of the equalizer).
+- Visual effects (buttons and cover fade).
+- Advanced settings for popup window.
+- Bugs fixes and other minor changes.
+
+
+Winyl 1.6.5 [30 September 2009]
+
+- Critical bug fixed: problem with 'Add to Playlist'.
+- Optimization and some minor changes.
+- Added Turkish and Lithuanian languages.
+
+
+Winyl 1.6 [24 August 2009]
+
+- Popup window with song info.
+- Updated skin engine.
+- WavPack format support (file extension: .WV).
+- Bugs fixes and other minor changes.
+
+
+Winyl 1.5 [21 July 2009]
+
+- Ability to assign global hotkeys.
+- Ability to add a url stream to custom radio stations.
+- Ability to open the playlists created by other players (supported formats: m3u, pls, asx, xspf).
+- Improved compatibility with Windows Vista and Windows 7.
+- Bugs fixes and other minor changes.
+
+
+Winyl 1.4 [1 June 2009]
+
+- Internet Radio (based on SHOUTcast)
+- Apple Audio Formats support, including Apple Lossless (file extensions: AAC, MP4, M4A)
+- Many internal changes and bug fixes.
+
+
+Winyl 1.2 [21 April 2009]
+
+- New skin - Light
+- New 10 bands equalizer.
+- Last.FM support (install Last.FM Client to use this feature).
+- Full support for multimedia keys.
+- Bugs fixes and other minor changes.
+
+
+Winyl 1.0 [11 March 2009]
