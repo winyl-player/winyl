@@ -1,6 +1,8 @@
 Future release
 
 - Added x64 version.
+- Fixed blurry custom icon.
+- Changed the custom icon name to Main.ico instead of Winyl.ico.
 
 v3.3 [02.03.2018]
 
