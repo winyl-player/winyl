@@ -237,7 +237,7 @@ bool WinylWnd::NewWindow()
 	// Adjust the main window position and size by Alpha Window if present
 	settings.FixWinPosAlphaGet(skinDraw.IsLayeredAlpha(), skinDraw.GetAlphaBorder());
 
-	std::wstring iconFile = programPath + L"Winyl.ico";
+	std::wstring iconFile = programPath + L"Main.ico";
 	if (futureWin->IsVistaOrLater())
 	{
 		if (FileSystem::Exists(iconFile))
