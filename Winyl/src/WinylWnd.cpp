@@ -242,7 +242,18 @@ bool WinylWnd::NewWindow()
 	{
 		if (FileSystem::Exists(iconFile))
 		{
-			futureWin->LoadIconMetric(NULL, iconFile.c_str(), LIM_LARGE, &iconLarge);
+			int cxIconLarge = ::GetSystemMetrics(SM_CXICON);
+			int cyIconLarge = ::GetSystemMetrics(SM_CYICON);
+
+			// Use LoadImage for 32, 48, 64 etc. icons. LoadIconMetric load
+			// the wrong icon from the external file in these cases for some reason.
+			// In other cases like 125% DPI (40px) LoadIconMetric must be used.
+			// It only affects the large icon.
+			if (cxIconLarge % 16 == 0)
+				iconLarge = (HICON)::LoadImageW(NULL, iconFile.c_str(), IMAGE_ICON, cxIconLarge, cyIconLarge, LR_LOADFROMFILE);
+			else
+				futureWin->LoadIconMetric(NULL, iconFile.c_str(), LIM_LARGE, &iconLarge);
+
 			futureWin->LoadIconMetric(NULL, iconFile.c_str(), LIM_SMALL, &iconSmall);
 		}
 		else
@@ -257,6 +268,7 @@ bool WinylWnd::NewWindow()
 		int cyIconLarge = ::GetSystemMetrics(SM_CYICON);
 		int cxIconSmall = ::GetSystemMetrics(SM_CXSMICON);
 		int cyIconSmall = ::GetSystemMetrics(SM_CYSMICON);
+
 		if (FileSystem::Exists(iconFile))
 		{
 			iconLarge = (HICON)::LoadImageW(NULL, iconFile.c_str(), IMAGE_ICON, cxIconLarge, cyIconLarge, LR_LOADFROMFILE);
