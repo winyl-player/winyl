@@ -17,8 +17,6 @@
 
 #pragma once
 
-// SkinSplitter
-
 #include "SkinElement.h"
 
 class SkinSplitter : public SkinElement

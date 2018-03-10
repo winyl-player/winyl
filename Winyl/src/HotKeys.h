@@ -17,8 +17,6 @@
 
 #pragma once
 
-// HotKeys
-
 #include <vector>
 #include "XmlFile.h"
 

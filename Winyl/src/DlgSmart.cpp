@@ -15,15 +15,9 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// DlgSmart.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "resource.h"
 #include "DlgSmart.h"
-
-
-// DlgSmart dialog
 
 DlgSmart::DlgSmart()
 {

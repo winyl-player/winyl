@@ -17,9 +17,6 @@
 
 #pragma once
 
-
-// WinylWnd
-
 #include <vector>
 #include <string>
 #include "WinylApp.h"
@@ -73,7 +70,6 @@
 #include "LyricsLoader.h"
 #include "HttpClient.h"
 #include "SkinShadow.h"
-
 
 class WinylWnd : public WindowEx
 {

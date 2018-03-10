@@ -17,11 +17,8 @@
 
 #pragma once
 
-// SkinLayoutElement
-
 #include "XmlFile.h"
 #include "UTF.h"
-
 #include "SkinElement.h"
 #include "SkinButton.h"
 #include "SkinSlider.h"

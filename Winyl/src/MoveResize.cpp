@@ -15,14 +15,8 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// MoveResize.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "MoveResize.h"
-
-
-// MoveResize
 
 MoveResize::MoveResize()
 {

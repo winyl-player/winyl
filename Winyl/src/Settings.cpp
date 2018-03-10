@@ -15,14 +15,8 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// Settings.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "Settings.h"
-
-
-// Settings
 
 Settings::Settings()
 {

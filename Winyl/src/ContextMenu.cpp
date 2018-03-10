@@ -15,17 +15,11 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// ContextMenu.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "resource.h"
 #include "ContextMenu.h"
 #include <cassert>
 #include "LyricsLoader.h"
-
-
-// ContextMenu
 
 ContextMenu::ContextMenu()
 {

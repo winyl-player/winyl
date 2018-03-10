@@ -20,8 +20,6 @@
 #include "DialogEx.h"
 #include "Language.h"
 
-// DlgAbout dialog
-
 class DlgAbout : public DialogEx
 {
 

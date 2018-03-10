@@ -15,13 +15,8 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// SkinCover.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "SkinCover.h"
-
-// SkinCover
 
 SkinCover::SkinCover()
 {

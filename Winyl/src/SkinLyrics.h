@@ -24,7 +24,6 @@
 #include "SkinScroll.h"
 #include "Threading.h"
 
-
 class SkinLyrics : public WindowEx
 {
 

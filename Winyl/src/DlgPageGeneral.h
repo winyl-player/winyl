@@ -22,9 +22,6 @@
 #include "Settings.h"
 #include "LastFM.h"
 
-
-// DlgPageGeneral dialog
-
 class DlgPageGeneral : public DialogEx
 {
 

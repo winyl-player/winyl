@@ -18,7 +18,6 @@
 #include "StdAfx.h"
 #include "resource.h"
 #include "WinylApp.h"
-
 #include "WinylWnd.h"
 #include "DropTargetOpen.h"
 #include "ExImage.h"

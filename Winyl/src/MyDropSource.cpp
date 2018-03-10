@@ -15,15 +15,9 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// MyDropSource.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "resource.h"
 #include "MyDropSource.h"
-
-
-// MyDropSource
 
 //MyDropSource::MyDropSource()
 //{

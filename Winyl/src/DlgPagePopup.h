@@ -23,8 +23,6 @@
 #include "SkinPopup.h"
 #include "ContextMenu.h"
 
-// DlgPagePopup dialog
-
 class DlgPagePopup : public DialogEx
 {
 

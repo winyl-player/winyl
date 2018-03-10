@@ -19,8 +19,6 @@
 
 #include <string>
 
-// Messengers
-
 class Messengers
 {
 

@@ -17,8 +17,6 @@
 
 #pragma once
 
-// SkinListThread
-
 #include "Threading.h"
 #include "SkinListNode.h"
 #include "CoverLoader.h"

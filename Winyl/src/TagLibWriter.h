@@ -17,8 +17,6 @@
 
 #pragma once
 
-// TagLibWriter
-
 #include <string>
 #include "TagLibReader.h"
 #include "TagLibLyrics.h"

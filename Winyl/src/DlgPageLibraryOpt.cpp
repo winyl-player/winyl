@@ -19,9 +19,6 @@
 #include "resource.h"
 #include "DlgPageLibraryOpt.h"
 
-
-// DlgPageLibraryOpt dialog
-
 DlgPageLibraryOpt::DlgPageLibraryOpt()
 {
 

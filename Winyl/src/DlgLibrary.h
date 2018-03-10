@@ -16,11 +16,10 @@
 */
 
 #pragma once
+
 #include "DialogEx.h"
 #include "DlgPageLibrary.h"
 #include "DlgPageLibraryOpt.h"
-
-// DlgLibrary dialog
 
 class DlgLibrary : public DialogEx
 {

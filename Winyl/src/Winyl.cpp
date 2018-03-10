@@ -15,9 +15,6 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// Winyl.cpp : Defines the entry point for the application.
-//
-
 #include "stdafx.h"
 #include "Winyl.h"
 #include "WinylApp.h"

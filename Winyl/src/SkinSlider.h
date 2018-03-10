@@ -17,8 +17,6 @@
 
 #pragma once
 
-// SkinSlider
-
 #include "SkinElement.h"
 
 class SkinSlider : public SkinElement

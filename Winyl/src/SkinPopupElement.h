@@ -17,8 +17,6 @@
 
 #pragma once
 
-// SkinPopupElement
-
 #include "XmlFile.h"
 #include "SkinElement.h"
 #include "SkinCover.h"

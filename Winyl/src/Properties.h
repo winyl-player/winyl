@@ -26,8 +26,6 @@
 #include "CoverLoader.h"
 #include "LyricsLoader.h"
 
-// Properties
-
 class Properties
 {
 

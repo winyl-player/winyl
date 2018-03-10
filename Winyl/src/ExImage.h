@@ -20,8 +20,6 @@
 #include "ZipFile.h"
 #include <wincodec.h>
 
-// ExImage
-
 class ExImage
 {
 public:

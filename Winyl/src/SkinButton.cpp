@@ -15,14 +15,8 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// SkinButton.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "SkinButton.h"
-
-
-// SkinButton
 
 SkinButton::SkinButton()
 {

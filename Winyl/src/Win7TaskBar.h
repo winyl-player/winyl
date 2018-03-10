@@ -19,8 +19,6 @@
 
 #include "ExImage.h"
 
-// Win7TaskBar
-
 class Win7TaskBar
 {
 

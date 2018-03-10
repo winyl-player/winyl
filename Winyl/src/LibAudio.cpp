@@ -15,9 +15,6 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// LibAudio.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "resource.h"
 #include "LibAudio.h"
@@ -35,8 +32,6 @@
 #else
 #define verify(f)    ((void)(f))
 #endif
-
-// LibAudio
 
 int LibAudio::Buffer::DirectSound   = 1000; // Buffer size for DirectSound in ms
 double LibAudio::Buffer::WasapiAsio = 1.0; // Reading buffer size for WASAPI/ASIO in sec

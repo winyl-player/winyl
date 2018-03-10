@@ -22,9 +22,6 @@
 #include "UTF.h"
 #include "XmlFile.h"
 
-
-// SkinScroll
-
 class SkinScroll : public WindowEx
 {
 //	DECLARE_DYNAMIC(SkinScroll)

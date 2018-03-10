@@ -15,15 +15,10 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// SkinMini.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "resource.h"
 #include "SkinMini.h"
 #include "FileSystem.h"
-
-// SkinMini
 
 SkinMini::SkinMini()
 {

@@ -19,8 +19,6 @@
 
 #include <string>
 
-// TrayIcon
-
 class TrayIcon
 {
 

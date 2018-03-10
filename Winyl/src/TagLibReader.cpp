@@ -15,9 +15,6 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// TagLibReader.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "TagLibReader.h"
 #include "UTF.h"
@@ -52,9 +49,6 @@
 #include "taglib/rifffile.h"
 #include "taglib/wavfile.h"
 #include "taglib/aifffile.h"
-
-
-// TagLibWriter
 
 TagLibReader::TagLibReader()
 {

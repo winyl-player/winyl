@@ -15,14 +15,9 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// SkinDraw.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "SkinDraw.h"
 #include "FileSystem.h"
-
-// SkinDraw
 
 SkinDraw::SkinDraw()
 {

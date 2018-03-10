@@ -15,15 +15,9 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// DlgPageGeneralXP.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "resource.h"
 #include "DlgPageGeneralXP.h"
-
-
-// DlgPageGeneralXP dialog
 
 DlgPageGeneralXP::DlgPageGeneralXP()
 {

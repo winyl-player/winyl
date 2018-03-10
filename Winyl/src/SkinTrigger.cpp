@@ -15,14 +15,8 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// SkinTrigger.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "SkinTrigger.h"
-
-
-// SkinTrigger
 
 SkinTrigger::SkinTrigger()
 {

@@ -15,15 +15,9 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// DlgOpenURL.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "resource.h"
 #include "DlgOpenURL.h"
-
-
-// DlgOpenURL dialog
 
 DlgOpenURL::DlgOpenURL()
 {

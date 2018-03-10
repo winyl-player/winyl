@@ -15,17 +15,11 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// DlgNewVersion.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "resource.h"
 #include "DlgNewVersion.h"
 #include "UTF.h"
 #include "FileSystem.h"
-
-
-// DlgNewVersion dialog
 
 DlgNewVersion::DlgNewVersion()
 {

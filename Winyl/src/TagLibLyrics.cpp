@@ -51,7 +51,6 @@
 #include "taglib/wavfile.h"
 #include "taglib/aifffile.h"
 
-
 TagLibLyrics::TagLibLyrics()
 {
 

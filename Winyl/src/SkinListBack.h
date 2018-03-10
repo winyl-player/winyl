@@ -17,12 +17,9 @@
 
 #pragma once
 
-// SkinListBack
-
 #include "XmlFile.h"
 #include "UTF.h"
 #include "ExImage.h"
-
 
 class SkinListBack
 {

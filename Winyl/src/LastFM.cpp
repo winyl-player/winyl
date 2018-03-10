@@ -15,13 +15,8 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// LastFM.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "LastFM.h"
-
-// LastFM
 
 LastFM::LastFM()
 {

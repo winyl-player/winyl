@@ -17,8 +17,6 @@
 
 #pragma once
 
-// FileDialogEx
-
 #include <string>
 #include <vector>
 

@@ -15,15 +15,9 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// SkinListBack.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "SkinListBack.h"
 #include "SkinListNode.h"
-
-
-// SkinListBack
 
 SkinListBack::SkinListBack()
 {

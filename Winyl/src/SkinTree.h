@@ -17,8 +17,6 @@
 
 #pragma once
 
-// SkinTree
-
 #include "WindowEx.h"
 #include "ExImage.h"
 #include "SkinTreeNode.h"

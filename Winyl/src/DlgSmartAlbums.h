@@ -21,8 +21,6 @@
 #include "Language.h"
 #include "DBase.h"
 
-// DlgSmartAlbums dialog
-
 class DlgSmartAlbums : public DialogEx
 {
 

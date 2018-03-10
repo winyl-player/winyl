@@ -17,8 +17,6 @@
 
 #pragma once
 
-// LastFM
-
 #include "UTF.h"
 #include "Threading.h"
 #include <deque>

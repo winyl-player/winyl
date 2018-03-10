@@ -16,11 +16,9 @@
 */
 
 #pragma once
+
 #include "DialogEx.h"
 #include "Language.h"
-
-
-// DlgPageLibrary dialog
 
 class DlgPageLibrary : public DialogEx
 {

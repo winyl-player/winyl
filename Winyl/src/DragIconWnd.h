@@ -19,8 +19,6 @@
 
 #include "ExImage.h"
 
-// DragIconWnd
-
 class DragIconWnd
 {
 

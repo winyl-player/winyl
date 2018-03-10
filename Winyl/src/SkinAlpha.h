@@ -17,8 +17,6 @@
 
 #pragma once
 
-// SkinAlpha
-
 #include "WindowEx.h"
 #include "SkinDraw.h"
 #include "MoveResize.h"

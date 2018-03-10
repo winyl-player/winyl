@@ -17,8 +17,6 @@
 
 #pragma once
 
-// TagLibWriter
-
 #include <string>
 #include <vector>
 #include <memory>

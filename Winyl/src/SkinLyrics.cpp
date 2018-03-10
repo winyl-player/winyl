@@ -18,7 +18,6 @@
 #include "stdafx.h"
 #include "SkinLyrics.h"
 
-
 SkinLyrics::SkinLyrics()
 {
 

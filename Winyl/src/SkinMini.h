@@ -17,8 +17,6 @@
 
 #pragma once
 
-// SkinMini
-
 #include "WindowEx.h"
 #include "MoveResize.h"
 #include "SkinDraw.h"

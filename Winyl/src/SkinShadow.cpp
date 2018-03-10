@@ -19,7 +19,6 @@
 #include "SkinShadow.h"
 #include "XmlFile.h"
 
-
 SkinShadow::SkinShadow()
 {
 

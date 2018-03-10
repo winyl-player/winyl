@@ -21,8 +21,6 @@
 #include "Language.h"
 #include "DBase.h"
 
-// DlgSmartTracks dialog
-
 class DlgSmartTracks : public DialogEx
 {
 

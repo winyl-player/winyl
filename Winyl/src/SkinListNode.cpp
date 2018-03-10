@@ -15,11 +15,6 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// SkinListNode.cpp : implementation file
-//
-
-// SkinListNode
-
 #include "stdafx.h"
 #include "SkinListNode.h"
 

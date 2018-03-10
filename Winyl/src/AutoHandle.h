@@ -16,6 +16,7 @@
 */
 
 #pragma once
+
 #include <assert.h>
 
 //template<typename T, BOOL(WINAPI* TCloseFunc)(T), T TNull = NULL> // nullT

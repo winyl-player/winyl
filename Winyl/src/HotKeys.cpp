@@ -15,14 +15,8 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// HotKeys.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "HotKeys.h"
-
-
-// HotKeys
 
 HotKeys::HotKeys()
 {

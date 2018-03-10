@@ -17,8 +17,6 @@
 
 #pragma once
 
-// SkinText
-
 #include "SkinElement.h"
 #include "Language.h"
 

@@ -17,8 +17,6 @@
 
 #pragma once
 
-// LibAudio
-
 #include "XmlFile.h"
 #include "UTF.h"
 #include "Threading.h"

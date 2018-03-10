@@ -17,8 +17,6 @@
 
 #pragma once
 
-// SkinTreeNode
-
 #include "ExImage.h"
 
 class SkinTreeNode final

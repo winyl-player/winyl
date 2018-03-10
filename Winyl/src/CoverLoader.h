@@ -21,8 +21,6 @@
 #include "bass/bass.h"
 #include "UTF.h"
 
-// CoverLoader
-
 class CoverLoader
 {
 

@@ -17,8 +17,6 @@
 
 #pragma once
 
-// SkinListNode
-
 #include "ExImage.h"
 #include "SkinListElement.h"
 

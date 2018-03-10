@@ -15,9 +15,6 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// TagLibCover.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "TagLibCover.h"
 #define TAGLIB_STATIC
@@ -51,9 +48,6 @@
 #include "taglib/rifffile.h"
 #include "taglib/wavfile.h"
 #include "taglib/aifffile.h"
-
-
-// TagLibCover
 
 TagLibCover::TagLibCover()
 {

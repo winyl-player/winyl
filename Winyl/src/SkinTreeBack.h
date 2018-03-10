@@ -17,12 +17,9 @@
 
 #pragma once
 
-// SkinTreeBack
-
 #include "XmlFile.h"
 #include "UTF.h"
 #include "ExImage.h"
-
 
 class SkinTreeBack
 {

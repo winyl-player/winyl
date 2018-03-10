@@ -22,7 +22,6 @@
 #include <memory>
 #include "UTF.h"
 
-
 namespace FileSystem
 {
 

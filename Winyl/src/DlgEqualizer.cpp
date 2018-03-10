@@ -15,15 +15,9 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// DlgEqualizer.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "resource.h"
 #include "DlgEqualizer.h"
-
-
-// DlgEqualizer dialog
 
 DlgEqualizer::DlgEqualizer()
 {

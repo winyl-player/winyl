@@ -17,8 +17,6 @@
 
 #pragma once
 
-// SkinDraw
-
 #include "XmlFile.h"
 #include "SkinLayout.h"
 #include "SkinElement.h"

@@ -21,8 +21,6 @@
 #include "UTF.h"
 #include "SkinTreeNode.h"
 
-// Settings
-
 class Settings
 {
 public:

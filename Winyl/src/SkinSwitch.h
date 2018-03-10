@@ -17,8 +17,6 @@
 
 #pragma once
 
-// SkinSwitch
-
 #include "SkinElement.h"
 
 class SkinSwitch : public SkinElement

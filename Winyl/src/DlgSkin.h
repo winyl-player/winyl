@@ -26,9 +26,6 @@
 #include "MessageBox.h"
 #include "ZipFile.h"
 
-
-// DlgSkin dialog
-
 class DlgSkin : public DialogEx
 {
 

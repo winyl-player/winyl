@@ -21,8 +21,6 @@
 #include "Language.h"
 #include "Properties.h"
 
-// DlgPageTags dialog
-
 class DlgPageTags : public DialogEx
 {
 friend class DlgProperties;

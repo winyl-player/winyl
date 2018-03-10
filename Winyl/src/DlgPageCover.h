@@ -23,7 +23,6 @@
 #include "Properties.h"
 #include "ExImage.h"
 
-
 class DlgPageCover : public DialogEx
 {
 friend class DlgProperties;

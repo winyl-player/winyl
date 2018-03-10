@@ -17,8 +17,6 @@
 
 #pragma once
 
-// PlsFile
-
 #include "XmlFile.h"
 #include "UTF.h"
 

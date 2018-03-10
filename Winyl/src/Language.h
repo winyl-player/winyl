@@ -17,8 +17,6 @@
 
 #pragma once
 
-// Language
-
 #include "XmlFile.h"
 #include "UTF.h"
 

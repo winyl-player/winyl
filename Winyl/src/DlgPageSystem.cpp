@@ -15,16 +15,10 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// DlgPageSystem.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "resource.h"
 #include "DlgPageSystem.h"
 #include "HttpClient.h"
-
-
-// DlgPageSystem dialog
 
 DlgPageSystem::DlgPageSystem()
 {

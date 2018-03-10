@@ -15,16 +15,10 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// DlgLanguage.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "resource.h"
 #include "DlgLanguage.h"
 #include "FileSystem.h"
-
-
-// DlgLanguage dialog
 
 DlgLanguage::DlgLanguage()
 {

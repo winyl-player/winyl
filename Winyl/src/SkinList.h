@@ -17,8 +17,6 @@
 
 #pragma once
 
-// SkinList
-
 #include <random>
 #include <chrono>
 #include "WindowEx.h"

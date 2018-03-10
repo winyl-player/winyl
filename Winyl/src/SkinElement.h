@@ -17,8 +17,6 @@
 
 #pragma once
 
-// SkinElement
-
 #include "UTF.h"
 #include "XmlFile.h"
 #include "ExImage.h"

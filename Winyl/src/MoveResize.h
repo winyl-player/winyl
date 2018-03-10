@@ -17,8 +17,6 @@
 
 #pragma once
 
-// MoveResize
-
 class MoveResize
 {
 

@@ -15,15 +15,9 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// DlgLibrary.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "resource.h"
 #include "DlgLibrary.h"
-
-
-// DlgLibrary dialog
 
 DlgLibrary::DlgLibrary()
 {

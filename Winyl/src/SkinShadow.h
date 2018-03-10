@@ -20,7 +20,6 @@
 #include "WindowEx.h"
 #include "ExImage.h"
 
-
 class SkinShadow
 {
 public:

@@ -15,15 +15,9 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// SkinAlpha.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "resource.h"
 #include "SkinAlpha.h"
-
-
-// SkinAlpha
 
 SkinAlpha::SkinAlpha()
 {

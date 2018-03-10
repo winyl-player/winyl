@@ -17,8 +17,6 @@
 
 #pragma once
 
-// DlgRename dialog
-
 #include "DialogEx.h"
 #include "Language.h"
 

@@ -20,7 +20,6 @@
 #include "DlgPageCover.h"
 #include "FileDialogEx.h"
 
-
 DlgPageCover::DlgPageCover()
 {
 

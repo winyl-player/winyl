@@ -22,8 +22,6 @@
 #include "Language.h"
 #include "Progress.h"
 
-// DlgProgress dialog
-
 class DlgProgress : public DialogEx
 {
 

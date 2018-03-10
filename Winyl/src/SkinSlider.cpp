@@ -15,14 +15,8 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// SkinSlider.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "SkinSlider.h"
-
-
-// SkinSlider
 
 SkinSlider::SkinSlider()
 {

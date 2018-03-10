@@ -20,8 +20,6 @@
 #include "DlgPageLibrary.h"
 #include "FileDialogEx.h"
 
-// DlgPageLibrary dialog
-
 DlgPageLibrary::DlgPageLibrary()
 {
 

@@ -17,8 +17,6 @@
 
 #pragma once
 
-// SkinRating
-
 #include "SkinElement.h"
 
 class SkinRating : public SkinElement

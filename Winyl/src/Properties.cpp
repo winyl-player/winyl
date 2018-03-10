@@ -15,15 +15,9 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// Properties.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "Properties.h"
 #include "FileSystem.h"
-
-
-// Properties
 
 Properties::Properties()
 {

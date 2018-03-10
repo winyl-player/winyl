@@ -17,8 +17,6 @@
 
 #pragma once
 
-// SkinTrigger
-
 #include "XmlFile.h"
 #include "UTF.h"
 

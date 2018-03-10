@@ -15,9 +15,6 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// SkinElement.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "SkinElement.h"
 #include "ToolTips.h"

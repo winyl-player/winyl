@@ -15,14 +15,8 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// SkinLayout.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "SkinLayout.h"
-
-
-// SkinLayout
 
 SkinLayout::SkinLayout()
 {

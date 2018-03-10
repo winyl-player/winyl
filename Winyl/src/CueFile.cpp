@@ -20,7 +20,6 @@
 #include <fstream>
 #include "UTF.h"
 
-
 CueFile::CueFile()
 {
 }

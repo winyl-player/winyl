@@ -18,7 +18,6 @@
 #include "stdafx.h"
 #include "FutureWin.h"
 
-
 FutureWin::FutureWin()
 {
 	OSVERSIONINFO osVersion = {};

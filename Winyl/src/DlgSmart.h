@@ -23,9 +23,6 @@
 #include "DlgSmartTracks.h"
 #include "DlgSmartAlbums.h"
 
-
-// DlgSmart dialog
-
 class DlgSmart : public DialogEx
 {
 

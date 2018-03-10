@@ -15,15 +15,10 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// CoverLoader.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "CoverLoader.h"
 #include "TagLibCover.h"
 #include "FileSystem.h"
-
-// CoverLoader
 
 CoverLoader::CoverLoader()
 {

@@ -21,8 +21,6 @@
 #include "Language.h"
 #include "Associations.h"
 
-// DlgPageGeneralXP dialog
-
 class DlgPageGeneralXP : public DialogEx
 {
 

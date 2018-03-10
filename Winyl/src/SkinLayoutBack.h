@@ -17,8 +17,6 @@
 
 #pragma once
 
-// SkinLayoutBack
-
 #include "XmlFile.h"
 #include "ExImage.h"
 #include "UTF.h"

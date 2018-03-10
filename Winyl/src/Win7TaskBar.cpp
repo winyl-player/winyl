@@ -15,15 +15,10 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// Win7TaskBar.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "resource.h"
 #include "Win7TaskBar.h"
 #include "ContextMenu.h"
-
-// Win7TaskBar
 
 Win7TaskBar::Win7TaskBar()
 {

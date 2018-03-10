@@ -15,13 +15,8 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// ToolTips.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "ToolTips.h"
-
-// ToolTips
 
 ToolTips::ToolTips()
 {

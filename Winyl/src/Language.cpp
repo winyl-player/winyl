@@ -15,12 +15,8 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// Language.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "Language.h"
-
 
 Language::Language()
 {

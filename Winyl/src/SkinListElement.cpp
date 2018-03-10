@@ -15,15 +15,9 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// SkinListElement.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "SkinListElement.h"
 #include "SkinListNode.h"
-
-
-// SkinListElement
 
 SkinListElement::SkinListElement()
 {

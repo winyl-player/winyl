@@ -17,8 +17,6 @@
 
 #pragma once
 
-// SkinCover
-
 #include "SkinElement.h"
 
 class SkinCover : public SkinElement

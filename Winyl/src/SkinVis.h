@@ -17,8 +17,6 @@
 
 #pragma once
 
-// SkinVis
-
 #include "WindowEx.h"
 #include <math.h>
 #include "XmlFile.h"

@@ -17,13 +17,9 @@
 
 #pragma once
 
-
-// SkinLayout
-
 #include "XmlFile.h"
 #include "SkinLayoutBack.h"
 #include "SkinLayoutElement.h"
-
 
 class SkinLayout
 {

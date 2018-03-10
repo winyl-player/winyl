@@ -17,14 +17,10 @@
 
 #pragma once
 
-
-// SkinListElement
-
 #include "XmlFile.h"
 #include "UTF.h"
 #include "ExImage.h"
 #include "FutureWin.h"
-
 
 class SkinListElement
 {

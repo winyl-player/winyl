@@ -15,15 +15,10 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// WinylWnd.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "resource.h"
 #include "WinylWnd.h"
 #include "FileSystem.h"
-
-// WinylWnd
 
 // This class is a mess, need to refactor it, it's doing too many things already.
 

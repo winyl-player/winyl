@@ -15,15 +15,9 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// SkinTreeElement.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "SkinTreeElement.h"
 #include "SkinTreeNode.h"
-
-
-// SkinTreeElement
 
 SkinTreeElement::SkinTreeElement()
 {

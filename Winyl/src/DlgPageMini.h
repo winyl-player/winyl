@@ -22,8 +22,6 @@
 #include "Settings.h"
 #include "SkinMini.h"
 
-// DlgPageMini dialog
-
 class DlgPageMini : public DialogEx
 {
 

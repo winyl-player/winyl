@@ -17,8 +17,6 @@
 
 #pragma once
 
-// DBase
-
 #include "stdafx.h"
 #include <random>
 #include <chrono>

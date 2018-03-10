@@ -15,15 +15,9 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// DlgProgress.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "resource.h"
 #include "DlgProgress.h"
-
-
-// DlgProgress dialog
 
 DlgProgress::DlgProgress()
 {

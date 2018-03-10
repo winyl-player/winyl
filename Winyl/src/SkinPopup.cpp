@@ -15,15 +15,9 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// SkinPopup.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "SkinPopup.h"
 #include "FileSystem.h"
-
-
-// SkinPopup
 
 SkinPopup::SkinPopup()
 {

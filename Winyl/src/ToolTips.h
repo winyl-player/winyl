@@ -17,8 +17,6 @@
 
 #pragma once
 
-// ToolTips
-
 #include "Language.h"
 #include "SkinDraw.h"
 #include "SkinElement.h"

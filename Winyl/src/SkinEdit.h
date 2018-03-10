@@ -17,8 +17,6 @@
 
 #pragma once
 
-// SkinEdit
-
 #include "WindowEx.h"
 #include "XmlFile.h"
 #include "UTF.h"

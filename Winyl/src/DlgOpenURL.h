@@ -17,8 +17,6 @@
 
 #pragma once
 
-// DlgOpenURL dialog
-
 #include "DialogEx.h"
 #include "Language.h"
 

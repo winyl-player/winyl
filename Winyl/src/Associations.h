@@ -17,8 +17,6 @@
 
 #pragma once
 
-// Associations
-
 #include <string>
 #include <vector>
 

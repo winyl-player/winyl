@@ -25,8 +25,6 @@
 #include "DlgPageMini.h"
 #include "Settings.h"
 
-// DlgConfig dialog
-
 class DlgConfig : public DialogEx
 {
 

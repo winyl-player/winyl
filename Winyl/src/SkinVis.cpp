@@ -15,14 +15,8 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// SkinVis.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "SkinVis.h"
-
-
-// SkinVis
 
 SkinVis::SkinVis()
 {

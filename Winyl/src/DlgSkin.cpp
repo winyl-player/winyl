@@ -15,16 +15,10 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// DlgSkin.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "resource.h"
 #include "DlgSkin.h"
 #include "FileSystem.h"
-
-
-// DlgSkin dialog
 
 DlgSkin::DlgSkin()
 {

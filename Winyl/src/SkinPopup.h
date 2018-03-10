@@ -17,8 +17,6 @@
 
 #pragma once
 
-// SkinPopup
-
 #include "WindowEx.h"
 #include "ExImage.h"
 #include "XmlFile.h"

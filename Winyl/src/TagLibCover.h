@@ -17,8 +17,6 @@
 
 #pragma once
 
-// TagLibCover
-
 #include <string>
 #include "ExImage.h"
 #include "TagLibReader.h"

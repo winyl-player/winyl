@@ -15,9 +15,6 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// SkinText.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "SkinText.h"
 
@@ -29,8 +26,6 @@
 #define RGBA(r, g, b, a)(((DWORD)((BYTE)(r))) | ((DWORD)((BYTE)(g)) << 8) \
                 | ((DWORD)((BYTE)(b)) << 16) | ((DWORD)((BYTE)(a)) << 24))
 #define GetAValue(rgba)((BYTE)((DWORD)(rgba) >> 24))
-
-// SkinText
 
 SkinText::SkinText()
 {

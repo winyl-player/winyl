@@ -22,7 +22,6 @@
 #include "Language.h"
 #include "Properties.h"
 
-
 class DlgPageLyrics : public DialogEx
 {
 friend class DlgProperties;

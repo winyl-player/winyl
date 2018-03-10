@@ -16,12 +16,11 @@
 */
 
 #pragma once
+
 #include "DialogEx.h"
 #include "Language.h"
 #include "LibAudio.h"
 #include "XmlFile.h"
-
-// DlgEqualizer dialog
 
 class DlgEqualizer : public DialogEx
 {

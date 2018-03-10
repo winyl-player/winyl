@@ -17,8 +17,6 @@
 
 #pragma once
 
-// ContextMenu
-
 #include "Language.h"
 
 class ContextMenu

@@ -15,15 +15,9 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// DlgAbout.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "resource.h"
 #include "DlgAbout.h"
-
-
-// DlgAbout dialog
 
 DlgAbout::DlgAbout()
 {

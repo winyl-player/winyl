@@ -19,7 +19,6 @@
 
 #include "TagLibReader.h"
 
-
 class TagLibLyrics
 {
 public:

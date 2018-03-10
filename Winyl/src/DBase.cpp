@@ -15,15 +15,9 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// DBase.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "DBase.h"
 #include "FileSystem.h"
-
-
-// DBase
 
 DBase::DBase()
 {

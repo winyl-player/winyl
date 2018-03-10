@@ -24,8 +24,6 @@
 #include "Radio.h"
 #include "MessageBox.h"
 
-// DlgPageSystem dialog
-
 class DlgPageSystem : public DialogEx
 {
 

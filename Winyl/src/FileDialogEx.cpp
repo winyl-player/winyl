@@ -15,13 +15,8 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// FileDialogEx.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "FileDialogEx.h"
-
-// FileDialogEx
 
 FileDialogEx::FileDialogEx()
 {

@@ -23,8 +23,6 @@
 #include "DBase.h"
 #include "XmlFile.h"
 
-// DlgNewVersion dialog
-
 class DlgNewVersion : public DialogEx
 {
 

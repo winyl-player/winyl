@@ -19,7 +19,6 @@
 #include "resource.h"
 #include "DlgPageLyrics.h"
 
-
 DlgPageLyrics::DlgPageLyrics()
 {
 

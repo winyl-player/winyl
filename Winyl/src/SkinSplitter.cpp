@@ -15,14 +15,8 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// SkinSplitter.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "SkinSplitter.h"
-
-
-// SkinSplitter
 
 SkinSplitter::SkinSplitter()
 {

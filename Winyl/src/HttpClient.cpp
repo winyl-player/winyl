@@ -20,7 +20,6 @@
 #include "winhttp.h"
 #include "UTF.h"
 
-
 HttpClient::HttpClient(void)
 {
 

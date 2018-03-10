@@ -17,8 +17,6 @@
 
 #pragma once
 
-// DlgProperties dialog
-
 #include "DialogEx.h"
 #include "WindowEx.h"
 #include "Language.h"

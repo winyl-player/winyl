@@ -15,15 +15,9 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// DlgSmartAlbums.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "resource.h"
 #include "DlgSmartAlbums.h"
-
-
-// DlgSmartAlbums dialog
 
 DlgSmartAlbums::DlgSmartAlbums()
 {

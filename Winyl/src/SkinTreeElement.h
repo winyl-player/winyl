@@ -17,13 +17,9 @@
 
 #pragma once
 
-
-// SkinTreeElement
-
 #include "XmlFile.h"
 #include "UTF.h"
 #include "ExImage.h"
-
 
 class SkinTreeElement
 {

@@ -15,15 +15,10 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// DlgPageGeneral.cpp : implementation file
-//
-
 #include "stdafx.h"
 #include "resource.h"
 #include "DlgPageGeneral.h"
 #include "DlgPageGeneralXP.h"
-
-// DlgPageGeneral dialog
 
 DlgPageGeneral::DlgPageGeneral()
 {

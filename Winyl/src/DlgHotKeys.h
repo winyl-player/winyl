@@ -21,8 +21,6 @@
 #include "HotKeys.h"
 #include "Language.h"
 
-// DlgHotKeys dialog
-
 class DlgHotKeys : public DialogEx
 {
 

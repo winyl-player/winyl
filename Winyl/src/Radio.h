@@ -17,8 +17,6 @@
 
 #pragma once
 
-// Radio
-
 #include "SkinList.h"
 #include "SkinTree.h"
 

@@ -25,7 +25,6 @@
 #include "Threading.h"
 #include "XmlFile.h"
 
-
 LyricsLoader::LyricsLoader()
 {
 
