@@ -15,7 +15,7 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-#include "StdAfx.h"
+#include "stdafx.h"
 #include "MyDataObject.h"
 
 HRESULT MyDataObject::QueryInterface(REFIID riid, void** ppv)

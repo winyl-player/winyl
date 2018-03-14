@@ -15,7 +15,7 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-#include "StdAfx.h"
+#include "stdafx.h"
 #include "HttpClient.h"
 #include "winhttp.h"
 #include "UTF.h"
