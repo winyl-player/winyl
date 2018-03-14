@@ -275,7 +275,7 @@ bool SkinLayout::SplitterLayout(int x, int y, int cx, int cy, const SkinSplitter
 			else // To right
 				pos.right = cx - rcRect.right;
 		}
-		else if (pos.isBottom) // Right location
+		else if (pos.isRight) // Right location
 		{
 			pos.width = rcRect.right - rcRect.left;
 			pos.right = cx - rcRect.left - pos.width;
