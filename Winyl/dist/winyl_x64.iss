@@ -79,33 +79,42 @@ begin
 end;
 
 [Registry]
-Root: HKLM; Subkey: "Software\Winyl"; Flags: uninsdeletekey
-Root: HKLM; Subkey: "Software\Winyl"; ValueType: string; ValueName: "InstallPath"; ValueData: "{app}"
-Root: HKLM; Subkey: "Software\Winyl"; ValueType: string; ValueName: "InstallGroup"; ValueData: "{group}"
-Root: HKLM; Subkey: "Software\Winyl\Capabilities"; ValueType: string; ValueName: "ApplicationDescription"; ValueData: "Winyl"
+; The following keys are affected by WOW64 redirection:
+; See: https://msdn.microsoft.com/en-us/library/windows/desktop/aa384253(v=vs.85).aspx
 
-Root: HKLM; Subkey: "Software\Winyl\Capabilities\FileAssociations"; ValueType: string; ValueName: ".mp3"; ValueData: "Winyl.mp3"
-Root: HKLM; Subkey: "Software\Winyl\Capabilities\FileAssociations"; ValueType: string; ValueName: ".cue"; ValueData: "Winyl.cue"
-Root: HKLM; Subkey: "Software\Winyl\Capabilities\FileAssociations"; ValueType: string; ValueName: ".ogg"; ValueData: "Winyl.ogg"
-Root: HKLM; Subkey: "Software\Winyl\Capabilities\FileAssociations"; ValueType: string; ValueName: ".oga"; ValueData: "Winyl.oga"
-Root: HKLM; Subkey: "Software\Winyl\Capabilities\FileAssociations"; ValueType: string; ValueName: ".m4a"; ValueData: "Winyl.m4a"
-Root: HKLM; Subkey: "Software\Winyl\Capabilities\FileAssociations"; ValueType: string; ValueName: ".aac"; ValueData: "Winyl.aac"
-Root: HKLM; Subkey: "Software\Winyl\Capabilities\FileAssociations"; ValueType: string; ValueName: ".wma"; ValueData: "Winyl.wma"
-Root: HKLM; Subkey: "Software\Winyl\Capabilities\FileAssociations"; ValueType: string; ValueName: ".asf"; ValueData: "Winyl.asf"
-Root: HKLM; Subkey: "Software\Winyl\Capabilities\FileAssociations"; ValueType: string; ValueName: ".wav"; ValueData: "Winyl.wav"
-Root: HKLM; Subkey: "Software\Winyl\Capabilities\FileAssociations"; ValueType: string; ValueName: ".aif"; ValueData: "Winyl.aif"
-Root: HKLM; Subkey: "Software\Winyl\Capabilities\FileAssociations"; ValueType: string; ValueName: ".aiff"; ValueData: "Winyl.aiff"
-Root: HKLM; Subkey: "Software\Winyl\Capabilities\FileAssociations"; ValueType: string; ValueName: ".flac"; ValueData: "Winyl.flac"
-Root: HKLM; Subkey: "Software\Winyl\Capabilities\FileAssociations"; ValueType: string; ValueName: ".fla"; ValueData: "Winyl.fla"
-Root: HKLM; Subkey: "Software\Winyl\Capabilities\FileAssociations"; ValueType: string; ValueName: ".ape"; ValueData: "Winyl.ape"
-Root: HKLM; Subkey: "Software\Winyl\Capabilities\FileAssociations"; ValueType: string; ValueName: ".wv"; ValueData: "Winyl.wv"
-Root: HKLM; Subkey: "Software\Winyl\Capabilities\FileAssociations"; ValueType: string; ValueName: ".mpc"; ValueData: "Winyl.mpc"
-Root: HKLM; Subkey: "Software\Winyl\Capabilities\FileAssociations"; ValueType: string; ValueName: ".tta"; ValueData: "Winyl.tta"
-Root: HKLM; Subkey: "Software\Winyl\Capabilities\FileAssociations"; ValueType: string; ValueName: ".opus"; ValueData: "Winyl.opus"
-Root: HKLM; Subkey: "Software\Winyl\Capabilities\FileAssociations"; ValueType: string; ValueName: ".spx"; ValueData: "Winyl.spx"
+; Clean 32 bit keys first if update from 32 to 64 bit version
+Root: HKLM32; Subkey: "Software\Winyl"; Flags: deletekey
+Root: HKLM32; Subkey: "Software\Classes\CLSID\{{254F0A10-5970-4149-9C8F-4E08D2525427}"; Flags: deletekey
 
-Root: HKLM; Subkey: "Software\Classes\CLSID\{{254F0A10-5970-4149-9C8F-4E08D2525427}"; Flags: uninsdeletekey
-Root: HKLM; Subkey: "Software\Classes\CLSID\{{254F0A10-5970-4149-9C8F-4E08D2525427}\LocalServer32"; ValueType: string; ValueName: ""; ValueData: "{app}\Winyl.exe"
+Root: HKLM64; Subkey: "Software\Winyl"; Flags: uninsdeletekey
+Root: HKLM64; Subkey: "Software\Winyl"; ValueType: string; ValueName: "InstallPath"; ValueData: "{app}"
+Root: HKLM64; Subkey: "Software\Winyl"; ValueType: string; ValueName: "InstallGroup"; ValueData: "{group}"
+Root: HKLM64; Subkey: "Software\Winyl\Capabilities"; ValueType: string; ValueName: "ApplicationDescription"; ValueData: "Winyl"
+
+Root: HKLM64; Subkey: "Software\Winyl\Capabilities\FileAssociations"; ValueType: string; ValueName: ".mp3"; ValueData: "Winyl.mp3"
+Root: HKLM64; Subkey: "Software\Winyl\Capabilities\FileAssociations"; ValueType: string; ValueName: ".cue"; ValueData: "Winyl.cue"
+Root: HKLM64; Subkey: "Software\Winyl\Capabilities\FileAssociations"; ValueType: string; ValueName: ".ogg"; ValueData: "Winyl.ogg"
+Root: HKLM64; Subkey: "Software\Winyl\Capabilities\FileAssociations"; ValueType: string; ValueName: ".oga"; ValueData: "Winyl.oga"
+Root: HKLM64; Subkey: "Software\Winyl\Capabilities\FileAssociations"; ValueType: string; ValueName: ".m4a"; ValueData: "Winyl.m4a"
+Root: HKLM64; Subkey: "Software\Winyl\Capabilities\FileAssociations"; ValueType: string; ValueName: ".aac"; ValueData: "Winyl.aac"
+Root: HKLM64; Subkey: "Software\Winyl\Capabilities\FileAssociations"; ValueType: string; ValueName: ".wma"; ValueData: "Winyl.wma"
+Root: HKLM64; Subkey: "Software\Winyl\Capabilities\FileAssociations"; ValueType: string; ValueName: ".asf"; ValueData: "Winyl.asf"
+Root: HKLM64; Subkey: "Software\Winyl\Capabilities\FileAssociations"; ValueType: string; ValueName: ".wav"; ValueData: "Winyl.wav"
+Root: HKLM64; Subkey: "Software\Winyl\Capabilities\FileAssociations"; ValueType: string; ValueName: ".aif"; ValueData: "Winyl.aif"
+Root: HKLM64; Subkey: "Software\Winyl\Capabilities\FileAssociations"; ValueType: string; ValueName: ".aiff"; ValueData: "Winyl.aiff"
+Root: HKLM64; Subkey: "Software\Winyl\Capabilities\FileAssociations"; ValueType: string; ValueName: ".flac"; ValueData: "Winyl.flac"
+Root: HKLM64; Subkey: "Software\Winyl\Capabilities\FileAssociations"; ValueType: string; ValueName: ".fla"; ValueData: "Winyl.fla"
+Root: HKLM64; Subkey: "Software\Winyl\Capabilities\FileAssociations"; ValueType: string; ValueName: ".ape"; ValueData: "Winyl.ape"
+Root: HKLM64; Subkey: "Software\Winyl\Capabilities\FileAssociations"; ValueType: string; ValueName: ".wv"; ValueData: "Winyl.wv"
+Root: HKLM64; Subkey: "Software\Winyl\Capabilities\FileAssociations"; ValueType: string; ValueName: ".mpc"; ValueData: "Winyl.mpc"
+Root: HKLM64; Subkey: "Software\Winyl\Capabilities\FileAssociations"; ValueType: string; ValueName: ".tta"; ValueData: "Winyl.tta"
+Root: HKLM64; Subkey: "Software\Winyl\Capabilities\FileAssociations"; ValueType: string; ValueName: ".opus"; ValueData: "Winyl.opus"
+Root: HKLM64; Subkey: "Software\Winyl\Capabilities\FileAssociations"; ValueType: string; ValueName: ".spx"; ValueData: "Winyl.spx"
+
+Root: HKLM64; Subkey: "Software\Classes\CLSID\{{254F0A10-5970-4149-9C8F-4E08D2525427}"; Flags: uninsdeletekey
+Root: HKLM64; Subkey: "Software\Classes\CLSID\{{254F0A10-5970-4149-9C8F-4E08D2525427}\LocalServer32"; ValueType: string; ValueName: ""; ValueData: "{app}\Winyl.exe"
+
+; The following keys are NOT affected by WOW64 redirection:
 
 Root: HKLM; Subkey: "Software\RegisteredApplications"; ValueType: string; ValueName: "Winyl"; ValueData: "Software\Winyl\Capabilities"; Flags: uninsdeletevalue
 
