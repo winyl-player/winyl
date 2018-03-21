@@ -399,7 +399,11 @@ bool Properties::LoadCover()
 	if (!isMultiple)
 	{
 		if (!selectedNodes.empty())
-			return coverLoader.LoadCoverImageTagEditor(selectedNodes[0]->GetFile());
+		{
+			coverLoader.LoadCoverImageTagEditor(selectedNodes[0]->GetFile());
+
+			return coverLoader.GetImage().IsValid();
+		}
 	}
 
 	return false;

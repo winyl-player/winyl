@@ -42,22 +42,26 @@ bool CoverLoader::LoadCoverImage(const std::wstring& file)
 		FindImageByName(path, L"*cover*.*", fileCover))
 	{
 		coverImage.LoadFile(fileCover);
+
+		return true;
 	}
 	else if (LoadCoverFromTrack(file))
 	{
-		return true;
+		// Return false if embedded, because need to always reload such cover art
+		return false;
 	}
 	else if (FindImageByName(path, L"folder.*", fileCover))
 	{
 		coverImage.LoadFile(fileCover);
+
+		return true;
 	}
 	else if (FindImageByExt(path, fileCover))
 	{
 		coverImage.LoadFile(fileCover);
-	}
 
-	if (coverImage.IsValid())
 		return true;
+	}
 
 	return false;
 }
@@ -72,24 +76,27 @@ bool CoverLoader::LoadCoverImageTagEditor(const std::wstring& file)
 
 	if (LoadCoverFromTrack(file))
 	{
-		return true;
+		return false;
 	}
 	else if (FindImageByName(path, L"*front*.*", fileCover) ||
 		FindImageByName(path, L"*cover*.*", fileCover))
 	{
 		coverImage.LoadFile(fileCover);
+
+		return true;
 	}
 	else if (FindImageByName(path, L"folder.*", fileCover))
 	{
 		coverImage.LoadFile(fileCover);
+
+		return true;
 	}
 	else if (FindImageByExt(path, fileCover))
 	{
 		coverImage.LoadFile(fileCover);
-	}
 
-	if (coverImage.IsValid())
 		return true;
+	}
 
 	return false;
 }

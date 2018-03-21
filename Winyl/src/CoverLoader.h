@@ -27,9 +27,11 @@ class CoverLoader
 public:
 	CoverLoader();
 	virtual ~CoverLoader();
-
+	
+	// Return true if external cover, false if embedded or no cover
 	bool LoadCoverImage(const std::wstring& file);
 	bool LoadCoverImageTagEditor(const std::wstring& file);
+
 	ExImage::Source& GetImage() {return coverImage;}
 
 private:

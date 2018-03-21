@@ -4971,7 +4971,7 @@ bool WinylWnd::CoverThread(const std::wstring& file, const std::wstring& album, 
 {
 	std::wstring path = PathEx::PathFromFile(file);
 
-	if (path == coverPath && album == coverAlbum && artist == coverArtist)
+	if (coverExternal && path == coverPath && album == coverAlbum && artist == coverArtist)
 	{
 		return false;
 	}
@@ -5016,7 +5016,7 @@ void WinylWnd::CoverThreadRun()
 		if (!file.empty())
 		{
 			CoverLoader coverLoader;
-			coverLoader.LoadCoverImage(file);
+			coverExternal = coverLoader.LoadCoverImage(file);
 
 			if (isMediaPlay && !isMediaRadio) // If don't press stop while loading
 			{

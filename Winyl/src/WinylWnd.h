@@ -168,6 +168,7 @@ private:
 	std::wstring coverPath;
 	std::wstring coverAlbum;
 	std::wstring coverArtist;
+	std::atomic<bool> coverExternal = false;
 	bool isCoverShowPopup = false;
 
 	bool CoverThread(const std::wstring& file, const std::wstring& album, const std::wstring& artist);
