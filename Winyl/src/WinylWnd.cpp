@@ -1990,7 +1990,7 @@ bool WinylWnd::PlayNode(ListNodeUnsafe node, bool isRepeat, bool isNewNowPlaying
 		LyricsThread(node->GetFile(), title, artist);
 
 		//skinDraw.DrawCover(pNode->csFile, csAlbum);
-		bool coverThread = CoverThread(node->GetFile(), album, artist);
+		bool coverThread = CoverThread(node->GetFile());
 
 		SetWindowCaption(artist, title.empty() ? filename : title);
 
@@ -2232,8 +2232,7 @@ void WinylWnd::ChangeNode(bool isError, bool isRadio)
 
 			LyricsThread(skinList->GetTempNode()->GetFile(), title, artist);
 
-			//skinDraw.DrawCover(pTempNode->csFile, csAlbum);
-			bool coverThread = CoverThread(skinList->GetTempNode()->GetFile(), album, artist);
+			bool coverThread = CoverThread(skinList->GetTempNode()->GetFile());
 
 			SetWindowCaption(artist, title.empty() ? filename : title);
 
@@ -4967,11 +4966,11 @@ void WinylWnd::ImportPlaylist()
 		EnableAll(true);
 }
 
-bool WinylWnd::CoverThread(const std::wstring& file, const std::wstring& album, const std::wstring& artist)
+bool WinylWnd::CoverThread(const std::wstring& file)
 {
 	std::wstring path = PathEx::PathFromFile(file);
 
-	if (coverExternal && path == coverPath && album == coverAlbum && artist == coverArtist)
+	if (coverExternal && path == coverPath)
 	{
 		return false;
 	}
@@ -4983,8 +4982,6 @@ bool WinylWnd::CoverThread(const std::wstring& file, const std::wstring& album, 
 		mutexCover.Unlock();
 
 		coverPath = path;
-		coverAlbum = album;
-		coverArtist = artist;
 	}
 
 	isCoverShowPopup = true;
@@ -5065,8 +5062,6 @@ void WinylWnd::SetCoverNone()
 	coverFile.clear();
 	mutexCover.Unlock();
 	coverPath.clear();
-	coverAlbum.clear();
-	coverArtist.clear();
 
 	skinDraw.DrawCover(nullptr);
 	if (skinPopup)
