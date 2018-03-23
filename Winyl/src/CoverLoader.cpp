@@ -112,7 +112,7 @@ bool CoverLoader::FindImageByName(const std::wstring& path, const std::wstring& 
 		if (ext.empty())
 			continue;
 
-		if (ext == L"jpeg" || ext == L"jpg" || ext == L"png" || ext == L"gif")
+		if (ext == L"jpeg" || ext == L"jpg" || ext == L"png")
 		{
 			std::wstring path2 = PathEx::PathFromFile(path);
 
@@ -140,13 +140,6 @@ bool CoverLoader::FindImageByExt(const std::wstring& path, std::wstring& file)
 		file = path + find2.GetFileName();
 		return true;
 	}
-
-//	FileSystem::Find find3(path, L"*.gif");
-//	if (find3.Step())
-//	{
-//		file = path + find3.GetFileName();
-//		return true;
-//	}
 
 	return false;
 }
