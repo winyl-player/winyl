@@ -22,6 +22,7 @@ SolidCompression=yes
 AppMutex=WinylMutex
 AllowNoIcons=yes
 DisableWelcomePage=no
+UninstallDisplayIcon={app}\Winyl.exe
 ArchitecturesAllowed=x64
 
 [Languages]
