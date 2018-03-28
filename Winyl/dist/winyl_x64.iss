@@ -22,6 +22,7 @@ SolidCompression=yes
 AppMutex=WinylMutex
 AllowNoIcons=yes
 DisableWelcomePage=no
+ArchitecturesAllowed=x64
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
