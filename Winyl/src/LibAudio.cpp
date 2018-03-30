@@ -271,6 +271,10 @@ bool LibAudio::GetRadioTags(std::wstring& title, std::wstring& artist, std::wstr
 		return false;
 
 	const char* tags = BASS_ChannelGetTags(streamPlay, BASS_TAG_META);
+
+	if (tags == nullptr)
+		return false;
+
 	std::wstring text = UTF::IsUTF8(tags) ? UTF::UTF16(tags) : UTF::UTF16A(tags);
 
 	if (text.empty())
