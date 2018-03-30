@@ -1013,7 +1013,7 @@ std::wstring TagLibWriter::MergeNumberTotal(const std::wstring& inNumber, const 
 {
 	std::wstring result = inNumber;
 
-	if (!result.empty() &&!inTotal.empty())
+	if (!result.empty() && !inTotal.empty())
 	{
 		result.push_back('/');
 		result += inTotal;
