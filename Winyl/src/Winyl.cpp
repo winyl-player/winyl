@@ -38,9 +38,9 @@ int APIENTRY _tWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPTSTR lpCm
 	// HeapEnableTerminationOnCorruption is not needed if Win64 or SUBSYSTEM major version is 6 or higher,
 	// it is enabled by default in this case, see: http://blogs.msdn.com/b/oldnewthing/archive/2013/12/27/10484882.aspx
 	// so remove it when drop WinXP support.
-#if defined(_WIN64) || (WINVER >= 0x0600)
+#if (WINVER >= 0x0600)
 	assert(false);
-#else
+#elif !defined(_WIN64)
 	::HeapSetInformation(NULL, HeapEnableTerminationOnCorruption, NULL, 0);
 #endif
 
