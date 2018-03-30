@@ -60,7 +60,6 @@ void DlgAbout::OnInitDialog()
 {
 	::SetWindowText(thisWnd, lang->GetLine(Lang::AboutDialog, 0));
 	::SetDlgItemText(thisWnd, IDCANCEL, lang->GetLine(Lang::AboutDialog, 1));
-	::SetDlgItemText(thisWnd, IDOK, lang->GetLine(Lang::AboutDialog, 2));
 	::SetDlgItemText(thisWnd, IDC_STATIC_LINE1, lang->GetLine(Lang::AboutDialog, 3));
 	::SetDlgItemText(thisWnd, IDC_STATIC_LINE2, lang->GetLine(Lang::AboutDialog, 4));
 
@@ -86,29 +85,31 @@ void DlgAbout::OnInitDialog()
 	if (!lang->GetLineS(Lang::AboutDialog, 5).empty())
 	{
 		std::wstring text = lang->GetLineS(Lang::AboutDialog, 5);
-		mail.clear();
-		std::size_t findDog = text.rfind('@');
-		if (findDog != std::string::npos)
+		std::wstring link;
+
+		std::size_t findMail = text.rfind('@');
+		if (findMail != std::string::npos)
 		{
-			std::size_t findMail = text.rfind(' ', findDog);
-			if (findMail != std::string::npos)
+			std::size_t findSpace = text.rfind(' ', findMail);
+			if (findSpace != std::string::npos)
 			{
-				mail = text.substr(findMail + 1);
-				text = text.substr(0, findMail + 1);
+				link = text.substr(findSpace + 1);
+				text = text.substr(0, findSpace + 1);
 			}
 			else
 			{
-				mail = text;
+				link = text;
 				text.clear();
 			}
 		}
 
-		std::wstring newText = text + mail;
-		std::wstring newMail = text;
-		if (!mail.empty())
-			newMail += L"<A HREF=\"mailto:" + mail + L"\">" + mail + L"</A>";
+		std::wstring newText = text + link;
+		std::wstring newLink = text;
 
-		wndTr = CreateLink(IDC_STATIC_TRANSLATED, newText, newMail);
+		if (!link.empty())
+			newLink += L"<A HREF=\"mailto:" + link + L"\">" + link + L"</A>";
+
+		wndTr = CreateLink(IDC_STATIC_TRANSLATED, newText, newLink);
 	}
 }
 
@@ -143,7 +144,7 @@ HWND DlgAbout::CreateLink(int idStatic, const std::wstring& text, const std::wst
 
 void DlgAbout::OnBnClickedOK()
 {
-	::ShellExecute(NULL, L"open", L"https://www.patreon.com/winyl", NULL, NULL, SW_SHOW);
+
 }
 
 void DlgAbout::OnBnClickedCancel()
