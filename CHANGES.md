@@ -1,6 +1,7 @@
 Future release
 
 - Added x64 version.
+- Updated lyrics providers.
 - Changed behaviour when reloading cover arts.
 - Fixed blurry custom icon.
 - Changed the custom icon name to Main.ico instead of Winyl.ico.
