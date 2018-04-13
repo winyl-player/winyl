@@ -46,7 +46,7 @@ wchar_t* LyricsLoader::providers[] =
 	L"lyricsmania.com",
 	//L"metrolyrics.com",
 	L"songlyrics.com",
-	//L"genius.com",
+	L"genius.com",
 	L"oldielyrics.com",
 };
 int LyricsLoader::providersCount = sizeof(providers) / sizeof(providers[0]);
@@ -183,7 +183,7 @@ bool LyricsLoader::LoadLyricsFromInternet(const std::wstring& artist, const std:
 
 		std::string lyrics;
 
-		assert(providersCount == 7);
+		assert(providersCount == 8);
 
 		if (provider.empty())
 			lyrics = ProviderLyricsWikiaCom(urlArtist, urlTitle);
@@ -198,6 +198,8 @@ bool LyricsLoader::LoadLyricsFromInternet(const std::wstring& artist, const std:
 		else if (provider == providers[5])
 			lyrics = ProviderSongLyricsCom(urlArtist, urlTitle);
 		else if (provider == providers[6])
+			lyrics = ProviderGeniusCom(urlArtist, urlTitle);
+		else if (provider == providers[7])
 			lyrics = ProviderOldieLyricsCom(urlArtist, urlTitle);
 
 		LyricsToLines(lyrics);
