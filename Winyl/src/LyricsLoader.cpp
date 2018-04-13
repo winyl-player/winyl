@@ -376,15 +376,19 @@ std::string LyricsLoader::FilterOutputHtmlTags(const std::string &str, bool enco
 	// Remove all HTML tags
 
 	std::string result;
+	bool intag = false;
 
 	for (std::size_t find = 0, start = 0; ; ++find)
 	{
 		if (str[find] == '<')
 		{
+			intag = true;
+
 			if (encode)
 				FilterOutputHtmlEncode(str, start, find, result);
 			else
 				result.append(str.substr(start, find - start));
+
 			start = find + 1;
 
 			if (str[find + 1] == 'b' && str[find + 2] == 'r' &&
@@ -403,27 +407,37 @@ std::string LyricsLoader::FilterOutputHtmlTags(const std::string &str, bool enco
 		}
 		else if (str[find] == '>')
 		{
+			intag = false;
+
 			start = find + 1;
 		}
-		else if (str[find] == '\r')
+		else if (intag) // skip everything if inside tag
+		{
+			if (str[find] == '\0') // except null char
+				break;
+		}
+		else if (str[find] == '\r') // \r\n - Windows new line
 		{
 			if (encode)
 				FilterOutputHtmlEncode(str, start, find, result);
 			else
 				result.append(str.substr(start, find - start));
+
 			if (str[find + 1] == '\n')
 				++find;
+
 			start = find + 1;
 
 			if (plain)
 				result.append("\r\n");
 		}
-		else if (str[find] == '\n')
+		else if (str[find] == '\n') // \n - Unix new line
 		{
 			if (encode)
 				FilterOutputHtmlEncode(str, start, find, result);
 			else
 				result.append(str.substr(start, find - start));
+
 			start = find + 1;
 
 			if (plain)
@@ -435,9 +449,10 @@ std::string LyricsLoader::FilterOutputHtmlTags(const std::string &str, bool enco
 				FilterOutputHtmlEncode(str, start, find, result);
 			else
 				result.append(str.substr(start, find - start));
+
 			break;
 		}
-		else if (str[find] == '\t')
+		else if (str[find] == '\t') // ignore tabs inside lyrics
 		{
 			start = find + 1;
 		}
