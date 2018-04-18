@@ -497,16 +497,20 @@ void LyricsLoader::FilterOutputHtmlEncode(const std::string &src, std::size_t st
 				}
 				else if (num <= 0xFFFF)
 				{
-					dst.append(1, (char)(0xE0 |  (num >> 12)));
-					dst.append(1, (char)(0x80 | ((num >> 6) & 0x3F)));
-					dst.append(1, (char)(0x80 | ( num       & 0x3F)));
+					// Surrogate pairs are illegal in UTF-8
+					if (num < 0xD800 || num > 0xDFFF)
+					{
+						dst.append(1, (char)(0xE0 |  (num >> 12)));
+						dst.append(1, (char)(0x80 | ((num >> 6) & 0x3F)));
+						dst.append(1, (char)(0x80 |  (num       & 0x3F)));
+					}
 				}
 				else if (num <= 0x1FFFFF)
 				{
 					dst.append(1, (char)(0xF0 |  (num >> 18)));
 					dst.append(1, (char)(0x80 | ((num >> 12) & 0x3F)));
 					dst.append(1, (char)(0x80 | ((num >>  6) & 0x3F)));
-					dst.append(1, (char)(0x80 | ( num        & 0x3F)));
+					dst.append(1, (char)(0x80 |  (num        & 0x3F)));
 				}
 			}
 		}
