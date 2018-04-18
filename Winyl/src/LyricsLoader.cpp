@@ -273,12 +273,12 @@ std::string LyricsLoader::FilterInputStripSpaces(const std::string& str, const c
 		if (str[i] == ' ' || strchr(chars, str[i]) != nullptr)
 		{
 			if (replace != '\0' && !prevSpace)
-				result.append(1, replace);
+				result.push_back(replace);
 			prevSpace = true;
 		}
 		else
 		{
-			result.append(1, str[i]);
+			result.push_back(str[i]);
 			prevSpace = false;
 		}
 	}
@@ -304,13 +304,13 @@ std::string LyricsLoader::FilterInputUriEncode(const std::string &str, bool esca
 			str[i] == '.' || str[i] == '~' || // unreserved
 			(!escapeUnsafe && strchr(reserved, str[i]) != nullptr)) // reserved
 		{
-			result.append(1, str[i]);
+			result.push_back(str[i]);
 		}
 		else
 		{
-			result.append(1, '%');
-			result.append(1, dexchar[(str[i] & 0xF0) >> 4]);
-			result.append(1, dexchar[str[i] & 0x0F]);
+			result.push_back('%');
+			result.push_back(dexchar[(str[i] & 0xF0) >> 4]);
+			result.push_back(dexchar[str[i] & 0x0F]);
 		}
 	}
 
@@ -488,36 +488,36 @@ void LyricsLoader::FilterOutputHtmlEncode(const std::string &src, std::size_t st
 				if (num <= 0x7F)
 				{
 					if ((char)num != '\r' && (char)num != '\n')
-						dst.append(1, (char)num);
+						dst.push_back((char)num);
 				}
 				else if (num <= 0x07FF)
 				{
-					dst.append(1, (char)(0xC0 | (num >> 6)));
-					dst.append(1, (char)(0x80 | (num & 0x3F)));
+					dst.push_back((char)(0xC0 | (num >> 6)));
+					dst.push_back((char)(0x80 | (num & 0x3F)));
 				}
 				else if (num <= 0xFFFF)
 				{
 					// Surrogate pairs are illegal in UTF-8
 					if (num < 0xD800 || num > 0xDFFF)
 					{
-						dst.append(1, (char)(0xE0 |  (num >> 12)));
-						dst.append(1, (char)(0x80 | ((num >> 6) & 0x3F)));
-						dst.append(1, (char)(0x80 |  (num       & 0x3F)));
+						dst.push_back((char)(0xE0 |  (num >> 12)));
+						dst.push_back((char)(0x80 | ((num >> 6) & 0x3F)));
+						dst.push_back((char)(0x80 |  (num       & 0x3F)));
 					}
 				}
 				else if (num <= 0x1FFFFF)
 				{
-					dst.append(1, (char)(0xF0 |  (num >> 18)));
-					dst.append(1, (char)(0x80 | ((num >> 12) & 0x3F)));
-					dst.append(1, (char)(0x80 | ((num >>  6) & 0x3F)));
-					dst.append(1, (char)(0x80 |  (num        & 0x3F)));
+					dst.push_back((char)(0xF0 |  (num >> 18)));
+					dst.push_back((char)(0x80 | ((num >> 12) & 0x3F)));
+					dst.push_back((char)(0x80 | ((num >>  6) & 0x3F)));
+					dst.push_back((char)(0x80 |  (num        & 0x3F)));
 				}
 			}
 		}
 		else
 		{
 			if (src[i] != '\r' && src[i] != '\n')
-				dst.append(1, src[i]);
+				dst.push_back(src[i]);
 		}
 	}
 }
