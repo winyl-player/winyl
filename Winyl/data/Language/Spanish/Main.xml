@@ -188,8 +188,8 @@
         <Text Line="Acerca de Winyl" />
         <Text Line="Cerrar" />
         <Text Line="Donar" />
-        <Text Line="Official website:" />
-        <Text Line="Contact e-mail:" />
+        <Text Line="Sitio Oficial:" />
+        <Text Line="E-mail:" />
         <!-- Enter your name in the next line in format: "Translated by John Doe john@example.com" (e-mail not necessarily) -->
         <Text Line="Traducido por José Domínguez, jdsd@hotmail.es" />
     </AboutDialog>

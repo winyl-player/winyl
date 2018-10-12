@@ -188,8 +188,8 @@
         <Text Line="О програму" />
         <Text Line="Затвори" />
         <Text Line="Подржи" />
-        <Text Line="Official website:" />
-        <Text Line="Contact e-mail:" />
+        <Text Line="Матични сајт:" />
+        <Text Line="E-mail:" />
         <!-- Enter your name in the next line in format: "Translated by John Doe john@example.com" (e-mail not necessarily) -->
         <Text Line="Преводилац: Снeжана Лукић" />
     </AboutDialog>

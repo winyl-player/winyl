@@ -188,8 +188,8 @@
         <Text Line="Om" />
         <Text Line="Stäng" />
         <Text Line="Donera" />
-        <Text Line="Official website:" />
-        <Text Line="Contact e-mail:" />
+        <Text Line="Webbplats:" />
+        <Text Line="E-mail:" />
         <!-- Enter your name in the next line in format: "Translated by John Doe john@example.com" (e-mail not necessarily) -->
         <Text Line="Översättning: Åke Engelbrektson, https://svenskasprakfiler.se" />
     </AboutDialog>

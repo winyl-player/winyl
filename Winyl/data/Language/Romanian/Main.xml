@@ -188,8 +188,8 @@
         <Text Line="Despre Soft" />
         <Text Line="Închide" />
         <Text Line="Donează" />
-        <Text Line="Official website:" />
-        <Text Line="Contact e-mail:" />
+        <Text Line="Sit oficial:" />
+        <Text Line="E-mail:" />
         <!-- Enter your name in the next line in format: "Translated by John Doe john@example.com" (e-mail not necessarily) -->
         <Text Line="Traducere: Alexandru Bogdan Munteanu" />
     </AboutDialog>

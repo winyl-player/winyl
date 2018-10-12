@@ -188,8 +188,8 @@
         <Text Line="O autorovi" />
         <Text Line="Zavrieť" />
         <Text Line="Prispieť" />
-        <Text Line="Official website:" />
-        <Text Line="Contact e-mail:" />
+        <Text Line="Oficiálny web:" />
+        <Text Line="E-mail:" />
         <!-- Enter your name in the next line in format: "Translated by John Doe john@example.com" (e-mail not necessarily) -->
         <Text Line="Preložil Igor Štefanko istefanko@outlook.com" />
     </AboutDialog>

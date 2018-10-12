@@ -188,8 +188,8 @@
         <Text Line="Hakkında" />
         <Text Line="Kapat" />
         <Text Line="Bağış" />
-        <Text Line="Official website:" />
-        <Text Line="Contact e-mail:" />
+        <Text Line="Resmi site:" />
+        <Text Line="E-mail:" />
         <!-- Enter your name in the next line in format: "Translated by John Doe john@example.com" (e-mail not necessarily) -->
         <Text Line="Çeviri: Alper ve Soner ERGÜL (|KRONDOR|)" />
     </AboutDialog>

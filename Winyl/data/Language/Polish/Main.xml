@@ -189,7 +189,7 @@
         <Text Line="Zamknij" />
         <Text Line="Wspomóż" />
         <Text Line="Oficjalna strona:" />
-        <Text Line="e-mail:" />
+        <Text Line="E-mail:" />
         <!-- Enter your name in the next line in format: "Translated by John Doe john@example.com" (e-mail not necessarily) -->
         <Text Line="Tłumaczenie: cris.friday@gmail.com" />
     </AboutDialog>

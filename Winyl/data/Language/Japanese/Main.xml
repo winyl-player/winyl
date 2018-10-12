@@ -188,8 +188,8 @@
         <Text Line="バージョン情報" />
         <Text Line="閉じる" />
         <Text Line="寄付" />
-        <Text Line="Official website:" />
-        <Text Line="Contact e-mail:" />
+        <Text Line="公式サイト:" />
+        <Text Line="開発元に連絡:" />
         <!-- Enter your name in the next line in format: "Translated by John Doe john@example.com" (e-mail not necessarily) -->
         <Text Line="日本語翻訳: www.nihongoka.com" />
     </AboutDialog>

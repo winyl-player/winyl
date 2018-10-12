@@ -188,8 +188,8 @@
         <Text Line="Par" />
         <Text Line="Aizvērt" />
         <Text Line="Ziedot" />
-        <Text Line="Official website:" />
-        <Text Line="Contact e-mail:" />
+        <Text Line="Oficiālā vietne:" />
+        <Text Line="E-mail:" />
         <!-- Enter your name in the next line in format: "Translated by John Doe john@example.com" (e-mail not necessarily) -->
         <Text Line="Tulkotājs - Aivars Zvadskis" />
     </AboutDialog>.

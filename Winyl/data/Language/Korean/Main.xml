@@ -188,8 +188,8 @@
         <Text Line="프로그램 정보..." />
         <Text Line="닫기" />
         <Text Line="기부정보" />
-        <Text Line="Official website:" />
-        <Text Line="Contact e-mail:" />
+        <Text Line="공식 사이트 :" />
+        <Text Line="E-mail:" />
         <!-- Enter your name in the next line in format: "한국어 번역 - limeshock@naver.com" (e-mail not necessarily) -->
         <Text Line="" />
     </AboutDialog>

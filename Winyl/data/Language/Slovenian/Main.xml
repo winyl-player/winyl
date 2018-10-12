@@ -188,8 +188,8 @@
         <Text Line="Vizitka" />
         <Text Line="Zapri" />
         <Text Line="Daruj" />
-        <Text Line="Official website:" />
-        <Text Line="Contact e-mail:" />
+        <Text Line="Uradna spletna stran:" />
+        <Text Line="E-pošta:" />
         <!-- Enter your name in the next line in format: "Translated by John Doe john@example.com" (e-mail not necessarily) -->
         <Text Line="Prevedel Jadran Rudec jrudec@gmail.com" />
     </AboutDialog>

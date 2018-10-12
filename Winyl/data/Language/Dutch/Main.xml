@@ -188,8 +188,8 @@
         <Text Line="Over" />
         <Text Line="Sluiten" />
         <Text Line="Donatie" />
-        <Text Line="Official website:" />
-        <Text Line="Contact e-mail:" />
+        <Text Line="Officiële website:" />
+        <Text Line="E-mail:" />
         <!-- Enter your name in the next line in format: "Vertaald door Fred van Waard uit Hilversum vanwaard@gmail.com" (e-mail not necessarily) -->
         <Text Line="Vertaald door Fred van Waard, vanwaard@gmail.com" />
     </AboutDialog>
