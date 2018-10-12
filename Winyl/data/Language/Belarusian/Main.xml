@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Language Version="3.3.0">
+    <MainMenu>
+        <Text Line="Бібліятэка..." />
+        <Text Line="Скура..." />
+        <Text Line="Малы прайгравальнік" />
+        <Text Line="Дадаць у спіс" />
+        <Text Line="Файл..." />
+        <Text Line="Папка..." />
+        <Text Line="Радыё/Спасылка..." />
+        <Text Line="Адкрыць спіс..." />
+        <Text Line="Кіраванне" />
+        <Text Line="Прайграць" />
+        <Text Line="Паўза" />
+        <Text Line="Спыніць" />
+        <Text Line="Наступны" />
+        <Text Line="Папярэдні" />
+        <Text Line="Заглушыць гук" />
+        <Text Line="Выпадкова" />
+        <Text Line="Паўтараць" />
+        <Text Line="Эквалайзер..." />
+        <Text Line="Налады" />
+        <Text Line="Хаваць у воблась папавяшчэнняў" />
+        <Text Line="Усплывальнае акно" />
+        <Text Line="Бачныя эфекты" />
+        <Text Line="Плыўны зрух" />
+        <Text Line="Уключыць Last.FM" />
+        <Text Line="Клавішы..." />
+        <Text Line="Дадаткова..." />
+        <Text Line="Выбраць мову..." />
+        <Text Line="Аб праграме" />
+        <Text Line="Падтрымаць" />
+    </MainMenu>
+    <ListMenu>
+        <Text Line="Прайграць" />
+        <Text Line="Паўтараць трэк" />
+        <Text Line="Вылучыць усё" />
+        <Text Line="Выдаліць" />
+        <Text Line="Дадаць у спіс" />
+        <Text Line="У новы спіс" />
+        <Text Line="У які грае" />
+        <Text Line="Размяшчэнне файла..." />
+        <Text Line="Уласьцівасьці..." />
+        <Text Line="Перайсці да" />
+        <Text Line="Выканаўцу" />
+        <Text Line="Альбому" />
+        <Text Line="Году" />
+        <Text Line="Жанру" />
+        <Text Line="Папке" />
+    </ListMenu>
+    <TreeMenu>
+        <Text Line="Новы спіс" />
+        <Text Line="Новы смартспіс..." />
+        <Text Line="Пераназваць..." />
+        <Text Line="Выдаліць" />
+        <Text Line="Абнавіць" />
+        <Text Line="Рэдагаваць..." />
+    </TreeMenu>
+    <TrayMenu>
+        <Text Line="Прайграць" />
+        <Text Line="Паўза" />
+        <Text Line="Спыніць" />
+        <Text Line="Наступны" />
+        <Text Line="Папярэдні" />
+        <Text Line="Выхад" />
+    </TrayMenu>
+    <PopupMenu>
+        <Text Line="Адключыць" />
+        <Text Line="Cверху злева" />
+        <Text Line="Cверху cправа" />
+        <Text Line="Знізу злева" />
+        <Text Line="Знізу cправа" />
+        <Text Line="Дадаткова..." />
+    </PopupMenu>
+    <Library>
+        <!-- These lines should be as short as possible -->
+        <Text Line="Невядомыя" />
+        <Text Line="Бібліятэка" />
+        <Text Line="Якія граюць" />
+        <Text Line="Спісы" />
+        <Text Line="Смартспісы" />
+        <Text Line="Выканаўцы" />
+        <Text Line="Кампазітары" />
+        <Text Line="Альбомы" />
+        <Text Line="Жанры" />
+        <Text Line="Гады" />
+        <Text Line="Радыё" />
+        <Text Line="Папкі" />
+        <Text Line="Дыск" />
+    </Library>
+    <Playlist>
+        <Text Line="Невядомы" />
+        <Text Line="CD" />
+        <Text Line="Папка" />
+        <Text Line="Радыё" />
+        <Text Line="Няма трэкаў для адлюстравання." />
+    </Playlist>
+    <SkinDialog>
+        <Text Line="Скура" />
+        <Text Line="Зачыніць" />
+        <Text Line="Ужыць" />
+        <Text Line="Выбар скуру:" />
+        <Text Line="Прадпрагляд" />
+        <Text Line="Інфармацыя" />
+        <Text Line="Аўтар:" />
+        <Text Line="Версія:" />
+        <Text Line="Апісанне:" />
+    </SkinDialog>
+    <LibraryDialog>
+        <Text Line="Бібліятэка" />
+        <Text Line="Зачыніць" />
+        <Text Line="Абнавіць" />
+        <Text Line="Папкі" />
+        <Text Line="Налады" />
+        <Text Line="Дадаць" />
+        <Text Line="Выдаліць" />
+        <Text Line="Дадайце папкі з вашай музыкай у бібліятэку." />
+        <Text Line="Націсніце кнопку абнавіць для абнаўлення бібліятэкі." />
+        <Text Line="Выбраць папку з вашай музыкай." />
+        <Text Line="Звычайныя" />
+        <Text Line="Дадатковыя" />
+        <Text Line="Прапускаць файлы, якія раней выдаленыя з бібліятэкі" />
+        <Text Line="Выдаляць файлы, якія адсутнічаюць, з бібліятэкі" />
+        <Text Line="Шукаць файлы, якія перамешчаныя або пераназваныя" />
+        <Text Line="Цалкам перачытаць пазнакі ва ўсіх файлах" />
+    </LibraryDialog>
+    <LanguageDialog>
+        <Text Line="Мова" />
+        <Text Line="Адмена" />
+        <Text Line="Так" />
+        <Text Line="Выбраць мову:" />
+    </LanguageDialog>
+    <ProcessDialog>
+        <Text Line="Абнаўленьне бібліятэкі" />
+        <Text Line="Даданне ў плэйспіс" />
+        <Text Line="Адмена" />
+        <Text Line="Згарнуць" />
+        <Text Line="Апрацоўка..." />
+        <Text Line="Апрацоўка:" />
+        <Text Line="Адмена..." />
+    </ProcessDialog>
+    <PropertiesDialog>
+        <Text Line="Уласцівасці" />
+        <Text Line="Зачыніць" />
+        <Text Line="Захаваць" />
+        <Text Line="Пазнакі" />
+        <Text Line="Вокладка" />
+        <Text Line="Тэкст песні" />
+        <Text Line="Захаваць і перайсці да наступнага трэку" />
+        <Text Line="Захаваць і перайсці да папярэдняга трэку" />
+    </PropertiesDialog>
+    <TagsPage>
+        <Text Line="Назва:" />
+        <Text Line="Выканаўцы:" />
+        <Text Line="Выканаўца альбома:" />
+        <Text Line="Альбом:" />
+        <Text Line="Кампазітары:" />
+        <Text Line="Год:" />
+        <Text Line="Трэк:" />
+        <Text Line="Дыск:" />
+        <Text Line="з" />
+        <Text Line="Жанры:" />
+        <Text Line="Каментар:" />
+        <Text Line="Файл:" />
+        <Text Line="Якасць:" />
+    </TagsPage>
+    <CoverPage>
+        <Text Line="Змяніць" />
+        <Text Line="Выдаліць" />
+        <Text Line="Прадпрагляд" />
+        <Text Line="Няма вокладкі" />
+        <Text Line="Перацягнуць малюнак сюды каб змяніць" />
+        <Text Line="Убудаваць вокладку ў файл" />
+        <Text Line="Захаваць вокладку ў папку альбома з назвай 'Front'" />
+    </CoverPage>
+    <LyricsPage>
+        <Text Line="Аўтары тэксту:" />
+        <Text Line="Убудаваць тэкст песні ў файл" />
+        <Text Line="Захаваць тэкст песні ў папку альбома ў падпапку 'Lyrics'" />
+    </LyricsPage>
+    <RenameDialog>
+        <Text Line="Пераназваць" />
+        <Text Line="Адмена" />
+        <Text Line="Так" />
+        <Text Line="Увядзіце новае імя:" />
+    </RenameDialog>
+    <AboutDialog>
+        <Text Line="Аб праграме" />
+        <Text Line="Зачыніць" />
+        <Text Line="Падтрымаць" />
+        <Text Line="Афіцыйны сайт:" />
+        <Text Line="Скрыня падтрымкі:" />
+        <!-- Enter your name in the next line in format: "Translated by John Doe john@example.com" (e-mail not necessarily) -->
+        <Text Line="Translated by dzmitry[li] dzmitry@lidacity.by" />
+    </AboutDialog>
+    <Messages>
+        <Text Line="Памылка" />
+        <Text Line="Папярэджаньне" />
+        <Text Line="Інфармацыя" />
+        <Text Line="Файл не знойдзены, альбо фармат файла не падтрымліваецца." />
+        <Text Line="Не ўдаецца падключыцца да сервера радыё." />
+        <Text Line="Гэтая скура для іншай версіі плэера." />
+        <Text Line="Адбылася памылка пры загрузцы скуры, быў загружаны стандартны." />
+        <Text Line="Last.FM Кліент не знойдзены. Усталюйце Last.FM Кліент, каб скарыстацца дадзенай магчымасцю." />
+        <Text Line="Прылада аўдыё-вываду паведаміла пра памылку." />
+        <Text Line="Не знойдзена ASIO прылад." />
+    </Messages>
+    <EqualizerDialog>
+        <Text Line="Эквалайзер" />
+        <Text Line="Зачыніць" />
+        <Text Line="Уключыць" />
+        <Text Line="Налады:" />
+        <Text Line="Стандартныя" />
+        <Text Line="Карыстальніцкія" />
+    </EqualizerDialog>
+    <HotKeyDialog>
+        <Text Line="Глабальныя клавішы" />
+        <Text Line="Адмена" />
+        <Text Line="Так" />
+        <Text Line="Выбраць дзеянне і націсніце камбінацыю клавіш." />
+        <Text Line="Каб выдаліць клавішу, націсніце 'Delete'." />
+        <Text Line="Дзеяньне" />
+        <Text Line="Клавіша" />
+        <Text Line="Прайграць" />
+        <Text Line="Паўза" />
+        <Text Line="Спыніць" />
+        <Text Line="Наступны" />
+        <Text Line="Папярэдні" />
+        <Text Line="Заглушыць гук" />
+        <Text Line="Павялічыць гук" />
+        <Text Line="Зменшыць гук" />
+        <Text Line="Рэйтынг 1" />
+        <Text Line="Рэйтынг 2" />
+        <Text Line="Рэйтынг 3" />
+        <Text Line="Рэйтынг 4" />
+        <Text Line="Рэйтынг 5" />
+        <Text Line="Усплывальнае акно" />
+    </HotKeyDialog>
+    <OpenURLDialog>
+        <Text Line="Дадаць Радыё/Спасылка" />
+        <Text Line="Адмена" />
+        <Text Line="Так" />
+        <Text Line="Маё радыё" />
+        <Text Line="Імя:" />
+        <Text Line="Спасылка:" />
+    </OpenURLDialog>
+    <ToolTips>
+        <Text Line="Зачыніць" />
+        <Text Line="Згарнуць" />
+        <Text Line="Разгарнуць" />
+        <Text Line="Згарнуць у акно" />
+        <Text Line="Прайграць" />
+        <Text Line="Паўза" />
+        <Text Line="Спыніць" />
+        <Text Line="Наступны" />
+        <Text Line="Папярэдні" />
+        <Text Line="Эквалайзер" />
+        <Text Line="Змяніць выгляд" />
+        <Text Line="Адключыць гук" />
+        <Text Line="Уключыць гук" />
+        <Text Line="Уключыць паўтор" />
+        <Text Line="Адключыць паўтор" />
+        <Text Line="Уключыць выпадковы парадак" />
+        <Text Line="Адключыць выпадковы парадак" />
+        <Text Line="Галоўнае меню" />
+        <Text Line="Малы прайгравальнік" />
+        <Text Line="Аднавіць прайгравальнік" />
+        <Text Line="Абнавіць бібліятэку" />
+    </ToolTips>
+    <ConfigDialog>
+        <Text Line="Налады" />
+        <Text Line="Адмена" />
+        <Text Line="Так" />
+        <Text Line="Агульныя" />
+        <Text Line="Сістэмныя" />
+        <Text Line="Усплывальнае акно" />
+        <Text Line="Малы прайгравальнік" />
+    </ConfigDialog>
+    <SystemPage>
+        <Text Line="Прылада аўдыё-вываду" />
+        <Text Line="Стандартная аўдыё-прылада" />
+        <Text Line="32-бітная апрацоўка гуку" />
+        <Text Line="Праграмнае змешванне гуку" />
+        <Text Line="Проксі" />
+        <Text Line="Уключыць проксі" />
+        <Text Line="Хост:" />
+        <Text Line="Порт:" />
+        <Text Line="Аўтарызацыя" />
+        <Text Line="Лагін:" />
+        <Text Line="Пароль:" />
+    </SystemPage>
+    <PopupPage>
+        <Text Line="Тэст" />
+        <Text Line="Час" />
+        <Text Line="Час затрымкі:" />
+        <Text Line="Час з'яўлення:" />
+        <Text Line="Час знікнення:" />
+        <Text Line="cек." />
+        <Text Line="Выгляд" />
+        <Text Line="Размяшчэнне:" />
+        <Text Line="Cверху злева" />
+        <Text Line="Cверху cправа" />
+        <Text Line="Знізу злева" />
+        <Text Line="Знізу cправа" />
+        <Text Line="Эфект з'яўлення:" />
+        <Text Line="Эфект знікнення:" />
+        <Text Line="Згасанне" />
+        <Text Line="Вертыкальны" />
+        <Text Line="Гарызантальны" />
+    </PopupPage>
+    <Search>
+        <Text Line="Пошук" />
+        <Text Line="Пошук усяго" />
+        <Text Line="Пошук трэка" />
+        <Text Line="Пошук альбома" />
+        <Text Line="Пошук выканаўцы" />
+    </Search>
+    <MiniPlayerPage>
+        <Text Line="Размяшчэнне" />
+        <Text Line="Па-над усімі вокнамі" />
+        <Text Line="На працоўным стале" />
+        <Text Line="Як звычайнае акно" />
+        <Text Line="Празрыстасць" />
+    </MiniPlayerPage>
+    <GeneralPage>
+        <Text Line="Паводзіны прайгравальніка" />
+        <Text Line="Дадаваць у бібліятэку файлы, якія адкрытыя ў спісах" />
+        <Text Line="Прайграванне ўслед вылучанаму трэку" />
+        <Text Line="Від бібліятэкі" />
+        <Text Line="Сэрвісы" />
+        <Text Line="Cкроббліць трэкі з дапамогай Last.FM кліента" />
+        <Text Line="Паказваць бягучы трэк ў Live Messenger" />
+        <Text Line="Асацыяцыі" />
+        <Text Line="Прайграць ў Winyl" />
+        <Text Line="Дадаць 'Прайграць ў Winyl' да меню папак" />
+        <Text Line="Змяніць асацыяцыі аўдыё-файлаў..." />
+        <!-- Win XP compatible Associations dialog -->
+        <Text Line="Асацыяцыі файлаў" />
+        <Text Line="Адмена" />
+        <Text Line="Захаваць" />
+        <Text Line="Выбраць усе" />
+        <Text Line="Пашырэньні файлаў" />
+    </GeneralPage>
+    <DefaultList>
+        <Text Line="Спіс" />
+        <Text Line="Смартспіс" />
+        <Text Line="Стандартны" />
+        <Text Line="Мой спіс" />
+        <Text Line="50 Выпадковых" />
+        <Text Line="5 Выпадковых альбомаў" />
+        <Text Line="Апошнія, якія гралі" />
+        <Text Line="25, якія Часта гралі" />
+        <Text Line="З высокім рэйтынгам" />
+        <Text Line="Музыка 90х" />
+    </DefaultList>
+    <DlgSmartlist>
+        <Text Line="Смартспіс" />
+        <Text Line="Адмена" />
+        <Text Line="Так" />
+        <Text Line="Імя:" />
+        <Text Line="З" />
+        <Text Line="Бібліятэкі" />
+        <Text Line="Выканаўцаў" />
+        <Text Line="Альбомаў" />
+        <Text Line="Жанраў" />
+        <Text Line="Гадоў" />
+        <Text Line="Папак" />
+        <Text Line="Налады" />
+        <Text Line="Выбіраць:" />
+        <Text Line="Колькасць:" />
+        <Text Line="Выпадковы парадак" />
+        <Text Line="Аўтаматычнае абнаўленне" />
+        <Text Line="Падказка" />
+        <Text Line="Выкарыстайце сімвал плюс '+' для выбару некалькіх значэнняў. Напрыклад: The Beatles + Led Zeppelin" />
+        <Text Line="Выкарыстайце сімвал мінус '-' для выбару мяжы значэнне. Напрыклад: 2000 - 2010" />
+        <Text Line="Калі радок пачынаецца з мінусу, дадзеныя элементы будуць выключаныя." />
+        <Text Line="Дадатковы фільтр" />
+        <Text Line="Трэкі" />
+        <Text Line="Альбомы" />
+        <Text Line="Любыя" />
+        <Text Line="якія Часта гралі" />
+        <Text Line="якія Рэдка гралі" />
+        <Text Line="З высокім рэйтынгам" />
+        <Text Line="З нізкім рэйтынгам" />
+        <Text Line="Апошнія, якія гралі" />
+        <Text Line="Апошнія, якія дададзены" />
+    </DlgSmartlist>
+    <DlgSmartlistFilter>
+        <Text Line="Дадатковы фільтр" />
+        <Text Line="Адмена" />
+        <Text Line="Так" />
+        <Text Line="Усе" />
+        <Text Line="Любы" />
+        <Text Line="з выбраных умоў:" />
+        <Text Line="Лік прайгравання" />
+        <Text Line="Рэйтынг" />
+        <Text Line="Якія гралі" />
+        <Text Line="Дададзеныя" />
+        <Text Line="Трэкаў ў альбоме" />
+        <Text Line="Роўна" />
+        <Text Line="Больш" />
+        <Text Line="Менш" />
+        <Text Line="За апошнія" />
+        <Text Line="Раней чым" />
+        <Text Line="раз" />
+        <Text Line="трэкаў" />
+        <Text Line="0 Зорак" />
+        <Text Line="1 Зорка" />
+        <Text Line="2 Зоркі" />
+        <Text Line="3 Зоркі" />
+        <Text Line="4 Зоркі" />
+        <Text Line="5 Зорак" />
+        <Text Line="1 Дзень" />
+        <Text Line="2 Дні" />
+        <Text Line="3 Дні" />
+        <Text Line="1 Тыдзень" />
+        <Text Line="2 Тыдні" />
+        <Text Line="1 Месяц" />
+        <Text Line="3 Месяца" />
+        <Text Line="6 Месяцаў" />
+        <Text Line="1 Год" />
+    </DlgSmartlistFilter>
+    <StatusLine>
+        <Text Line="КБ" />
+        <Text Line="МБ" />
+        <Text Line="ГБ" />
+        <Text Line="з" />
+        <Text Line="элементаў" />
+        <Text Line="трэкаў" />
+        <Text Line="агульны час" />
+        <Text Line="Выбраных:" />
+    </StatusLine>
+    <Lyrics>
+        <Text Line="Нічога не грае." />
+        <Text Line="Тэкст песні не знойдзены." />
+        <Text Line="Атрыманне тэксту песні..." />
+    </Lyrics>
+    <LyricsMenu>
+        <Text Line="Крыніца:" />
+        <Text Line="Не" />
+        <Text Line="Файл" />
+        <Text Line="Пазнакі" />
+        <Text Line="Інтэрнэт" />
+        <Text Line="Капіяваць тэкст" />
+        <Text Line="Захаваць тэкст..." />
+        <Text Line="Правайдэр тэксту" />
+        <Text Line="Адключыць" />
+        <Text Line="Шукаць у Google..." />
+        <Text Line="Размяшчэнне" />
+        <Text Line="Злева" />
+        <Text Line="Па цэнтры" />
+        <Text Line="Справа" />
+        <Text Line="Памер шрыфта" />
+        <Text Line="З скуры" />
+        <Text Line="Маленькі" />
+        <Text Line="Сярэдні" />
+        <Text Line="Вялікі" />
+        <Text Line="Вялізны" />
+        <Text Line="Тоўсты" />
+    </LyricsMenu>
+    <NewVersionDialog>
+        <Text Line="Канвертаванне бібліятэкі да новай версіі. Калі ласка пачакайце..." />
+        <Text Line="Канвертаванне бібліятэкі да незалежнай версіі. Калі ласка пачакайце..." />
+        <Text Line="Winyl павінен перачытаць усе пазнакі для завяршэння абнаўлення." />
+        <Text Line="Ня рэкамендавана адмяняць гэты працэс." />
+    </NewVersionDialog>
+</Language>
