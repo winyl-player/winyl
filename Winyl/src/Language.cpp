@@ -209,8 +209,8 @@ std::wstring Language::GetSystemLanguage()
 
 	switch (id)
 	{
-//	case LANG_BELARUSIAN:
-//		return L"Belarusian";
+	case LANG_BELARUSIAN:
+		return L"Belarusian";
 	case LANG_CHINESE: // LANG_CHINESE_SIMPLIFIED
 		return L"Chinese (Simple)";
 	case LANG_CHINESE_TRADITIONAL:
