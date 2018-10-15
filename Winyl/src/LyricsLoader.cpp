@@ -673,7 +673,7 @@ std::string LyricsLoader::ProviderOldieLyricsCom(const std::string& urlArtist, c
 	{
 		if (!lyrics.empty())
 		{
-			lyrics = FilterOutputFromTo(lyrics, "<div id=\"lyrics\">", "</div>");
+			lyrics = FilterOutputFromTo(lyrics, "<div id=\"lyrics\"", "</div>");
 
 			if (!lyrics.empty())
 			{
@@ -817,7 +817,7 @@ std::string LyricsLoader::ProviderMusixmatchCom(const std::string& urlArtist, co
 	{
 		if (!lyrics.empty())
 		{
-			lyrics = FilterOutputFromTo(lyrics, "<p class=\"mxm-lyrics__content \">", "</span>");
+			lyrics = FilterOutputFromTo(lyrics, "<p class=\"mxm-lyrics__content \">", "</span></p></div></span>");
 
 			// Remove script part
 			if (!lyrics.empty())
