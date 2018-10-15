@@ -37,7 +37,7 @@ BEGIN
     DEFPUSHBUTTON   "OK",IDOK,72,174,62,16,NOT WS_VISIBLE
     PUSHBUTTON      "Close",IDCANCEL,138,174,50,16
     ICON            IDI_ICON_WINYL,IDC_STATIC_ICON_WINYL,74,12,20,20,SS_REALSIZEIMAGE | WS_DISABLED
-    CTEXT           "Winyl 3.3",IDC_STATIC,30,66,132,10,SS_CENTERIMAGE
+    CTEXT           "Winyl 3.3.1",IDC_STATIC,30,66,132,10,SS_CENTERIMAGE
     CTEXT           "Copyright © 2009-2018 Winyl Player.",IDC_STATIC,30,78,132,10,SS_CENTERIMAGE
     CTEXT           "All rights reserved.",IDC_STATIC,30,90,132,10,SS_CENTERIMAGE
     CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,0,168,197,1
@@ -577,8 +577,8 @@ IDI_ICON_LANG           ICON                    "res\\Lang.ico"
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 3,3,0,0
- PRODUCTVERSION 3,3,0,0
+ FILEVERSION 3,3,1,0
+ PRODUCTVERSION 3,3,1,0
  FILEFLAGSMASK 0x3fL
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -595,12 +595,12 @@ BEGIN
         BEGIN
             VALUE "CompanyName", "Winyl Player"
             VALUE "FileDescription", "Winyl"
-            VALUE "FileVersion", "3.3.0.0"
+            VALUE "FileVersion", "3.3.1.0"
             VALUE "InternalName", "Winyl.exe"
             VALUE "LegalCopyright", "Copyright (C) 2009-2018 Winyl Player.  All rights reserved."
             VALUE "OriginalFilename", "Winyl.exe"
             VALUE "ProductName", "Winyl"
-            VALUE "ProductVersion", "3.3.0.0"
+            VALUE "ProductVersion", "3.3.1.0"
         END
     END
     BLOCK "VarFileInfo"

@@ -24,7 +24,7 @@
 class Settings
 {
 public:
-	static const int winylVersion = 30300;
+	static const int winylVersion = 30301;
 	static const int dbaseVersion = 30000;
 	static const int apiVersion = 10000;
 
