@@ -1,6 +1,7 @@
-Future release
+v3.3.1 [15.10.2018]
 
 - Added x64 version.
+- Updated radio stations.
 - Updated lyrics providers.
 - Changed behaviour when reloading cover arts.
 - Fixed blurry custom icon.
