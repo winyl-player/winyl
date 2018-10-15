@@ -1,5 +1,3 @@
-**DRAFT**
-
 You need Visual Studio C++ 2017 (with Windows XP support for C++).
 
 First you need to compile all 3rd-party libraries.
