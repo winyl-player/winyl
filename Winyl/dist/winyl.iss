@@ -7,7 +7,7 @@
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
 AppId={{5BEA5008-5317-4526-92C9-9685E7AF5F5A}
 AppName=Winyl
-AppVerName=Winyl 3.3
+AppVerName=Winyl 3.3.1
 AppPublisher=Winyl Player
 AppPublisherURL=https://winyl-player.github.io/
 AppSupportURL=https://winyl-player.github.io/
