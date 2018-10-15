@@ -328,7 +328,7 @@
         <Text Line="Le prochain morceau joué sera celui qui est sélectionné" />
         <Text Line="Barre latérale" />
         <Text Line="Services" />
-        <Text Line="Afficher la piste en cours sur le client Last.FM" />
+        <Text Line="Afficher la piste en cours sur le client Legacy Last.FM" />
         <Text Line="Afficher la piste en cours sur Live Messenger" />
         <Text Line="Associations" />
         <Text Line="Jouer avec Winyl" />

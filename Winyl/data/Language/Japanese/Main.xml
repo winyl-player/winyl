@@ -328,7 +328,7 @@
         <Text Line="選択されたトラックから再生する" />
         <Text Line="ライブラリー表示" />
         <Text Line="サービス" />
-        <Text Line="Last.FM クライアントからトラックを集める" />
+        <Text Line="Legacy Last.FM クライアントからトラックを集める" />
         <Text Line="Live Messenger に再生中のトラックを表示する" />
         <Text Line="関連付け" />
         <Text Line="Winylで再生" />

@@ -328,7 +328,7 @@
         <Text Line="După clipul curent continuă redarea cu cel selectat" />
         <Text Line="Afișare în Mediatecă" />
         <Text Line="Integrare cu Alte Softuri" />
-        <Text Line="Monitorizează clipurile redate folosind softul client Last.FM" />
+        <Text Line="Monitorizează clipurile redate folosind softul client Legacy Last.FM" />
         <Text Line="Arată clipul redat curent în Live Messenger" />
         <Text Line="Asocieri în Windows (WinExp = Windows Explorer)" />
         <Text Line="Redă cu Winyl Audio Player" />

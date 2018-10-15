@@ -328,7 +328,7 @@
         <Text Line="곡을 선택할 경우 재생중인 곡 다음에 재생됩니다." />
         <Text Line="라이브러리 보기" />
         <Text Line="서비스" />
-        <Text Line="Scrobble 트랙과 Last.FM 클라이언트" />
+        <Text Line="Scrobble 트랙과 Legacy Last.FM 클라이언트" />
         <Text Line="라이브 메신저에 지금 재생중인 곡 표시" />
         <Text Line="연결" />
         <Text Line="Winyl로 재생" />

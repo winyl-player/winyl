@@ -328,7 +328,7 @@
         <Text Line="La reproducción seguirá las pistas seleccionadas" />
         <Text Line="Librería" />
         <Text Line="Servicios" />
-        <Text Line="Mostrar canción actual en cliente Last.FM" />
+        <Text Line="Mostrar canción actual en cliente Legacy Last.FM" />
         <Text Line="Mostrar canción actual en Windows Live Messenger" />
         <Text Line="Asociaciones" />
         <Text Line="Reproducir con Winyl" />

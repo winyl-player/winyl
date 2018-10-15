@@ -328,7 +328,7 @@
         <Text Line="Воспроизведение следует выделенному треку" />
         <Text Line="Вид библиотеки" />
         <Text Line="Сервисы" />
-        <Text Line="Cкробблить треки с помощью Last.FM клиента" />
+        <Text Line="Cкробблить треки с помощью Legacy Last.FM клиента" />
         <Text Line="Показывать текущий трек в Live Messenger" />
         <Text Line="Ассоциации" />
         <Text Line="Воспроизвести в Winyl" />

@@ -328,7 +328,7 @@
         <Text Line="播放下列選取歌曲" />
         <Text Line="媒體庫檢視" />
         <Text Line="服務" />
-        <Text Line="在 Last.FM 客戶端顯示目前播放歌曲" />
+        <Text Line="在 Legacy Last.FM 客戶端顯示目前播放歌曲" />
         <Text Line="在 Live Messenger 顯示目前播放歌曲" />
         <Text Line="檔案關聯" />
         <Text Line="使用 Winyl 播放" />

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Language Version="3.3.0">
     <MainMenu>
         <Text Line="Бібліятэка..." />
@@ -328,7 +328,7 @@
         <Text Line="Прайграванне ўслед вылучанаму трэку" />
         <Text Line="Від бібліятэкі" />
         <Text Line="Сэрвісы" />
-        <Text Line="Cкроббліць трэкі з дапамогай Last.FM кліента" />
+        <Text Line="Cкроббліць трэкі з дапамогай Legacy Last.FM кліента" />
         <Text Line="Паказваць бягучы трэк ў Live Messenger" />
         <Text Line="Асацыяцыі" />
         <Text Line="Прайграць ў Winyl" />

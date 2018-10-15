@@ -328,7 +328,7 @@
         <Text Line="Playback follows selected track" />
         <Text Line="Library View" />
         <Text Line="Services" />
-        <Text Line="Scrobble tracks with Last.FM client" />
+        <Text Line="Scrobble tracks with Legacy Last.FM client" />
         <Text Line="Show now playing track in Live Messenger" />
         <Text Line="Associations" />
         <Text Line="Play in Winyl" />
